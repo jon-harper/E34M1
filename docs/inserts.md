@@ -27,13 +27,14 @@ This page demonstrates the location of every heat set insert in E34M1.
 </div>
 </div>
 
-`universal_front_pis_fi.stl` has two additional inserts:
+**`universal_front_pis_fi.stl`** has two additional inserts:
 
 ![illustration_pis](img/inserts/front_pis.png){width=300}
 
 ### Top Piece with Endstop
 
-Note that the four inserts for the drive module should be inserted from the bottom, not the top.
+!!! warning "Caution"
+    The four HSIs for for the drive module should be inserted from the bottom, not the top.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-img">
@@ -52,6 +53,8 @@ Note that the four inserts for the drive module should be inserted from the bott
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-img">
+**`bottom_horns_fi.stl`**
+
 ![bottom_illustration](img/inserts/bottom.png){ width=256px}
 </div>
 </div>
@@ -75,12 +78,28 @@ Note that the four inserts for the drive module should be inserted from the bott
 
 ### Front Cooling Intake
 
+**`front_intake_duct.stl`**
+
 ![front_intake_illustration](img/inserts/front_intake.png){width=200px}
 
 ### PCB Mount
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-img">
+**`pcb36_mount.stl`**
+
+![pcb36_illustration](img/inserts/pcb36.png){ width=256px}
+</div>
+<div markdown class="jh-grid-img">
+**`pcb42_mount.stl`**
+
+![pcb42_illustration](img/inserts/pcb42.png){ width=200px}
+</div>
+</div>
 
 ### Z End Stop Mount
+
+**`z_limit_switch_mount.stl`**
 
 ![z_endstop_illustration](img/inserts/z_mount.png){ width=256px }
 

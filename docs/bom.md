@@ -134,7 +134,7 @@ Currently, only one version of the bottom horns is available.
 
 ### Cooling Inlet
 
-Two versions are available of this part:
+Two versions are available:
 
 1. `5015_inlet_fi.stl`: Modified stock 5015 inlet with lower height
 2. `5015_sideways_inlet_fi.stl`: Low-height sideways mount for a 5015 part fan.
@@ -176,6 +176,8 @@ Two versions are available of this part:
     </div>
 
 ### BLTouch Mount
+
+This part uses a built-in breakaway support. It may be safely removed.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -237,6 +239,9 @@ Other than the printed part, the materials for these are identical.
     These mounts are only currently tested on NEMA17 steppers.
 
 === "'36 PCB"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
     | Parts     | Qty | Notes |
     |-----------|-----|-------|
     | [:material-printer-3d-nozzle: `pcb36_mount.stl`][pcb36_mount] | 1 | |
@@ -245,7 +250,16 @@ Other than the printed part, the materials for these are identical.
     | Screw, M3-0.5 x 25mm | 2 | |
     | Screw, M3-0.5 x 6mm  | 4 | May substitute two (2) 8mm screws, if desired. |
 
+    </div>
+    <div markdown class="jh-grid-img">
+    ![pcb36_illustration](img/parts/pcb36.png){ width=200px }
+    </div>
+    </div>
+
 === "'42 PCB"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
     | Parts     | Qty | Notes |
     |-----------|-----|-------|
     | [:material-printer-3d-nozzle: `pcb42_mount.stl`][pcb42_mount] | 1 | |
@@ -253,6 +267,12 @@ Other than the printed part, the materials for these are identical.
     | Toolhead PCB      | 1 | |
     | Screw, M3-0.5 x 25mm | 2 | |
     | Screw, M3-0.5 x 6mm  | 4 | May substitute two (2) 8mm screws, if desired. |
+
+    </div>
+    <div markdown class="jh-grid-img">
+    ![pcb42_illustration](img/parts/pcb42.png){ width=200px }
+    </div>
+    </div>
 
 ### Z End Stop Mount
 
@@ -280,25 +300,17 @@ This part is necessary for Ender 5 Pros with stock (non-Hydra) Z kinematics. Thi
 
 This is an adaptation of the M1 stop block for EVA 3.
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
 | Parts     | Qty | Notes |
 |-----------|-----|-------|
 | [:material-printer-3d-nozzle: `x_axis_stop_block.stl`][x_stop_block] | 1 | |
 | Screw, M3-0.5 x 8mm | 2 | |
 | Tee Nut, Drop In, M3 | 2 | Roll in tee nuts may be used for easier installation. |
 
-[x_stop_block]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/x_axis_stop_block.stl
-[z_limit_cover]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/z_limit_switch_cover.stl
-[z_limit_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/z_limit_switch_mount.stl
-[cable_guide]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/cable_guide.stl
-[pcb36_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/pcb36_mount.stl
-[pcb42_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/pcb42_mount.stl
-[front_intake]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/front_intake_duct.stl
-[bottom_horns]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/bottom_horns_fi.stl
-[belt_grabber]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/belt_grabber.stl
-[bltouch_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/bl_touch_mount.stl
-[5015_inlet]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/5015_inlet_fi.stl
-[5015_sideways_inlet]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/5015_sideways_inlet_fi.stl
-[front]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/front_universal_fi.stl
-[front_pis]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/front_universal_pis_fi.stl
-[top]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/top_endstop_mgn12h.stl
-[top_pcb]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/top_endstop_mgn12h_pcb.stl
+</div>
+<div markdown class="jh-grid-img">
+![x_stop_block_illustration](img/parts/x_stop_block.png){ width=200px }
+</div>
+</div>
