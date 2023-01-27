@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://jon-harper.github.io/EVA3Mod/</loc>
+         <lastmod>2023-01-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jon-harper.github.io/EVA3Mod/bom/</loc>
+         <lastmod>2023-01-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jon-harper.github.io/EVA3Mod/compat/</loc>
+         <lastmod>2023-01-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jon-harper.github.io/EVA3Mod/inserts/</loc>
+         <lastmod>2023-01-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
