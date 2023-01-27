@@ -1,4 +1,4 @@
-site_name: EVA34M1
+site_name: E34M1
 site_description: Documentation for the EVA3 for Mercury One mod.
 site_author: Jon Harper
 site_url: https://jon-harper.github.io/EVA3Mod
@@ -48,14 +48,14 @@ theme:
     text: Noto Sans
   palette: 
     - scheme: default
-      primary: blue grey
-      accent: amber
+      primary: green
+      accent: deep orange
       toggle:
         icon: material/lightbulb-on
         name: Switch to dark mode
     - scheme: slate
-      primary: amber
-      accent: blue grey
+      primary: green
+      accent: deep orange
       toggle:
         icon: material/lightbulb-off-outline
         name: Switch to light mode
@@ -75,5 +75,6 @@ extra_css:
       
 nav:
   - index.md
+  - compat.md
   - bom.md
   - inserts.md
