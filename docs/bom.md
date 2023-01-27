@@ -31,6 +31,9 @@ There are two version of the universal front:
 2. `universal_front_pis_fi.stl`: Standard ADXL345 mount is replaced by a mount for the FYSETC portable input shaper.
 
 === "**1** `universal_front_fi.stl`"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+    
     | Parts     | Qty | Notes |
     |-----------|-----|-------|
     | [:material-printer-3d-nozzle: `universal_front_fi.stl`][front]  | 1 | |
@@ -44,7 +47,16 @@ There are two version of the universal front:
     - ADXL345 (x1)
     - Screw, M3-0.5 x 8mm (x2)
 
+    </div>
+    <div markdown class="jh-grid-img">
+    ![front_illustration](img/parts/front_universal.png){ width=256px}
+    </div>
+    </div>
+
 === "**2** `universal_front_pis_fi.stl`"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
     | Parts     | Qty | Notes |
     |-----------|-----|-------|
     | [:material-printer-3d-nozzle: `universal_front_pis_fi.stl`][front_pis]  | 1 | |
@@ -54,11 +66,20 @@ There are two version of the universal front:
     | Heat Set Insert, M3x5x4   | 16 |
     | FYSETC Portable Input Shaper | 1 |
 
+    </div>
+    <div markdown class="jh-grid-img">
+    ![front_illustration](img/parts/front_universal_pis.png){ width=256px}
+    </div>
+    </div>
+
 ### Top Piece with Endstop
 
 The stock top piece has a mounting point for a cable guide. An alternate version is available without for builds using a stepper-mounted breakout PCB. See [PCB Mount](#pcb-mount).
 
 === "**1** `top_endstop_mgn12h.stl`"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
     | Parts     | Qty | Notes |
     |-----------|-----|-------|
     | [:material-printer-3d-nozzle: `top_endstop_mgn12h.stl`][top] | 1 | |
@@ -68,7 +89,16 @@ The stock top piece has a mounting point for a cable guide. An alternate version
     | Screw, M3-0.5 x 8mm      | 2 | |
     | Heat Set Insert, M3x5x4  | 6 | |
 
+    </div>
+    <div markdown class="jh-grid-img">
+    ![top_illustration](img/parts/top_endstop_mgn12h.png){ width=256px}
+    </div>
+    </div>
+
 === "**2** `top_endstop_mgn12h_pcb.stl`"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
     | Parts     | Qty | Notes |
     |-----------|-----|-------|
     | [:material-printer-3d-nozzle: `top_endstop_mgn12h_pcb.stl`][top_pcb] | 1 | |
@@ -76,14 +106,29 @@ The stock top piece has a mounting point for a cable guide. An alternate version
     | Screw, M3-0.5 x 8mm      | 2 | |
     | Heat Set Insert, M3x5x4  | 4 | |
 
+    </div>
+    <div markdown class="jh-grid-img">
+    ![top_illustration](img/parts/top_endstop_mgn12h_pcb.png){ width=256px}
+    </div>
+    </div>
+
 ### Bottom Horns
 
 Currently, only one version of the bottom horns is available.
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 
 | Parts     | Qty | Notes |
 |-----------|-----|-------|
 | [:material-printer-3d-nozzle: `bottom_horns_fi.stl`][bottom_horns]     | 1 | |
 | Heat Set Insert, M3x5x4   | 1 | |
+
+</div>
+<div markdown class="jh-grid-img">
+![bottom_illustration](img/parts/bottom_horns.png){ width=256px}
+</div>
+</div>
 
 ## Other EVA Parts
 
@@ -95,24 +140,45 @@ Two versions are available of this part:
 2. `5015_sideways_inlet_fi.stl`: Low-height sideways mount for a 5015 part fan.
 
 === "**1** `5015_inlet_fi.stl`"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
     | Parts     | Qty | Notes |
     |-----------|-----|-------|
     | [:material-printer-3d-nozzle: `5015_inlet_fi.stl`][5015_inlet] | 1 | |
-    | Heat Set Insert, M3x5x4   | 1 | |
     | Screw, M3-0.5 x 6mm       | 1 | May substitue 8mm. |
     | Screw, M3-0.5 x 20mm      | 1 | |
     | Screw, M3-0.5 x 45mm      | 4 | |
+    | Heat Set Insert, M3x5x4   | 1 | |
+
+    </div>
+    <div markdown class="jh-grid-img">
+    ![inlet_illustration](img/parts/5015_inlet.png){ width=256px}
+    </div>
+    </div>
 
 === "**2** `5015_sideways_inlet_fi.stl`"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
     | Parts     | Qty | Notes |
     |-----------|-----|-------|
     | [:material-printer-3d-nozzle: `5015_sideways_inlet_fi.stl`][5015_sideways_inlet] | 1 | |
-    | Heat Set Insert, M3x5x4   | 1 | |
     | Screw, M3-0.5 x 6mm       | 1 | May substitue 8mm. |
     | Screw, M3-0.5 x 20mm      | 1 | |
     | Screw, M3-0.5 x 45mm      | 4 | |
+    | Heat Set Insert, M3x5x4   | 1 | |
+
+    </div>
+    <div markdown class="jh-grid-img">
+    ![inlet_illustration](img/parts/5015_sideways_inlet.png){ width=256px}
+    </div>
+    </div>
 
 ### BLTouch Mount
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 
 | Parts     | Qty | Notes |
 |-----------|-----|-------|
@@ -121,20 +187,23 @@ Two versions are available of this part:
 | Screw, M3-0.5 x 6mm       | 2 | May substitute 8mm. |
 | Screw, M3-0.5 x 8mm       | 2 | |
 
+</div>
+<div markdown class="jh-grid-img">
+![bltouch_illustration](img/parts/bltouch_mount.png){ width=100px }
+</div>
+</div>
+
+
 ### Fan and Shroud
 
 All stock shrouds are compatible with EVA34M1. 40mm cooling fans of both 10mm and 20mm thickness remain compatible.
 
 Fans may be attached using an intake duct that allows two (2) screws to remove the fan instead of four (4). The BOM below is for a 4010 fan with and without the duct.
 
-=== "Without Intake Duct"
-    | Parts     | Qty | Notes |
-    |-----------|-----|-------|
-    | :material-printer-3d-nozzle: EVA shroud                | 1 | Your choice of printed shroud. Optional. |
-    | Axial Fan, 40mm x 10mm    | 1 | May substitute 20mm thickness. |
-    | Screw, M3-0.5 x 12mm      | 4 | |
-
 === "With Intake Duct"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
     | Parts     | Qty | Notes |
     |-----------|-----|-------|
     | [:material-printer-3d-nozzle: `front_intake_duct.stl`][front_intake]  | 1 | |
@@ -143,6 +212,18 @@ Fans may be attached using an intake duct that allows two (2) screws to remove t
     | Screw, M3-0.5 x 12mm      | 2 | |
     | Screw, M3-0.5 x 16mm      | 2 | |
     | Heat Set Insert, M3x5x4   | 2 | |
+
+    </div>
+    <div markdown class="jh-grid-img">
+    ![intake_illustration](img/parts/intake_duct.png){ width=256px }
+    </div>
+    </div>
+=== "Without Intake Duct"
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | :material-printer-3d-nozzle: EVA shroud                | 1 | Your choice of printed shroud. Optional. |
+    | Axial Fan, 40mm x 10mm    | 1 | May substitute 20mm thickness. |
+    | Screw, M3-0.5 x 12mm      | 4 | |
 
 ## New Parts
 
@@ -177,6 +258,9 @@ Other than the printed part, the materials for these are identical.
 
 This part is necessary for Ender 5 Pros with stock (non-Hydra) Z kinematics. This part mounts the limit switch higher than normal.
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
 | Parts     | Qty | Notes |
 |-----------|-----|-------|
 | [:material-printer-3d-nozzle: `z_limit_switch_cover.stl`][z_limit_cover] | 1 | |
@@ -185,6 +269,12 @@ This part is necessary for Ender 5 Pros with stock (non-Hydra) Z kinematics. Thi
 | Screw, M5-0.8 x 8mm  | 1 | |
 | Tee Nut, Drop In, M5 | 1 | |
 | Heat Set Insert, M3x5x4 | 2 |
+
+</div>
+<div markdown class="jh-grid-img">
+![z_endstop_illustration](img/parts/z_limit_switch.png){ width=256px }
+</div>
+</div>
 
 ### X Axis Stop Block
 

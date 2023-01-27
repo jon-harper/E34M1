@@ -76,3 +76,4 @@ extra_css:
 nav:
   - index.md
   - bom.md
+  - inserts.md
