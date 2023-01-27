@@ -1,0 +1,214 @@
+---
+title: Bill of Materials
+summary: Materials for each E34M1 part
+authors: Jon Harper
+date: 2023-1-26
+hide: navigation
+---
+
+This page contains a bill of materials for each EVA "module".
+
+!!! note
+    - All heat set inserts are "Voron-style" (M3x5x4) instead of the thinner "EVA-style" (M3x4.6x4).
+
+## Core EVA Parts
+
+The Core EVA parts into are divided into logical submodules for easier BOM management.
+
+**Core** consists of:
+
+- [Universal Front](#universal-front)
+- [Top Piece (with Endstop)](#top-piece-with-endstop)
+- [Bottom Horns](#bottom-horns)
+
+There is no longer a back piece; it is removed in this mod.
+
+### Universal Front
+
+There are two version of the universal front:
+
+1. `universal_front_fi.stl`: M1 modified stock front
+2. `universal_front_pis_fi.stl`: Standard ADXL345 mount is replaced by a mount for the FYSETC portable input shaper.
+
+=== "**1** `universal_front_fi.stl`"
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `universal_front_fi.stl`][front]  | 1 | |
+    | [:material-printer-3d-nozzle: `belt_grabber.stl`][belt_grabber] | 2 | |
+    | Screw, M3-0.5 x 6mm       | 4 | May substitute with 8mm. |
+    | Screw, M3-0.5 x 40mm      | 4 | |
+    | Heat Set Insert, M3x5x4   | 14 |
+
+    If using an accelerometer, add:
+
+    - ADXL345 (x1)
+    - Screw, M3-0.5 x 8mm (x2)
+
+=== "**2** `universal_front_pis_fi.stl`"
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `universal_front_pis_fi.stl`][front_pis]  | 1 | |
+    | [:material-printer-3d-nozzle: `belt_grabber.stl`][belt_grabber] | 2 | |
+    | Screw, M3-0.5 x 6mm       | 4 | May substitute with 8mm. |
+    | Screw, M3-0.5 x 8mm       | 2 | |
+    | Heat Set Insert, M3x5x4   | 16 |
+    | FYSETC Portable Input Shaper | 1 |
+
+### Top Piece with Endstop
+
+The stock top piece has a mounting point for a cable guide. An alternate version is available without for builds using a stepper-mounted breakout PCB. See [PCB Mount](#pcb-mount).
+
+=== "**1** `top_endstop_mgn12h.stl`"
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `top_endstop_mgn12h.stl`][top] | 1 | |
+    | [:material-printer-3d-nozzle: `cable_guide.stl`][cable_guide] | 1 | |
+    | Horizontal limit switch  | 1 | |
+    | Screw, M3-0.5 x 6mm      | 2 | May substitute 8mm. |
+    | Screw, M3-0.5 x 8mm      | 2 | |
+    | Heat Set Insert, M3x5x4  | 6 | |
+
+=== "**2** `top_endstop_mgn12h_pcb.stl`"
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `top_endstop_mgn12h_pcb.stl`][top_pcb] | 1 | |
+    | Horizontal limit switch  | 1 | |
+    | Screw, M3-0.5 x 8mm      | 2 | |
+    | Heat Set Insert, M3x5x4  | 4 | |
+
+### Bottom Horns
+
+Currently, only one version of the bottom horns is available.
+
+| Parts     | Qty | Notes |
+|-----------|-----|-------|
+| [:material-printer-3d-nozzle: `bottom_horns_fi.stl`][bottom_horns]     | 1 | |
+| Heat Set Insert, M3x5x4   | 1 | |
+
+## Other EVA Parts
+
+### Cooling Inlet
+
+Two versions are available of this part:
+
+1. `5015_inlet_fi.stl`: Modified stock 5015 inlet with lower height
+2. `5015_sideways_inlet_fi.stl`: Low-height sideways mount for a 5015 part fan.
+
+=== "**1** `5015_inlet_fi.stl`"
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `5015_inlet_fi.stl`][5015_inlet] | 1 | |
+    | Heat Set Insert, M3x5x4   | 1 | |
+    | Screw, M3-0.5 x 6mm       | 1 | May substitue 8mm. |
+    | Screw, M3-0.5 x 20mm      | 1 | |
+    | Screw, M3-0.5 x 45mm      | 4 | |
+
+=== "**2** `5015_sideways_inlet_fi.stl`"
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `5015_sideways_inlet_fi.stl`][5015_sideways_inlet] | 1 | |
+    | Heat Set Insert, M3x5x4   | 1 | |
+    | Screw, M3-0.5 x 6mm       | 1 | May substitue 8mm. |
+    | Screw, M3-0.5 x 20mm      | 1 | |
+    | Screw, M3-0.5 x 45mm      | 4 | |
+
+### BLTouch Mount
+
+| Parts     | Qty | Notes |
+|-----------|-----|-------|
+| [:material-printer-3d-nozzle: `bl_touch_mount.stl`][bltouch_mount] | 1 | |
+| Hex Nut, M3               | 2 | |
+| Screw, M3-0.5 x 6mm       | 2 | May substitute 8mm. |
+| Screw, M3-0.5 x 8mm       | 2 | |
+
+### Fan and Shroud
+
+All stock shrouds are compatible with EVA34M1. 40mm cooling fans of both 10mm and 20mm thickness remain compatible.
+
+Fans may be attached using an intake duct that allows two (2) screws to remove the fan instead of four (4). The BOM below is for a 4010 fan with and without the duct.
+
+=== "Without Intake Duct"
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | :material-printer-3d-nozzle: EVA shroud                | 1 | Your choice of printed shroud. Optional. |
+    | Axial Fan, 40mm x 10mm    | 1 | May substitute 20mm thickness. |
+    | Screw, M3-0.5 x 12mm      | 4 | |
+
+=== "With Intake Duct"
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `front_intake_duct.stl`][front_intake]  | 1 | |
+    | :material-printer-3d-nozzle: EVA shroud                | 1 | Your choice of printed shroud. Optional. |
+    | Axial Fan, 40mm x 10mm    | 1 | May substitute 20mm thickness. |
+    | Screw, M3-0.5 x 12mm      | 2 | |
+    | Screw, M3-0.5 x 16mm      | 2 | |
+    | Heat Set Insert, M3x5x4   | 2 | |
+
+## New Parts
+
+### PCB Mount
+
+Mounts for both '36 and '42 PCBs are available. Examples of '36 PCBs are the BIGTREETECH EBB36 and Piggyback36, as well as the Mellow Fly SHT36. An example of a '42 PCB is the BIGTREETECH EBB42.
+
+Other than the printed part, the materials for these are identical.
+
+!!! caution
+    These mounts are only currently tested on NEMA17 steppers.
+
+=== "'36 PCB"
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `pcb36_mount.stl`][pcb36_mount] | 1 | |
+    | [:material-printer-3d-nozzle: `cable_guide.stl`][cable_guide] | 1 | |
+    | Toolhead PCB      | 1 | |
+    | Screw, M3-0.5 x 25mm | 2 | |
+    | Screw, M3-0.5 x 6mm  | 4 | May substitute two (2) 8mm screws, if desired. |
+
+=== "'42 PCB"
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `pcb42_mount.stl`][pcb42_mount] | 1 | |
+    | [:material-printer-3d-nozzle: `cable_guide.stl`][cable_guide] | 1 | |
+    | Toolhead PCB      | 1 | |
+    | Screw, M3-0.5 x 25mm | 2 | |
+    | Screw, M3-0.5 x 6mm  | 4 | May substitute two (2) 8mm screws, if desired. |
+
+### Z End Stop Mount
+
+This part is necessary for Ender 5 Pros with stock (non-Hydra) Z kinematics. This part mounts the limit switch higher than normal.
+
+| Parts     | Qty | Notes |
+|-----------|-----|-------|
+| [:material-printer-3d-nozzle: `z_limit_switch_cover.stl`][z_limit_cover] | 1 | |
+| [:material-printer-3d-nozzle: `z_limit_switch_mount.stl`][z_limit_cover] | 1 | |
+| Screw, M3-0.5 x 16mm | 2 | |
+| Screw, M5-0.8 x 8mm  | 1 | |
+| Tee Nut, Drop In, M5 | 1 | |
+| Heat Set Insert, M3x5x4 | 2 |
+
+### X Axis Stop Block
+
+This is an adaptation of the M1 stop block for EVA 3.
+
+| Parts     | Qty | Notes |
+|-----------|-----|-------|
+| [:material-printer-3d-nozzle: `x_axis_stop_block.stl`][x_stop_block] | 1 | |
+| Screw, M3-0.5 x 8mm | 2 | |
+| Tee Nut, Drop In, M3 | 2 | Roll in tee nuts may be used for easier installation. |
+
+[x_stop_block]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/x_axis_stop_block.stl
+[z_limit_cover]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/z_limit_switch_cover.stl
+[z_limit_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/z_limit_switch_mount.stl
+[cable_guide]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/cable_guide.stl
+[pcb36_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/pcb36_mount.stl
+[pcb42_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/pcb42_mount.stl
+[front_intake]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/front_intake_duct.stl
+[bottom_horns]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/bottom_horns_fi.stl
+[belt_grabber]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/belt_grabber.stl
+[bltouch_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/bl_touch_mount.stl
+[5015_inlet]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/5015_inlet_fi.stl
+[5015_sideways_inlet]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/5015_sideways_inlet_fi.stl
+[front]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/front_universal_fi.stl
+[front_pis]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/front_universal_pis_fi.stl
+[top]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/top_endstop_mgn12h.stl
+[top_pcb]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/top_endstop_mgn12h_pcb.stl
