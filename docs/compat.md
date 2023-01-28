@@ -7,18 +7,18 @@ hide: navigation
 ---
 
 !!! note
-    See the `/CAD` folder for a sample assembly in `STEP` format, as well as files for all parts.
+    If you want to make a mod and check compatibility, see the [`/CAD`][folder_cad] folder for a sample assembly in `STEP` format.
 
 ## Linear Rail/Top Piece
 
-Support for MGN12C is dropped in favor of the more common MGN12H.
+Support for MGN12C carriages was dropped in favor of the more common MGN12H that is used with Mercury One.
 
 - [x] MGN12H
 - [ ] MGN12C
 
 ## Hotends
 
-Volcano hotends are not currently supported due to the lack of a working Volcano duct.  Once a Volcano duct is available, this mod will support all hotends normally supported by EVA 3.
+Volcano hotends are not currently supported due to the lack of a working Volcano duct. Once a Volcano duct is available, this mod will support all hotends normally supported by EVA 3.
 
 - [x] Standard hotends
 - [ ] Volcano hotends (pending compatible bottom horns)

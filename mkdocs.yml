@@ -76,6 +76,7 @@ extra_css:
 nav:
   - index.md
   - compat.md
+  - changelog.md
+  - files.md
   - bom.md
   - inserts.md
-  - changelog.md

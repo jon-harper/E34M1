@@ -26,3 +26,7 @@
 [fusion_volcano_horns]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/Bottom%20Horns%20-%20Volcano.f3d
 [step_volcano_horns]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/Bottom%20Horns%20-%20Volcano%20v1.step
 [step_core]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/Core.Insert.CoreXY.step
+
+[folder_cad]: https://github.com/jon-harper/MercuryOneUserMods/tree/EVA3/Mercury_One/jonspaceharper/EVA3/CAD
+[folder_stl]: https://github.com/jon-harper/MercuryOneUserMods/tree/EVA3/Mercury_One/jonspaceharper/EVA3/STL
+[repo]: https://github.com/jon-harper/MercuryOneUserMods/tree/EVA3/Mercury_One/jonspaceharper/EVA3
