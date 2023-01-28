@@ -10,7 +10,7 @@ Welcome! E34M1 is a project to adapt [EVA 3][eva3] for the [Mercury One][merc1] 
 
 ## Navigating
 
-If you want to dive right in, the file list is [below](#file-summary). Further down are a list of [STEP files](#step-files-cad) for adapting your own mods for E34M1.
+If you are familiar with this mod, the file list is [below](#file-summary). Further down are a list of [STEP files](#step-files-cad) for adapting your own mods for E34M1.
 
 - [Compatibility](compat.md): a summary of changes and compatibility discussion
 - [Bill of Materials](bom.md): materials for each part of the EVA assembly
@@ -20,7 +20,6 @@ If you want to dive right in, the file list is [below](#file-summary). Further d
 ### Printable Files (`/STL`)
 
 - Status: Indicates progress of the file towards completion. A check mark indicates a file has no known issues and is fit tested.
-- BOM: File is represented in the [Bill of Materials](bom.md).
 - HSI: The file requires [heat set inserts (HSI)](inserts.md).
 
 | Filename                      | Purpose | Status | HSI |
@@ -30,7 +29,7 @@ If you want to dive right in, the file list is [below](#file-summary). Further d
 | [`belt_grabber.stl`][belt_grabber] | Larger belt grabber for the front.    | :material-check-bold: | N |
 | [`bl_touch_mount.stl`][bltouch_mount] | ABL mount for BL Touch (non-Volcano). | :material-check-bold: | N |
 | [`bottom_horns_fi.stl`][bottom_horns] | Longer bottom cooling duct.           | :material-check-bold: | Y |
-| [`bottom_horns_klicky_fi.stl`][bottom_klicky]  | Bottom duct compatible with Klicky.   |  | N |
+| [`bottom_horns_klicky_fi.stl`][bottom_klicky]  | Bottom duct compatible with Klicky.   |  | Y |
 | [`cable_guide.stl`][cable_guide]             | Stock cable guide with larger zip tie cutouts. | :material-check-bold: | N |
 | [`front_intake_duct.stl`][front_intake] | Duct for easier front fan/shroud removal. | :material-check-bold: | Y |
 | [`front_universal_fi.stl`][front] | Replaces stock universal front.       | :material-check-bold: | Y |

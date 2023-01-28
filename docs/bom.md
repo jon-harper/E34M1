@@ -13,15 +13,14 @@ This page contains a bill of materials for each EVA "module".
 
 ## Core EVA Parts
 
-The Core EVA parts into are divided into logical submodules for easier BOM management.
-
-**Core** consists of:
+The Core EVA parts into are divided into logical submodules:
 
 - [Universal Front](#universal-front)
 - [Top Piece (with Endstop)](#top-piece-with-endstop)
 - [Bottom Horns](#bottom-horns)
+- [Cooling Inlet](#cooling-inlet)
 
-There is no longer a back piece; it is removed in this mod.
+There is no longer a back piece; it is removed in this mod. The part cooling inlet is modified to serve in its place.
 
 ### Universal Front
 
@@ -74,7 +73,8 @@ There are two version of the universal front:
 
 ### Top Piece with Endstop
 
-The stock top piece has a mounting point for a cable guide. An alternate version is available without for builds using a stepper-mounted breakout PCB. See [PCB Mount](#pcb-mount).
+1. `top_endstop_mgn12h.stl`: Top piece modified for M1 with a cable guide.
+2. `top_endstop_mgn12h_pcb.stl`: Top piece for PCB mount users without a cable guide. See [PCB Mount](#pcb-mount).
 
 === "**1** `top_endstop_mgn12h.stl`"
     <div markdown class="jh-grid-container jh-grid-2">
@@ -86,7 +86,7 @@ The stock top piece has a mounting point for a cable guide. An alternate version
     | [:material-printer-3d-nozzle: `cable_guide.stl`][cable_guide] | 1 | |
     | Horizontal limit switch  | 1 | |
     | Screw, M3-0.5 x 6mm      | 2 | May substitute 8mm. |
-    | Screw, M3-0.5 x 8mm      | 2 | |
+    | Screw, M3-0.5 x 8mm      | 6 | |
     | Heat Set Insert, M3x5x4  | 6 | |
 
     </div>
@@ -103,7 +103,7 @@ The stock top piece has a mounting point for a cable guide. An alternate version
     |-----------|-----|-------|
     | [:material-printer-3d-nozzle: `top_endstop_mgn12h_pcb.stl`][top_pcb] | 1 | |
     | Horizontal limit switch  | 1 | |
-    | Screw, M3-0.5 x 8mm      | 2 | |
+    | Screw, M3-0.5 x 8mm      | 6 | |
     | Heat Set Insert, M3x5x4  | 4 | |
 
     </div>
@@ -129,8 +129,6 @@ Currently, only one version of the bottom horns is available.
 ![bottom_illustration](img/parts/bottom_horns.png){ width=256px}
 </div>
 </div>
-
-## Other EVA Parts
 
 ### Cooling Inlet
 
@@ -174,6 +172,8 @@ Two versions are available:
     ![inlet_illustration](img/parts/5015_sideways_inlet.png){ width=256px}
     </div>
     </div>
+
+## Other EVA Parts
 
 ### BLTouch Mount
 
@@ -226,6 +226,18 @@ Fans may be attached using an intake duct that allows two (2) screws to remove t
     | :material-printer-3d-nozzle: EVA shroud                | 1 | Your choice of printed shroud. Optional. |
     | Axial Fan, 40mm x 10mm    | 1 | May substitute 20mm thickness. |
     | Screw, M3-0.5 x 12mm      | 4 | |
+
+### Hotend Mount: Dragon/Red Lizard BMO
+
+This is a adaptation of [this mod](https://www.printables.com/model/200853-eva3-dragon-hotend-mount-insert) to use M3x5x4 inserts. No other changes are made.
+
+| Part | Qty | Notes |
+|------|-----|------|
+| [:material-printer-3d-nozzle: `hotend_bmo_fi.stl`][dragon_bmo] | 1 | |
+| Dragon BMO hotend         | 1 | |
+| Screw, M2.5 x 8mm SHCS    | 4 | Usually comes with the hotend. |
+| Screw, M3-0.5 x 8mm SHCS  | 4 | |
+| Heat Set Insert, M3x5x4   | 8 | |
 
 ## New Parts
 

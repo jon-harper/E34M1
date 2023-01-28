@@ -25,3 +25,4 @@
 [step_front_intake]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/Front%20Intake%20Duct.step
 [fusion_volcano_horns]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/Bottom%20Horns%20-%20Volcano.f3d
 [step_volcano_horns]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/Bottom%20Horns%20-%20Volcano%20v1.step
+[step_core]: https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/Core.Insert.CoreXY.step
