@@ -9,28 +9,38 @@ hide: navigation
 !!! note
     If you want to make a mod and check compatibility, see the [`/CAD`][folder_cad] folder for a sample assembly in `STEP` format.
 
-## Linear Rail/Top Piece
+## Mecury One Compatibility
+
+E34M1 is compatible with Mercury One without limitations, i.e. no print area is lost by converting to EVA 3 from a different toolhead.
+
+Minor modifications may be necessary to your Mercury One build (e.g., adjusting the Z end stop height). See [Other Changes and Additions](#other-changes-and-additions) for examples.
+
+This mod is not yet tested on an Ender 5 Plus or with Hydra. Feedback is welcome if you have tried E34M1 with either.
+
+## EVA 3 Compatibility
+
+### Linear Rail/Top Piece
 
 Support for MGN12C carriages was dropped in favor of the more common MGN12H that is used with Mercury One.
 
 - [x] MGN12H
 - [ ] MGN12C
 
-## Hotends
+### Hotends
 
 Volcano hotends are not currently supported due to the lack of a working Volcano duct. Once a Volcano duct is available, this mod will support all hotends normally supported by EVA 3.
 
 - [x] Standard hotends
 - [ ] Volcano hotends (pending compatible bottom horns)
 
-## Extruders
+### Extruders
 
 All stock extruders are compatible.
 
 !!! note
     Mounting the Drive (extruder and stepper assembly) normally uses seven (7) M3-0.5 x 8mm SHCS. You will need to substitute three (3) of these screws for M3-0.5 x 12mm SHCS.
 
-## Part Fan Inlets
+### Part Fan Inlets
 
 Inlets may be made compatible fairly easily. The inlets included with E34M1 have a lower profile than stock EVA. This allows them to accomodate stepper-mounted breakout boards and should be considered when adapting ducts for E34M1.
 
@@ -38,7 +48,7 @@ Inlets may be made compatible fairly easily. The inlets included with E34M1 have
 - [x] Sideways 5015
 - [ ] EVA stock
 
-## Horns/Ducts
+### Horns/Ducts
 
 Existing duct mods may be made compatible by extending them.
 
@@ -47,7 +57,7 @@ The stock ducts contain geometry errors; the ones to the Volcano horns are beyon
 - [x] Dual horns
 - [ ] Volcano horns (planned)
 
-## ABL/Probes
+### ABL/Probes
 
 Support for all probes listed are project goals.
 
@@ -57,15 +67,15 @@ Support for all probes listed are project goals.
 - [ ] 8mm probes (planned)
 - [ ] EVA stock
 
-## Front Cooling Fans
+### Front Cooling Fans
 
 No changes are made to hotend cooling fan mounting; mods are likely compatible.
 
-## Shrouds
+### Shrouds
 
 All stock shrouds are compatible.
 
-## Cable Management
+### Cable Management
 
 The top piece has an attachment point for a cable guide. There is a top piece available without this feature for toolhead PCB users; the toolhead PCB mounts all have cable guide attachment points.
 
