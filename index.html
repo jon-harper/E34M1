@@ -77,7 +77,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#navigating" class="md-skip">
+        <a href="#general-links" class="md-skip">
           Skip to content
         </a>
       
@@ -215,6 +215,30 @@
 
 
   <li class="md-tabs__item">
+    <a href="changelog/" class="md-tabs__link">
+      Changelog
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="files/" class="md-tabs__link">
+      Files
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
     <a href="bom/" class="md-tabs__link">
       Bill of Materials
     </a>
@@ -311,36 +335,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#navigating" class="md-nav__link">
-    Navigating
+  <a href="#general-links" class="md-nav__link">
+    General Links
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#file-summary" class="md-nav__link">
-    File Summary
+  <a href="#printing-and-assembly" class="md-nav__link">
+    Printing and Assembly
   </a>
-  
-    <nav class="md-nav" aria-label="File Summary">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#printable-files-stl" class="md-nav__link">
-    Printable Files (/STL)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-files-cad" class="md-nav__link">
-    STEP Files (/CAD)
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -362,6 +366,36 @@
     <li class="md-nav__item">
       <a href="compat/" class="md-nav__link">
         Compatibility
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="changelog/" class="md-nav__link">
+        Changelog
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="files/" class="md-nav__link">
+        Files
       </a>
     </li>
   
@@ -407,7 +441,7 @@
               
                 
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -424,36 +458,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#navigating" class="md-nav__link">
-    Navigating
+  <a href="#general-links" class="md-nav__link">
+    General Links
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#file-summary" class="md-nav__link">
-    File Summary
+  <a href="#printing-and-assembly" class="md-nav__link">
+    Printing and Assembly
   </a>
-  
-    <nav class="md-nav" aria-label="File Summary">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#printable-files-stl" class="md-nav__link">
-    Printable Files (/STL)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-files-cad" class="md-nav__link">
-    STEP Files (/CAD)
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -476,153 +490,23 @@
   <h1>Welcome</h1>
 
 <p>Welcome! E34M1 is a project to adapt <a href="https://main.eva-3d.page/">EVA 3</a> for the <a href="https://docs.zerog.one/">Mercury One</a> project. It includes support for stepper-mounted PCBs and other tools for a Mercury One build.</p>
-<h2 id="navigating">Navigating</h2>
-<p>If you want to dive right in, the file list is <a href="#file-summary">below</a>. Further down are a list of <a href="#step-files-cad">STEP files</a> for adapting your own mods for E34M1.</p>
-<ul>
-<li><a href="compat/">Compatibility</a>: a summary of changes and compatibility discussion</li>
-<li><a href="bom/">Bill of Materials</a>: materials for each part of the EVA assembly</li>
-<li><a href="inserts/">Heat Set Inserts</a>: illustration of all heat set insert locations</li>
-</ul>
-<h2 id="file-summary">File Summary</h2>
-<h3 id="printable-files-stl">Printable Files (<code>/STL</code>)</h3>
-<ul>
-<li>Status: Indicates progress of the file towards completion. A check mark indicates a file has no known issues and is fit tested.</li>
-<li>BOM: File is represented in the <a href="bom/">Bill of Materials</a>.</li>
-<li>HSI: The file requires <a href="inserts/">heat set inserts (HSI)</a>.</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Filename</th>
-<th>Purpose</th>
-<th>Status</th>
-<th>HSI</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/5015_inlet_fi.stl"><code>5015_inlet_fi.stl</code></a></td>
-<td>Lowered version of the stock inlet.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>Y</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/5015_sideways_inlet_fi.stl"><code>5015_sideways_inlet_fi.stl</code></a></td>
-<td>Improved Y axis profile 5015 inlet.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>Y</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/belt_grabber.stl"><code>belt_grabber.stl</code></a></td>
-<td>Larger belt grabber for the front.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>N</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/bl_touch_mount.stl"><code>bl_touch_mount.stl</code></a></td>
-<td>ABL mount for BL Touch (non-Volcano).</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>N</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/bottom_horns_fi.stl"><code>bottom_horns_fi.stl</code></a></td>
-<td>Longer bottom cooling duct.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>Y</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/bottom_horns_klicky_fi.stl"><code>bottom_horns_klicky_fi.stl</code></a></td>
-<td>Bottom duct compatible with Klicky.</td>
-<td></td>
-<td>N</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/cable_guide.stl"><code>cable_guide.stl</code></a></td>
-<td>Stock cable guide with larger zip tie cutouts.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>N</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/front_intake_duct.stl"><code>front_intake_duct.stl</code></a></td>
-<td>Duct for easier front fan/shroud removal.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>Y</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/front_universal_fi.stl"><code>front_universal_fi.stl</code></a></td>
-<td>Replaces stock universal front.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>Y</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/front_universal_pis_fi.stl"><code>front_universal_pis_fi.stl</code></a></td>
-<td>Same as above; adds FYSETC portable input shaper support.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>Y</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/hotend_bmo_fi.stl"><code>hotend_bmo_fi.stl</code></a></td>
-<td>Dragon BMO hotend with M1-compatible inserts.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>Y</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/pcb36_mount.stl"><code>pcb36_mount.stl</code></a></td>
-<td>Stepper mount for NEMA14 ('36) toolhead PCBs.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>Y</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/pcb42_mount.stl"><code>pcb42_mount.stl</code></a></td>
-<td>Stepper mount for NEMA17 ('42) toolhead PCBs.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>Y</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/top_endstop_mgn12h.stl"><code>top_endstop_mgn12h.stl</code></a></td>
-<td>Top piece compatible with MGN12H and M1 X endstop.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>Y</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/top_endstop_mgn12h_pcb.stl"><code>top_endstop_mgn12h_pcb.stl</code></a></td>
-<td>Same as above; removes cable guide attachment.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>Y</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/x_axis_stop_block.stl"><code>x_axis_stop_block.stl</code></a></td>
-<td>Bumper for the X axis endstop.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>N</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/z_limit_switch_cover.stl"><code>z_limit_switch_cover.stl</code></a></td>
-<td>Covers the Z endstop PCB.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>N</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/STL/z_limit_switch_mount.stl"><code>z_limit_switch_mount.stl</code></a></td>
-<td>Raises the Z endstop.</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9 20.42-6.21-6.21 2.83-2.83L9 14.77l9.88-9.89 2.83 2.83L9 20.42Z"/></svg></span></td>
-<td>Y</td>
-</tr>
-</tbody>
-</table>
-<h3 id="step-files-cad">STEP Files (<code>/CAD</code>)</h3>
-<p>This is a list of all parametric assemblies on the repository.</p>
-<ul>
-<li><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/5015_inlet_fi.step">5015_inlet_fi.step</a></li>
-<li><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/5015_sideways_inlet.step">5015_sideways_inlet.step</a></li>
-<li><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/BLTouch.step">BLTouch.step</a></li>
-<li><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/Bottom%20Horns%20-%20Volcano%20v1.step">Bottom Horns - Volcano v1.step</a></li>
-<li><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/Bottom%20Horns%20-%20Volcano.f3d">Bottom Horns - Volcano.f3d</a></li>
-<li>[Core.Insert.CoreXY.step][step_core]</li>
-<li><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/Front%20Intake%20Duct.step">Front Intake Duct.step</a></li>
-<li><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/Test%20Assembly%20-%20Dragon%20BMO%20and%20BMG.step">Test Assembly - Dragon BMO and BMG.step</a></li>
-<li><a href="https://github.com/jon-harper/MercuryOneUserMods/blob/EVA3/Mercury_One/jonspaceharper/EVA3/CAD/Z%20Limit%20Switch.step">Z Limit Switch.step</a></li>
-</ul>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-card">
+<h3 id="general-links">General Links</h3>
+<div class="jh-grid-container jh-grid-1 jh-link-grid">
+<p><a href="compat/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3.5 3.75a.25.25 0 0 1 .25-.25h13.5a.25.25 0 0 1 .25.25v10a.75.75 0 0 0 1.5 0v-10A1.75 1.75 0 0 0 17.25 2H3.75A1.75 1.75 0 0 0 2 3.75v16.5c0 .966.784 1.75 1.75 1.75h7a.75.75 0 0 0 0-1.5h-7a.25.25 0 0 1-.25-.25V3.75z"/><path d="M6.25 7a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5zm-.75 4.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75zm16.28 4.53a.75.75 0 1 0-1.06-1.06l-4.97 4.97-1.97-1.97a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5z"/></svg></span> Compatibility</a>
+<a href="changelog/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.197 10a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5zm-2.382 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5zm-1.581 4a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5z"/><path fill-rule="evenodd" d="M4.125 0h15.75A4.113 4.113 0 0 1 24 4.125c0 1.384-.476 2.794-1.128 4.16-.652 1.365-1.515 2.757-2.352 4.104l-.008.013c-.849 1.368-1.669 2.691-2.28 3.97-.614 1.283-.982 2.45-.982 3.503a2.625 2.625 0 1 0 4.083-2.183.75.75 0 0 1 .834-1.247A4.125 4.125 0 0 1 19.875 24H4.5a4.125 4.125 0 0 1-4.125-4.125c0-2.234 1.258-4.656 2.59-6.902.348-.586.702-1.162 1.05-1.728.8-1.304 1.567-2.553 2.144-3.738H3.39c-.823 0-1.886-.193-2.567-1.035A3.647 3.647 0 0 1 0 4.125 4.125 4.125 0 0 1 4.125 0zM1.5 4.125A2.625 2.625 0 0 1 4.125 1.5h12.568a4.108 4.108 0 0 0-.943 2.625c0 .723.185 1.349.499 1.882H3.389c-.662 0-1.148-.166-1.402-.479A2.148 2.148 0 0 1 1.5 4.125zm14.25 15.75c0 .997.354 1.912.943 2.625H4.5a2.625 2.625 0 0 1-2.625-2.625c0-1.766 1.025-3.85 2.38-6.137.314-.529.646-1.068.98-1.612.953-1.55 1.927-3.136 2.577-4.619H18a.75.75 0 0 0 .417-1.373c-.746-.5-1.167-1.144-1.167-2.009A2.625 2.625 0 0 1 19.875 1.5 2.613 2.613 0 0 1 22.5 4.125c0 1.057-.368 2.229-.982 3.514-.611 1.28-1.431 2.605-2.28 3.972l-.017.028c-.834 1.343-1.694 2.728-2.343 4.086-.652 1.364-1.128 2.77-1.128 4.15z"/></svg></span> Changelog</a></p>
+</div>
+</div>
+<div class="jh-card">
+<h3 id="printing-and-assembly">Printing and Assembly</h3>
+<div class="jh-grid-container jh-grid-1 jh-link-grid">
+<p><a href="files/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 4H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2Z"/></svg></span> File List</a>
+<a href="bom/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3.604 3.089A.75.75 0 0 1 4 3.75V8.5h.75a.75.75 0 0 1 0 1.5h-3a.75.75 0 1 1 0-1.5h.75V5.151l-.334.223a.75.75 0 0 1-.832-1.248l1.5-1a.75.75 0 0 1 .77-.037zM8.75 5.5a.75.75 0 0 0 0 1.5h11.5a.75.75 0 0 0 0-1.5H8.75zm0 6a.75.75 0 0 0 0 1.5h11.5a.75.75 0 0 0 0-1.5H8.75zm0 6a.75.75 0 0 0 0 1.5h11.5a.75.75 0 0 0 0-1.5H8.75zM5.5 15.75c0-.704-.271-1.286-.72-1.686a2.302 2.302 0 0 0-1.53-.564c-.535 0-1.094.178-1.53.565-.449.399-.72.982-.72 1.685a.75.75 0 0 0 1.5 0c0-.296.104-.464.217-.564A.805.805 0 0 1 3.25 15c.215 0 .406.072.533.185.113.101.217.268.217.565 0 .332-.069.48-.21.657-.092.113-.216.24-.403.419l-.147.14c-.152.144-.33.313-.52.504l-1.5 1.5a.75.75 0 0 0-.22.53v.25c0 .414.336.75.75.75H5A.75.75 0 0 0 5 19H3.31l.47-.47c.176-.176.333-.324.48-.465l.165-.156a5.98 5.98 0 0 0 .536-.566c.358-.447.539-.925.539-1.593z"/></svg></span> Bill of Materials</a>
+<a href="inserts/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.5 7.3-1 .7V7h-3v3l-1 .7v1l5-3.3V7.3m0 4-1 .7v-2l-3 2v2l-1 .7v1l5-3.3v-1.1m0 4-1 .7v-2l-3 2v2l-1 .7v1l5-3.3v-1.1M7 6h10s-1-3-5-3-5 3-5 3m6.5 12v3h-3v-1l3-2Z"/></svg></span> Heat Set Inserts</a></p>
+</div>
+</div>
+</div>
 
 
 
