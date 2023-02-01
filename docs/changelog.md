@@ -6,6 +6,15 @@ date: 2023-1-26
 hide: navigation
 ---
 
+## February 2023
+
+### 23/02/01
+
+- `bottom_horns_klicky_fi.stl`: Modified Klicky horns (still in testing!)
+- `5015_sideways_inlet.stl`: Thickened hex grill; it broke off on the build plate. >:(
+- Merged contents of `EVA3` branch into `main`. This should help avoid confusion to newcomers to the repo.
+- Added EVA34M1 on Printables.
+- `bl_touch_volcano_mount.stl`: New ABL mount for Volcano hotends.
 
 ## January 2023
 
