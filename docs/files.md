@@ -6,7 +6,7 @@ date: 2023-1-28
 hide: navigation
 ---
 
-## Printable Files (`/STL`)
+## Printable Files
 
 - Status: Indicates progress of the file towards completion. A check mark indicates a file has no known issues and is fit tested.
 - HSI: The file requires [heat set inserts (HSI)](inserts.md).
@@ -18,7 +18,7 @@ hide: navigation
 | [`belt_grabber.stl`][belt_grabber] | Larger belt grabber for the front.    | :material-check-bold: | N |
 | [`bl_touch_mount.stl`][bltouch_mount] | ABL mount for BL Touch (non-Volcano). | :material-check-bold: | N |
 | [`bottom_horns_fi.stl`][bottom_horns] | Longer bottom cooling duct.           | :material-check-bold: | Y |
-| [`bottom_horns_klicky_fi.stl`][bottom_klicky]  | Bottom duct compatible with Klicky.   |  | Y |
+| [`bottom_horns_klicky_fi.stl`][bottom_klicky]  | Bottom duct compatible with Klicky.   | :material-check-bold: | Y |
 | [`cable_guide.stl`][cable_guide]             | Stock cable guide with larger zip tie cutouts. | :material-check-bold: | N |
 | [`front_intake_duct.stl`][front_intake] | Duct for easier front fan/shroud removal. | :material-check-bold: | Y |
 | [`front_universal_fi.stl`][front] | Replaces stock universal front.       | :material-check-bold: | Y |
@@ -31,6 +31,14 @@ hide: navigation
 | [`x_axis_stop_block.stl`][x_stop_block] | Bumper for the X axis endstop. | :material-check-bold: | N |
 | [`z_limit_switch_cover.stl`][z_limit_cover] | Covers the Z endstop PCB. | :material-check-bold: | N |
 | [`z_limit_switch_mount.stl`][z_limit_mount] | Raises the Z endstop. | :material-check-bold: | Y |
+
+## Related and Contributed Mods
+
+These are user mods that add compatibility or new features to EVA 3.
+
+| Mod Name | Author | Purpose |
+|----------|--------|---------|
+| [Klicky Probe Dock for Mercury 1 Zero G](https://www.printables.com/model/386819-klicky-probe-dock-for-mercury-1-zero-g) | [Sir_Wash](https://www.printables.com/social/415185-sir_wash) | Adds a dock for Klicky; works with `bottom_horns_klicky_fi.stl`. |
 
 ## STEP Files (`/CAD`)
 

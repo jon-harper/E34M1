@@ -59,13 +59,17 @@ The stock ducts contain geometry errors; the ones to the Volcano horns are beyon
 
 ### ABL/Probes
 
-Support for all probes listed are project goals.
+Support for all probes listed are project goals. The ABL mount point is different than EVA 3 stock, so each ABL must be added individually.
 
 - [x] BLTouch
-- [ ] BLTouch for Volcano (in progress)
-- [ ] Klicky (in progress)
+- [x] BLTouch for Volcano hotends
+- [x] Klicky\*
+- [ ] Klicky for Volcano hotends (planned)
 - [ ] 8mm probes (planned)
-- [ ] EVA stock
+- [ ] 12mm probes (planned)
+
+!!! note
+    See the [Files](files.md) page for a compatible Klicky dock.
 
 ### Front Cooling Fans
 

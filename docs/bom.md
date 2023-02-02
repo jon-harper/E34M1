@@ -114,21 +114,43 @@ There are two version of the universal front:
 
 ### Bottom Horns
 
-Currently, only one version of the bottom horns is available.
+Two versions are available:
 
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
+1. `bottom_horns_fi.stl`: Modified version of the stock bottom horns.
+2. `bottom_horns_klicky_fi.stl`: Like the above, but with support for Klicky.
 
-| Parts     | Qty | Notes |
-|-----------|-----|-------|
-| [:material-printer-3d-nozzle: `bottom_horns_fi.stl`][bottom_horns]     | 1 | |
-| Heat Set Insert, M3x5x4   | 1 | |
+=== "**1** `bottom_horns_fi.stl`"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
 
-</div>
-<div markdown class="jh-grid-img">
-![bottom_illustration](img/parts/bottom_horns.png){ width=256px}
-</div>
-</div>
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `bottom_horns_fi.stl`][bottom_horns]     | 1 | |
+    | Heat Set Insert, M3x5x4   | 1 | |
+
+    </div>
+    <div markdown class="jh-grid-img">
+    ![bottom_illustration](img/parts/bottom_horns.png){ width=256px}
+    </div>
+    </div>
+
+=== "**2** `bottom_horns_klicky_fi.stl`"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `bottom_horns_klicky_fi.stl`][bottom_klicky]     | 1 | |
+    | Heat Set Insert, M3x5x4   | 1 | |
+
+    !!! note
+        The additional materials required for the Klicky probe wiring and magnets are beyond the scope of this documentation.
+
+    </div>
+    <div markdown class="jh-grid-img">
+    <!-- ![bottom_illustration](img/parts/bottom_horns.png){ width=256px} -->
+    </div>
+    </div>
 
 ### Cooling Inlet
 
