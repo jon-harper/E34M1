@@ -28,5 +28,12 @@ Welcome! E34M1 is a project to adapt [EVA 3][eva3] for the [Mercury One][merc1] 
 </div>
 </div>
 
+<figure markdown>
+![banner](img/gallery/benchy1.jpg)
+    <figcaption markdown>
+    Printing the first Benchy.
+    </figcaption>
+</figure>
+
 [eva3]: https://main.eva-3d.page/
 [merc1]: https://docs.zerog.one/

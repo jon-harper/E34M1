@@ -4,7 +4,7 @@ site_author: Jon Harper
 site_url: https://jon-harper.github.io/E34M1
 repo_url: https://github.com/jon-harper/MercuryOneUserMods
 repo_name: E34M1 Repository
-# edit_uri: ""
+edit_uri: ""
 copyright: Copyright &copy; 2023 Jonathan Harper
 
 markdown_extensions:
