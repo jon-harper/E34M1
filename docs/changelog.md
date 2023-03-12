@@ -6,6 +6,20 @@ date: 2023-1-26
 hide: navigation
 ---
 
+## March 2023
+
+### 23/03/11
+
+- `top_endstop_mgn12h.stl` & `top_endstop_mgn12h_pcb.stl`: moved modifications from `/testing` folder.
+
+### 23/03/10
+
+- `belt_grabber.stl` Smaller to match changes to the front piece.
+- `front_universal_fi.stl`, `front_universal_pis_fi.stl`: Narrowed belt loops and inserts for mounting belt catches.
+- The above have been fit tested and aare committed.
+- `top_endstop_mgn12h.stl`: significantly strengthented the cable guide mount.
+- `top_endstop_mgn12h_pcb.stl`: cosmetic modifications.
+
 ## February 2023
 
 ### 23/02/01
