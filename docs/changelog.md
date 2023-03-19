@@ -8,6 +8,10 @@ hide: navigation
 
 ## March 2023
 
+### 23/03/18
+
+- `pcb_shroud_30mm_fan.stl`: added a new shroud that mounts a 30mm fan for CANBUS users.
+
 ### 23/03/11
 
 - `top_endstop_mgn12h.stl` & `top_endstop_mgn12h_pcb.stl`: moved modifications from `/testing` folder.

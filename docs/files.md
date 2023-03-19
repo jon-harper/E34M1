@@ -8,29 +8,33 @@ hide: navigation
 
 ## Printable Files
 
-- Status: Indicates progress of the file towards completion. A check mark indicates a file has no known issues and is fit tested.
-- HSI: The file requires [heat set inserts (HSI)](inserts.md).
+The HSI columns signifies whether or not the file requires [heat set inserts (HSI)](inserts.md).
 
-| Filename                      | Purpose | Status | HSI |
-|-------------------------------|---------|--------|---------|
-| [`5015_inlet_fi.stl`][5015_inlet] | Lowered version of the stock inlet.   | :material-check-bold: | Y |
-| [`5015_sideways_inlet_fi.stl`][5015_sideways_inlet]  | Improved Y axis profile 5015 inlet.   | :material-check-bold: | Y |
-| [`belt_grabber.stl`][belt_grabber] | Larger belt grabber for the front.    | :material-check-bold: | N |
-| [`bl_touch_mount.stl`][bltouch_mount] | ABL mount for BL Touch (non-Volcano). | :material-check-bold: | N |
-| [`bottom_horns_fi.stl`][bottom_horns] | Longer bottom cooling duct.           | :material-check-bold: | Y |
-| [`bottom_horns_klicky_fi.stl`][bottom_klicky]  | Bottom duct compatible with Klicky.   | :material-check-bold: | Y |
-| [`cable_guide.stl`][cable_guide]             | Stock cable guide with larger zip tie cutouts. | :material-check-bold: | N |
-| [`front_intake_duct.stl`][front_intake] | Duct for easier front fan/shroud removal. | :material-check-bold: | Y |
-| [`front_universal_fi.stl`][front] | Replaces stock universal front.       | :material-check-bold: | Y |
-| [`front_universal_pis_fi.stl`][front_pis] | Same as above; adds FYSETC portable input shaper support. | :material-check-bold: | Y |
-| [`hotend_bmo_fi.stl`][dragon_bmo] | Dragon BMO hotend with M1-compatible inserts. | :material-check-bold: | Y |
-| [`pcb36_mount.stl`][pcb36_mount] | Stepper mount for NEMA14 ('36) toolhead PCBs. | :material-check-bold: | Y |
-| [`pcb42_mount.stl`][pcb42_mount] | Stepper mount for NEMA17 ('42) toolhead PCBs. | :material-check-bold: | Y |
-| [`top_endstop_mgn12h.stl`][top] | Top piece compatible with MGN12H and M1 X endstop. | :material-check-bold: | Y |
-| [`top_endstop_mgn12h_pcb.stl`][top_pcb] | Same as above; removes cable guide attachment. | :material-check-bold: | Y |
-| [`x_axis_stop_block.stl`][x_stop_block] | Bumper for the X axis endstop. | :material-check-bold: | N |
-| [`z_limit_switch_cover.stl`][z_limit_cover] | Covers the Z endstop PCB. | :material-check-bold: | N |
-| [`z_limit_switch_mount.stl`][z_limit_mount] | Raises the Z endstop. | :material-check-bold: | Y |
+| Filename                      | Purpose | HSI    |
+|-------------------------------|---------|--------|
+| [`5015_inlet_fi.stl`][5015_inlet] | Lowered version of the stock inlet.   | Y |
+| [`5015_sideways_inlet_fi.stl`][5015_sideways_inlet]  | Improved Y axis profile 5015 inlet.   | Y |
+| [`belt_grabber.stl`][belt_grabber] | Larger belt grabber for the front.    | N |
+| [`bl_touch_mount.stl`][bltouch_mount] | ABL mount for BL Touch (non-Volcano). | N |
+| [`bottom_horns_fi.stl`][bottom_horns] | Longer bottom cooling duct.           | Y |
+| [`bottom_horns_klicky_fi.stl`][bottom_klicky]  | Bottom duct compatible with Klicky.   | Y |
+| [`cable_guide.stl`][cable_guide]             | Stock cable guide with larger zip tie cutouts. | N |
+| [`front_intake_duct.stl`][front_intake] | Duct for easier front fan/shroud removal. | Y |
+| [`front_universal_fi.stl`][front] | Replaces stock universal front.       | Y |
+| [`front_universal_pis_fi.stl`][front_pis] | Same as above; adds FYSETC portable input shaper support. | Y |
+| [`hotend_bmo_fi.stl`][dragon_bmo] | Dragon BMO hotend with M1-compatible inserts. | Y |
+| [`pcb36_mount.stl`][pcb36_mount] | Stepper mount for NEMA14 ('36) toolhead PCBs. Uses the cable guide. | Y |
+| [`pcb42_mount.stl`][pcb42_mount] | Stepper mount for NEMA17 ('42) toolhead PCBs. Uses the cable guide. | Y |
+<!-- | [`pcb36_mount_cable_chain.stl`][pcb36_mount_cable_chain] | Stepper mount for NEMA14 PCBs. Uses cable chains. | Y |
+| [`pcb42_mount_cable_chain.stl`][pcb42_mount_cable_chain] | Stepper mount for NEMA17 PCBs. Uses cable chains. | Y | -->
+| [`pcb_shroud.stl`][pcb_shroud] | Simple cover for toolhead PCBs. | Y |
+| [`pcb_shroud_cat.stl`][pcb_shroud_cat] | Whimsical shroud with a cat face. | N |
+| [`pcb_shroud_30mm_fan.stl`][pcb_shroud_30mm] | Shroud that mounts a 30mm fan for CAN PCBs. | N |
+| [`top_endstop_mgn12h.stl`][top] | Top piece compatible with MGN12H and M1 X endstop. | Y |
+| [`top_endstop_mgn12h_pcb.stl`][top_pcb] | Same as above; removes cable guide attachment. | Y |
+| [`x_axis_stop_block.stl`][x_stop_block] | Bumper for the X axis endstop. | N |
+| [`z_limit_switch_cover.stl`][z_limit_cover] | Covers the Z endstop PCB. | N |
+| [`z_limit_switch_mount.stl`][z_limit_mount] | Raises the Z endstop. | Y |
 
 ## Related and Contributed Mods
 

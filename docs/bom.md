@@ -308,6 +308,50 @@ Other than the printed part, the materials for these are identical.
     </div>
     </div>
 
+### PCB Shroud
+
+These shrouds cover the PCB and wiring for a PCB mount.
+
+These come in three styles:
+
+- Stock
+- Cat face
+- 30mm Fan
+
+The cat face shroud is purely cosmetic and uses the same materials as the stock shroud.
+
+=== "Stock"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `pcb_shroud.stl`][pcb_shroud] | 1 | |
+    | [:material-printer-3d-nozzle: `pcb_shroud_cat.stl`][pcb_shroud_cat] | 1 | Alternative to the above.|
+    | Screw, M3-0.5 x 35mm | 2 | |
+    
+    </div>
+    <div markdown class="jh-grid-img">
+    ![pcb42_illustration](img/parts/pcb_shrouds.png){ width=400px }
+    </div>
+    </div>
+=== "30mm Fan"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `pcb_shroud.stl`][pcb_shroud_30mm] | 1 | |
+    | Screw, M3-0.5 x 35mm | 2 | |
+    | Axial Fan, 30mm x 10mm | 1 | |
+    | Screw, M3-0.5 x 14mm | 2 | May use 15mm or 16mm. |
+    
+    </div>
+    <div markdown class="jh-grid-img">
+    ![pcb42_illustration](img/parts/pcb_shroud_30mm.png){ width=200px }
+    </div>
+    </div>
+
 ### Z End Stop Mount
 
 This part is necessary for Ender 5 Pros with stock (non-Hydra) Z kinematics. This part mounts the limit switch higher than normal.

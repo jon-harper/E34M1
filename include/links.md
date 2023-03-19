@@ -4,6 +4,9 @@
 [cable_guide]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/cable_guide.stl
 [pcb36_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/pcb36_mount.stl
 [pcb42_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/pcb42_mount.stl
+[pcb_shroud]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/pcb_shroud.stl
+[pcb_shroud_cat]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/pcb_shroud_cat.stl
+[pcb_shroud_30mm]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/pcb_shroud_30mm_fan.stl
 [front_intake]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/front_intake_duct.stl
 [bottom_horns]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/bottom_horns_fi.stl
 [bottom_klicky]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/bottom_horns_klicky_fi.stl
