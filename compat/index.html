@@ -425,8 +425,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#ablprobes" class="md-nav__link">
-    ABL/Probes
+  <a href="#abl" class="md-nav__link">
+    ABL
   </a>
   
 </li>
@@ -609,8 +609,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#ablprobes" class="md-nav__link">
-    ABL/Probes
+  <a href="#abl" class="md-nav__link">
+    ABL
   </a>
   
 </li>
@@ -665,26 +665,22 @@
 
   <h1>Compatibility</h1>
 
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>If you want to make a mod and check compatibility, see the <a href="https://github.com/jon-harper/MercuryOneUserMods/tree/main/Mercury_One/jonspaceharper/EVA3/CAD"><code>/CAD</code></a> folder for a sample assembly in <code>STEP</code> format.</p>
-</div>
 <h2 id="mecury-one-compatibility">Mecury One Compatibility</h2>
 <p>E34M1 is compatible with Mercury One without limitations, i.e. no print area is lost by converting to EVA 3 from a different toolhead.</p>
-<p>Minor modifications may be necessary to your Mercury One build (e.g., adjusting the Z end stop height). See <a href="#other-changes-and-additions">Other Changes and Additions</a> for examples.</p>
-<p>This mod is not yet tested on an Ender 5 Plus or with Hydra. Feedback is welcome if you have tried E34M1 with either.</p>
+<p>Minor modifications may be necessary to your Z axis (e.g., adjusting the Z end stop height). See <a href="#other-changes-and-additions">Other Changes and Additions</a> for examples.</p>
+<p>See the <a href="https://github.com/jon-harper/MercuryOneUserMods/tree/main/Mercury_One/jonspaceharper/EVA3/CAD"><code>/CAD</code></a> folder for a sample assembly in <code>STEP</code> format.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Mercury One.1 with E34M1 has a theoretical build area of 275mm x 275mm using 330mm linear rails.</p>
+</div>
 <h2 id="eva-3-compatibility">EVA 3 Compatibility</h2>
 <h3 id="linear-railtop-piece">Linear Rail/Top Piece</h3>
-<p>Support for MGN12C carriages was dropped in favor of the more common MGN12H that is used with Mercury One.</p>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> MGN12H</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> MGN12C</li>
-</ul>
+<p>E34M1 only supports the MGN12H carriages used with Mercury One.</p>
 <h3 id="hotends">Hotends</h3>
-<p>Volcano hotends are not currently supported due to the lack of a working Volcano duct. Once a Volcano duct is available, this mod will support all hotends normally supported by EVA 3.</p>
+<p>Not all hotend and ABL combinations are currently available. Check [ABL]</p>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Standard hotends</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Volcano hotends (pending compatible bottom horns)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Volcano hotends</li>
 </ul>
 <h3 id="extruders">Extruders</h3>
 <p>All stock extruders are compatible.</p>
@@ -697,45 +693,83 @@
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Rear-facing 5015</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Sideways 5015</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> EVA stock</li>
 </ul>
 <h3 id="hornsducts">Horns/Ducts</h3>
 <p>Existing duct mods may be made compatible by extending them.</p>
 <p>The stock ducts contain geometry errors; the ones to the Volcano horns are beyond my ability to repair.</p>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Dual horns</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Volcano horns (planned)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Volcano horns <em>(partial compatibility)</em></li>
 </ul>
-<h3 id="ablprobes">ABL/Probes</h3>
-<p>Support for all probes listed are project goals. The ABL mount point is different than EVA 3 stock, so each ABL must be added individually.</p>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> BLTouch</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> BLTouch for Volcano hotends</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Klicky*</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Klicky for Volcano hotends (planned)</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> 8mm probes (planned)</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> 12mm probes (planned)</li>
-</ul>
+<h3 id="abl">ABL</h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>See the <a href="../files/">Files</a> page for a compatible Klicky dock.</p>
+<p>The side ABL mount point is different than EVA 3 stock.</p>
 </div>
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="center">Standard Hotends</th>
+<th align="center">Volcano Hotends</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BLTouch</td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+</tr>
+<tr>
+<td>Klicky</td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+<td align="center"><em>(Planned)</em></td>
+</tr>
+<tr>
+<td>Beacon</td>
+<td align="center"><em>(Planned)</em></td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+</tr>
+</tbody>
+</table>
+<p>Support for 8mm and 12mm probes is also planned.</p>
 <h3 id="front-cooling-fans">Front Cooling Fans</h3>
-<p>No changes are made to hotend cooling fan mounting; mods are likely compatible.</p>
+<p>No changes; mods are likely compatible.</p>
 <h3 id="shrouds">Shrouds</h3>
 <p>All stock shrouds are compatible.</p>
 <h3 id="cable-management">Cable Management</h3>
-<p>The top piece has an attachment point for a cable guide. There is a top piece available without this feature for toolhead PCB users; the toolhead PCB mounts all have cable guide attachment points.</p>
-<p>The modified cable guide supports wider zip ties; the stock cable guide remains compatible.</p>
+<p>There are two methods of cable management and two attachment points, depending on your use case. The table below shows how they are compatible.</p>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th align="center">Cable Guide</th>
+<th align="center">Cable Chain</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Top Piece</td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+<td align="center"><em>Planned</em></td>
+</tr>
+<tr>
+<td>PCB Mount</td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+</tr>
+</tbody>
+</table>
+<p>Currently only open cable chain hole patterns are supported.</p>
 <h2 id="other-changes-and-additions">Other Changes and Additions</h2>
 <ul>
-<li>The back tensioner and belt catch is removed entirely.</li>
 <li>All parts use Mercury One/Voron-style inserts (M3x5x4) instead of the normal EVA inserts.</li>
-<li>A new Z Limit Switch Mount allows the bed on Ender 5 Pros to reach the EVA 3 gantry.</li>
-<li>A X axis end stop bumper, modified from Mercury One Classic.</li>
-<li>Mounts are available for both '36- and '42-style toolhead PCBs.</li>
-<li>Shrouds to cover the PCB and mount wiring are available.</li>
-<li>There is an adapter that allows the shroud and cooling fan to be attached and removed with two (2) screws instead of four (4).</li>
+<li>The back tensioner and belt catch is removed entirely.</li>
+<li><em>New:</em> A new Z Limit Switch Mount allows the bed on Ender 5 Pros to reach the EVA 3 gantry.</li>
+<li><em>New:</em> A X axis end stop bumper, modified from Mercury One Classic.</li>
+<li><em>New:</em> Mounts are available for both '36- and '42-style toolhead PCBs.</li>
+<li><em>New:</em> Shrouds to cover the PCB and mount wiring are available.</li>
+<li><em>New:</em> There is an adapter that allows the shroud and cooling fan to be attached and removed with two (2) screws instead of four (4).</li>
 </ul>
 
 
