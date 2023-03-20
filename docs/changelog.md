@@ -8,6 +8,11 @@ hide: navigation
 
 ## March 2023
 
+### 23/03/20
+
+- `pcb36_mount_cable_chain.stl`, `pcb42_mount_cable_chain.stl`: New PCB mounts that support 10x11 open cable chain.
+- Lots of documentation edits and updates.
+
 ### 23/03/18
 
 - `pcb_shroud_30mm_fan.stl`: added a new shroud that mounts a 30mm fan for CANBUS users.

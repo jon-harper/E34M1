@@ -25,11 +25,11 @@ The HSI columns signifies whether or not the file requires [heat set inserts (HS
 | [`hotend_bmo_fi.stl`][dragon_bmo] | Dragon BMO hotend with M1-compatible inserts. | Y |
 | [`pcb36_mount.stl`][pcb36_mount] | Stepper mount for NEMA14 ('36) toolhead PCBs. Uses the cable guide. | Y |
 | [`pcb42_mount.stl`][pcb42_mount] | Stepper mount for NEMA17 ('42) toolhead PCBs. Uses the cable guide. | Y |
-<!-- | [`pcb36_mount_cable_chain.stl`][pcb36_mount_cable_chain] | Stepper mount for NEMA14 PCBs. Uses cable chains. | Y |
-| [`pcb42_mount_cable_chain.stl`][pcb42_mount_cable_chain] | Stepper mount for NEMA17 PCBs. Uses cable chains. | Y | -->
-| [`pcb_shroud.stl`][pcb_shroud] | Simple cover for toolhead PCBs. | Y |
+| [`pcb36_mount_cable_chain.stl`][pcb36_mount_cable_chain] | Stepper mount for NEMA14 PCBs. Uses cable chains. | Y |
+| [`pcb42_mount_cable_chain.stl`][pcb42_mount_cable_chain] | Stepper mount for NEMA17 PCBs. Uses cable chains. | Y |
+| [`pcb_shroud.stl`][pcb_shroud] | Simple cover for toolhead PCBs. | N |
 | [`pcb_shroud_cat.stl`][pcb_shroud_cat] | Whimsical shroud with a cat face. | N |
-| [`pcb_shroud_30mm_fan.stl`][pcb_shroud_30mm] | Shroud that mounts a 30mm fan for CAN PCBs. | N |
+| [`pcb_shroud_30mm_fan.stl`][pcb_shroud_30mm] | Shroud that mounts a 30mm fan for CAN PCBs. | Y |
 | [`top_endstop_mgn12h.stl`][top] | Top piece compatible with MGN12H and M1 X endstop. | Y |
 | [`top_endstop_mgn12h_pcb.stl`][top_pcb] | Same as above; removes cable guide attachment. | Y |
 | [`x_axis_stop_block.stl`][x_stop_block] | Bumper for the X axis endstop. | N |
@@ -43,6 +43,7 @@ These are user mods that add compatibility or new features to EVA 3.
 | Mod Name | Author | Purpose |
 |----------|--------|---------|
 | [Klicky Probe Dock for Mercury 1 Zero G](https://www.printables.com/model/386819-klicky-probe-dock-for-mercury-1-zero-g) | [Sir_Wash](https://www.printables.com/social/415185-sir_wash) | Adds a dock for Klicky; works with `bottom_horns_klicky_fi.stl`. |
+| [Beacon Volcano Duct](https://www.printables.com/model/428524-eva30-phaetus-rapido-uhfvolcano-beacon-for-mercury) | [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about) | Add support for Beacon ABL for Volcano-length hotends. |
 
 ## STEP Files (`/CAD`)
 

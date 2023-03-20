@@ -95,6 +95,16 @@ This page demonstrates the location of every heat set insert in E34M1.
 
 ![pcb42_illustration](img/inserts/pcb42.png){ width=200px}
 </div>
+<div markdown class="jh-grid-img">
+**`pcb36_mount_cable_chain.stl`**
+
+![pcb36_illustration](img/inserts/pcb36_chain.png){ width=200px}
+</div>
+<div markdown class="jh-grid-img">
+**`pcb42_mount_cable_chain.stl`**
+
+![pcb42_illustration](img/inserts/pcb42_chain.png){ width=200px}
+</div>
 </div>
 
 ### Z End Stop Mount

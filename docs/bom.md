@@ -263,16 +263,16 @@ This is a adaptation of [this mod](https://www.printables.com/model/200853-eva3-
 
 ## New Parts
 
-### PCB Mount
+### Toolhead PCB Mount
 
-Mounts for both '36 and '42 PCBs are available. Examples of '36 PCBs are the BIGTREETECH EBB36 and Piggyback36, as well as the Mellow Fly SHT36. An example of a '42 PCB is the BIGTREETECH EBB42.
+Mounts for both NEMA14 ("36") and NEMA17 ("42") PCBs are available. Examples of '36 PCBs are the BIGTREETECH EBB36 and Piggyback36, as well as the Mellow Fly SHT36. An example of a '42 PCB is the BIGTREETECH EBB42.
 
-Other than the printed part, the materials for these are identical.
+Variants of each mount are available for both cable guides and cable chains.
 
 !!! caution
     These mounts are only currently tested on NEMA17 steppers.
 
-=== "'36 PCB"
+=== "'36 PCB, Cable Guide"
     <div markdown class="jh-grid-container jh-grid-2">
     <div markdown class="jh-grid-para">
 
@@ -283,14 +283,31 @@ Other than the printed part, the materials for these are identical.
     | Toolhead PCB      | 1 | |
     | Screw, M3-0.5 x 25mm | 2 | |
     | Screw, M3-0.5 x 6mm  | 4 | May substitute two (2) 8mm screws, if desired. |
+    | Heat Set Insert, M3x5x4 | 6 | |
 
     </div>
     <div markdown class="jh-grid-img">
     ![pcb36_illustration](img/parts/pcb36.png){ width=200px }
     </div>
     </div>
+=== "'36 PCB, Cable Chain"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
 
-=== "'42 PCB"
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `pcb36_mount_cable_chain.stl`][pcb36_mount_cable_chain] | 1 | |
+    | Toolhead PCB      | 1 | |
+    | Screw, M3-0.5 x 25mm | 2 | |
+    | Screw, M3-0.5 x 6mm  | 5 | May substitute 8mm screws, if desired. |
+    | Heat Set Insert, M3x5x4 | 7 | |
+
+    </div>
+    <div markdown class="jh-grid-img">
+    ![pcb36_illustration](img/parts/pcb36_cable_chain.png){ width=200px }
+    </div>
+    </div>
+=== "'42 PCB, Cable Guide"
     <div markdown class="jh-grid-container jh-grid-2">
     <div markdown class="jh-grid-para">
 
@@ -301,14 +318,32 @@ Other than the printed part, the materials for these are identical.
     | Toolhead PCB      | 1 | |
     | Screw, M3-0.5 x 25mm | 2 | |
     | Screw, M3-0.5 x 6mm  | 4 | May substitute two (2) 8mm screws, if desired. |
+    | Heat Set Insert, M3x5x4 | 6 | |
 
     </div>
     <div markdown class="jh-grid-img">
     ![pcb42_illustration](img/parts/pcb42.png){ width=200px }
     </div>
     </div>
+=== "'42 PCB, Cable Chain"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
 
-### PCB Shroud
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `pcb42_mount_cable_chain.stl`][pcb42_mount_cable_chain] | 1 | |
+    | Toolhead PCB      | 1 | |
+    | Screw, M3-0.5 x 25mm | 2 | |
+    | Screw, M3-0.5 x 6mm  | 5 | May substitute 8mm screws, if desired. |
+    | Heat Set Insert, M3x5x4 | 7 | |
+
+    </div>
+    <div markdown class="jh-grid-img">
+    ![pcb42_illustration](img/parts/pcb42_cable_chain.png){ width=200px }
+    </div>
+    </div>
+
+### Toolhead PCB Shroud
 
 These shrouds cover the PCB and wiring for a PCB mount.
 
@@ -345,6 +380,7 @@ The cat face shroud is purely cosmetic and uses the same materials as the stock 
     | Screw, M3-0.5 x 35mm | 2 | |
     | Axial Fan, 30mm x 10mm | 1 | |
     | Screw, M3-0.5 x 14mm | 2 | May use 15mm or 16mm. |
+    | Heat Set Insert, M3x5x4 | 4 | |
     
     </div>
     <div markdown class="jh-grid-img">
