@@ -36,8 +36,7 @@ Not all hotend and ABL combinations are currently available. Check [ABL]
 
 All stock extruders are compatible.
 
-!!! note
-    Mounting the Drive (extruder and stepper assembly) normally uses seven (7) M3-0.5 x 8mm SHCS. You will need to substitute three (3) of these screws for M3-0.5 x 12mm SHCS.
+Mounting the Drive (extruder and stepper assembly) normally uses seven (7) M3-0.5 x 8mm SHCS. You will need to substitute three (3) of these screws for M3-0.5 x 12mm SHCS.
 
 ### Part Fan Inlets
 
@@ -45,6 +44,9 @@ Inlets may be made compatible fairly easily. The inlets included with E34M1 have
 
 - [x] Rear-facing 5015
 - [x] Sideways 5015
+
+!!! note
+    There is an adapter in progress that allows the use of any EVA 3.0 compatible intake, with the loss of some Y axis build area.
 
 ### Horns/Ducts
 
