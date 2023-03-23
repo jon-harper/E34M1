@@ -8,6 +8,12 @@ hide: navigation
 
 ## March 2023
 
+### 23/03/23
+
+- All PCB mounts: strengthened middle criss-cross for less flex.
+- All PCB mounts: added 1mm clearance between PCB and screws behind.
+- `pcb36_mount_cable_chain.stl`, `pcb42_mount_cable_chain.stl`: Moved mount for chain further to the edge.
+
 ### 23/03/20
 
 - `pcb36_mount_cable_chain.stl`, `pcb42_mount_cable_chain.stl`: New PCB mounts that support 10x11 open cable chain.
