@@ -8,6 +8,11 @@ hide: navigation
 
 ## March 2023
 
+### 23/03/24
+
+- Added several mods.
+- Slightly clarified the compatibility page about PCB mounts.
+
 ### 23/03/23
 
 - All PCB mounts: strengthened middle criss-cross for less flex.

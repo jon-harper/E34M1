@@ -44,6 +44,8 @@ These are user mods that add compatibility or new features to EVA 3.
 |----------|--------|---------|
 | [Klicky Probe Dock for Mercury 1 Zero G](https://www.printables.com/model/386819-klicky-probe-dock-for-mercury-1-zero-g) | [Sir_Wash](https://www.printables.com/social/415185-sir_wash) | Adds a dock for Klicky; works with `bottom_horns_klicky_fi.stl`. |
 | [Beacon Volcano Duct](https://www.printables.com/model/428524-eva30-phaetus-rapido-uhfvolcano-beacon-for-mercury) | [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about) | Add support for Beacon ABL for Volcano-length hotends. |
+| [EVA 3 Beltless backplate for dual 5015](https://www.printables.com/model/430281-eva-3-beltless-backplate-for-dual-5015) | [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about) | Allows any stock rear intake to be used with E34M1. |
+| [E34M1/EVA 3 Lightweight Back Piece ](https://www.printables.com/model/431146-e34m1eva-3-lightweight-back-piece) | [jonspaceharper](https://www.printables.com/social/511131-jonspaceharper/about) | Allows any stock rear intake to be used with E34M1. Lightweight remix of the above. |
 
 ## STEP Files (`/CAD`)
 

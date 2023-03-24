@@ -95,6 +95,6 @@ Currently only open cable chain hole patterns are supported.
 - The back tensioner and belt catch is removed entirely.
 - *New:* A new Z Limit Switch Mount allows the bed on Ender 5 Pros to reach the EVA 3 gantry.
 - *New:* A X axis end stop bumper, modified from Mercury One Classic.
-- *New:* Mounts are available for both '36- and '42-style toolhead PCBs.
+- *New:* Mounts are available for both '36- and '42-style toolhead PCBs for NEMA17 steppers.
 - *New:* Shrouds to cover the PCB and mount wiring are available.
 - *New:* There is an adapter that allows the shroud and cooling fan to be attached and removed with two (2) screws instead of four (4).
