@@ -197,9 +197,9 @@ Two versions are available:
 
 ## Other EVA Parts
 
-### BLTouch Mount
+### ABL
 
-This part uses a built-in breakaway support. It may be safely removed.
+Currently, only the BLTouch and BLTouch Volcano mounts use the ABL mounts.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -218,36 +218,28 @@ This part uses a built-in breakaway support. It may be safely removed.
 </div>
 
 
-### Fan and Shroud
+### Front Intake Duct
 
-All stock shrouds are compatible with EVA34M1. 40mm cooling fans of both 10mm and 20mm thickness remain compatible.
+Hotend cooling fans may be attached using an intake duct that allows two (2) screws to remove the fan instead of four (4). The BOM below is for a 4010 fan with the duct.
 
-Fans may be attached using an intake duct that allows two (2) screws to remove the fan instead of four (4). The BOM below is for a 4010 fan with and without the duct.
 
-=== "With Intake Duct"
-    <div markdown class="jh-grid-container jh-grid-2">
-    <div markdown class="jh-grid-para">
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 
-    | Parts     | Qty | Notes |
-    |-----------|-----|-------|
-    | [:material-printer-3d-nozzle: `front_intake_duct.stl`][front_intake]  | 1 | |
-    | :material-printer-3d-nozzle: EVA shroud                | 1 | Your choice of printed shroud. Optional. |
-    | Axial Fan, 40mm x 10mm    | 1 | May substitute 20mm thickness. |
-    | Screw, M3-0.5 x 12mm      | 2 | |
-    | Screw, M3-0.5 x 16mm      | 2 | |
-    | Heat Set Insert, M3x5x4   | 2 | |
+| Parts     | Qty | Notes |
+|-----------|-----|-------|
+| [:material-printer-3d-nozzle: `front_intake_duct.stl`][front_intake]  | 1 | |
+| :material-printer-3d-nozzle: EVA shroud                | 1 | Your choice of printed shroud. Optional. |
+| Axial Fan, 40mm x 10mm    | 1 | May substitute 20mm thickness. |
+| Screw, M3-0.5 x 12mm      | 2 | |
+| Screw, M3-0.5 x 16mm      | 2 | |
+| Heat Set Insert, M3x5x4   | 2 | |
 
-    </div>
-    <div markdown class="jh-grid-img">
-    ![intake_illustration](img/parts/intake_duct.png){ width=256px }
-    </div>
-    </div>
-=== "Without Intake Duct"
-    | Parts     | Qty | Notes |
-    |-----------|-----|-------|
-    | :material-printer-3d-nozzle: EVA shroud                | 1 | Your choice of printed shroud. Optional. |
-    | Axial Fan, 40mm x 10mm    | 1 | May substitute 20mm thickness. |
-    | Screw, M3-0.5 x 12mm      | 4 | |
+</div>
+<div markdown class="jh-grid-img">
+![intake_illustration](img/parts/intake_duct.png){ width=256px }
+</div>
+</div>
 
 ### Hotend Mount: Dragon/Red Lizard BMO
 
