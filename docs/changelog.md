@@ -8,6 +8,11 @@ hide: navigation
 
 ## March 2023
 
+### 23/03/27
+
+- Added the Tour page.
+- Significant rework of other sections began.
+
 ### 23/03/24
 
 - Added several mods.
