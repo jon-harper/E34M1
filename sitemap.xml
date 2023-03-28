@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jon-harper.github.io/E34M1/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2023-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/E34M1/bom/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2023-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/E34M1/changelog/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2023-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/E34M1/compat/</loc>
-         <lastmod>2023-03-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://jon-harper.github.io/E34M1/files/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2023-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jon-harper.github.io/E34M1/inserts/</loc>
-         <lastmod>2023-03-24</lastmod>
+         <lastmod>2023-03-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jon-harper.github.io/E34M1/tour/</loc>
+         <lastmod>2023-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
