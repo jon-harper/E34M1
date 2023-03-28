@@ -16,9 +16,9 @@ This page contains a bill of materials for each EVA "module".
 The Core EVA parts into are divided into logical submodules:
 
 - [Universal Front](#universal-front)
-- [Top Piece (with Endstop)](#top-piece-with-endstop)
+- [Top with Endstop](#top-piece-with-endstop)
 - [Bottom Horns](#bottom-horns)
-- [Cooling Inlet](#cooling-inlet)
+- [Rear Cooling Inlet](#cooling-inlet)
 
 There is no longer a back piece; it is removed in this mod. The part cooling inlet is modified to serve in its place.
 
@@ -26,8 +26,8 @@ There is no longer a back piece; it is removed in this mod. The part cooling inl
 
 There are two version of the universal front:
 
-1. `universal_front_fi.stl`: M1 modified stock front
-2. `universal_front_pis_fi.stl`: Standard ADXL345 mount is replaced by a mount for the FYSETC portable input shaper.
+1. `universal_front_fi.stl`: Mounts an ADXL345 input shaper (i.e. stock)
+2. `universal_front_pis_fi.stl`: Mounts a FYSETC portable input shaper
 
 === "**1** `universal_front_fi.stl`"
     <div markdown class="jh-grid-container jh-grid-2">
@@ -71,7 +71,7 @@ There are two version of the universal front:
     </div>
     </div>
 
-### Top Piece with Endstop
+### Top with Endstop
 
 1. `top_endstop_mgn12h.stl`: Top piece modified for M1 with a cable guide.
 2. `top_endstop_mgn12h_pcb.stl`: Top piece for PCB mount users without a cable guide. See [PCB Mount](#pcb-mount).
@@ -152,7 +152,7 @@ Two versions are available:
     </div>
     </div>
 
-### Cooling Inlet
+### Rear Cooling Inlet
 
 Two versions are available:
 
@@ -222,7 +222,6 @@ Currently, only the BLTouch and BLTouch Volcano mounts use the ABL mounts.
 
 Hotend cooling fans may be attached using an intake duct that allows two (2) screws to remove the fan instead of four (4). The BOM below is for a 4010 fan with the duct.
 
-
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
@@ -240,18 +239,6 @@ Hotend cooling fans may be attached using an intake duct that allows two (2) scr
 ![intake_illustration](img/parts/intake_duct.png){ width=256px }
 </div>
 </div>
-
-### Hotend Mount: Dragon/Red Lizard BMO
-
-This is a adaptation of [this mod](https://www.printables.com/model/200853-eva3-dragon-hotend-mount-insert) to use M3x5x4 inserts. No other changes are made.
-
-| Part | Qty | Notes |
-|------|-----|------|
-| [:material-printer-3d-nozzle: `hotend_bmo_fi.stl`][dragon_bmo] | 1 | |
-| Dragon BMO hotend         | 1 | |
-| Screw, M2.5 x 8mm SHCS    | 4 | Usually comes with the hotend. |
-| Screw, M3-0.5 x 8mm SHCS  | 4 | |
-| Heat Set Insert, M3x5x4   | 8 | |
 
 ## New Parts
 

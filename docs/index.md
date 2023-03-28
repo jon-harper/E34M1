@@ -6,7 +6,9 @@ date: 2023-1-26
 hide: navigation toc
 ---
 
-Welcome! E34M1 is a project to adapt [EVA 3][eva3] for the [Mercury One][merc1] project. It includes support for stepper-mounted PCBs and other tools for a Mercury One build.
+Welcome! E34M1 is a project to adapt [EVA 3][eva3] for the [Mercury One][merc1] project.
+
+Take the [Tour](tour.md) if you're unfamiliar with EVA 3 or E34M1.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">

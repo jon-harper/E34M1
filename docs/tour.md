@@ -8,9 +8,11 @@ hide: navigation
 
 ## Overview
 
+E34M1 replaces many of the printed parts from EVA 3, while maintaining compatibility with others. This tour introduces the E34M1 *and* everything else you need to print from EVA 3.
+
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">
-### Core Assembly
+### Core E34M1 Assembly
 <figure markdown>
 ![core](img/tour/core.png){width="300px"}
 </figure>
@@ -45,14 +47,14 @@ Numerous parts, including the hotend and belts, attach to the front piece.
 <div markdown class="jh-card">
 ### Top
 
-The top mounts the MGN12H carriage, the X axis endstop, and an optional cable guide.
+The top mounts the MGN12H carriage, the X axis endstop, and an optional cable guide. A version is available without the cable guide for toolhead PCB users.
 
 <figure markdown>
 ![top](img/tour/top.png){width="300px"}
 
-[Bill of Materials](bom.md#top-piece-with-endstop){.md-button}
+[Bill of Materials](bom.md#top-with-endstop){.md-button}
 
-[Heat Set Inserts](inserts.md#top-piece-with-endstop){.md-button}
+[Heat Set Inserts](inserts.md#top-with-endstop){.md-button}
 </figure>
 
 <div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
@@ -72,16 +74,16 @@ The bottom horns are primarily for part cooling. Some ABL methods (e.g., Beacon,
 </figure>
 </div>
 <div markdown class="jh-card">
-### Cooling Inlet
+### Rear Cooling Inlet
 
-Stock EVA has a rear piece in this location that acts as a belt tensioner. It is removed in E34M1, with the cooling inlet serving in place.
+Stock EVA has a rear piece in this location that acts as a belt tensioner. It is removed in E34M1, with the cooling inlet moved forward and serving in its place.
 
 <figure markdown>
 ![inlet](img/tour/inlet.png){width="300px"}
 
-[Bill of Materials](bom.md#cooling-inlet){.md-button}
+[Bill of Materials](bom.md#rear-cooling-inlet){.md-button}
 
-[Heat Set Inserts](inserts.md#cooling-inlet){.md-button}
+[Heat Set Inserts](inserts.md#rear-cooling-inlet){.md-button}
 </figure>
 </div>
 <div markdown class="jh-card">
@@ -95,9 +97,9 @@ The side ABL mount is modified from stock EVA.
 <figure markdown>
 ![abl mount](img/tour/abl.png){width="300px"}
 
-[Bill of Materials](bom.md#cooling-inlet){.md-button}
+[Bill of Materials](bom.md#abl){.md-button}
 
-[Heat Set Inserts](inserts.md#cooling-inlet){.md-button}
+[Heat Set Inserts](inserts.md#abl){.md-button}
 </figure>
 </div>
 </div>
@@ -124,7 +126,8 @@ This mounts the hotend, cooling fan, and optional shroud.
 
 The drive module attaches the extruder and extruder stepper to the toolhead.
 
-!!! note Mounting the Drive (extruder and stepper assembly) normally uses seven (7) M3-0.5 x 8mm SHCS. You will need to substitute three (3) of these screws for M3-0.5 x 12mm SHCS.
+!!! note 
+    Mounting the Drive (extruder and stepper) assembly normally uses seven (7) M3-0.5 x 8mm SHCS. You will need to substitute three (3) of these screws for M3-0.5 x 12mm SHCS.
 
 <figure markdown>
 ![drive](img/tour/drive.png){width="300px"}
@@ -169,4 +172,5 @@ These are user mods that add compatibility or new features to EVA 3.
 | [Beacon Volcano Duct](https://www.printables.com/model/428524-eva30-phaetus-rapido-uhfvolcano-beacon-for-mercury) | [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about) | Add support for Beacon ABL for Volcano-length hotends. |
 | [EVA 3 Beltless backplate for dual 5015](https://www.printables.com/model/430281-eva-3-beltless-backplate-for-dual-5015) | [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about) | Allows any stock rear intake to be used with E34M1. |
 | [E34M1/EVA 3 Lightweight Back Piece ](https://www.printables.com/model/431146-e34m1eva-3-lightweight-back-piece) | [jonspaceharper](https://www.printables.com/social/511131-jonspaceharper/about) | Allows any stock rear intake to be used with E34M1. Lightweight remix of the above. |
+| [E34M1/EVA 3 Dragon Hotend Mount](https://www.printables.com/model/436000-e34m1eva-3-dragon-hotend-mount) | [jonspaceharper](https://www.printables.com/social/511131-jonspaceharper/about) | Supports Dragon BMO hotends.
 

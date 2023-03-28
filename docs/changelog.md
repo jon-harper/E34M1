@@ -8,6 +8,10 @@ hide: navigation
 
 ## March 2023
 
+### 23/03/28
+
+- Cut down significantly on duplicate documentation.
+
 ### 23/03/27
 
 - Added the Tour page.
