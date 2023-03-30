@@ -37,9 +37,9 @@ All E34M1 parts are designed for Mercury One/Voron-style inserts (M3x5x4) instea
 | BLTouch  | :white_check_mark: | :white_check_mark: | ABL         |
 | Klicky   | :white_check_mark: | *Planned*          | Bottom      |
 | Beacon   | *Planned*          | :white_check_mark: | Bottom      |
-| CR Touch | *Planned*          | *Planned*          | ABL         |
+| CR Touch | :white_check_mark: | :white_check_mark: | ABL         |
 
-Support for 8mm and 12mm probes is not currently planned.
+Support for 8mm and 12mm inductive probes is not currently planned.
 
 ### Cable Management
 

@@ -14,13 +14,13 @@
 [bottom_klicky]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/bottom_horns_klicky_fi.stl
 [belt_grabber]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/belt_grabber.stl
 [bltouch_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/bl_touch_mount.stl
+[bltouch_volcano]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/bl_touch_volcano_mount.stl
 [5015_inlet]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/5015_inlet_fi.stl
 [5015_sideways_inlet]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/5015_sideways_inlet_fi.stl
 [front]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/front_universal_fi.stl
 [front_pis]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/front_universal_pis_fi.stl
 [top]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/top_endstop_mgn12h.stl
 [top_pcb]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/top_endstop_mgn12h_pcb.stl
-[dragon_bmo]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/hotend_bmo_fi.stl
 
 [step_5015_inlet]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/CAD/5015_inlet_fi.step
 [step_5015_sideways]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/CAD/5015_sideways_inlet.step

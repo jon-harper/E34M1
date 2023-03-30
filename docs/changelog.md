@@ -8,6 +8,11 @@ hide: navigation
 
 ## March 2023
 
+### 23/03/30
+
+- Added CR Touch and CR Touch Volcano entries.
+- Cleaned up some wording in the docs.
+
 ### 23/03/28
 
 - Cut down significantly on duplicate documentation.

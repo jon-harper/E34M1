@@ -29,14 +29,14 @@ This page demonstrates the location of every heat set insert in E34M1.
 </div>
 </div>
 
-**`universal_front_pis_fi.stl`** has two additional inserts:
+**`universal_front_pis_fi.stl`** has two (2) additional inserts:
 
 ![illustration_pis](img/inserts/front_pis.png){width=300}
 
 ### Top with Endstop
 
 !!! warning "Caution"
-    The four HSIs for for the drive module should be inserted from the bottom, not the top.
+    The four (4) HSIs for for the drive module should be inserted from the bottom, not the top.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-img">

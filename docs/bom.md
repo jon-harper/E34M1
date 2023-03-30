@@ -11,25 +11,25 @@ This page contains a bill of materials for each EVA "module".
 !!! note
     - All heat set inserts are "Voron-style" (M3x5x4) instead of the thinner "EVA-style" (M3x4.6x4).
 
-## Core EVA Parts
+## Core E34M1 Assembly
 
-The Core EVA parts into are divided into logical submodules:
+The core assembly contains four modules:
 
 - [Universal Front](#universal-front)
 - [Top with Endstop](#top-piece-with-endstop)
 - [Bottom Horns](#bottom-horns)
 - [Rear Cooling Inlet](#cooling-inlet)
 
-There is no longer a back piece; it is removed in this mod. The part cooling inlet is modified to serve in its place.
+There is no longer a back piece as in EVA 3; it is removed in this mod. The part cooling inlet is modified to serve in its place.
 
 ### Universal Front
 
 There are two version of the universal front:
 
-1. `universal_front_fi.stl`: Mounts an ADXL345 input shaper (i.e. stock)
-2. `universal_front_pis_fi.stl`: Mounts a FYSETC portable input shaper
+1. Stock Front: Mounts an ADXL345 input shaper (stock EVA 3)
+2. PIS Front: Mounts a FYSETC portable input shaper
 
-=== "**1** `universal_front_fi.stl`"
+=== "Stock Front"
     <div markdown class="jh-grid-container jh-grid-2">
     <div markdown class="jh-grid-para">
     
@@ -52,7 +52,7 @@ There are two version of the universal front:
     </div>
     </div>
 
-=== "**2** `universal_front_pis_fi.stl`"
+=== "PIS Front"
     <div markdown class="jh-grid-container jh-grid-2">
     <div markdown class="jh-grid-para">
 
@@ -73,10 +73,10 @@ There are two version of the universal front:
 
 ### Top with Endstop
 
-1. `top_endstop_mgn12h.stl`: Top piece modified for M1 with a cable guide.
-2. `top_endstop_mgn12h_pcb.stl`: Top piece for PCB mount users without a cable guide. See [PCB Mount](#pcb-mount).
+1. Top with Endstop: Top piece modified for M1 with a cable guide.
+2. PCB Mount Top: Top piece for PCB mount users without a cable guide. See [PCB Mount](#pcb-mount).
 
-=== "**1** `top_endstop_mgn12h.stl`"
+=== "Top with Endstop"
     <div markdown class="jh-grid-container jh-grid-2">
     <div markdown class="jh-grid-para">
 
@@ -95,7 +95,7 @@ There are two version of the universal front:
     </div>
     </div>
 
-=== "**2** `top_endstop_mgn12h_pcb.stl`"
+=== "PCB Mount Top"
     <div markdown class="jh-grid-container jh-grid-2">
     <div markdown class="jh-grid-para">
 
@@ -114,12 +114,14 @@ There are two version of the universal front:
 
 ### Bottom Horns
 
-Two versions are available:
+Two versions are available with E34M1:
 
-1. `bottom_horns_fi.stl`: Modified version of the stock bottom horns.
-2. `bottom_horns_klicky_fi.stl`: Like the above, but with support for Klicky.
+1. Stock Bottom Horns: Modified version of the stock EVA 3 bottom.
+2. Klicky Bottom Horns: Like the above, but with support for Klicky.
 
-=== "**1** `bottom_horns_fi.stl`"
+[Additional options are available as mods.](tour.md#related-and-contributed-mods)
+
+=== "Stock Bottom Horns"
     <div markdown class="jh-grid-container jh-grid-2">
     <div markdown class="jh-grid-para">
 
@@ -134,7 +136,7 @@ Two versions are available:
     </div>
     </div>
 
-=== "**2** `bottom_horns_klicky_fi.stl`"
+=== "Klicky Bottom Horns"
     <div markdown class="jh-grid-container jh-grid-2">
     <div markdown class="jh-grid-para">
 
@@ -154,12 +156,14 @@ Two versions are available:
 
 ### Rear Cooling Inlet
 
-Two versions are available:
+Two versions are available with E34M1:
 
-1. `5015_inlet_fi.stl`: Modified stock 5015 inlet with lower height
-2. `5015_sideways_inlet_fi.stl`: Low-height sideways mount for a 5015 part fan.
+1. Low-Profile Cooling Inlet: Modified stock 5015 inlet with lower height.
+2. Low-Profile Sideways Cooling Inlet: Low-height sideways mount for a 5015 part fan.
 
-=== "**1** `5015_inlet_fi.stl`"
+There are [mods available](tour.md#related-and-contributed-mods) to use stock EVA 3 intakes with E34M1, as well.
+
+=== "Low-Profile Cooling Inlet"
     <div markdown class="jh-grid-container jh-grid-2">
     <div markdown class="jh-grid-para">
 
@@ -177,7 +181,7 @@ Two versions are available:
     </div>
     </div>
 
-=== "**2** `5015_sideways_inlet_fi.stl`"
+=== "Low-Profile Sideways Cooling Inlet"
     <div markdown class="jh-grid-container jh-grid-2">
     <div markdown class="jh-grid-para">
 
@@ -195,28 +199,64 @@ Two versions are available:
     </div>
     </div>
 
-## Other EVA Parts
+## Other Parts
 
 ### ABL
 
-Currently, only the BLTouch and BLTouch Volcano mounts use the ABL mounts.
+The ABL mount point offers support for several ABL/hotend combinations:
 
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
+1. BLTouch
+2. BLTouch for Volcano hotends
+3. CR Touch (non-Volcano)
+4. CR Touch Volcano support is available through [this mod](https://www.printables.com/model/434179-eva3-uhf-cr-touch).
 
-| Parts     | Qty | Notes |
-|-----------|-----|-------|
-| [:material-printer-3d-nozzle: `bl_touch_mount.stl`][bltouch_mount] | 1 | |
-| Hex Nut, M3               | 2 | |
-| Screw, M3-0.5 x 6mm       | 2 | May substitute 8mm. |
-| Screw, M3-0.5 x 8mm       | 2 | |
+=== "BLTouch"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
 
-</div>
-<div markdown class="jh-grid-img">
-![bltouch_illustration](img/parts/bltouch_mount.png){ width=100px }
-</div>
-</div>
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `bl_touch_mount.stl`][bltouch_mount] | 1 | |
+    | Hex Nut, M3               | 2 | |
+    | Screw, M3-0.5 x 6mm       | 2 | May substitute 8mm. |
+    | Screw, M3-0.5 x 8mm       | 2 | |
 
+    </div>
+    <div markdown class="jh-grid-img">
+    ![bltouch_illustration](img/parts/bltouch_mount.png){ width=100px }
+    </div>
+    </div>
+=== "BLTouch Volcano"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `bl_touch_volcano_mount.stl`][bltouch_volcano] | 1 | |
+    | Hex Nut, M3               | 2 | |
+    | Screw, M3-0.5 x 6mm       | 2 | May substitute 8mm. |
+    | Screw, M3-0.5 x 8mm       | 2 | |
+
+    </div>
+    <div markdown class="jh-grid-img">
+    <!-- ![bltouch_illustration](img/parts/bltouch_mount.png){ width=100px } -->
+    </div>
+    </div>
+=== "CR Touch"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `cr_touch_mount.stl`][crtouch_mount] | 1 | |
+    | Heat Set Insert, M3x5x4   | 2 | |
+    | Screw, M3-0.5 x 8mm       | 4 | |
+
+    </div>
+    <div markdown class="jh-grid-img">
+    <!-- ![bltouch_illustration](img/parts/bltouch_mount.png){ width=100px } -->
+    </div>
+    </div>
 
 ### Front Intake Duct
 
@@ -239,8 +279,6 @@ Hotend cooling fans may be attached using an intake duct that allows two (2) scr
 ![intake_illustration](img/parts/intake_duct.png){ width=256px }
 </div>
 </div>
-
-## New Parts
 
 ### Toolhead PCB Mount
 
@@ -367,6 +405,25 @@ The cat face shroud is purely cosmetic and uses the same materials as the stock 
     </div>
     </div>
 
+### X Axis Stop Block
+
+This is an adaptation of the M1 stop block for EVA 3.
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+| Parts     | Qty | Notes |
+|-----------|-----|-------|
+| [:material-printer-3d-nozzle: `x_axis_stop_block.stl`][x_stop_block] | 1 | |
+| Screw, M3-0.5 x 8mm | 2 | |
+| Tee Nut, Drop In, M3 | 2 | Roll in tee nuts may be used for easier installation. |
+
+</div>
+<div markdown class="jh-grid-img">
+![x_stop_block_illustration](img/parts/x_stop_block.png){ width=200px }
+</div>
+</div>
+
 ### Z End Stop Mount
 
 This part is necessary for Ender 5 Pros with stock (non-Hydra) Z kinematics. This part mounts the limit switch higher than normal.
@@ -386,24 +443,5 @@ This part is necessary for Ender 5 Pros with stock (non-Hydra) Z kinematics. Thi
 </div>
 <div markdown class="jh-grid-img">
 ![z_endstop_illustration](img/parts/z_limit_switch.png){ width=256px }
-</div>
-</div>
-
-### X Axis Stop Block
-
-This is an adaptation of the M1 stop block for EVA 3.
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-| Parts     | Qty | Notes |
-|-----------|-----|-------|
-| [:material-printer-3d-nozzle: `x_axis_stop_block.stl`][x_stop_block] | 1 | |
-| Screw, M3-0.5 x 8mm | 2 | |
-| Tee Nut, Drop In, M3 | 2 | Roll in tee nuts may be used for easier installation. |
-
-</div>
-<div markdown class="jh-grid-img">
-![x_stop_block_illustration](img/parts/x_stop_block.png){ width=200px }
 </div>
 </div>
