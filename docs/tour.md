@@ -94,6 +94,8 @@ The side ABL mount is modified from stock EVA.
 !!! note
     Not all ABL methods use the ABL mount (e.g., Klicky, Beacon).
 
+    See [Related and Contributed Mods](#related-and-contributed-mods) for user-contributed Klicky and Beacon mounts.
+
 <figure markdown>
 ![abl mount](img/tour/abl.png){width="300px"}
 
@@ -173,4 +175,4 @@ These are user mods that add compatibility or new features to EVA 3.
 | [EVA 3 Beltless backplate for dual 5015](https://www.printables.com/model/430281-eva-3-beltless-backplate-for-dual-5015) | [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about) | Allows any stock rear intake to be used with E34M1. |
 | [E34M1/EVA 3 Lightweight Back Piece ](https://www.printables.com/model/431146-e34m1eva-3-lightweight-back-piece) | [jonspaceharper](https://www.printables.com/social/511131-jonspaceharper/about) | Allows any stock rear intake to be used with E34M1. Lightweight remix of the above. |
 | [E34M1/EVA 3 Dragon Hotend Mount](https://www.printables.com/model/436000-e34m1eva-3-dragon-hotend-mount) | [jonspaceharper](https://www.printables.com/social/511131-jonspaceharper/about) | Supports Dragon BMO hotends.
-
+| [Beacon Mount for E34M1](https://www.printables.com/model/438193-beacon-mount-solution-for-e34m1-eva-3-for-mercury-) | [cuiviemen](https://www.printables.com/social/127292-cuiviemen/about) | Beacon for non-Volcano hotends. |
