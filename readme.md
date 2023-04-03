@@ -4,11 +4,9 @@ This repository stores the core files for E34M1 and a number of mods. Note that 
 
 ## Getting Started
 
-If you're new to E34M1 or EVA 3, head to the [Tour](https://jon-harper.github.io/E34M1/tour) to get started.
+If you're new to E34M1 or EVA 3, head to the **[Tour](https://jon-harper.github.io/E34M1/tour)** to get started.
 
-## Links
-
-- [E34M1 Documentation](https://jon-harper.github.io/E34M1/)
+- **[E34M1 Documentation](https://jon-harper.github.io/E34M1/)**
 - [EVA 3](https://main.eva-3d.page/)
 - [ZeroG](https://docs.zerog.one/)
 
