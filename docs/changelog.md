@@ -6,6 +6,19 @@ date: 2023-1-26
 hide: navigation
 ---
 
+## April 2023
+
+### 23/04/05
+
+- Updated docs with Trihorn and Klicky Trihorn.
+- Updated doc links.
+- Renamed a number of files.
+
+### 23/04/04
+
+- Added Trihorn and Klicky Trihorn
+- Began prepping STLs and CAD to move to the E34M1 repo.
+
 ## March 2023
 
 ### 23/03/30
