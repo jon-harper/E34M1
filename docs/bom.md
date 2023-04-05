@@ -114,14 +114,14 @@ There are two version of the universal front:
 
 ### Bottom Horns
 
-Two versions are available with E34M1:
+Several versions are available for E34M1. Which version you should use depends on your hotend and your ABL method.
 
 1. Stock Bottom Horns: Modified version of the stock EVA 3 bottom.
 2. Klicky Bottom Horns: Like the above, but with support for Klicky.
 
 [Additional options are available as mods.](tour.md#related-and-contributed-mods)
 
-=== "Stock Bottom Horns"
+=== "Stock Horns"
     <div markdown class="jh-grid-container jh-grid-2">
     <div markdown class="jh-grid-para">
 
@@ -136,7 +136,7 @@ Two versions are available with E34M1:
     </div>
     </div>
 
-=== "Klicky Bottom Horns"
+=== "Stock Horns for Klicky"
     <div markdown class="jh-grid-container jh-grid-2">
     <div markdown class="jh-grid-para">
 
@@ -153,6 +153,41 @@ Two versions are available with E34M1:
     <!-- ![bottom_illustration](img/parts/bottom_horns.png){ width=256px} -->
     </div>
     </div>
+=== "Stock Horns for Beacon"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `beacon_bottom.stl`][bottom_beacon]     | 1 | |
+    | Heat Set Insert, M3x5x4   | 3 | |
+    | Low-Profile Beacon Kit    | 1 | See note below.               |
+
+    !!! note
+        You will need to remove (or not install) the Molex Sherlock connector for the Beacon PCB and solder your wires directly to the PCB.
+    </div>
+    <div markdown class="jh-grid-img">
+    <!-- ![bottom_illustration](img/parts/bottom_horns.png){ width=256px} -->
+    </div>
+    </div>
+=== "UHF Horns for Beacon"
+=== "Stock Trihorns"
+    <div markdown class="jh-grid-container jh-grid-2">
+    <div markdown class="jh-grid-para">
+
+    | Parts     | Qty | Notes |
+    |-----------|-----|-------|
+    | [:material-printer-3d-nozzle: `bottom_horns_fi.stl`][bottom_horns]     | 1 | |
+    | Heat Set Insert, M3x5x4   | 1 | |
+
+    </div>
+    <div markdown class="jh-grid-img">
+    ![bottom_illustration](img/parts/bottom_horns.png){ width=256px}
+    </div>
+    </div>
+
+=== "Stock Trihorns with Klicky"
+
 
 ### Rear Cooling Inlet
 
