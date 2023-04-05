@@ -1,37 +1,39 @@
-[x_stop_block]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/x_axis_stop_block.stl
-[z_limit_cover]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/z_limit_switch_cover.stl
-[z_limit_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/z_limit_switch_mount.stl
-[cable_guide]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/cable_guide.stl
-[pcb36_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/pcb36_mount.stl
-[pcb42_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/pcb42_mount.stl
-[pcb36_mount_cable_chain]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/pcb36_mount_cable_chain.stl
-[pcb42_mount_cable_chain]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/pcb42_mount_cable_chain.stl
-[pcb_shroud]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/pcb_shroud.stl
-[pcb_shroud_cat]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/pcb_shroud_cat.stl
-[pcb_shroud_30mm]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/pcb_shroud_30mm_fan.stl
-[front_intake]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/front_intake_duct.stl
-[bottom_horns]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/bottom_horns_fi.stl
-[bottom_klicky]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/bottom_horns_klicky_fi.stl
-[belt_grabber]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/belt_grabber.stl
-[bltouch_mount]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/bl_touch_mount.stl
-[bltouch_volcano]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/bl_touch_volcano_mount.stl
-[5015_inlet]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/5015_inlet_fi.stl
-[5015_sideways_inlet]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/5015_sideways_inlet_fi.stl
-[front]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/front_universal_fi.stl
-[front_pis]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/front_universal_pis_fi.stl
-[top]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/top_endstop_mgn12h.stl
-[top_pcb]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/STL/top_endstop_mgn12h_pcb.stl
+[x_stop_block]: https://github.com/jon-harper/E34M1/blob/main/STL/misc/x_axis_stop_block.stl
+[z_limit_cover]: https://github.com/jon-harper/E34M1/blob/main/STL/misc/z_limit_switch_cover.stl
+[z_limit_mount]: https://github.com/jon-harper/E34M1/blob/main/STL/misc/z_limit_switch_mount.stl
+[cable_guide]: https://github.com/jon-harper/E34M1/blob/main/STL/misc/cable_guide.stl
+[front_intake]: https://github.com/jon-harper/E34M1/blob/main/STL/misc/front_intake_duct.stl
 
-[step_5015_inlet]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/CAD/5015_inlet_fi.step
-[step_5015_sideways]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/CAD/5015_sideways_inlet.step
-[step_bltouch]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/CAD/BLTouch.step
-[step_z_endstop]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/CAD/Z%20Limit%20Switch.step
-[step_test_assembly]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/CAD/Test%20Assembly%20-%20Dragon%20BMO%20and%20BMG.step
-[step_front_intake]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/CAD/Front%20Intake%20Duct.step
-[fusion_volcano_horns]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/CAD/Bottom%20Horns%20-%20Volcano.f3d
-[step_volcano_horns]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/CAD/Bottom%20Horns%20-%20Volcano%20v1.step
-[step_core]: https://github.com/jon-harper/MercuryOneUserMods/blob/main/Mercury_One/jonspaceharper/EVA3/CAD/Core.Insert.CoreXY.step
+[pcb36_mount]: https://github.com/jon-harper/E34M1/blob/main/STL/pcb/mounts/pcb36_mount.stl
+[pcb42_mount]: https://github.com/jon-harper/E34M1/blob/main/STL/pcb/mounts/pcb42_mount.stl
+[pcb36_mount_cable_chain]: https://github.com/jon-harper/E34M1/blob/main/STL/pcb/mounts/pcb36_mount_cable_chain.stl
+[pcb42_mount_cable_chain]: https://github.com/jon-harper/E34M1/blob/main/STL/pcb/mounts/pcb42_mount_cable_chain.stl
 
-[folder_cad]: https://github.com/jon-harper/MercuryOneUserMods/tree/main/Mercury_One/jonspaceharper/EVA3/CAD
-[folder_stl]: https://github.com/jon-harper/MercuryOneUserMods/tree/main/Mercury_One/jonspaceharper/EVA3/STL
-[repo]: https://github.com/jon-harper/MercuryOneUserMods/tree/main/Mercury_One/jonspaceharper/EVA3
+[pcb_shroud]: https://github.com/jon-harper/E34M1/blob/main/STL/pcb/shrouds/pcb_shroud.stl
+[pcb_shroud_cat]: https://github.com/jon-harper/E34M1/blob/main/STL/pcb/shrouds/pcb_shroud_cat.stl
+[pcb_shroud_30mm]: https://github.com/jon-harper/E34M1/blob/main/STL/pcb/shrouds/pcb_shroud_30mm_fan.stl
+
+[bottom_horns]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/stock_bottom.stl
+[bottom_trihorns]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/stock_bottom_trihorn.stl
+[bottom_klicky]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/klicky_bottom.stl
+[bottom_klicky_trihorn]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/klicky_bottom_trihorn.stl
+[bottom_beacon]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/beacon_bottom.stl
+[bottom_beacon_uhf]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/beacon_bottom_uhf.stl
+
+[bltouch_mount]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/bl_touch_mount.stl
+[bltouch_volcano]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/bl_touch_volcano_mount.stl
+
+[front]: https://github.com/jon-harper/E34M1/blob/main/STL/front/stock_front.stl
+[front_pis]: https://github.com/jon-harper/E34M1/blob/main/STL/front/pis_front.stl
+[belt_grabber]: https://github.com/jon-harper/E34M1/blob/main/STL/front/belt_grabber.stl
+
+[top]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_mgn12h.stl
+[top_pcb]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_mgn12h_pcb.stl
+
+[5015_inlet]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_5015_inlet.stl
+[5015_sideways_inlet]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_5015_inlet_sideways.stl
+[rear_intake_adapter]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/stock_intake_adapter.stl
+
+[folder_cad]: https://github.com/jon-harper/E34M1/tree/main/CAD
+[folder_stl]: https://github.com/jon-harper/E34M1/tree/main/STL
+[repo]: https://github.com/jon-harper/E34M1
