@@ -10,4 +10,4 @@ This section of the documentation contains a page for each E34M1 module and the 
 Each component contains a bill of materials and visual illustrations of the heat set inserts locations, if applicable.
 
 !!! note
-    - All heat set inserts are "Voron-style" (M3x5x4) instead of the thinner "EVA-style" (M3x4.6x4).
+    All heat set inserts for E34M1 parts are "Voron-style" (M3x5x4) instead of the thinner "EVA-style" (M3x4.6x4).
