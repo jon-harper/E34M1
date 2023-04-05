@@ -3,7 +3,6 @@ title: Compatibility
 summary: Summary of changes and compatibility.
 authors: Jon Harper
 date: 2023-1-27
-hide: navigation
 ---
 
 ## Mecury One Compatibility
@@ -29,17 +28,30 @@ All E34M1 parts are designed for Mercury One/Voron-style inserts (M3x5x4) instea
 
 ### ABL
 
-!!! note
-    The side ABL mount points are different than EVA 3 stock.
+The side ABL mount points are different than EVA 3 stock, and not all ABL methods use them. The chart below shows which ABL methods are supported by E34M1.
 
-|          | Standard Hotends   | Volcano Hotends    | Mount Point |
+|          | Standard Hotends   | Volcano/UHF Hotends | Mount Point |
 |----------|:------------------:|:------------------:|:-----------:|
 | BLTouch  | :white_check_mark: | :white_check_mark: | ABL         |
+| CR Touch | :white_check_mark: | :white_check_mark: | ABL         |
 | Klicky   | :white_check_mark: | *Planned*          | Bottom      |
 | Beacon   | :white_check_mark: | :white_check_mark: | Bottom      |
-| CR Touch | :white_check_mark: | :white_check_mark: | ABL         |
 
 Support for 8mm and 12mm inductive probes is not currently planned.
+
+### Bottom Horns
+
+| Duct Type             | Standard Hotends | Volcano/UHF Hotends  |
+|-----------------------|:----------------:|:--------------------:|
+| Dual Horns            | :white_check_mark: | *See note*         |
+| Dual Horns for Klicky | :white_check_mark: | *See note*         |
+| Dual Horns for Beacon | :white_check_mark: | :white_check_mark: |
+| Trihorns              | :white_check_mark: | :x:                |
+| Trihorns for Klicky   | :white_check_mark: | :x:                |
+| Trihorns for Beacon   | :x:                | :x:                |
+
+!!! note
+    EVA 3's dual horn for Volcano hotends contains geometry errors. This limits support at present.
 
 ### Cable Management
 

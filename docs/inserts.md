@@ -13,44 +13,6 @@ This page demonstrates the location of every heat set insert in E34M1.
 
     Any stock parts that require inserts may still require the use of EVA-style inserts.
 
-## Standard EVA Parts
-
-### Universal Front
-
-<div markdown class="jh-grid-container jh-grid-3">
-<div markdown class="jh-grid-img">
-![illustration1](img/inserts/front1.png){width=300}
-</div>
-<div markdown class="jh-grid-img">
-![illustration2](img/inserts/front2.png){width=300}
-</div>
-<div markdown class="jh-grid-img">
-![illustration3](img/inserts/front3.png){width=300}
-</div>
-</div>
-
-**`universal_front_pis_fi.stl`** has two (2) additional inserts:
-
-![illustration_pis](img/inserts/front_pis.png){width=300}
-
-### Top with Endstop
-
-!!! warning "Caution"
-    The four (4) HSIs for for the drive module should be inserted from the bottom, not the top.
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-img">
-**`top_endstop_mgn12h.stl`**
-
-![top_pcb_illustration](img/inserts/top.png){ width=200px}
-</div>
-<div markdown class="jh-grid-img">
-**`top_endstop_mgn12h_pcb.stl`**
-
-![top_pcb_illustration](img/inserts/top_pcb.png){ width=200px}
-</div>
-</div>
-
 ### Bottom Horns
 
 <div markdown class="jh-grid-container jh-grid-2">

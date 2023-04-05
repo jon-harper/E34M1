@@ -40,7 +40,8 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.top
+    - toc.integrate
+    - toc.follow
 
   icon:
     logo: material/printer-3d-nozzle
@@ -82,6 +83,15 @@ nav:
   - index.md
   - tour.md
   - compat.md
+  - Modules:
+    - modules/index.md
+    - modules/front.md
+    - modules/top.md
+    - modules/bottom.md
+    - modules/rear.md
+    - modules/abl.md
+    - modules/pcb_mounts.md
+    - modules/pcb_shrouds.md
+    - modules/other.md
   - changelog.md
-  - bom.md
-  - inserts.md
+  

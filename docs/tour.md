@@ -3,7 +3,6 @@ title: Tour
 summary: E34M1 Modules Tour
 authors: Jon Harper
 date: 2023-1-26
-hide: navigation
 ---
 
 ## Overview
@@ -27,20 +26,18 @@ E34M1 replaces many of the printed parts from EVA 3, while maintaining compatibi
 
 ## E34M1 Core Modules
 
-These are all components specific to E34M1.
+These are all specific to E34M1.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">
 ### Front
 
-Numerous parts, including the hotend and belts, attach to the front piece.
+Numerous parts, including the hotend and belts, attach to the front module.
 
 <figure markdown>
 ![front](img/tour/front.png){width="300px"}
 
-[Bill of Materials](bom.md#universal-front){.md-button}
-
-[Heat Set Inserts](inserts.md#universal-front){.md-button}
+[Details and BOM](modules/front.md){.md-button}
 </figure>
 
 </div>
@@ -52,9 +49,7 @@ The top mounts the MGN12H carriage, the X axis endstop, and an optional cable gu
 <figure markdown>
 ![top](img/tour/top.png){width="300px"}
 
-[Bill of Materials](bom.md#top-with-endstop){.md-button}
-
-[Heat Set Inserts](inserts.md#top-with-endstop){.md-button}
+[Details and BOM](modules/top.md){.md-button}
 </figure>
 
 <div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
@@ -68,9 +63,7 @@ The bottom horns are primarily for part cooling. Some ABL methods (e.g., Beacon,
 <figure markdown>
 ![bottom](img/tour/bottom.png){width="300px"}
 
-[Bill of Materials](bom.md#bottom-horns){.md-button}
-
-[Heat Set Inserts](inserts.md#bottom-horns){.md-button}
+[Details and BOM](modules/bottom.md){.md-button}
 </figure>
 </div>
 <div markdown class="jh-card">
@@ -81,9 +74,7 @@ Stock EVA has a rear piece in this location that acts as a belt tensioner. It is
 <figure markdown>
 ![inlet](img/tour/inlet.png){width="300px"}
 
-[Bill of Materials](bom.md#rear-cooling-inlet){.md-button}
-
-[Heat Set Inserts](inserts.md#rear-cooling-inlet){.md-button}
+[Details and BOM](modules/rear.md){.md-button}
 </figure>
 </div>
 <div markdown class="jh-card">
@@ -99,9 +90,7 @@ The side ABL mount is modified from stock EVA.
 <figure markdown>
 ![abl mount](img/tour/abl.png){width="300px"}
 
-[Bill of Materials](bom.md#abl){.md-button}
-
-[Heat Set Inserts](inserts.md#abl){.md-button}
+[Details and BOM](modules/abl.md){.md-button}
 </figure>
 </div>
 </div>
@@ -158,11 +147,11 @@ E34M1 provides several other components that may be useful:
 
 | Component                     | Purpose |
 |-------------------------------|---------|
-| [Front Intake Duct](bom.md#front-intake-duct) | Allows hotend cooling fans to be removed with two (2) screws. |
-| [X Axis Stop Block](bom.md#x-axis-stop-block) | Bumper for the X axis endstop, adapted from M1.1. |
-| [Z Limit Switch Mount](bom.md#z-end-stop-mount) | Covers the Z endstop PCB. |
-| [Toolhead PCB Mounts](bom.md#toolhead-pcb-mount) | Mounts for '36 and '42 PCBs for NEMA17 steppers. |
-| [Toolhead PCB Shrouds](bom.md#toolhead-pcb-shroud) | Shrouds to cover toolhead PCB wiring. |
+| [Front Intake Duct](modules/other.md#front-intake-duct) | Allows hotend cooling fans to be removed with two (2) screws. |
+| [X Axis Stop Block](modules/other.md#x-axis-stop-block) | Bumper for the X axis endstop, adapted from M1.1. |
+| [Z Limit Switch Mount](modules/other.md#z-endstop-mount) | Covers the Z endstop PCB. |
+| [Toolhead PCB Mounts](modules/pcb_mounts.md) | Mounts for '36 and '42 PCBs for NEMA17 steppers. |
+| [Toolhead PCB Shrouds](modules/pcb_shrouds.md) | Shrouds to cover toolhead PCB wiring. |
 
 ## Related and Contributed Mods
 

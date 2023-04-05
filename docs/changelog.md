@@ -3,13 +3,15 @@ title: Changelog
 summary: Materials for each E34M1 part
 authors: Jon Harper
 date: 2023-1-26
-hide: navigation
 ---
 
 ## April 2023
 
 ### 23/04/05
 
+- Visual refresh:
+    - BOM and heat set insert pages are combined into a Modules category.
+    - TOC is integrated into the left along with each section.
 - Updated docs with Trihorn and Klicky Trihorn.
 - Updated doc links.
 - Renamed a number of files.
