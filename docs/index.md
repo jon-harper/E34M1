@@ -17,7 +17,7 @@ Take the [Tour](tour.md) if you're unfamiliar with EVA 3 or E34M1.
 <div markdown class="jh-grid-container jh-grid-2 jh-link-grid">
 [:material-directions: Tour of E34M1](tour.md)
 [:octicons-list-ordered-24: Module List](modules/index.md)
-[:octicons-checklist-24: Compatibility](compat.md)
+[:octicons-checklist-24: Compatibility](compat/index.md)
 [:octicons-log-24: Changelog](changelog.md)
 </div>
 </div>

@@ -97,7 +97,7 @@ The side ABL mount is modified from stock EVA.
 
 ## Stock EVA Modules
 
-These components have not changed from EVA. As such, you will need to download the correct parts from the [EVA](https://main.eva-3d.page/) site or elsewhere (e.g., [Printables](https://printables.com)).
+These components have not changed from EVA. As such, you will need to download the correct parts from the [EVA](https://main.eva-3d.page/) site or elsewhere (e.g., [Printables](https://printables.com)). We've assembled a list of known hotend and drive mounts.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">
@@ -108,22 +108,22 @@ This mounts the hotend, cooling fan, and optional shroud.
 <figure markdown>
 ![hotend](img/tour/hotend.png){width="300px"}
 
-[Stock EVA 3 Hotends](https://main.eva-3d.page/heat_insert/hotend/bmo/){.md-button}
+[EVA 3 Hotends](compat/hotends.md){.md-button}
 </figure>
 
 </div>
 <div markdown class="jh-card">
-### Drive
+### Drive/Extruder
 
 The drive module attaches the extruder and extruder stepper to the toolhead.
 
 !!! note 
-    Mounting the Drive (extruder and stepper) assembly uses seven (7) M3-0.5 x 8mm SHCS with stock EVA 3. Screws that fasten to the Top module should be substituted with M3-0.5 x 12mm SHCS. This is usually three (3) or four (4) screws.
+    Mounting the Drive (extruder and stepper) assembly uses six (6) or seven (7) M3-0.5 x 8mm SHCS with stock EVA 3. Screws that fasten to the Top module should be substituted with M3-0.5 x 12mm SHCS. This is usually three (3) or four (4) screws.
 
 <figure markdown>
 ![drive](img/tour/drive.png){width="300px"}
 
-[Stock EVA 3 Drive Modules](https://main.eva-3d.page/heat_insert/drive/bmg/){.md-button}
+[EVA 3 Extruders](compat/drives.md){.md-button}
 </figure>
 
 </div>

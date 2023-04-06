@@ -15,15 +15,17 @@ There are two version of the front module:
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-| Parts     | Qty | Notes |
-|-----------|-----|-------|
-| [:material-printer-3d-nozzle: `stock_front.stl`][front]  | 1 | |
-| [:material-printer-3d-nozzle: `belt_grabber.stl`][belt_grabber] | 2 | |
-| Screw, M3-0.5 x 6mm       | 4    | May substitute with 8mm. |
-| Screw, M3-0.5 x 40mm      | 4    | |
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `stock_front.stl`][front]  | 1 |
+| [:material-printer-3d-nozzle: `belt_grabber.stl`][belt_grabber] | 2 |
+| Screw, M3-0.5 x 6mm       | 4    |
+| Screw, M3-0.5 x 40mm      | 4    |
 | Heat Set Insert, M3x5x4   | 14   |
-| *ADXL345*                 | *1*  | *Optional.* |
-| *Screw, M3-0.5 x 8mm*     | *2*  | *Optional with ADXL345.* |
+| *ADXL345*                 | *1*  |
+| *Screw, M3-0.5 x 8mm*     | *2*  |
+
+*Italic parts are optional.*
 
 </div>
 <div markdown class="jh-grid-img">
@@ -49,14 +51,16 @@ There are two version of the front module:
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-| Parts     | Qty | Notes |
-|-----------|-----|-------|
-| [:material-printer-3d-nozzle: `pis_front.stl`][front_pis]  | 1 | |
-| [:material-printer-3d-nozzle: `belt_grabber.stl`][belt_grabber] | 2 | |
-| Screw, M3-0.5 x 6mm       | 4 | May substitute with 8mm. |
-| Screw, M3-0.5 x 8mm       | 2 | |
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `pis_front.stl`][front_pis]  | 1 |
+| [:material-printer-3d-nozzle: `belt_grabber.stl`][belt_grabber] | 2 |
+| Screw, M3-0.5 x 6mm       | 4 |
 | Heat Set Insert, M3x5x4   | 16 |
-| FYSETC Portable Input Shaper | 1 |
+| *FYSETC Portable Input Shaper* | *1* |
+| *Screw, M3-0.5 x 8mm*       | *2* |
+
+*Italic parts are optional.*
 
 </div>
 <div markdown class="jh-grid-img">
