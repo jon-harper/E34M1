@@ -10,22 +10,16 @@ Welcome! E34M1 is a project to adapt [EVA 3][eva3] for the [Mercury One][merc1] 
 
 Take the [Tour](tour.md) if you're unfamiliar with EVA 3 or E34M1.
 
-<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-container jh-grid-1">
 <div markdown class="jh-card">
-### General Links
+### General Information
 
-<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
+<div markdown class="jh-grid-container jh-grid-2 jh-link-grid">
 [:material-directions: Tour of E34M1](tour.md)
+[:octicons-list-ordered-24: Module List](modules/index.md)
 [:octicons-checklist-24: Compatibility](compat.md)
 [:octicons-log-24: Changelog](changelog.md)
 </div>
-</div>
-<div markdown class="jh-card">
-### Printing and Assembly 
-
-<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
-[:octicons-list-ordered-24: Bill of Materials](bom.md)
-[:material-screw-machine-round-top: Heat Set Inserts](inserts.md)
 </div>
 </div>
 </div>
