@@ -7,6 +7,13 @@ date: 2023-1-26
 
 ## April 2023
 
+### 23/04/06
+
+- Updated graphics and added missing graphics.
+- Finished inlining BOM and insert data.
+- Added accreditation to parts that are mods (mostly bottom horns)
+- Updated landing page.
+
 ### 23/04/05
 
 - Visual refresh:
