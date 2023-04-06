@@ -20,7 +20,7 @@ See the [`/CAD`][folder_cad] folder for a sample assembly in `STEP` format.
 
 ## EVA 3 Compatibility
 
-E34M1 is generally compatible with EVA 3 hotend mounts and drive modules. Stock EVA cooling inlets may be used with E34M1 with an adapter.
+E34M1 is generally compatible with EVA 3 hotend mounts and drive modules. See the [Hotends](hotends.md) and [Extruder](drive.md) pages for a list of known mounts (including non-stock mods).
 
 ### Heat Set Inserts
 
@@ -52,6 +52,11 @@ Support for 8mm and 12mm inductive probes is not currently planned.
 
 !!! note
     EVA 3's dual horn for Volcano hotends contains geometry errors. This limits support at present.
+
+### Cooling Inlets
+
+Stock EVA cooling inlets may be used with E34M1 with an [adapter](../modules/rear.md#stock-rear-inlet-adapter).
+
 
 ### Cable Management
 

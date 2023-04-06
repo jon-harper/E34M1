@@ -82,7 +82,10 @@ plugins:
 nav:
   - index.md
   - tour.md
-  - compat.md
+  - Compatibility:
+    - compat/index.md
+    - compat/hotends.md
+    - compat/drives.md
   - Modules:
     - modules/index.md
     - modules/front.md
