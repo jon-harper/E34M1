@@ -20,7 +20,7 @@ See the [`/CAD`][folder_cad] folder for a sample assembly in `STEP` format.
 
 ## EVA 3 Compatibility
 
-E34M1 is generally compatible with EVA 3 hotend mounts and drive modules. See the [Hotends](hotends.md) and [Extruder](drive.md) pages for a list of known mounts (including non-stock mods).
+E34M1 is generally compatible with EVA 3 hotend mounts and drive modules. See the [Hotends](hotends.md) and [Extruder](drives.md) pages for a list of known mounts (including non-stock mods).
 
 ### Heat Set Inserts
 
