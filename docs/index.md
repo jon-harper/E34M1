@@ -6,13 +6,13 @@ date: 2023-1-26
 hide: navigation toc
 ---
 
-Welcome! E34M1 is a project to adapt [EVA 3][eva3] for the [Mercury One][merc1] project.
+Welcome! E34M1 is a project that adapts the [EVA 3][eva3] toolhead for the [Mercury One][merc1] 3D printer conversion.
 
 Take the [Tour](tour.md) if you're unfamiliar with EVA 3 or E34M1.
 
 <div markdown class="jh-grid-container jh-grid-1">
 <div markdown class="jh-card">
-### General Information
+### General Links
 
 <div markdown class="jh-grid-container jh-grid-2 jh-link-grid">
 [:material-directions: Tour of E34M1](tour.md)
@@ -22,6 +22,16 @@ Take the [Tour](tour.md) if you're unfamiliar with EVA 3 or E34M1.
 </div>
 </div>
 </div>
+
+### Credits
+
+E34M1 builds on [EVA 3](eva3) by [Paweł Kucmus](https://github.com/pkucmus).
+
+A community of makers now grows E34M1, but special thanks go to [cuiviemen](https://www.printables.com/@cuiviemen_127292) and [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275) for their ideas, mod designs, testing, and continued support. Likewise, the testing and feedback from members of the [ZeroG Discord](https://discord.io/zerog) is invaluable.
+
+### License
+
+E34M1 licensed under the [Creative Commons BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 </div>
 
 <figure markdown>
