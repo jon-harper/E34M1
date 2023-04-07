@@ -40,6 +40,7 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.footer
     - toc.integrate
     - toc.follow
 
@@ -82,11 +83,7 @@ plugins:
 nav:
   - index.md
   - tour.md
-  - Compatibility:
-    - compat/index.md
-    - compat/hotends.md
-    - compat/drives.md
-  - Modules:
+  - Modules & BOM:
     - modules/index.md
     - modules/front.md
     - modules/top.md
@@ -96,5 +93,9 @@ nav:
     - modules/pcb_mounts.md
     - modules/pcb_shrouds.md
     - modules/other.md
+  - Compatibility & Support:
+    - compat/index.md
+    - compat/hotends.md
+    - compat/drives.md
   - changelog.md
   

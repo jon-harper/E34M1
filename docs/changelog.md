@@ -7,6 +7,12 @@ date: 2023-1-26
 
 ## April 2023
 
+### 23/04/07
+
+- Added license and credits.
+- Added images to hotends and extruders pages.
+- More formatting to the landing page.
+
 ### 23/04/06
 
 - Updated graphics and added missing graphics.
