@@ -185,7 +185,7 @@ Template:
 </div>
 </div>
 <div markdown class="jh-grid-img">
-![E3D Titan](../img/drives/){width="200px"}
+![E3D Titan](../img/drives/titan.png){width="200px"}
 </div>
 </div>
 
