@@ -285,7 +285,7 @@
 }
 
 .jh-card {
-    margin: 0rem 0.2rem;
+    margin: 0rem 0.2rem 0.5rem;
     padding: 0.25rem 0.5rem 0.2rem;
     border-width: 2px;
     border-style: solid;
@@ -295,8 +295,8 @@
 }
 
 .jh-card:is(:focus, :hover) {
-    box-shadow: 0px 0px 3px 0px var(--md-default-fg-color--lightest), 0px 0px 1px 2px var(--md-default-fg-color--lightest);
-    transition: 125ms;
+    box-shadow: 0px 0px 3px 0px var(--md-default-fg-color--lightest), 0px 0px 2px 2px var(--md-default-fg-color--lightest);
+    transition: 150ms;
 }
 
 .jh-card>h2, .jh-card>h3, .jh-card>h4, .jh-card>h5, .jh-card>h6 {
