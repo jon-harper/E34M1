@@ -13,6 +13,7 @@ date: 2023-1-26
 - Finished inlining BOM and insert data.
 - Added accreditation to parts that are mods (mostly bottom horns)
 - Updated landing page.
+- Expanded compatibility page with known hotends and drives.
 
 ### 23/04/05
 
