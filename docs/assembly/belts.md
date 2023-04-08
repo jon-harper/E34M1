@@ -1,0 +1,32 @@
+---
+title: Belts
+summary: Finish out the Core components.
+authors: Jon Harper
+date: 2023-4-8
+---
+
+### Overview
+
+<iframe src="https://jon-harper.github.io/E34M1/assets/vid/belts.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+
+### Parts
+
+| Part | Qty | Note |
+|---|---|---|
+| Belt Grabber | 2 | |
+| GT 2 belts   | 2 | |
+| M3 x 6mm screws | 4 | |
+
+### Steps
+
+1. Take the end of a length of belt and locate the bottom right belt catch.
+2. With the belt ribs facing away from the X axis extrusion (towards the front of the printer), slide 25-50cm (1-2") of the belt end through the *rear* hole for the belt.
+3. Take the end of belt loop and fold it forward, then slip it out through the *forward* hole for the belt.
+4. Draw some extra slack on the belt to keep it from slipping out easily.
+5. Repeat steps 1-4 with the top belt.
+6. Secure the belts using a belt grabber and two (2) M3 x 6mm screws.
+7. Thread the two belts through the CoreXY system of your Mercury One build.
+8. Check that each belt is seated on each idler and engages properly with the stepper.
+9. Repeat steps 1-4 with the left belts.
+10. Draw firmly and equally on *both* belts, then push the remaining belt grabber down to keep them from slipping.
+11. Keep firm tension on the belt grabber and install the remaining two (2) 6mm screws.

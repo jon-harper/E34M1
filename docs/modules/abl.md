@@ -23,12 +23,11 @@ The following ABL and hotend length combinations are available:
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-| Parts     | Qty | Notes |
-|-----------|-----|-------|
-| [:material-printer-3d-nozzle: `bl_touch_mount.stl`][bltouch_mount] | 1 | |
-| Hex Nut, M3               | 2 | |
-| Screw, M3-0.5 x 6mm       | 2 | May substitute 8mm. |
-| Screw, M3-0.5 x 8mm       | 2 | |
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `bl_touch_mount.stl`][bltouch_mount] | 1 |
+| Hex Nut, M3               | 2 |
+| Screw, M3-0.5 x 6mm       | 4 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -41,12 +40,11 @@ The following ABL and hotend length combinations are available:
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-| Parts     | Qty | Notes |
-|-----------|-----|-------|
-| [:material-printer-3d-nozzle: `bl_touch_volcano_mount.stl`][bltouch_volcano] | 1 | |
-| Hex Nut, M3               | 2 | |
-| Screw, M3-0.5 x 6mm       | 2 | May substitute 8mm. |
-| Screw, M3-0.5 x 8mm       | 2 | |
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `bl_touch_volcano_mount.stl`][bltouch_volcano] | 1 |
+| Hex Nut, M3               | 2 |
+| Screw, M3-0.5 x 6mm       | 4 |
 
 </div>
 <div markdown class="jh-grid-img">

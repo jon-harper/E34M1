@@ -97,5 +97,14 @@ nav:
     - compat/index.md
     - compat/hotends.md
     - compat/drives.md
+  - Assembly:
+    - assembly/index.md
+    - assembly/first.md
+    - assembly/core.md
+    - assembly/fan.md
+    - assembly/belts.md
+    - assembly/hotend.md
+    - assembly/drive.md
+    - assembly/abl.md
   - changelog.md
   
