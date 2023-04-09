@@ -1,11 +1,11 @@
 ---
-title: ABL
-summary: Components for the ABL Module
+title: ABL Side Mount
+summary: Components for the ABL Side Mount
 authors: Jon Harper
 date: 2023-4-5
 ---
 
-The ABL module is a mount point for some ABL methods.
+The side mount is used by most ABL methods and attaches to the Front.
 
 !!! note
     See the [Bottom Horns](bottom.md) module for Klicky and Beacon mounting options.
@@ -15,8 +15,9 @@ The following ABL and hotend length combinations are available:
 
 1. BLTouch for Standard Hotends
 2. BLTouch for Volcano Hotends
-<!-- 3. CR Touch for Standard Hotends
-4. CR Touch Volcano Hotends support is available through [this mod](https://www.printables.com/model/434179-eva3-uhf-cr-touch). -->
+<!-- 3. CR Touch for Standard Hotends -->
+
+CR Touch Volcano Hotends support is available through [this mod](https://www.printables.com/model/434179-eva3-uhf-cr-touch).
 
 ### BLTouch for Standard Hotends
 
