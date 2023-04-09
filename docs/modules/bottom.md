@@ -75,7 +75,7 @@ This page is divided into two sections for standard-length hotends and Volcano/U
 **Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
 
 !!! note
-    You will need to remove (or not install) the Molex Sherlock connector for the Beacon PCB and solder your wires directly to the PCB.
+    You will need to remove (or not install) the Molex Sherlock connector for the Beacon PCB and solder your wires directly to the PCB. See [cuiviemen](https://www.printables.com/@cuiviemen_127292)'s [original Beacon mod](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) for a Rear Intake that helps with wire routing.
 
     The kit should include the ultra-low-profile M3 screws needed to attach the Beacon.
 
@@ -155,6 +155,8 @@ Volcano bottom horn support is limited. The EVA 3 source file contains gemeotry 
 **Origin**: [EVA3.0 Phaetus Rapido UHF/Volcano +Beacon for Mercury One.1 by ZERO G](https://www.printables.com/model/428524-eva30-phaetus-rapido-uhfvolcano-beacon-for-mercury) by [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)
 
 !!! note
+    See [cuiviemen](https://www.printables.com/@cuiviemen_127292)'s [original Beacon mod](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) for a Rear Intake that helps with wire routing.
+
     The kit should include the ultra-low-profile M3 screws needed to attach the Beacon.
 
 ??? note "Heat Set Inserts"

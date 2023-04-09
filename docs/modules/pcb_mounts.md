@@ -10,7 +10,10 @@ Mounts for both NEMA14 ("36") and NEMA17 ("42") PCBs are available. Examples of 
 Variants of each mount are available for both cable guides and drag chains.
 
 !!! important
-    These mounts are designed for NEMA17 steppers. There are numerous off-the-shelf options for NEMA14 steppers.
+    These mounts are designed for NEMA17 steppers. There are numerous off-the-shelf options for NEMA14 steppers:
+
+    - ZeroG Discord members can use TurtleCrawler's [CANbus 36 mounts](https://discord.com/channels/747612067951018075/1058784239539191838/1058784239539191838)
+    - [https://github.com/KayosMaker/CANboard_Mounts](https://github.com/KayosMaker/CANboard_Mounts)
 
 ### '36 PCB, Cable Guide
 <div markdown class="jh-grid-container jh-grid-2">
