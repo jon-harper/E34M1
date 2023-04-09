@@ -3,7 +3,7 @@ site_description: Documentation for the EVA3 for Mercury One mod.
 site_author: Jon Harper
 site_url: https://jon-harper.github.io/E34M1
 repo_url: https://github.com/jon-harper/E34M1
-repo_name: E34M1 Repository
+repo_name: "GitHub: jon-harper/E34M1"
 edit_uri: ""
 copyright: Copyright &copy; 2023 Jonathan Harper
 
@@ -64,12 +64,9 @@ theme:
 
 extra:
   social:
-    - icon: fontawesome/brands/reddit
-      link: https://www.reddit.com/user/jonspaceharper
-      name: "u/jonspaceharper on Reddit"
     - icon: simple/kofi
       link: https://ko-fi.com/jonspaceharper
-      name: "Support me on Ko-Fi!"
+      name: "Support E34M1 using Ko-Fi!"
     - icon: material/home
       link: https://jon-harper.github.io/
       name: "jonspaceharper's Homepage"
