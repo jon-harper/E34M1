@@ -7,6 +7,16 @@ date: 2023-1-26
 
 ## April 2023
 
+### 23/04/09
+
+- Finished assembly docs.
+- Added notes to several modules.
+- Updated git license to reflect EVA 3 license (CC BY-NC-SA 4.0).
+
+### 23/04/08 
+
+- Added assembly docs outline.
+
 ### 23/04/07
 
 - Added license and credits.
