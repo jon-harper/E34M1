@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#time" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -464,7 +469,7 @@
   
     <li class="md-nav__item">
       <a href="../modules/abl/" class="md-nav__link">
-        ABL
+        ABL Side Mount
       </a>
     </li>
   
@@ -638,10 +643,164 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Assembly Overview
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Assembly Overview
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#time" class="md-nav__link">
+    Time
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#considerations" class="md-nav__link">
+    Considerations
+  </a>
+  
+    <nav class="md-nav" aria-label="Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heat-set-inserts" class="md-nav__link">
+    Heat Set Inserts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lock-washers" class="md-nav__link">
+    Lock Washers
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="first/" class="md-nav__link">
+        First Steps
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="core/" class="md-nav__link">
+        Core Assembly
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="fan/" class="md-nav__link">
+        Part Cooling Fan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="belts/" class="md-nav__link">
+        Belts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hotend/" class="md-nav__link">
+        Hotend Module
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="drive/" class="md-nav__link">
+        Drive Module
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="abl/" class="md-nav__link">
+        ABL Side Mount
+      </a>
     </li>
   
 
@@ -685,7 +844,21 @@
 
   <h1>Assembly Overview</h1>
 
-<iframe src="https://jon-harper.github.io/E34M1/assets/vid/hotend.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+<p>This guide covers assembling a basic E34M1 build with a Dragon hotend, BMG extruder, and BLTouch. The first half of the assembly process—building the Core—is universal. The second half—adding the hotend, extruder, and ABL—will have the same general procedure but may differ in details.</p>
+<p>You should have your Mercury One build's X axis extrusion and linear rail assembled before following this guide. It is recommended that you include routing and securing the belts as part of the E34M1 build process.</p>
+<h2 id="time">Time</h2>
+<p>Assembly time depends on your experience level and build configuration. Wiring and connecting the belts are not part of this guide, but some guidence is given on these topics.</p>
+<p>Excluding wiring and belt routing, assembly time is approximately 30 minutes.</p>
+<h2 id="considerations">Considerations</h2>
+<h3 id="heat-set-inserts">Heat Set Inserts</h3>
+<p>All heat set inserts should be installed before beginning this guide. The <a href="../modules/">Modules &amp; BOM</a> section includes locations for every heat set insert included with E34M1.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning: Heat Set Inserts</p>
+<p>Stock EVA 3 uses M3 x 4.6mm OD x 4mm L heat set inserts. E34M1 maintains consistency with ZeroG and uses M3 x 5mm OD x 4mm L inserts (often called "Voron inserts"). Double-check which insert you should be using for third-party components to avoid damaging or ruining a printed part.</p>
+</div>
+<h3 id="lock-washers">Lock Washers</h3>
+<p>M3 lock washers are used extensively in this guide. Lock washers are not required (and cannot be used for the Drive module) but are strongly recommended to prevent loosening screws.</p>
+<p>To emphasize that they are optional, lock washers are <em>italicized</em> in the guide's Parts lists.</p>
 
 
 
@@ -722,13 +895,13 @@
       
       
         
-        <a href="../changelog/" class="md-footer__link md-footer__link--next" aria-label="Next: Changelog" rel="next">
+        <a href="first/" class="md-footer__link md-footer__link--next" aria-label="Next: First Steps" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Changelog
+              First Steps
             </div>
           </div>
           <div class="md-footer__button md-icon">
