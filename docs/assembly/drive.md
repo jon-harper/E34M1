@@ -8,7 +8,9 @@ date: 2023-4-8
 
 ## Overview
 
-<iframe src="https://jon-harper.github.io/E34M1/assets/vid/drive.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+<video controls="">
+  <source src="https://jon-harper.github.io/E34M1/assets/vid/drive.mp4" type="video/mp4">
+</video>
 
 The final major remaining piece of assembly is the extruder and stepper motor. If you are using a PCB mount, install the mount before proceeding. The PCB can be added later.
 

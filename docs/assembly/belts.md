@@ -7,7 +7,9 @@ date: 2023-4-8
 
 ## Overview
 
-<iframe src="https://jon-harper.github.io/E34M1/assets/vid/belts.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+<video controls="">
+  <source src="https://jon-harper.github.io/E34M1/assets/vid/belts.mp4" type="video/mp4">
+</video>
 
 Now we can secure the belts. If you aren't ready to install your belts, you can skip this stage for now.
 

@@ -7,7 +7,9 @@ date: 2023-4-8
 
 ## Overview
 
-<iframe src="https://jon-harper.github.io/E34M1/assets/vid/top.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+<video controls="">
+  <source src="https://jon-harper.github.io/E34M1/assets/vid/top.mp4" type="video/mp4">
+</video>
 
 First, we assemble the Top, X axis endstop, and cable guide.
 
