@@ -5,18 +5,27 @@ authors: Jon Harper
 date: 2023-4-8
 ---
 
-This guide covers assembling a basic E34M1 build. Your configuration may be different, but much of this guide will be the same or very similar.
+This guide covers assembling a basic E34M1 build with a Dragon hotend, BMG extruder, and BLTouch. The first half of the assembly process—building the Core—is universal. The second half—adding the hotend, extruder, and ABL—will have the same general procedure but may differ in details.
+
+You should have your Mercury One build's X axis extrusion and linear rail assembled before following this guide. It is recommended that you include routing and securing the belts as part of the E34M1 build process.
 
 ## Time
 
-Assembly time depends on your experience level and build configuration. Wiring and connecting the belts are not part of this guide, but guidence is given on these topics.
+Assembly time depends on your experience level and build configuration. Wiring and connecting the belts are not part of this guide, but some guidence is given on these topics.
 
+Excluding wiring and belt routing, assembly time is approximately 30 minutes.
 
-## Heat Set Inserts
+## Considerations
 
-This guide assumes that all heat set inserts are in place. The [Modules & BOM](../modules/index.md) section includes locations for every heat set insert included with E34M1.
+### Heat Set Inserts
 
-!!! warning "Warning: Know Your Inserts"
-    Stock EVA 3 uses M3 x 4.6mm OD x 4mm L heat set inserts. E34M1 maintains consistency with ZeroG and uses M3 x 5mm OD x 4mm L inserts. Double-check which insert you should be using for third-party components to avoid damaging or ruining a printed part.
+All heat set inserts should be installed before beginning this guide. The [Modules & BOM](../modules/index.md) section includes locations for every heat set insert included with E34M1.
 
-<!-- <iframe src="https://jon-harper.github.io/E34M1/assets/vid/hotend.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe> -->
+!!! warning "Warning: Heat Set Inserts"
+    Stock EVA 3 uses M3 x 4.6mm OD x 4mm L heat set inserts. E34M1 maintains consistency with ZeroG and uses M3 x 5mm OD x 4mm L inserts (often called "Voron inserts"). Double-check which insert you should be using for third-party components to avoid damaging or ruining a printed part.
+
+### Lock Washers
+
+M3 lock washers are used extensively in this guide. Lock washers are not required (and cannot be used for the Drive module) but are strongly recommended to prevent loosening screws.
+
+To emphasize that they are optional, lock washers are *italicized* in the guide's Parts lists.
