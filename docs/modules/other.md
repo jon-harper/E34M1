@@ -61,7 +61,7 @@ This part is necessary for Ender 5 Pros with stock (non-Hydra) Z kinematics. Thi
 | Parts     | Qty | Notes |
 |-----------|-----|-------|
 | [:material-printer-3d-nozzle: `z_limit_switch_cover.stl`][z_limit_cover] | 1 | |
-| [:material-printer-3d-nozzle: `z_limit_switch_mount.stl`][z_limit_cover] | 1 | |
+| [:material-printer-3d-nozzle: `z_limit_switch_mount.stl`][z_limit_mount] | 1 | |
 | Screw, M3-0.5 x 16mm | 2 | |
 | Screw, M5-0.8 x 8mm  | 1 | |
 | Tee Nut, Drop In, M5 | 1 | |
