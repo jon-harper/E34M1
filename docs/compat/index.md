@@ -24,7 +24,7 @@ E34M1 is generally compatible with EVA 3 hotend mounts and drive modules. See th
 
 ### Heat Set Inserts
 
-All E34M1 parts are designed for Mercury One/Voron-style inserts (M3x5x4) instead of the M3x4.6x4 inserts preferred by EVA. Every part has a bill of materials that reflects this.
+Stock EVA 3 uses M3 x 4.6mm OD x 4mm L heat set inserts. E34M1 maintains consistency with ZeroG and uses **M3 x 5mm OD x 4mm L inserts** (often called "Voron inserts"). Double-check which insert you should be using for third-party components to avoid damaging or ruining a printed part.
 
 ### ABL
 

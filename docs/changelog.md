@@ -7,6 +7,11 @@ date: 2023-1-26
 
 ## April 2023
 
+### 23/04/11
+
+- Optimized the design of the sideways inlet.
+- Worked with cuiviemen on an improved Beacon inlet and bottom.
+
 ### 23/04/09
 
 - Finished assembly docs.

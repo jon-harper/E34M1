@@ -15,6 +15,29 @@ Assembly time depends on your experience level and build configuration. Wiring a
 
 Excluding wiring and belt routing, assembly time is approximately 30 minutes.
 
+## :material-printer-3d-nozzle: Print Checklist
+
+Before continuing, check that you have all the printed parts necessary.
+
+The table below lists parts that are universal to all builds:
+
+| Module | Example Part | Qty |
+|---|---|---|
+| [Front](../modules/front.md)          | Stock Front                       | 1 |
+| Front                                 | Belt Grabbers                     | 2 |
+| [Top](../modules/top.md)              | Top with Endstop and Cable Guide  | 1 |
+| [Bottom Horns](../modules/bottom.md)  | Dual Horns                        | 1 |
+| [Rear Inlet](../modules/rear.md)      | Low-Profile Sideways Inlet        | 1 |
+| [Hotend Mount](../compat/hotends.md)  | Dragon BMO Mount                  | 1 |
+| [Drive Mount](../compat/drives.md)    | BMG Drive Mount           | 1 |
+
+The following build-specific parts are used in this guide:
+
+| Part | Example Part | Qty |
+|---|---|---|
+| [ABL Mount](../modules/abl.md)        | BLTouch Mount | 1 |
+| [Cable Guide](../modules/other.md)    | Other         | 1 |
+
 ## Considerations
 
 ### Heat Set Inserts
