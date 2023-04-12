@@ -5,13 +5,9 @@ authors: Jon Harper
 date: 2023-4-5
 ---
 
-The side mount is used by most ABL methods and attaches to the Front.
+The side mount is used by most ABL methods and attaches to the Front. See the [Bottom Horns](bottom.md) module for Klicky and Beacon mounting options.
 
-!!! note
-    See the [Bottom Horns](bottom.md) module for Klicky and Beacon mounting options.
-
-
-The following ABL and hotend length combinations are available:
+These ABL and hotend length combinations are available:
 
 1. BLTouch for Standard Hotends
 2. BLTouch for Volcano Hotends
@@ -23,6 +19,11 @@ CR Touch Volcano Hotends support is available through [this mod](https://www.pri
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
+**Description**
+
+Mounts a BLTouch.
+
+**Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
@@ -40,6 +41,12 @@ CR Touch Volcano Hotends support is available through [this mod](https://www.pri
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
+
+**Description**
+
+Adds support for BLTouch for longer hotends.
+
+**Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|

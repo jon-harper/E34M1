@@ -7,13 +7,19 @@ date: 2023-4-5
 
 There are two versions available of the Top module.
 
-1. Top with Endstop and Wire Anchor: Top piece modified for M1 with a cable guide.
-2. PCB Mount Top with Endstop: Top piece for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolhead-pcb-mount).
+1. Top with Endstop and Wire Anchor
+2. PCB Mount Top with Endstop
 
 ### Top with Endstop and Wire Anchor
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
+
+**Description**
+
+This is a stock EVA Top piece modified for users with umbilicals.
+
+**Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
@@ -27,16 +33,22 @@ There are two versions available of the Top module.
 </div>
 <div markdown class="jh-grid-img">
 ![top_illustration](../img/parts/top_endstop_mgn12h.png){ width=256px}
-</div>
-</div>
 
-??? note "Heat Set Inserts"
+??? info "Heat Set Insert Locations"
     ![top_pcb_illustration](../img/inserts/top.png){ width=200px}
+</div>
+</div>
 
 ### PCB Mount Top with Endstop
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
+
+**Description**
+
+A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolhead-pcb-mount).
+
+**Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
@@ -48,8 +60,8 @@ There are two versions available of the Top module.
 </div>
 <div markdown class="jh-grid-img">
 ![top_illustration](../img/parts/top_endstop_mgn12h_pcb.png){ width=256px}
-</div>
-</div>
 
-??? note "Heat Set Inserts"
+??? info "Heat Set Insert Locations"
     ![top_pcb_illustration](../img/inserts/top_pcb.png){ width=200px}
+</div>
+</div>

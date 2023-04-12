@@ -9,8 +9,8 @@ Mounts for both NEMA14 ("36") and NEMA17 ("42") PCBs are available. Examples of 
 
 Variants of each mount are available for both cable guides and drag chains.
 
-!!! important
-    These mounts are designed for NEMA17 steppers. There are numerous off-the-shelf options for NEMA14 steppers:
+!!! tip "Important"
+    These mounts are designed for NEMA17 steppers. There are several off-the-shelf options for NEMA14 steppers:
 
     - ZeroG Discord members can use TurtleCrawler's [CANbus 36 mounts](https://discord.com/channels/747612067951018075/1058784239539191838/1058784239539191838)
     - [https://github.com/KayosMaker/CANboard_Mounts](https://github.com/KayosMaker/CANboard_Mounts)
@@ -18,6 +18,12 @@ Variants of each mount are available for both cable guides and drag chains.
 ### '36 PCB, Cable Guide
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
+
+**Description**
+
+Mounts a '36 toolhead PCB with anchor points a cable guide. Meant for umbilical users.
+
+**Bill of Materials**
 
 | Parts     | Qty | Notes |
 |-----------|-----|-------|
@@ -31,16 +37,22 @@ Variants of each mount are available for both cable guides and drag chains.
 </div>
 <div markdown class="jh-grid-img">
 ![pcb36_illustration](../img/parts/pcb36.png){ width=200px }
-</div>
-</div>
 
-??? note "Heat Set Inserts"
+??? info "Heat Set Insert Locations"
     ![pcb36_illustration](../img/inserts/pcb36.png){ width=256px}
+</div>
+</div>
 
 ### '36 PCB, Drag Chain
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
+
+**Description**
+
+Mounts a '36 toolhead PCB with anchor points for an open drag chain.
+
+**Bill of Materials**
 
 | Parts     | Qty | Notes |
 |-----------|-----|-------|
@@ -53,16 +65,22 @@ Variants of each mount are available for both cable guides and drag chains.
 </div>
 <div markdown class="jh-grid-img">
 ![pcb36_illustration](../img/parts/pcb36_cable_chain.png){ width=200px }
-</div>
-</div>
 
-??? note "Heat Set Inserts"
+??? info "Heat Set Insert Locations"
     ![pcb36_illustration](../img/inserts/pcb36_chain.png){ width=256px}
+</div>
+</div>
 
 ### '42 PCB, Cable Guide
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
+
+**Description**
+
+Mounts a '46 toolhead PCB with anchor points a cable guide. Meant for umbilical users.
+
+**Bill of Materials**
 
 | Parts     | Qty | Notes |
 |-----------|-----|-------|
@@ -76,16 +94,22 @@ Variants of each mount are available for both cable guides and drag chains.
 </div>
 <div markdown class="jh-grid-img">
 ![pcb42_illustration](../img/parts/pcb42.png){ width=200px }
-</div>
-</div>
 
-??? note "Heat Set Inserts"
+??? info "Heat Set Insert Locations"
     ![pcb42_illustration](../img/inserts/pcb42.png){ width=256px}
+</div>
+</div>
 
 ### '42 PCB, Drag Chain
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
+
+**Description**
+
+Mounts a '46 toolhead PCB with anchor points for an open drag chain.
+
+**Bill of Materials**
 
 | Parts     | Qty | Notes |
 |-----------|-----|-------|
@@ -98,8 +122,8 @@ Variants of each mount are available for both cable guides and drag chains.
 </div>
 <div markdown class="jh-grid-img">
 ![pcb42_illustration](../img/parts/pcb42_cable_chain.png){ width=200px }
-</div>
-</div>
 
-??? note "Heat Set Inserts"
+??? info "Heat Set Insert Locations"
     ![pcb42_illustration](../img/inserts/pcb42_chain.png){ width=200px}
+</div>
+</div>

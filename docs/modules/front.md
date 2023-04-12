@@ -15,6 +15,14 @@ There are two version of the front module:
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+**Description**
+
+Modification of the stock EVA Front for Mercury One. This mounts an ADXL345 accelerometer.
+
+**Bill of Materials**
+
+*Italic parts are optional.*
+
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `stock_front.stl`][front]  | 1 |
@@ -25,15 +33,13 @@ There are two version of the front module:
 | *ADXL345*                 | *1*  |
 | *Screw, M3-0.5 x 8mm*     | *2*  |
 
-*Italic parts are optional.*
-
 </div>
 <div markdown class="jh-grid-img">
 ![front_illustration](../img/parts/front_universal.png){ width=256px}
 </div>
 </div>
 
-??? note "Heat Set Inserts"
+??? info "Heat Set Insert Locations"
     <div markdown class="jh-grid-container jh-grid-3">
     <div markdown class="jh-grid-img">
     ![illustration1](../img/inserts/front1.png){width=300}
@@ -51,6 +57,14 @@ There are two version of the front module:
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+**Description**
+
+Slightly modified Front that mounts a FYSETC portable input shaper.
+
+**Bill of Materials**
+
+*Italic parts are optional.*
+
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `pis_front.stl`][front_pis]  | 1 |
@@ -60,15 +74,13 @@ There are two version of the front module:
 | *FYSETC Portable Input Shaper* | *1* |
 | *Screw, M3-0.5 x 8mm*       | *2* |
 
-*Italic parts are optional.*
-
 </div>
 <div markdown class="jh-grid-img">
 ![front_illustration](../img/parts/front_universal_pis.png){ width=256px}
 </div>
 </div>
 
-??? note "Heat Set Inserts"
+??? info "Heat Set Insert Locations"
     <div markdown class="jh-grid-container jh-grid-3">
     <div markdown class="jh-grid-img">
     ![illustration1](../img/inserts/front1.png){width=300}

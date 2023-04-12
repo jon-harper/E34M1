@@ -18,6 +18,10 @@ Three components are available:
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+**Description**
+
+This is a modified version of the stock EVA 3 cooling inlet. It has a much-reduced height to avoid clearance issues with BMG extruders.
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -29,21 +33,25 @@ Three components are available:
 | Heat Set Insert, M3x5x4   | 1 |
 | 5015 Radial Fan           | 1 |
 
-**Origin**: EVA 3
-
 </div>
 <div markdown class="jh-grid-img">
 ![inlet_illustration](../img/parts/5015_inlet.png){ width=256px}
-</div>
-</div>
 
 ??? "Heat Set Inserts"
     ![inlet_illustration](../img/inserts/inlet.png){ width=256px}
+</div>
+</div>
 
 ### Low-Profile Sideways Cooling Inlet
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
+
+**Description**
+
+This is a custom cooling inlet with that maximizes available build area.
+
+Use this if you are not sure which cooling inlet is best for you.
 
 **Bill of Materials**
 
@@ -56,11 +64,12 @@ Three components are available:
 | Heat Set Insert, M3x5x4   | 1 |
 | 5015 Radial Fan           | 1 |
 
-??? "Heat Set Inserts"
-    ![inlet_illustration](../img/inserts/inlet_sideways.png){ width=256px}
 </div>
 <div markdown class="jh-grid-para">
 ![inlet_illustration](../img/parts/5015_sideways_inlet.png){ width=256px}
+
+??? "Heat Set Inserts"
+    ![inlet_illustration](../img/inserts/inlet_sideways.png){ width=256px}
 </div>
 </div>
 
@@ -69,9 +78,13 @@ Three components are available:
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+**Description**
+
 !!! info "Based on work by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
 
-This is a modification of the the sideways mount for Beacon. It adds clearance for the Beacon connector and a cutout with zip tie anchor for the wire.
+This is a modification of the the sideways inlet that adds clearance for the Beacon connector and a cutout with zip tie anchor for the wire.
+
+**Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
 
 **Bill of Materials**
 
@@ -80,12 +93,12 @@ This is a modification of the the sideways mount for Beacon. It adds clearance f
 | [:material-printer-3d-nozzle: `stock_intake_adapter.stl`][rear_intake_adapter] | 1 |
 | Screw, M3-0.5 x 45mm      | 4 |
 | Heat Set Insert, M3x5x4   | 1 |
-
-**Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
-
 </div>
 <div markdown class="jh-grid-img">
 ![inlet_illustration](../img/parts/stock_inlet_adapter.png){ width=256px}
+
+??? "Heat Set Inserts"
+    ![inlet_illustration](../img/inserts/inlet_sideways.png){ width=256px}
 </div>
 </div>
 
@@ -109,5 +122,8 @@ This allows stock EVA 3 rear cooling inlets to be used (e.g., [dual 5015 fans](h
 </div>
 <div markdown class="jh-grid-img">
 ![inlet_illustration](../img/parts/stock_inlet_adapter.png){ width=256px}
+
+??? "Heat Set Inserts"
+    <!-- ![inlet_illustration](../img/inserts/inlet_sideways.png){ width=256px} -->
 </div>
 </div>

@@ -30,6 +30,7 @@ These are all specific to E34M1.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">
+
 ### Front
 
 Numerous parts, including the hotend and belts, attach to the front module.
@@ -56,6 +57,7 @@ The top mounts the MGN12H carriage, the X axis endstop, and an optional cable gu
 </div>
 </div>
 <div markdown class="jh-card">
+
 ### Bottom
 
 The bottom horns are primarily for part cooling. Some ABL methods (e.g., Beacon, Klicky) mount here.
@@ -67,7 +69,8 @@ The bottom horns are primarily for part cooling. Some ABL methods (e.g., Beacon,
 </figure>
 </div>
 <div markdown class="jh-card">
-### Rear Cooling Inlet
+
+### Rear Inlet
 
 Stock EVA has a rear piece in this location that acts as a belt tensioner. It is removed in E34M1, with the cooling inlet moved forward and serving in its place.
 
@@ -78,6 +81,7 @@ Stock EVA has a rear piece in this location that acts as a belt tensioner. It is
 </figure>
 </div>
 <div markdown class="jh-card">
+
 ### ABL Mount
 
 The side ABL mount is modified from stock EVA.
@@ -101,6 +105,7 @@ These components have not changed from EVA. As such, you will need to download t
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">
+
 ### Hotend
 
 This mounts the hotend, cooling fan, and optional shroud.
@@ -113,6 +118,7 @@ This mounts the hotend, cooling fan, and optional shroud.
 
 </div>
 <div markdown class="jh-card">
+
 ### Drive/Extruder
 
 The drive module attaches the extruder and extruder stepper to the toolhead.
@@ -128,6 +134,7 @@ The drive module attaches the extruder and extruder stepper to the toolhead.
 
 </div>
 <div markdown class="jh-card">
+
 ### Shroud
 
 All stock shrouds are compatible with E34M1.
@@ -136,6 +143,8 @@ All stock shrouds are compatible with E34M1.
 ![shroud](img/tour/shroud.png){width="300px"}
 
 [Stock EVA 3 Shrouds](https://main.eva-3d.page/heat_insert/shrouds/chonkier/){.md-button}
+
+
 </figure>
 
 </div>

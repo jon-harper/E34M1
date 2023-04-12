@@ -9,6 +9,12 @@ date: 2023-1-26
 
 ### 23/04/11
 
+- Added E3D V6 and Revo V6 to the hotends page.
+- Lots of minor edits.
+- Reformatted the modules pages, added a description.
+
+### 23/04/11
+
 - Optimized the design of the sideways inlet.
 - Worked with cuiviemen on an improved Beacon inlet and bottom.
 

@@ -73,5 +73,5 @@ This part is necessary for Ender 5 Pros with stock (non-Hydra) Z kinematics. Thi
 </div>
 </div>
 
-??? note "Heat Set Inserts"
+??? info "Heat Set Insert Locations"
     ![z_endstop_illustration](../img/inserts/z_mount.png){ width=256px }
