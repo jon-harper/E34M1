@@ -15,14 +15,16 @@ This page is divided into two sections for standard-length hotends and Volcano/U
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+**Description**
+
+This is a modified version of the stock EVA dual horns.
+
 **Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `stock_bottom.stl`][bottom_horns]     | 1 |
 | Heat Set Insert, M3x5x4   | 1 |
-
-**Origin**: EVA 3
 
 </div>
 <div markdown class="jh-grid-img">
@@ -38,17 +40,18 @@ This page is divided into two sections for standard-length hotends and Volcano/U
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+**Description**
+
+A version of the dual horns for Klicky users, with cutouts for magnets and wiring.
+
+The additional materials for Klicky wiring are not part of the BOM.
+
 **Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `klicky_bottom.stl`][bottom_klicky]     | 1 |
 | Heat Set Insert, M3x5x4   | 1 |
-
-**Origin**: EVA 3, [Klicky Probe](https://github.com/jlas1/Klicky-Probe)
-
-!!! note
-    The additional materials required for the Klicky probe wiring and magnets are beyond the scope of this documentation.
 
 ??? note "Heat Set Inserts"
     ![bottom_illustration](../img/inserts/bottom_klicky.png){ width=256px}
@@ -64,6 +67,12 @@ This page is divided into two sections for standard-length hotends and Volcano/U
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+**Description**
+
+!!! info "Based on work by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
+
+A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-pin Sherlock connector. The Beacon kit should include the ultra-low-profile M3 screws needed to attach PCB.
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -73,11 +82,6 @@ This page is divided into two sections for standard-length hotends and Volcano/U
 | Low-Profile Beacon Kit    | 1 |
 
 **Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
-
-!!! note
-    You will need to remove (or not install) the Molex Sherlock connector for the Beacon PCB and solder your wires directly to the PCB. See [cuiviemen](https://www.printables.com/@cuiviemen_127292)'s [original Beacon mod](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) for a Rear Intake that helps with wire routing.
-
-    The kit should include the ultra-low-profile M3 screws needed to attach the Beacon.
 
 ??? note "Heat Set Inserts"
     ![bottom_illustration](../img/inserts/bottom_beacon.png){ width=256px}
@@ -97,7 +101,7 @@ This page is divided into two sections for standard-length hotends and Volcano/U
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `bottom_horns_fi.stl`][bottom_horns]     | 1 |
+| [:material-printer-3d-nozzle: `stock_bottom_trihorn.stl`][bottom_trihorns]     | 1 |
 | Heat Set Insert, M3x5x4   | 1 |
 
 ??? note "Heat Set Inserts"
@@ -144,6 +148,8 @@ Volcano bottom horn support is limited. The EVA 3 source file contains gemeotry 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+!!! info "Based on work by [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)"
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -152,12 +158,14 @@ Volcano bottom horn support is limited. The EVA 3 source file contains gemeotry 
 | Heat Set Insert, M3x5x4   | 3 |
 | Low-Profile Beacon Kit    | 1 |
 
-**Origin**: [EVA3.0 Phaetus Rapido UHF/Volcano +Beacon for Mercury One.1 by ZERO G](https://www.printables.com/model/428524-eva30-phaetus-rapido-uhfvolcano-beacon-for-mercury) by [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)
+**Origin**
 
-!!! note
+[EVA3.0 Phaetus Rapido UHF/Volcano +Beacon for Mercury One.1 by ZERO G](https://www.printables.com/model/428524-eva30-phaetus-rapido-uhfvolcano-beacon-for-mercury) by [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)
+
+!!! important
     See [cuiviemen](https://www.printables.com/@cuiviemen_127292)'s [original Beacon mod](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) for a Rear Intake that helps with wire routing.
 
-    The kit should include the ultra-low-profile M3 screws needed to attach the Beacon.
+    The Beacon kit should include the ultra-low-profile M3 screws needed to attach PCB.
 
 ??? note "Heat Set Inserts"
     ![bottom_illustration](../img/inserts/bottom_beacon_uhf.png){ width=256px}

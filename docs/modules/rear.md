@@ -64,6 +64,31 @@ Three components are available:
 </div>
 </div>
 
+### Sideways Cooling Inlet for Beacon
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+!!! info "Based on work by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
+
+This is a modification of the the sideways mount for Beacon. It adds clearance for the Beacon connector and a cutout with zip tie anchor for the wire.
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `stock_intake_adapter.stl`][rear_intake_adapter] | 1 |
+| Screw, M3-0.5 x 45mm      | 4 |
+| Heat Set Insert, M3x5x4   | 1 |
+
+**Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
+
+</div>
+<div markdown class="jh-grid-img">
+![inlet_illustration](../img/parts/stock_inlet_adapter.png){ width=256px}
+</div>
+</div>
+
 ### Stock Rear Inlet Adapter
 
 <div markdown class="jh-grid-container jh-grid-2">
