@@ -62,7 +62,24 @@ Template:
 </div>
 </div>
 <div markdown class="jh-grid-img">
-![hotend name](../img/hotends/revo_voron.png){width="200px"}
+![Revo Voron](../img/hotends/revo_voron.png){width="200px"}
+</div>
+</div>
+
+### V6 & Revo V6
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+- **Author**: [3DP-MAMSIH](https://www.printables.com/@3DPMAMSIH)
+- **Inserts/Hex Nuts**: M3x4.6x4 inserts or hex nuts
+
+<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
+[Link](https://www.printables.com/model/201093-eva-30-e3dv6-revo-revo-micro-hotends-mount){.md-button}
+</div>
+</div>
+<div markdown class="jh-grid-img">
+![E3D V6](../img/hotends/e3d_v6.png){width="200px"}
 </div>
 </div>
 
