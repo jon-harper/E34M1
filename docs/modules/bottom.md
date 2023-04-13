@@ -50,6 +50,8 @@ A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-
 
 This part has a matching [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon) that accomodates the Beacon connector.
 
+The Y offset of the Beacon probe is 34mm.
+
 **Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
 
 **Bill of Materials**
@@ -135,6 +137,8 @@ Three-horned duct adopted from stock EVA, recommended for the Mosquito hotend.
 A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-pin Sherlock connector. The Beacon kit should include the ultra-low-profile M3 screws needed to attach PCB.
 
 This part has a matching [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon) that accomodates the Beacon connector.
+
+The Y offset of the Beacon probe is 34mm.
 
 **Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
 
