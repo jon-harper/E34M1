@@ -7,7 +7,12 @@ date: 2023-1-26
 
 ## April 2023
 
-### 23/04/11
+### 23/04/13
+
+- Began altering hotends and drives for Voron inserts.
+- Lots of minor doc edits.
+
+### 23/04/12
 
 - Added E3D V6 and Revo V6 to the hotends page.
 - Lots of minor edits.

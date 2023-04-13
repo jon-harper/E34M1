@@ -41,6 +41,8 @@ Support for 8mm and 12mm inductive probes is not currently planned.
 
 ### Bottom Horns
 
+Files for these parts can be found in the [Bottom Horns Modules](../modules/bottom.md) page.
+
 | Duct Type             | Standard Hotends | Volcano/UHF Hotends  |
 |-----------------------|:----------------:|:--------------------:|
 | Dual Horns            | :white_check_mark: | *See note*         |
@@ -48,21 +50,20 @@ Support for 8mm and 12mm inductive probes is not currently planned.
 | Dual Horns for Beacon | :white_check_mark: | :white_check_mark: |
 | Trihorns              | :white_check_mark: | :x:                |
 | Trihorns for Klicky   | :white_check_mark: | :x:                |
-| Trihorns for Beacon   | :x:                | :x:                |
+| Trihorns for Beacon   | :white_check_mark: | :x:                |
 
 !!! note
-    EVA 3's dual horn for Volcano hotends contains geometry errors. This limits support at present.
+    EVA 3's dual horn for Volcano hotends contains geometry errors. This limits support for longer hotends at present.
 
 ### Cooling Inlets
 
-Stock EVA cooling inlets may be used with E34M1 with an [adapter](../modules/rear.md#stock-rear-inlet-adapter).
-
+Stock EVA cooling inlets may be used with E34M1 with an [rear inlet adapter](../modules/rear.md#stock-rear-inlet-adapter).
 
 ### Cable Management
 
-There are two methods of cable management and two attachment points. The table below shows how they are compatible.
+There are two methods of cable management and two attachment points. The default attachment is the Top module for umbilical users. PCB mounts supporting both umbilical (cable guide) and drag chain are available.
 
-| Part             | Cable Guide | Cable Chain |
+| Part             | Cable Guide | Drag Chain |
 |------------------|:-----------:|:-----------:|
 | Top with Endstop | :white_check_mark: | *Planned* |
 | PCB Mount        | :white_check_mark: | :white_check_mark: |

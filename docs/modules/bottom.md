@@ -35,33 +35,6 @@ This is a modified version of the stock EVA dual horns.
 </div>
 </div>
 
-### Dual Horns for Klicky
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-**Description**
-
-A version of the dual horns for Klicky users, with cutouts for magnets and wiring.
-
-The additional materials for Klicky wiring are not part of the BOM.
-
-**Bill of Materials**
-
-| Parts     | Qty |
-|-----------|-----|
-| [:material-printer-3d-nozzle: `klicky_bottom.stl`][bottom_klicky]     | 1 |
-| Heat Set Insert, M3x5x4   | 1 |
-
-</div>
-<div markdown class="jh-grid-img">
-![bottom_illustration](../img/parts/bottom_horns_klicky.png){ width=256px}
-
-??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom_klicky.png){ width=256px}
-</div>
-</div>
-
 ### Dual Horns for Beacon
 
 <div markdown class="jh-grid-container jh-grid-2">
@@ -96,6 +69,33 @@ This part has a matching [Sideways Cooling Inlet for Beacon](rear.md#sideways-co
 </div>
 </div>
 
+### Dual Horns for Klicky
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+A version of the dual horns for Klicky users, with cutouts for magnets and wiring.
+
+The additional materials for Klicky wiring are not part of the BOM.
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `klicky_bottom.stl`][bottom_klicky]     | 1 |
+| Heat Set Insert, M3x5x4   | 1 |
+
+</div>
+<div markdown class="jh-grid-img">
+![bottom_illustration](../img/parts/bottom_horns_klicky.png){ width=256px}
+
+??? info "Heat Set Insert Locations"
+    ![bottom_illustration](../img/inserts/bottom_klicky.png){ width=256px}
+</div>
+</div>
+
 ### Trihorns
 
 <div markdown class="jh-grid-container jh-grid-2">
@@ -120,6 +120,41 @@ Three-horned duct adopted from stock EVA, recommended for the Mosquito hotend.
     ![bottom_illustration](../img/inserts/bottom_trihorn.png){ width=256px}
 </div>
 </div>
+
+### Trihorns for Beacon
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+!!! info "Designed by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
+
+!!! tip "This part requires [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon)"
+
+A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-pin Sherlock connector. The Beacon kit should include the ultra-low-profile M3 screws needed to attach PCB.
+
+This part has a matching [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon) that accomodates the Beacon connector.
+
+**Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `beacon_bottom.stl`][bottom_beacon]     | 1 | 
+| Heat Set Insert, M3x5x4   | 3 |
+| Low-Profile Beacon Kit    | 1 |
+
+</div>
+<div markdown class="jh-grid-img">
+![bottom_illustration](../img/parts/bottom_beacon.png){ width=256px}
+
+??? info "Heat Set Insert Locations"
+    ![bottom_illustration](../img/inserts/bottom_beacon.png){ width=256px}
+</div>
+</div>
+
 
 ### Trihorns for Klicky
 
