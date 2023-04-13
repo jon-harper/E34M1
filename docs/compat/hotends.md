@@ -35,11 +35,11 @@ Template:
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-- **Author**: [hebijirik](https://www.printables.com/@hebijirik_84624) (hex nuts) and [Jingleheimer](https://www.printables.com/@Jingleheimer_143188)
-- **Inserts/Hex Nuts**: M3x4.6x4 inserts or hex nuts
+- **Author**: [hebijirik](https://www.printables.com/@hebijirik_84624) (hex nuts)
+- **Inserts/Hex Nuts**: hex nuts
 
 <div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
-[Inserts Link](https://www.printables.com/model/241941-eva-3-revo-micro-heat-set-insert){.md-button}
+<!-- [Inserts Link](https://www.printables.com/model/241941-eva-3-revo-micro-heat-set-insert){.md-button} -->
 [Hex Nuts Link](https://www.printables.com/model/225581-eva-3-revo-micro-hotend/files){.md-button}
 </div>
 </div>

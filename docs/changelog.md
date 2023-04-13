@@ -11,6 +11,7 @@ date: 2023-1-26
 
 - Began altering hotends and drives for Voron inserts.
 - Lots of minor doc edits.
+- Created the `testing` branch for parts not yet ready.
 
 ### 23/04/12
 
