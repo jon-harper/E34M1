@@ -1,17 +1,22 @@
 ---
 title: Changelog
-summary: Materials for each E34M1 part
+summary: Log of changes to E34M1.
 authors: Jon Harper
 date: 2023-1-26
 ---
 
 ## April 2023
 
+### 23/04/14
+
+
+
 ### 23/04/13
 
 - Began altering hotends and drives for Voron inserts.
 - Lots of minor doc edits.
 - Created the `testing` branch for parts not yet ready.
+- Started opening issues on the GitHub repository.
 
 ### 23/04/12
 

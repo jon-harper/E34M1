@@ -82,11 +82,13 @@ nav:
   - tour.md
   - Modules & BOM:
     - modules/index.md
-    - modules/front.md
-    - modules/top.md
-    - modules/bottom.md
-    - modules/rear.md
+    - Core Modules:
+      - modules/front.md
+      - modules/top.md
+      - modules/bottom.md
+      - modules/rear.md
     - modules/abl.md
+    - modules/hotend.md
     - modules/pcb_mounts.md
     - modules/pcb_shrouds.md
     - modules/other.md
