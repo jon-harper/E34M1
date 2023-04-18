@@ -1,5 +1,5 @@
 ---
-title: Belts
+title: 4. Belts
 summary: Finish out the Core components.
 authors: Jon Harper
 date: 2023-4-8

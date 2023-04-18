@@ -1,5 +1,5 @@
 ---
-title: Core Assembly
+title: 2. Core Assembly
 summary: Combining the Core parts of EVA 3.
 authors: Jon Harper
 date: 2023-4-8

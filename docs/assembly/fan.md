@@ -1,5 +1,5 @@
 ---
-title: Part Cooling Fan
+title: 3. Part Cooling Fan
 summary: Finish out the Core components.
 authors: Jon Harper
 date: 2023-4-8

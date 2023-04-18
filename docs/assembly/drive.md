@@ -1,5 +1,5 @@
 ---
-title: Drive Module
+title: 6. Drive Module
 summary: Assembling the extruder and stepper.
 authors: Jon Harper
 date: 2023-4-8

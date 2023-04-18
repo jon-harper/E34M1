@@ -1,5 +1,5 @@
 ---
-title: Hotend Module
+title: 5. Hotend Module
 summary: Assemble and install the hotend module.
 authors: Jon Harper
 date: 2023-4-8

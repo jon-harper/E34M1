@@ -1,5 +1,5 @@
 ---
-title: First Steps
+title: 1. First Steps
 summary: Assembling the Top, endstop, and cable guide.
 authors: Jon Harper
 date: 2023-4-8
