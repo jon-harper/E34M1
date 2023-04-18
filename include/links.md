@@ -37,3 +37,11 @@
 [folder_cad]: https://github.com/jon-harper/E34M1/tree/main/CAD
 [folder_stl]: https://github.com/jon-harper/E34M1/tree/main/STL
 [repo]: https://github.com/jon-harper/E34M1
+
+[hotend_revo_voron]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_revo_voron.stl
+[hotend_dragon_bmo]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_dragon_bmo.stl
+[hotend_dragonfly_bmo]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_dragonfly_bmo.stl
+[hotend_dragonfly_bms]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_dragonfly_bms.stl
+[hotend_rapido]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_rapido.stl
+[hotend_nova]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_nova.stl
+[hotend_mosquito]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_mosquito.stl
