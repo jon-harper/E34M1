@@ -26,11 +26,11 @@ Hotend cooling fans may be attached using an intake duct that allows two (2) scr
 </div>
 <div markdown class="jh-grid-img">
 ![intake_illustration](../img/parts/intake_duct.png){ width=256px }
-</div>
-</div>
 
-??? "Heat Set Inserts"
+??? info "Heat Set Insert Locations"
     ![front_intake_illustration](../img/inserts/front_intake.png){width=200px}
+</div>
+</div>
 
 ### X Axis Stop Block
 
@@ -70,8 +70,8 @@ This part is necessary for Ender 5 Pros with stock (non-Hydra) Z kinematics. Thi
 </div>
 <div markdown class="jh-grid-img">
 ![z_endstop_illustration](../img/parts/z_limit_switch.png){ width=256px }
-</div>
-</div>
 
 ??? info "Heat Set Insert Locations"
     ![z_endstop_illustration](../img/inserts/z_mount.png){ width=256px }
+</div>
+</div>
