@@ -123,9 +123,6 @@ This mounts the hotend, cooling fan, and optional shroud.
 
 The drive module attaches the extruder and extruder stepper to the toolhead.
 
-!!! note 
-    Mounting the Drive (extruder and stepper) assembly uses six (6) or seven (7) M3-0.5 x 8mm SHCS with stock EVA 3. Screws that fasten to the Top module should be substituted with M3-0.5 x 12mm SHCS. This is usually three (3) or four (4) screws.
-
 <figure markdown>
 ![drive](img/tour/drive.png){width="300px"}
 
@@ -144,6 +141,7 @@ All stock shrouds are compatible with E34M1.
 
 [Stock EVA 3 Shrouds](https://main.eva-3d.page/heat_insert/shrouds/chonkier/){.md-button}
 
+[cuiviemen's Chonky Shrouds with LED Lighting](https://www.printables.com/model/420929-eva-30-chonky-shrouds-with-led-lighting){.md-button}
 
 </figure>
 
@@ -164,13 +162,8 @@ E34M1 provides several other components that may be useful:
 
 ## Related and Contributed Mods
 
-These are user mods that add compatibility or new features to EVA 3.
+These are related mods not linked elsewhere that may be useful for your build.
 
 | Mod Name | Author | Purpose |
 |----------|--------|---------|
 | [Klicky Probe Dock for Mercury 1 Zero G](https://www.printables.com/model/386819-klicky-probe-dock-for-mercury-1-zero-g) | [Sir_Wash](https://www.printables.com/social/415185-sir_wash) | Adds a dock for Klicky; works with `bottom_horns_klicky_fi.stl`. |
-| [Beacon Volcano Duct](https://www.printables.com/model/428524-eva30-phaetus-rapido-uhfvolcano-beacon-for-mercury) | [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about) | Add support for Beacon ABL for Volcano-length hotends. |
-| [EVA 3 Beltless backplate for dual 5015](https://www.printables.com/model/430281-eva-3-beltless-backplate-for-dual-5015) | [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about) | Allows any stock rear intake to be used with E34M1. |
-| [E34M1/EVA 3 Lightweight Back Piece ](https://www.printables.com/model/431146-e34m1eva-3-lightweight-back-piece) | [jonspaceharper](https://www.printables.com/social/511131-jonspaceharper/about) | Allows any stock rear intake to be used with E34M1. Lightweight remix of the above. |
-| [E34M1/EVA 3 Dragon Hotend Mount](https://www.printables.com/model/436000-e34m1eva-3-dragon-hotend-mount) | [jonspaceharper](https://www.printables.com/social/511131-jonspaceharper/about) | Supports Dragon BMO hotends.
-| [Beacon Mount for E34M1](https://www.printables.com/model/438193-beacon-mount-solution-for-e34m1-eva-3-for-mercury-) | [cuiviemen](https://www.printables.com/social/127292-cuiviemen/about) | Beacon for non-Volcano hotends. |
