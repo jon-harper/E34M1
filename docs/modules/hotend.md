@@ -39,9 +39,32 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 </div>
 -->
 
-## E3D 
+## 3D Passion Nova
 
-### Revo Voron
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Origin**: EVA
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `hotend_nova.stl`][hotend_nova]  | 1 |
+| 3D Passion Nova           | 1 |
+| Fan, 40mm x 10mm          | 1 |
+| Screw, M2.5-0.45 x 8mm SHCS | 2 |
+| Screw, M3-0.5 x 6mm       | 4 |
+| Screw, M3-0.5 x 12mm      | 4 |
+| Heat Set Insert, M3x5x4   | 8 |
+
+</div>
+<div markdown class="jh-grid-img">
+![Name](../img/parts/hotend_nova.png){ width=256px}
+</div>
+</div>
+
+## E3D REVO Voron
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -66,9 +89,7 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 </div>
 </div>
 
-## Phaetus
-
-### Dragon BMO
+## Phaetus Dragon BMO
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -95,7 +116,7 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 </div>
 </div>
 
-### Dragonfly BMO
+## Phaetus Dragonfly BMO
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -120,12 +141,14 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 </div>
 </div>
 
-### Dragonfly BMS
+## Phaetus Dragonfly BMS
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
 !!! info "Design by [themacboy](https://www.printables.com/@themacboy_276431)"
+
+!!! note "This mount is only compatible with the 6-fin heatsink"
 
 **Origin**: [Phaetus DragonFly BMS for EVA v.3 carriage](https://www.printables.com/model/249767-phaetus-dragonfly-bms-for-eva-v3-carriage/files) by [themacboy](https://www.printables.com/@themacboy_276431)
 
@@ -150,7 +173,7 @@ Lock washers to mount the hotend are optional.
 </div>
 </div>
 
-### Rapido
+## Phaetus Rapido
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -172,5 +195,30 @@ Lock washers to mount the hotend are optional.
 </div>
 <div markdown class="jh-grid-img">
 ![Rapido](../img/parts/hotend_rapido.png){ width=256px}
+</div>
+</div>
+
+## Slice Engineering Mosquito
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Origin**: EVA
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `hotend_mosquito.stl`][hotend_mosquito]  | 1 |
+| Mosquito                  | 1 |
+| Fan, 40mm x 10mm          | 1 |
+| Screw, M2.5-0.45 x 8mm SHCS | 2 |
+| Screw, M3-0.5 x 6mm       | 4 |
+| Screw, M3-0.5 x 12mm      | 4 |
+| Heat Set Insert, M3x5x4   | 8 |
+
+</div>
+<div markdown class="jh-grid-img">
+![Mosquito](../img/parts/hotend_mosquito.png){ width=256px}
 </div>
 </div>
