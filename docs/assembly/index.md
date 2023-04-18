@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2023-4-8
 ---
 
-This guide covers assembling a basic E34M1 build with a Dragon hotend, BMG extruder, and BLTouch. The first half of the assembly process—building the Core—is universal. The second half—adding the hotend, extruder, and ABL—will have the same general procedure but may differ in details.
+This guide covers assembly of a basic E34M1 build with a Dragon hotend, BMG extruder, and BLTouch probe. The first half of the assembly process—building the Core—is universal. The second half—adding the hotend, extruder, and ABL—may differ in details to your assembly.
 
 You should have your Mercury One build's X axis extrusion and linear rail assembled before following this guide. It is recommended that you include routing and securing the belts as part of the E34M1 build process.
 
@@ -31,12 +31,23 @@ The table below lists parts that are universal to all builds:
 | [Hotend Mount](../compat/hotends.md)  | Dragon BMO Mount                  | 1 |
 | [Drive Mount](../compat/drives.md)    | BMG Drive Mount           | 1 |
 
+
 The following build-specific parts are used in this guide:
 
-| Part | Example Part | Qty |
+| Part | Example | Qty |
 |---|---|---|
 | [ABL Mount](../modules/abl.md)        | BLTouch Mount | 1 |
 | [Cable Guide](../modules/other.md)    | Other         | 1 |
+
+Not all parts for E34M1 are covered in this guide. Other parts you may need or want for your build:
+
+| Part | Purpose |
+|------|---------|
+| [X Axis Stop Block](../modules/other.md#x-axis-stop-block) | Adjustable bumper for the X axis limit switch. |
+| [Front Intake Duct](../modules/other.md#front-intake-duct) | Easier hotend access using two (2) screws instead of four (4). |
+| [Z Endstop Mount](../modules/other.md#z-endstop-mount) | For Ender 5 Pros with stock Z axis; raises the Z limit switch. |
+| [PCB Mount](../modules/pcb_mounts.md) | Mounts for toolhead PCBs. |
+| [PCB Shrouds](../modules/pcb_shrouds.md) | Covers toolhead PCB wiring. |
 
 ## Considerations
 
