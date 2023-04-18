@@ -42,13 +42,11 @@ This is a modified version of the stock EVA dual horns.
 
 **Description**
 
-!!! info "Based on work by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
+!!! info "Designed by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
 
-!!! tip "This part requires [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon)"
+!!! tip "This part requires the matching [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon)"
 
 A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-pin Sherlock connector. The Beacon kit should include the ultra-low-profile M3 screws needed to attach PCB.
-
-This part has a matching [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon) that accomodates the Beacon connector.
 
 The Y offset of the Beacon probe is 34mm.
 
@@ -132,11 +130,9 @@ Three-horned duct adopted from stock EVA, recommended for the Mosquito hotend.
 
 !!! info "Designed by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
 
-!!! tip "This part requires [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon)"
+!!! tip "This part requires the matching [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon)"
 
 A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-pin Sherlock connector. The Beacon kit should include the ultra-low-profile M3 screws needed to attach PCB.
-
-This part has a matching [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon) that accomodates the Beacon connector.
 
 The Y offset of the Beacon probe is 34mm.
 
@@ -199,7 +195,7 @@ Volcano bottom horn support is limited. The EVA 3 source file contains gemeotry 
 
 **Description**
 
-!!! info "Based on work by [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)"
+!!! info "Design by [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)"
 
 These bottom horns have a mount for Beacon. The Beacon kit should include low-profile M3 screws to attach the PCB.
 

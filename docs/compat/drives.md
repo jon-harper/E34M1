@@ -29,7 +29,7 @@ Template:
 </div>
  -->
 
-## Extruders for NEMA 14 Steppers
+## NEMA 14
 
 ### Annex Sherpa Micro
 
@@ -136,7 +136,7 @@ Template:
 </div>
 </div>
 
-## Extruders for NEMA 17 Steppers
+## NEMA 17
 
 ### Bondtech BMG
 
