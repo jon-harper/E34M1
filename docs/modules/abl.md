@@ -9,13 +9,12 @@ The side mount is used by most ABL methods and attaches to the Front. See the [B
 
 These ABL and hotend length combinations are available:
 
-1. BLTouch for Standard Hotends
-2. BLTouch for Volcano Hotends
-<!-- 3. CR Touch for Standard Hotends -->
+1. BLTouch
+2. BLTouch (Volcano)
+3. CR Touch
+4. CR Touch for Volcano Hotends
 
-CR Touch Volcano Hotends support is available through [this mod](https://www.printables.com/model/434179-eva3-uhf-cr-touch).
-
-### BLTouch for Standard Hotends
+### BLTouch
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -37,7 +36,7 @@ Mounts a BLTouch.
 </div>
 </div>
 
-### BLTouch for Volcano Hotends
+### BLTouch (Volcano)
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -56,11 +55,11 @@ Adds support for BLTouch for longer hotends.
 
 </div>
 <div markdown class="jh-grid-img">
-<!-- ![bltouch_illustration](../img/parts/bltouch_mount.png){ width=100px } -->
+![Volcano BLTouch illustration](){ width=100px }
 </div>
 </div>
 
-<!-- ### CR Touch
+### CR Touch
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -75,4 +74,8 @@ Adds support for BLTouch for longer hotends.
 <div markdown class="jh-grid-img">
 ![cr_touch_illustration](../img/parts/bltouch_mount.png){ width=100px }
 </div>
-</div> -->
+</div>
+
+### CR Touch (Volcano)
+
+Support for Volcano hotends is availabe through [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)'s mod [CR Touch for Volcano Hotends](https://www.printables.com/model/434179-eva3-uhf-cr-touch).
