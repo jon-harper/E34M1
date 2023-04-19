@@ -103,10 +103,10 @@ Note that the M3 x 6mm screw is a flat head cap screw.
 | 5015 Radial Fan           | 1 |
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/){ width=256px}
+![inlet_illustration](../img/parts/5015_sideways_inlet_beacon.png){ width=350px}
 
 ??? "Heat Set Inserts"
-    ![inlet_illustration](../img/inserts/){ width=256px}
+    ![inlet_illustration](../img/inserts/rear_inlet_beacon.png){ width=256px}
 </div>
 </div>
 
@@ -125,15 +125,11 @@ This allows stock EVA 3 rear cooling inlets to be used (e.g., [dual 5015 fans](h
 |-----------|-----|
 | [:material-printer-3d-nozzle: `stock_intake_adapter.stl`][rear_intake_adapter] | 1 |
 | Screw, M3-0.5 x 45mm      | 4 |
-| Heat Set Insert, M3x5x4   | 1 |
 
 **Origin**: [EVA 3 Beltless backplate for dual 5015](https://www.printables.com/model/430281-eva-3-beltless-backplate-for-dual-5015) by [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about)
 
 </div>
 <div markdown class="jh-grid-img">
 ![inlet_illustration](../img/parts/stock_inlet_adapter.png){ width=256px}
-
-??? "Heat Set Inserts"
-    <!-- ![inlet_illustration](../img/inserts/inlet_sideways.png){ width=256px} -->
 </div>
 </div>
