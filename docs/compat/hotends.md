@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2023-4-6
 ---
 
-This pages list hotends known to have mounts for EVA 3. Any hotend mount for EVA 3 should be compatible with E34M1. Hotends listed as Native use the same heat set inserts as E34M1 and Mercury One.
+This pages list hotends known to have mounts for EVA 3. Any hotend mount for EVA 3 should be compatible with E34M1.
 
 <!-- 
 Template:
@@ -28,7 +28,7 @@ Template:
 
 ## E34M1 Native Hotends
 
-Native hotends all accept M3x5x4 inserts and have a bill of materials available.
+Native hotends accept M3x5x4 inserts and have a bill of materials available.
 
 <div markdown class="jh-grid-container jh-grid-3">
 <div markdown class="jh-card">

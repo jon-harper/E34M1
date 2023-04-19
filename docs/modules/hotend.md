@@ -5,8 +5,8 @@ authors: Jon Harper
 date: 2023-4-5
 ---
 
-!!! tip 
-    *This is not a full list of known hotend mounts*. See **[Hotend Compatibility](../compat/hotends.md)** for a larger list that includes compatible third party mounts.
+!!! warning
+    See **[Hotend Compatibility](../compat/hotends.md)** for a larger list that includes compatible third party mounts.
 
 These are existing hotend mounts that have been modified for ease of installation:
 

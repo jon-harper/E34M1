@@ -5,18 +5,18 @@ authors: Jon Harper
 date: 2023-1-27
 ---
 
-## Mecury One Compatibility
+## Mercury One Compatibility
 
-E34M1 is compatible with Mercury One without build area limitations, i.e. no print area is lost by converting to EVA 3 from a different toolhead.
-
-Minor modifications may be necessary to your Z axis (e.g., adjusting the Z end stop height). See [Other Changes and Additions](#other-changes-and-additions) for examples.
-
-See the [`/CAD`][folder_cad] folder for a sample assembly in `STEP` format.
+E34M1 is compatible with Mercury One without limiting the build area; no print area is lost by converting to EVA 3 from a different toolhead. Minor modifications may be necessary to your Z axis (e.g., adjusting the Z end stop height). See [Other Changes and Additions](#other-changes-and-additions) for examples.
 
 !!! note
     Mercury One.1 with E34M1 has a theoretical build area of 275mm x 275mm using 330mm linear rails.
 
     Practical build area is affected by your build, e.g. the type of rear intake used or presence of a toolhead PCB.
+
+!!! tip
+    Making a mod? Want to see how it looks in CAD? See the [`/CAD`][folder_cad] folder for a `STEP` files.
+
 
 ## EVA 3 Compatibility
 
@@ -26,7 +26,7 @@ E34M1 is compatible with other EVA 3 hotend mounts and drive modules. See the [H
 
 ### Heat Set Inserts
 
-Stock EVA 3 uses M3 x 4.6mm OD x 4mm L heat set inserts. E34M1 maintains consistency with ZeroG and uses **M3 x 5mm OD x 4mm L inserts** (often called "Voron inserts"). Double-check which insert you should be using for third-party components to avoid damaging or ruining a printed part.
+Stock EVA 3 uses M3 x 4.6mm OD x 4mm L heat set inserts. E34M1 maintains consistency with ZeroG and uses [:material-cart: **M3 x 5mm OD x 4mm L inserts**][bom_inserts] (often called "Voron inserts"). Double-check which insert you should be using for third-party components to avoid damaging or ruining a printed part.
 
 ### ABL
 

@@ -24,6 +24,16 @@ E34M1 replaces many of the printed parts from EVA 3, while maintaining compatibi
 </div>
 </div>
 
+### Icons and Terminology
+
+These terms and icons are used throughout the site.
+
+- The :material-printer-3d-nozzle: icon is used to emphasize that a part is 3D printed.
+- The :material-cart: shopping cart icon is for example links. *There are no affiliate links on this site.*
+- Drive: EVA 3 refers to the extruder, stepper, and mount as the *Drive* module.
+- FHCS: Flat head cap screw, DIN 7991
+- SHCS: Socket head scap screw, DIN 912
+
 ## E34M1 Core Modules
 
 These are all specific to E34M1.
@@ -33,7 +43,7 @@ These are all specific to E34M1.
 
 ### Front
 
-Numerous parts, including the hotend and belts, attach to the front module.
+The Front mounts the hotend, belts, and part of the Drive module.
 
 <figure markdown>
 ![front](img/tour/front.png){width="300px"}
@@ -72,7 +82,7 @@ The bottom horns are primarily for part cooling. Some ABL methods (e.g., Beacon,
 
 ### Rear Inlet
 
-Stock EVA 3 has a rear piece in this location that acts as a belt tensioner. It is removed in E34M1; the cooling inlet is moved forward and serves in its place.
+Stock EVA 3 has a rear piece here that acts as a belt tensioner. It's unneeded for Mercury One printers, so we moved the cooling inlet forward to save space.
 
 <figure markdown>
 ![inlet](img/tour/inlet.png){width="300px"}
@@ -96,7 +106,7 @@ The side ABL mount is modified from stock EVA. Most ABL methods mount here (e.g.
 
 ## Stock EVA Modules
 
-These components have not changed from EVA. As such, you will need to download the correct parts from the [EVA](https://main.eva-3d.page/) site or elsewhere (e.g., [Printables](https://printables.com)). We've assembled a list of known hotend and drive mounts.
+Stock modules have not changed from EVA 3; any hotend or extruder with a mount is compatible. We've assembled lists of known hotend and drive mounts.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">
