@@ -90,7 +90,6 @@ nav:
     - modules/abl.md
     - modules/hotend.md
     - modules/pcb_mounts.md
-    - modules/pcb_shrouds.md
     - modules/other.md
   - Compatibility & Support:
     - compat/index.md

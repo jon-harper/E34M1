@@ -1,5 +1,5 @@
 ---
-title: PCB Shrouds
+title: Toolhead PCB Shrouds
 summary: Covers for toolhead PCBs
 authors: Jon Harper
 date: 2023-4-5
@@ -20,11 +20,10 @@ The cat face shroud is purely cosmetic and uses the same materials as the stock 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-| Parts     | Qty | Notes |
-|-----------|-----|-------|
-| [:material-printer-3d-nozzle: `pcb_shroud.stl`][pcb_shroud] | 1 | |
-| [:material-printer-3d-nozzle: `pcb_shroud_cat.stl`][pcb_shroud_cat] | 1 | Alternative to the above.|
-| Screw, M3-0.5 x 35mm | 2 | |
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `pcb_shroud.stl`][pcb_shroud] or [:material-printer-3d-nozzle: `pcb_shroud_cat.stl`][pcb_shroud_cat]| 1 |
+| Screw, M3-0.5 x 35mm | 2 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -37,13 +36,13 @@ The cat face shroud is purely cosmetic and uses the same materials as the stock 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-| Parts     | Qty | Notes |
-|-----------|-----|-------|
-| [:material-printer-3d-nozzle: `pcb_shroud.stl`][pcb_shroud_30mm] | 1 | |
-| Screw, M3-0.5 x 35mm | 2 | |
-| Axial Fan, 30mm x 10mm | 1 | |
-| Screw, M3-0.5 x 14mm | 2 | May use 15mm or 16mm. |
-| Heat Set Insert, M3x5x4 | 4 | |
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `pcb_shroud.stl`][pcb_shroud_30mm] | 1 |
+| Screw, M3-0.5 x 35mm | 2 |
+| Axial Fan, 30mm x 10mm | 1 |
+| Screw, M3-0.5 x 16mm | 2 |
+| Heat Set Insert, M3x5x4 | 4 |
 
 </div>
 <div markdown class="jh-grid-img">

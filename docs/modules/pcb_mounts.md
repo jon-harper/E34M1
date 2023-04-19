@@ -1,19 +1,21 @@
 ---
-title: PCB Mounts
-summary: Toolhead PCB mounting options
+title: Toolhead PCBs
+summary: Toolhead PCB mounts and shrouds for NEMA17 steppers
 authors: Jon Harper
 date: 2023-4-5
 ---
 
-Mounts for both NEMA14 ("36") and NEMA17 ("42") PCBs are available. Examples of '36 PCBs are the BIGTREETECH EBB36 and  Mellow Fly SHT36. An example of a '42 PCB is the BIGTREETECH EBB42.
+This page contains parts to allow most toolhead breakout boards to be mounted on the back of a NEMA17 stepper. The shrouds are used to cover the PCB wiring.
 
-Variants of each mount are available for both cable guides and drag chains.
+The first half of this page contains mounts for both NEMA14 ("36") and NEMA17 ("42") PCBs. Examples of '36 PCBs are the BIGTREETECH EBB36 and  Mellow Fly SHT36. An example of a '42 PCB is the BIGTREETECH EBB42. Variants of each mount are available for both cable guides and drag chains.
 
 !!! tip "Important"
     These mounts are designed for NEMA17 steppers. There are several off-the-shelf options for NEMA14 steppers:
 
     - ZeroG Discord members can use TurtleCrawler's [CANbus 36 mounts](https://discord.com/channels/747612067951018075/1058784239539191838/1058784239539191838)
     - [https://github.com/KayosMaker/CANboard_Mounts](https://github.com/KayosMaker/CANboard_Mounts)
+
+## PCB Mounts
 
 ### '36 PCB, Cable Guide
 <div markdown class="jh-grid-container jh-grid-2">
@@ -127,3 +129,51 @@ Mounts a '46 toolhead PCB with anchor points for an open drag chain.
     ![pcb42_illustration](../img/inserts/pcb42_chain.png){ width=200px}
 </div>
 </div>
+
+## PCB Shrouds
+
+These shrouds cover the PCB and wiring for a PCB mount.
+
+PCB shrouds come in three styles:
+
+- Stock
+- Cat face
+- 30mm Fan
+
+The cat face shroud is purely cosmetic and uses the same materials as the stock shroud.
+
+### Basic
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `pcb_shroud.stl`][pcb_shroud] or [:material-printer-3d-nozzle: `pcb_shroud_cat.stl`][pcb_shroud_cat]| 1 |
+| Screw, M3-0.5 x 35mm | 2 |
+
+</div>
+<div markdown class="jh-grid-img">
+![pcb42_illustration](../img/parts/pcb_shrouds.png){ width=400px }
+</div>
+</div>
+
+### 30mm Fan
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `pcb_shroud.stl`][pcb_shroud_30mm] | 1 |
+| Screw, M3-0.5 x 35mm | 2 |
+| Axial Fan, 30mm x 10mm | 1 |
+| Screw, M3-0.5 x 16mm | 2 |
+| Heat Set Insert, M3x5x4 | 4 |
+
+</div>
+<div markdown class="jh-grid-img">
+![pcb42_illustration](../img/parts/pcb_shroud_30mm.png){ width=200px }
+</div>
+</div>
+
