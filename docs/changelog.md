@@ -11,6 +11,25 @@ date: 2023-1-26
 
 - Combined PCB shrouds and mounts to one page.
 - Tons of editing for wording and clarity.
+- Added new drive modules to `testing`. See Below.
+- All:
+    - Modified for Voron inserts, where applicable.
+    - Made room for lock washers on all fasteners.
+- BMG:
+    - Added bottom chamfer.
+    - Cosmetic changes.
+- LGX:
+    - Mount is slightly lighter.
+    - Reinforced extruder mounting arms.
+- LGX Lite:
+    - Mount is lighter.
+    - Fixed overhangs for mounting screws.
+    - Added bottom chamfer.
+- Orbiter 1.5:
+    - Mount is slightly lighter.
+- Orbiter 2.0: 
+    - Mount is slightly lighter.
+    - Added bottom chamfer.
 
 ### 23/04/18
 
