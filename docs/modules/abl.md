@@ -68,7 +68,7 @@ Adds support for BLTouch for longer hotends.
 |-----------|-----|-------|
 | [:material-printer-3d-nozzle: `cr_touch_mount.stl`][crtouch_mount] | 1 | |
 | Heat Set Insert, M3x5x4   | 2 | |
-| Screw, M3-0.5 x 8mm       | 4 | |
+| Screw, M3-0.5 x 6mm       | 4 | |
 
 </div>
 <div markdown class="jh-grid-img">
