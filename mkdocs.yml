@@ -80,6 +80,10 @@ plugins:
 nav:
   - index.md
   - tour.md
+  - Compatibility & Support:
+    - compat/index.md
+    - compat/hotends.md
+    - compat/drives.md
   - Modules & BOM:
     - modules/index.md
     - Core Modules:
@@ -91,10 +95,6 @@ nav:
     - modules/hotend.md
     - modules/pcb_mounts.md
     - modules/other.md
-  - Compatibility & Support:
-    - compat/index.md
-    - compat/hotends.md
-    - compat/drives.md
   - Assembly:
     - assembly/index.md
     - assembly/first.md

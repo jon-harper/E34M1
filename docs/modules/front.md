@@ -7,8 +7,8 @@ date: 2023-4-5
 
 There are two version of the front module:
 
-1. Stock Front: Mounts an ADXL345 input shaper (stock EVA 3)
-2. PIS Front: Mounts a FYSETC portable input shaper
+- Stock Front: Mounts an ADXL345 input shaper (stock EVA 3)
+- PIS Front: Mounts a FYSETC portable input shaper
 
 ## Stock Front
 

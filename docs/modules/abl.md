@@ -9,10 +9,10 @@ The side mount is used by most ABL methods and attaches to the Front. See the [B
 
 These ABL and hotend length combinations are available:
 
-1. BLTouch
-2. BLTouch (Volcano)
-3. CR Touch
-4. CR Touch for Volcano Hotends
+- BLTouch
+- BLTouch (Volcano)
+- CR Touch
+- CR Touch (Volcano)
 
 ### BLTouch
 

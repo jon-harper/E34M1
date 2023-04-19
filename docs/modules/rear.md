@@ -5,13 +5,14 @@ authors: Jon Harper
 date: 2023-4-5
 ---
 
-The rear module acts as an inlet for the cooling fan. An adapter is available to use stock cooling inlets (e.g., for dual-5015 fans).
+The rear module acts as a part cooling fan inlet. An adapter is available to use stock cooling inlets (e.g., for dual-5015 fans).
 
-Three components are available:
+Several options are available:
 
-1. Low-Profile Cooling Inlet: Modified stock 5015 inlet with lower height.
-2. Low-Profile Sideways Cooling Inlet: Low-height sideways mount for a 5015 part fan.
-3. Stock Rear Inlet Adapter: Lightweight adapter for stock EVA rear inlets.
+- Low-Profile Cooling Inlet: Modified stock 5015 inlet with lower height.
+- Low-Profile Sideways Cooling Inlet: Low-height sideways mount for a 5015 part fan.
+- Sideways Cooling Inlet for Beacon: modified version of the above for Beacon.
+- Stock Rear Inlet Adapter: Lightweight adapter for stock EVA rear inlets.
 
 ### Low-Profile Cooling Inlet
 
@@ -82,7 +83,7 @@ Use this if you are not sure which cooling inlet is best for you.
 
 !!! info "Based on work by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
 
-This is a modification of the the sideways inlet that adds clearance for the Beacon connector and a cutout with zip tie anchor for the wire. The inlet uses a flat head cap screw to secure the duct to the bottom horns. This screw may be left out if necessary.
+This modification of the the sideways inlet has clearance for the Beacon connector and a cutout with zip tie anchor for the USB cable. The inlet uses a **flat head cap screw** to secure the duct to the bottom horns. This screw may be left out if necessary, but may provide a less secure seal for the duct.
 
 This inlet is compatible with both [dual horn](bottom.md#dual-horns-for-beacon) and [trihorn](bottom.md#trihorns-for-beacon) beacon ducts.
 
@@ -90,11 +91,13 @@ This inlet is compatible with both [dual horn](bottom.md#dual-horns-for-beacon) 
 
 **Bill of Materials**
 
+Note that the M3 x 6mm screw is a flat head cap screw.
+
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `rear_inlet_beacon.stl`][] | 1 |
-| Screw, M3-0.5 x 6mm FHCS | 1 |
-| Screw, M3-0.5 x 20mm     | 1 |
+| [:material-printer-3d-nozzle: `rear_inlet_beacon.stl`][rear_inlet_beacon] | 1 |
+| [:material-cart: Screw, M3-0.5 x 6mm FHCS][bom_m3x6_fhcs] | 1 |
+| Screw, M3-0.5 x 20mm      | 1 |
 | Screw, M3-0.5 x 45mm      | 4 |
 | Heat Set Insert, M3x5x4   | 1 |
 | 5015 Radial Fan           | 1 |

@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2023-4-5
 ---
 
-These are miscellaneous parts that may be useful in some builds.
+These are miscellaneous parts that may be useful in some builds, particularly the X Axis Stop Block.
 
 ### Front Intake Duct
 
@@ -14,14 +14,14 @@ Hotend cooling fans may be attached using an intake duct that allows two (2) scr
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-| Parts     | Qty | Notes |
-|-----------|-----|-------|
-| [:material-printer-3d-nozzle: `front_intake_duct.stl`][front_intake]  | 1 | |
-| :material-printer-3d-nozzle: EVA shroud                | 1 | Your choice of printed shroud. Optional. |
-| Axial Fan, 40mm x 10mm    | 1 | May substitute 20mm thickness. |
-| Screw, M3-0.5 x 12mm      | 2 | |
-| Screw, M3-0.5 x 16mm      | 2 | |
-| Heat Set Insert, M3x5x4   | 2 | |
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `front_intake_duct.stl`][front_intake]  | 1 |
+| *:material-printer-3d-nozzle: EVA shroud* | *1* |
+| Axial Fan, 40mm x 10mm    | 1 |
+| Screw, M3-0.5 x 12mm      | 2 |
+| Screw, M3-0.5 x 16mm      | 2 |
+| Heat Set Insert, M3x5x4   | 2 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -39,11 +39,13 @@ This is an adaptation of the M1 stop block for EVA 3. It acts as a bumper for th
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-| Parts     | Qty | Notes |
-|-----------|-----|-------|
-| [:material-printer-3d-nozzle: `x_axis_stop_block.stl`][x_stop_block] | 1 | |
-| Screw, M3-0.5 x 8mm | 2 | |
-| Drop In Tee Nut, 2020 Profile, M3 | 2 | Roll in tee nuts may be used for easier installation. |
+Roll in tee nuts may be used instead of drop-in for easier installation.
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `x_axis_stop_block.stl`][x_stop_block] | 1 |
+| Screw, M3-0.5 x 8mm | 2 |
+| Drop In Tee Nut, 2020 Profile, M3 | 2 | 
 
 </div>
 <div markdown class="jh-grid-img">
@@ -58,13 +60,14 @@ This part is necessary for Ender 5 Pros with stock (non-Hydra) Z kinematics. Thi
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-| Parts     | Qty | Notes |
-|-----------|-----|-------|
-| [:material-printer-3d-nozzle: `z_limit_switch_cover.stl`][z_limit_cover] | 1 | |
-| [:material-printer-3d-nozzle: `z_limit_switch_mount.stl`][z_limit_mount] | 1 | |
-| Screw, M3-0.5 x 16mm | 2 | |
-| Screw, M5-0.8 x 8mm  | 1 | |
-| Tee Nut, Drop In, M5 | 1 | |
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `z_limit_switch_cover.stl`][z_limit_cover] | 1 |
+| [:material-printer-3d-nozzle: `z_limit_switch_mount.stl`][z_limit_mount] | 1 |
+| Stock Creality Endstop | 1 |
+| Screw, M3-0.5 x 16mm | 2 |
+| Screw, M5-0.8 x 8mm  | 1 |
+| Tee Nut, Drop In, M5 | 1 |
 | Heat Set Insert, M3x5x4 | 2 |
 
 </div>

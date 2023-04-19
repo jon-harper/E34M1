@@ -7,11 +7,19 @@ date: 2023-1-26
 
 ## April 2023
 
+### 23/04/19
+
+- Combined PCB shrouds and mounts to one page.
+- Tons of editing for wording and clarity.
+
 ### 23/04/18
 
 - Lots of formatting and cleanup.
 - Assembly: added note about other parts to consider (including X limit switch bumper)
 - Added CR Touch back in.
+- **GitHub**: All parts now have part numbers printed on.
+- **GitHub**: All parts are now in print orientation.
+- All assembly pages are now numbered.
 
 ### 23/04/14 - 23/04/15
 

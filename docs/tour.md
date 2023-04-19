@@ -7,7 +7,7 @@ date: 2023-1-26
 
 ## Overview
 
-E34M1 replaces many of the printed parts from EVA 3, while maintaining compatibility with others. This tour introduces the E34M1 *and* everything else you need to print from EVA 3.
+E34M1 replaces many of the printed parts from EVA 3, while maintaining compatibility with hotends and extruders. This tour introduces the E34M1 *and* everything else you need to print from EVA 3.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">
@@ -72,7 +72,7 @@ The bottom horns are primarily for part cooling. Some ABL methods (e.g., Beacon,
 
 ### Rear Inlet
 
-Stock EVA has a rear piece in this location that acts as a belt tensioner. It is removed in E34M1, with the cooling inlet moved forward and serving in its place.
+Stock EVA 3 has a rear piece in this location that acts as a belt tensioner. It is removed in E34M1; the cooling inlet is moved forward and serves in its place.
 
 <figure markdown>
 ![inlet](img/tour/inlet.png){width="300px"}
@@ -82,14 +82,9 @@ Stock EVA has a rear piece in this location that acts as a belt tensioner. It is
 </div>
 <div markdown class="jh-card">
 
-### ABL Mount
+### ABL Side Mount
 
-The side ABL mount is modified from stock EVA.
-
-!!! note
-    Not all ABL methods use the ABL mount (e.g., Klicky, Beacon).
-
-    See [Related and Contributed Mods](#related-and-contributed-mods) for user-contributed Klicky and Beacon mounts.
+The side ABL mount is modified from stock EVA. Most ABL methods mount here (e.g., BLTouch and CR Touch).
 
 <figure markdown>
 ![abl mount](img/tour/abl.png){width="300px"}
@@ -156,9 +151,8 @@ E34M1 provides several other components that may be useful:
 |-------------------------------|---------|
 | [Front Intake Duct](modules/other.md#front-intake-duct) | Allows hotend cooling fans to be removed with two (2) screws. |
 | [X Axis Stop Block](modules/other.md#x-axis-stop-block) | Bumper for the X axis endstop, adapted from M1.1. |
-| [Z Limit Switch Mount](modules/other.md#z-endstop-mount) | Covers the Z endstop PCB. |
-| [Toolhead PCB Mounts](modules/pcb_mounts.md) | Mounts for '36 and '42 PCBs for NEMA17 steppers. |
-| [Toolhead PCB Shrouds](modules/pcb_shrouds.md) | Shrouds to cover toolhead PCB wiring. |
+| [Z Limit Switch Mount](modules/other.md#z-endstop-mount) | Raises the Z endstop for Ender 5 Pro printers. |
+| [Toolhead PCB Mounts](modules/pcb_mounts.md) | Mounts for '36 and '42 PCBs for NEMA17 steppers and shrouds to cover them. |
 
 ## Related and Contributed Mods
 
@@ -166,4 +160,4 @@ These are related mods not linked elsewhere that may be useful for your build.
 
 | Mod Name | Author | Purpose |
 |----------|--------|---------|
-| [Klicky Probe Dock for Mercury 1 Zero G](https://www.printables.com/model/386819-klicky-probe-dock-for-mercury-1-zero-g) | [Sir_Wash](https://www.printables.com/social/415185-sir_wash) | Adds a dock for Klicky; works with `bottom_horns_klicky_fi.stl`. |
+| [Klicky Probe Dock for Mercury 1 Zero G](https://www.printables.com/model/386819-klicky-probe-dock-for-mercury-1-zero-g) | [Sir_Wash](https://www.printables.com/social/415185-sir_wash) | Adds a dock for Klicky; works with `klicky_bottom.stl`. |
