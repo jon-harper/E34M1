@@ -7,8 +7,6 @@ date: 2023-4-6
 
 This pages list extruders (called Drives in EVA 3) known to have mounts. Any drive mount designed for EVA 3 should be compatible with E34M1.
 
-These are third-party links and may not contain a BOM.
-
 <!-- 
 Template:
 
@@ -29,7 +27,54 @@ Template:
 </div>
  -->
 
-## NEMA 14
+## E34M1 Drives
+
+<div markdown class="jh-grid-container jh-grid-3">
+<div markdown class="jh-card">
+
+### [Bondtech BMG](../modules/drive.md#bondtech-bmg)
+
+<figure markdown>
+[![Bondtech BMG](../img/drives/bmg.png){width="200px"}](../modules/drive.md#bondtech-bmg)
+</figure>
+</div>
+
+<div markdown class="jh-card">
+
+### [Bondtech LGX](../modules/drive.md#bondtech-lgx)
+
+<figure markdown>
+[![Bondtech LGX](../img/drives/lgx.png){width="200px"}](../modules/drive.md#bondtech-lgx)
+</figure>
+</div>
+<div markdown class="jh-card">
+
+### [Bondtech LGX Lite](../modules/drive.md#bondtech-lgx-lite)
+
+<figure markdown>
+[![Bondtech LGX](../img/drives/lgx_lite.png){width="200px"}](../modules/drive.md#bondtech-lgx-lite)
+</figure>
+</div>
+<div markdown class="jh-card">
+
+### [LDO Orbiter 1.5](../modules/drive.md#ldo-orbiter-15)
+
+<figure markdown>
+[![LDO Orbiter 1.5](../img/drives/orbiter_1_5.png){width="200px"}](../modules/drive.md#ldo-orbiter-15)
+</figure>
+</div>
+<div markdown class="jh-card">
+
+### [LDO Orbiter 2.0](../modules/drive.md#ldo-orbiter-20)
+
+<figure markdown>
+[![LDO Orbiter 2.0](../img/drives/orbiter_2_0.png){width="200px"}](../modules/drive.md#ldo-orbiter-20)
+</figure>
+</div>
+
+</div>
+
+## EVA 3 Ecosystem Drives
 
 ### Annex Sherpa Micro
 
@@ -40,7 +85,7 @@ Template:
 - **Inserts/Hex Nuts**: M3x4.6x4 inserts
 
 <div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
-[Inserts Link](https://www.printables.com/model/224597-sherpa-micro-mount-for-eva-3){ .md-button}
+[Link](https://www.printables.com/model/224597-sherpa-micro-mount-for-eva-3){ .md-button}
 </div>
 </div>
 <div markdown class="jh-grid-img">
@@ -66,112 +111,6 @@ Template:
 </div>
 </div>
 
-### Bondtech LGX Lite
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-- **Author**: EVA
-- **Inserts/Hex Nuts**: None
-
-<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
-[Link with BOM](https://main.eva-3d.page/heat_insert/drive/lgx_lite/){ .md-button }
-</div>
-</div>
-<div markdown class="jh-grid-img">
-![Bondtech LGX Lite](../img/drives/lgx_lite.png){width="200px"}
-</div>
-</div>
-
-### LDO Orbiter 1.5
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-- **Author**: EVA
-- **Inserts/Hex Nuts**: M3x4.6x4 inserts or hex nuts
-
-<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
-[Inserts Link with BOM](https://main.eva-3d.page/heat_insert/drive/orbiter_1_5/){ .md-button }
-[Hex Nuts Link with BOM](https://main.eva-3d.page/hex_nuts/drive/orbiter_1_5/){ .md-button }
-</div>
-</div>
-<div markdown class="jh-grid-img">
-![LDO Orbiter 1.5](../img/drives/orbiter_1_5.png){width="200px"}
-</div>
-</div>
-
-### LDO Orbiter 2.0
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-- **Author**: EVA
-- **Inserts/Hex Nuts**: M3x4.6x4 inserts or hex nuts
-
-<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
-[Inserts Link with BOM](https://main.eva-3d.page/heat_insert/drive/orbiter_2_0){ .md-button }
-[Hex Nuts Link with BOM](https://main.eva-3d.page/hex_nuts/drive/orbiter_2_0/){ .md-button }
-</div>
-</div>
-<div markdown class="jh-grid-img">
-![LDO Orbiter 2.0](../img/drives/orbiter_2_0.png){width="200px"}
-</div>
-</div>
-
-### VzBoT3D Vz-HextrudORT Low
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-- **Author**: [Pr20100](https://www.printables.com/@Pr20100)
-- **Inserts/Hex Nuts**: M3x4.6x4 inserts or hex nuts
-
-<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
-[Link](https://www.printables.com/model/355751-eva-3-vz-hextrudort-low-extruder-mounting-plate){ .md-button }
-</div>
-</div>
-<div markdown class="jh-grid-img">
-![VzBoT3D Vz-HextrudORT Low](../img/drives/hextrudort.png){width="200px"}
-</div>
-</div>
-
-## NEMA 17
-
-### Bondtech BMG
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-- **Author**: EVA
-- **Inserts/Hex Nuts**: None
-
-<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
-[Link with BOM](https://main.eva-3d.page/heat_insert/drive/bmg/){ .md-button }
-</div>
-</div>
-<div markdown class="jh-grid-img">
-![Bondtech BMG](../img/drives/bmg.png){width="200px"}
-</div>
-</div>
-
-### Bondtech LGX
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-- **Author**: EVA
-- **Inserts/Hex Nuts**: None
-
-<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
-[Link with BOM](https://main.eva-3d.page/heat_insert/drive/lgx/){ .md-button }
-</div>
-</div>
-<div markdown class="jh-grid-img">
-![Bondtech LGX](../img/drives/lgx.png){width="200px"}
-</div>
-</div>
-
 ### E3D Titan
 
 <div markdown class="jh-grid-container jh-grid-2">
@@ -189,3 +128,20 @@ Template:
 </div>
 </div>
 
+
+### VzBoT3D Vz-HextrudORT Low
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+- **Author**: [Pr20100](https://www.printables.com/@Pr20100)
+- **Inserts/Hex Nuts**: M3x4.6x4 inserts or hex nuts
+
+<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
+[Link](https://www.printables.com/model/355751-eva-3-vz-hextrudort-low-extruder-mounting-plate){ .md-button }
+</div>
+</div>
+<div markdown class="jh-grid-img">
+![VzBoT3D Vz-HextrudORT Low](../img/drives/hextrudort.png){width="200px"}
+</div>
+</div>

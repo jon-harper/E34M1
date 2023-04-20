@@ -93,6 +93,7 @@ nav:
       - modules/rear.md
     - modules/abl.md
     - modules/hotend.md
+    - modules/drive.md
     - modules/pcb_mounts.md
     - modules/other.md
   - Assembly:
