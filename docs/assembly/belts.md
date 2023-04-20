@@ -11,7 +11,7 @@ date: 2023-4-8
   <source src="https://jon-harper.github.io/E34M1/assets/vid/belts.mp4" type="video/mp4">
 </video>
 
-Now we can secure the belts. If you aren't ready to install your belts, you can skip this stage for now.
+Now we can secure the belts. Note that if the belts are removed later, the hotend mount must be removed to re-install the belts.
 
 ## Parts
 
@@ -19,7 +19,7 @@ Now we can secure the belts. If you aren't ready to install your belts, you can 
 |---|---|
 | :material-printer-3d-nozzle: [Belt Grabber](../modules/front.md) | 2 |
 | 6mm GT2 belts     | 2 |
-| M3 x 6mm screws   | 4 |
+| M3 x 6mm SHCS     | 4 |
 | *Lock washer, M3* | *4* |
 
 ## Steps

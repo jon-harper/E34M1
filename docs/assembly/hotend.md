@@ -20,8 +20,8 @@ We're ready to install the hotend. The hotend, fan, thermistor, and heater cartr
 | Dragon BMO Hotend | 1 |
 | 40mm x 10mm axial fan    | 1 |
 | M2.5 x 8mm SHCS   | 4 |
-| M3 x 12mm SHCS    | 4 |
 | M3 x 6mm SHCS     | 4 |
+| M3 x 12mm SHCS    | 4 |
 | *Lock washer, M3* | 4 |
 
 ## Steps
