@@ -34,16 +34,16 @@ These terms and icons are used throughout the site.
 - FHCS: Flat head cap screw, DIN 7991
 - SHCS: Socket head scap screw, DIN 912
 
-## E34M1 Core Modules
+## E34M1 Modules
 
-These are all specific to E34M1.
+Each E34M1 module comes in at least two versions and are specific to E34M1.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">
 
 ### Front
 
-The Front mounts the hotend, belts, and part of the Drive module.
+The Front mounts the hotend, belts, and the front of the Drive module.
 
 <figure markdown>
 ![front](img/tour/front.png){width="300px"}
@@ -55,7 +55,7 @@ The Front mounts the hotend, belts, and part of the Drive module.
 <div markdown class="jh-card">
 ### Top
 
-The top mounts the MGN12H carriage, the X axis endstop, and an optional cable guide. A version is available without the cable guide for toolhead PCB users.
+The top mounts the MGN12H carriage, the X axis endstop, and the back of the Drive module.
 
 <figure markdown>
 ![top](img/tour/top.png){width="300px"}
@@ -70,7 +70,7 @@ The top mounts the MGN12H carriage, the X axis endstop, and an optional cable gu
 
 ### Bottom
 
-The bottom horns are primarily for part cooling. Some ABL methods (e.g., Beacon, Klicky) mount here.
+The bottom horns are primarily for part cooling and form the lower joint between the Front and Rear Inlet. Some ABL methods (e.g., Beacon, Klicky) mount here.
 
 <figure markdown>
 ![bottom](img/tour/bottom.png){width="300px"}
@@ -106,7 +106,9 @@ The side ABL mount is modified from stock EVA. Most ABL methods mount here (e.g.
 
 ## Stock EVA Modules
 
-Stock modules have not changed from EVA 3; any hotend or extruder with a mount is compatible. We've assembled lists of known hotend and drive mounts.
+Stock modules have not changed in how they join with other parts. This keeps third party mods compatible while allowing us to make small improvements and fixes to the existing mounting options.
+
+We've assembled lists of known hotend and drive mounts.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">

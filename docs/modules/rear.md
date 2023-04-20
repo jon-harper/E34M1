@@ -83,9 +83,9 @@ Use this if you are not sure which cooling inlet is best for you.
 
 !!! info "Based on work by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
 
-This modification of the the sideways inlet has clearance for the Beacon connector and a cutout with zip tie anchor for the USB cable. The inlet uses a **flat head cap screw** to secure the duct to the bottom horns. This screw may be left out if necessary, but may provide a less secure seal for the duct.
+This modification of the the sideways inlet has clearance for the Beacon connector and a cutout with zip tie anchor for the USB cable. This inlet is compatible with both [dual horn](bottom.md#dual-horns-for-beacon) and [trihorn](bottom.md#trihorns-for-beacon) beacon ducts.
 
-This inlet is compatible with both [dual horn](bottom.md#dual-horns-for-beacon) and [trihorn](bottom.md#trihorns-for-beacon) beacon ducts.
+The inlet uses a **flat head cap screw** to secure the duct to the bottom horns. This screw may be left out if necessary, but may provide a less secure seal for the duct. `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
 
 **Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
 
@@ -96,6 +96,7 @@ Note that the M3 x 6mm screw is a flat head cap screw.
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `rear_inlet_beacon.stl`][rear_inlet_beacon] | 1 |
+| [:material-printer-3d-nozzle: `screw_cap.stl`][beacon_screw_cap] |1 |
 | [:material-cart: Screw, M3-0.5 x 6mm FHCS][bom_m3x6_fhcs] | 1 |
 | Screw, M3-0.5 x 20mm      | 1 |
 | Screw, M3-0.5 x 45mm      | 4 |
