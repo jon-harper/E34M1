@@ -91,9 +91,10 @@ nav:
       - modules/top.md
       - modules/bottom.md
       - modules/rear.md
-    - modules/abl.md
-    - modules/hotend.md
-    - modules/drive.md
+      - modules/abl.md
+    - Hotends & Extruders:
+      - modules/hotend.md
+      - modules/drive.md
     - modules/pcb_mounts.md
     - modules/other.md
   - Assembly:
