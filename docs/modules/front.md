@@ -27,11 +27,11 @@ Modification of the stock EVA Front for Mercury One. This mounts an ADXL345 acce
 |-----------|-----|
 | [:material-printer-3d-nozzle: `stock_front.stl`][front]  | 1 |
 | [:material-printer-3d-nozzle: `belt_grabber.stl`][belt_grabber] | 2 |
-| Screw, M3-0.5 x 6mm       | 4    |
-| Screw, M3-0.5 x 40mm      | 4    |
+| M3-0.5 x 6mm SHCS  | 4    |
+| M3-0.5 x 40mm SHCS | 4    |
 | Heat Set Insert, M3x5x4   | 14   |
 | *ADXL345*                 | *1*  |
-| *Screw, M3-0.5 x 8mm*     | *2*  |
+| *M3-0.5 x 8mm SHCS*| *2*  |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -69,10 +69,10 @@ Slightly modified Front that mounts a FYSETC portable input shaper.
 |-----------|-----|
 | [:material-printer-3d-nozzle: `pis_front.stl`][front_pis]  | 1 |
 | [:material-printer-3d-nozzle: `belt_grabber.stl`][belt_grabber] | 2 |
-| Screw, M3-0.5 x 6mm       | 4 |
+| M3-0.5 x 6mm SHCS         | 4 |
 | Heat Set Insert, M3x5x4   | 16 |
 | *FYSETC Portable Input Shaper* | *1* |
-| *Screw, M3-0.5 x 8mm*       | *2* |
+| *M3-0.5 x 8mm SHCS*       | *2* |
 
 </div>
 <div markdown class="jh-grid-img">

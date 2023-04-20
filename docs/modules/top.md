@@ -26,8 +26,8 @@ This is a stock EVA Top piece modified for users with umbilicals.
 | [:material-printer-3d-nozzle: `top_endstop_mgn12h.stl`][top] | 1 |
 | [:material-printer-3d-nozzle: `cable_guide.stl`][cable_guide] | 1 |
 | [:material-cart: Horizontal limit switch][bom_limit_switch]  | 1 |
-| Screw, M3-0.5 x 6mm      | 2 |
-| Screw, M3-0.5 x 8mm      | 6 |
+| M3-0.5 x 6mm SHCS | 2 |
+| M3-0.5 x 8mm SHCS | 6 |
 | Heat Set Insert, M3x5x4  | 6 |
 
 </div>
@@ -54,8 +54,8 @@ A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolh
 |-----------|-----|
 | [:material-printer-3d-nozzle: `top_endstop_mgn12h_pcb.stl`][top_pcb] | 1 |
 | [:material-cart: Horizontal limit switch][bom_limit_switch]  | 1 |
-| Screw, M3-0.5 x 8mm      | 6 |
-| Heat Set Insert, M3x5x4  | 4 |
+| M3-0.5 x 8mm SHCS         | 6 |
+| Heat Set Insert, M3x5x4   | 4 |
 
 </div>
 <div markdown class="jh-grid-img">

@@ -28,8 +28,8 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 |-----------|-----|
 | [:material-printer-3d-nozzle: `hotend_.stl`][]  | 1 |
 | Fan, 40mm x 10mm          | 1 |
-| Screw, M3-0.5 x 6mm       | 4 |
-| Screw, M3-0.5 x 12mm      | 4 |
+| M3-0.5 x 6mm       | 4 |
+| M3-0.5 x 12mm      | 4 |
 | Heat Set Insert, M3x5x4   | 8 |
 
 </div>
@@ -51,12 +51,12 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `hotend_nova.stl`][hotend_nova]  | 1 |
-| 3D Passion Nova           | 1 |
-| Fan, 40mm x 10mm          | 1 |
-| Screw, M2.5-0.45 x 8mm SHCS | 2 |
-| Screw, M3-0.5 x 6mm       | 4 |
-| Screw, M3-0.5 x 12mm      | 4 |
-| Heat Set Insert, M3x5x4   | 8 |
+| 3D Passion Nova               | 1 |
+| Fan, 40mm x 10mm              | 1 |
+| M2.5-0.45 x 8mm SHCS          | 2 |
+| M3-0.5 x 6mm SHCS             | 4 |
+| M3-0.5 x 12mm SHCS            | 4 |
+| Heat Set Insert, M3x5x4       | 8 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -76,12 +76,12 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `hotend_revo_voron.stl`][hotend_revo_voron]  | 1 |
-| E3D Revo Voron            | 1 |
-| Fan, 40mm x 10mm          | 1 |
-| Screw, M2.5-0.45 x 8mm SHCS | 4 |
-| Screw, M3-0.5 x 6mm       | 4 |
-| Screw, M3-0.5 x 12mm      | 4 |
-| Heat Set Insert, M3x5x4   | 8 |
+| E3D Revo Voron                | 1 |
+| Fan, 40mm x 10mm              | 1 |
+| M2.5-0.45 x 8mm SHCS          | 4 |
+| M3-0.5 x 6mm SHCS             | 4 |
+| M3-0.5 x 12mm SHCS            | 4 |
+| Heat Set Insert, M3x5x4       | 8 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -105,9 +105,9 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 | [:material-printer-3d-nozzle: `hotend_dragon_bmo.stl`][hotend_dragon_bmo]  | 1 |
 | Phaetus Dragon BMO (all versions) | 1 |
 | Fan, 40mm x 10mm          | 1 |
-| Screw, M2.5-0.45 x 8mm SHCS | 4 |
-| Screw, M3-0.5 x 6mm       | 4 |
-| Screw, M3-0.5 x 12mm      | 4 |
+| M2.5-0.45 x 8mm SHCS      | 4 |
+| M3-0.5 x 6mm SHCS         | 4 |
+| M3-0.5 x 12mm SHCS        | 4 |
 | Heat Set Insert, M3x5x4   | 8 |
 
 </div>
@@ -128,12 +128,12 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `hotend_dragonfly_bmo.stl`][hotend_dragonfly_bmo]  | 1 |
-| Dragonfly BMO             | 1 |
-| Fan, 40mm x 10mm          | 1 |
-| Screw, M2.5-0.45 x 8mm SHCS | 4 |
-| Screw, M3-0.5 x 6mm       | 4 |
-| Screw, M3-0.5 x 12mm      | 4 |
-| Heat Set Insert, M3x5x4   | 8 |
+| Dragonfly BMO                 | 1 |
+| Fan, 40mm x 10mm              | 1 |
+| M2.5-0.45 x 8mm SHCS          | 4 |
+| M3-0.5 x 6mm SHCS             | 4 |
+| M3-0.5 x 12mm SHCS            | 4 |
+| Heat Set Insert, M3x5x4       | 8 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -161,10 +161,10 @@ Lock washers to mount the hotend are optional.
 | [:material-printer-3d-nozzle: `hotend_dragonfly_bms.stl`][hotend_dragonfly_bms]  | 1 |
 | Dragonfly BMS             | 1 |
 | Fan, 40mm x 10mm          | 1 |
-| Screw, M3-0.5 x 6mm       | 4 |
-| Screw, M3-0.5 x 12mm      | 4 |
-| Screw, M3-0.5 x 16mm      | 2 |
-| *Lock washer, M3*           | *2* |
+| M3-0.5 x 6mm SHCS         | 4 |
+| M3-0.5 x 12mm SHCS        | 4 |
+| M3-0.5 x 16mm SHCS        | 2 |
+| *Lock washer, M3*         | *2* |
 | Heat Set Insert, M3x5x4   | 10 |
 
 </div>
@@ -185,12 +185,12 @@ Lock washers to mount the hotend are optional.
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `hotend_rapido.stl`][hotend_rapido]  | 1 |
-| Rapido                    | 1 |
-| Fan, 40mm x 10mm          | 1 |
-| Screw, M2.5-0.45 x 8mm SHCS | 4 |
-| Screw, M3-0.5 x 6mm       | 4 |
-| Screw, M3-0.5 x 12mm      | 4 |
-| Heat Set Insert, M3x5x4   | 8 |
+| Rapido                        | 1 |
+| Fan, 40mm x 10mm              | 1 |
+| M2.5-0.45 x 8mm SHCS          | 4 |
+| M3-0.5 x 6mm SHCS             | 4 |
+| M3-0.5 x 12mm SHCS            | 4 |
+| Heat Set Insert, M3x5x4       | 8 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -210,12 +210,12 @@ Lock washers to mount the hotend are optional.
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `hotend_mosquito.stl`][hotend_mosquito]  | 1 |
-| Mosquito                  | 1 |
-| Fan, 40mm x 10mm          | 1 |
-| Screw, M2.5-0.45 x 8mm SHCS | 2 |
-| Screw, M3-0.5 x 6mm       | 4 |
-| Screw, M3-0.5 x 12mm      | 4 |
-| Heat Set Insert, M3x5x4   | 8 |
+| Mosquito                      | 1 |
+| Fan, 40mm x 10mm              | 1 |
+| M2.5-0.45 x 8mm SHCS          | 2 |
+| M3-0.5 x 6mm SHCS             | 4 |
+| M3-0.5 x 12mm SHCS            | 4 |
+| Heat Set Insert, M3x5x4       | 8 |
 
 </div>
 <div markdown class="jh-grid-img">

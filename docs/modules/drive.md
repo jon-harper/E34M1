@@ -52,11 +52,11 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `drive_bmg.stl`][drive_bmg]  | 1 |
-| NEMA17 stepper | 1 |
-| Bondtech BMG   | 1 |
-| Screw, M3-0.5 x 8mm       | 4 |
-| Screw, M3-0.5 x 12mm      | 3 |
-| Screw, M3-0.5 x 35mm      | 3 |
+| NEMA17 stepper            | 1 |
+| Bondtech BMG              | 1 |
+| M3-0.5 x 8mm SHCS         | 4 |
+| M3-0.5 x 12mm SHCS        | 3 |
+| M3-0.5 x 35mm SHCS        | 3 |
 | *Lock washer, M3*         | 7 |
 
 This extruder needs 28.9mm of PTFE.
@@ -84,8 +84,8 @@ This extruder needs 28.9mm of PTFE.
 | [:material-printer-3d-nozzle: `drive_lgx.stl`][drive_lgx]  | 1 |
 | NEMA17 stepper            | 1 |
 | Bondtech LGX with Copperhead mount | 1 |
-| Screw, M3-0.5 x 8mm       | 6 |
-| Screw, M3-0.5 x 12mm      | 4 |
+| M3-0.5 x 8mm SHCS         | 6 |
+| M3-0.5 x 12mm SHCS        | 4 |
 | *Lock washer, M3*         | 10 |
 
 This extruder needs 20.8mm of PTFE.
@@ -111,12 +111,12 @@ This extruder needs 20.8mm of PTFE.
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `drive_lgx_lite.stl`][drive_lgx_lite]  | 1 |
-| NEMA14 stepper    | 1 |
-| Bondtech LGX Lite | 1 |
-| Screw, M3-0.5 x 6mm | 3 |
-| Screw, M3-0.5 x 8mm | 2 |
-| Screw, M3-0.5 x 12mm | 4 |
-| *Lock washer, M3*   | 9 |
+| NEMA14 stepper        | 1 |
+| Bondtech LGX Lite     | 1 |
+| M3-0.5 x 6mm SHCS     | 3 |
+| M3-0.5 x 8mm SHCS     | 2 |
+| M3-0.5 x 12mm SHCS    | 4 |
+| *Lock washer, M3*     | 9 |
 
 This extruder needs 14.2mm of PTFE.
 
@@ -141,13 +141,13 @@ This extruder needs 14.2mm of PTFE.
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `drive_orbiter_1_5.stl`][drive_orbiter_1_5]  | 1 |
-| NEMA14 stepper        | 1 |
-| LDO Orbiter 1.5       | 1 |
-| Screw, M3-0.5 x 8mm   | 4 |
-| Screw, M3-0.5 x 10mm  | 2 |
-| Screw, M3-0.5 x 12mm  | 3 |
-| Heat Set Insert, M3x5x4 | 2 |
-| *Lock washer, M3*     | 11 |
+| NEMA14 stepper            | 1 |
+| LDO Orbiter 1.5           | 1 |
+| M3-0.5 x 8mm SHCS         | 4 |
+| M3-0.5 x 10mm SHCS        | 2 |
+| M3-0.5 x 12mm SHCS        | 3 |
+| Heat Set Insert, M3x5x4   | 2 |
+| *Lock washer, M3*         | 11 |
 
 This extruder needs 22.2mm of PTFE.
 
@@ -175,13 +175,13 @@ This extruder needs 22.2mm of PTFE.
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `drive_orbiter_2_0.stl`][drive_orbiter_2_0]  | 1 |
-| NEMA14 stepper        | 1 |
-| LDO Orbiter 2.0       | 1 |
-| Screw, M3-0.5 x 8mm   | 4 |
-| Screw, M3-0.5 x 10mm  | 2 |
-| Screw, M3-0.5 x 12mm  | 3 |
-| Heat Set Insert, M3x5x4 | 2 |
-| *Lock washer, M3*     | 9 |
+| NEMA14 stepper            | 1 |
+| LDO Orbiter 2.0           | 1 |
+| M3-0.5 x 8mm SHCS         | 4 |
+| M3-0.5 x 10mm SHCS        | 2 |
+| M3-0.5 x 12mm SHCS        | 3 |
+| Heat Set Insert, M3x5x4   | 2 |
+| *Lock washer, M3*         | 9 |
 
 This extruder needs 17.95mm of PTFE.
 

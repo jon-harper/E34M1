@@ -28,11 +28,12 @@ This is a modified version of the stock EVA 3 cooling inlet. It has a much-reduc
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `rear_5015_inlet.stl`][5015_inlet] | 1 |
-| Screw, M3-0.5 x 6mm       | 1 |
-| Screw, M3-0.5 x 20mm      | 1 |
-| Screw, M3-0.5 x 45mm      | 4 |
-| Heat Set Insert, M3x5x4   | 1 |
 | 5015 Radial Fan           | 1 |
+| M3-0.5 x 6mm SHCS         | 1 |
+| M3-0.5 x 20mm SHCS        | 1 |
+| M3-0.5 x 45mm SHCS        | 4 |
+| Heat Set Insert, M3x5x4   | 1 |
+| *Lock washer, M3*         | *5* |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -59,11 +60,12 @@ Use this if you are not sure which cooling inlet is best for you.
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `rear_5015_inlet_sideways.stl`][5015_sideways_inlet] | 1 |
-| Screw, M3-0.5 x 6mm       | 1 |
-| Screw, M3-0.5 x 20mm      | 1 |
-| Screw, M3-0.5 x 45mm      | 4 |
-| Heat Set Insert, M3x5x4   | 1 |
 | 5015 Radial Fan           | 1 |
+| M3-0.5 x 6mm SHCS         | 1 |
+| M3-0.5 x 20mm SHCS        | 1 |
+| M3-0.5 x 45mm SHCS        | 4 |
+| Heat Set Insert, M3x5x4   | 1 |
+| *Lock washer, M3*         | *5* |
 
 </div>
 <div markdown class="jh-grid-para">
@@ -97,11 +99,13 @@ Note that the M3 x 6mm screw is a flat head cap screw.
 |-----------|-----|
 | [:material-printer-3d-nozzle: `rear_inlet_beacon.stl`][rear_inlet_beacon] | 1 |
 | [:material-printer-3d-nozzle: `screw_cap.stl`][beacon_screw_cap] |1 |
-| [:material-cart: Screw, M3-0.5 x 6mm FHCS][bom_m3x6_fhcs] | 1 |
-| Screw, M3-0.5 x 20mm      | 1 |
-| Screw, M3-0.5 x 45mm      | 4 |
-| Heat Set Insert, M3x5x4   | 1 |
 | 5015 Radial Fan           | 1 |
+| [:material-cart: M3-0.5 x 6mm FHCS][bom_m3x6_fhcs] | 1 |
+| M3-0.5 x 20mm SHCS        | 1 |
+| M3-0.5 x 45mm SHCS        | 4 |
+| Heat Set Insert, M3x5x4   | 1 |
+| *Lock washer, M3*         | *4* |
+
 </div>
 <div markdown class="jh-grid-img">
 ![inlet_illustration](../img/parts/5015_sideways_inlet_beacon.png){ width=350px}
@@ -125,7 +129,8 @@ This allows stock EVA 3 rear cooling inlets to be used (e.g., [dual 5015 fans](h
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `stock_intake_adapter.stl`][rear_intake_adapter] | 1 |
-| Screw, M3-0.5 x 45mm      | 4 |
+| M3-0.5 x 45mm SHCS        | 4 |
+| *Lock washer, M3*         | *4* |
 
 **Origin**: [EVA 3 Beltless backplate for dual 5015](https://www.printables.com/model/430281-eva-3-beltless-backplate-for-dual-5015) by [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about)
 
