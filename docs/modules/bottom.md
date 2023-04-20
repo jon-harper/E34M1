@@ -195,7 +195,7 @@ Volcano bottom horn support is limited. The EVA 3 source file contains gemeotry 
 
 **Description**
 
-!!! info "Design by [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)"
+!!! info "Designed by [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)"
 
 These bottom horns have a mount for a Beacon PCB. The Beacon kit should include low-profile M3 screws to attach the PCB.
 
