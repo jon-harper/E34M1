@@ -28,7 +28,7 @@ Mounts a BLTouch.
 |-----------|-----|
 | [:material-printer-3d-nozzle: `bl_touch_mount.stl`][bltouch_mount] | 1 |
 | Hex Nut, M3               | 2 |
-| Screw, M3-0.5 x 6mm       | 4 |
+| M3-0.5 x 6mm SHCS         | 4 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -51,11 +51,11 @@ Adds support for BLTouch for longer hotends.
 |-----------|-----|
 | [:material-printer-3d-nozzle: `bl_touch_volcano_mount.stl`][bltouch_volcano] | 1 |
 | Hex Nut, M3               | 2 |
-| Screw, M3-0.5 x 6mm       | 4 |
+| M3-0.5 x 6mm SHCS         | 4 |
 
 </div>
 <div markdown class="jh-grid-img">
-![Volcano BLTouch illustration](){ width=100px }
+![Volcano BLTouch illustration](../img/parts/bltouch_volcano_mount.png){ width=100px }
 </div>
 </div>
 
@@ -64,15 +64,22 @@ Adds support for BLTouch for longer hotends.
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-| Parts     | Qty | Notes |
-|-----------|-----|-------|
-| [:material-printer-3d-nozzle: `cr_touch_mount.stl`][crtouch_mount] | 1 | |
-| Heat Set Insert, M3x5x4   | 2 | |
-| Screw, M3-0.5 x 6mm       | 4 | |
+!!! tip "Fit test pending ([Issue #1](https://github.com/jon-harper/E34M1/issues/1))"
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `cr_touch_mount.stl`][crtouch_mount] | 1 |
+| Heat Set Insert, M3x5x4   | 2 |
+| M3-0.5 x 6mm SHCS         | 2 |
+| M3-0.5 x 12mm SHCS        | 2 |
 
 </div>
 <div markdown class="jh-grid-img">
-![cr_touch_illustration](../img/parts/bltouch_mount.png){ width=100px }
+![cr_touch_illustration](../img/parts/cr_touch.png){ width=100px }
+
+??? "Heat Set Insert Locations"
+    ![inserts](../img/inserts/cr_touch.png){width="150px"}
+
 </div>
 </div>
 

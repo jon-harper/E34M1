@@ -15,9 +15,11 @@ Visit the [Tour](../tour.md) to get an overview of how the modules are arranged.
 
 See the Assembly guide's [Print Checklist](../assembly/#print-checklist) to ensure you have everything.
 
-## What is the :material-cart: icon for?
+## What are :material-cart: :material-printer-3d-nozzle: icons for?
 
-Some entries in the bills of materials contain links as examples to aid sourcing. *No affiliate links are used on this site.*
+The :material-cart: cart icons are for BOM entries with external links. *No affiliate links are used on this site;* these links are examples to aid sourcing.
+
+The :material-printer-3d-nozzle: nozzle icon emphasizes that a part must be downloaded and printed.
 
 ## What does an *italic* BOM entry mean?
 
