@@ -7,7 +7,10 @@ date: 2023-1-27
 
 ## Mercury One Compatibility
 
-E34M1 is compatible with Mercury One without limiting the build area; no print area is lost by converting to EVA 3 from a different toolhead. Minor modifications may be necessary to your Z axis (e.g., adjusting the Z end stop height). See [Other Changes and Additions](#other-changes-and-additions) for examples.
+!!! note
+    E34M1 is *not* compatible with Mercury One Classic.
+
+E34M1 is compatible with Mercury One.1 without limiting the build area; no print area is lost by converting to EVA 3 from a different toolhead. Minor modifications may be necessary to your Z axis (e.g., adjusting the Z end stop height). See [Other Changes and Additions](#other-changes-and-additions) for examples.
 
 !!! note
     Mercury One.1 with E34M1 has a theoretical build area of 275mm x 275mm using 330mm linear rails.

@@ -8,7 +8,7 @@ hide: navigation toc
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-container jh-grid-1">
-Welcome! E34M1 adapts the [EVA 3][eva3] toolhead for [Mercury One][merc1] 3D printers.
+Welcome! E34M1 adapts the [EVA 3][eva3] toolhead for [Mercury One.1][merc1] 3D printers.
 
 <div markdown class="jh-card">
 #### [:material-directions: Tour of E34M1](tour.md)
