@@ -120,6 +120,8 @@ Note that the M3 x 6mm screw is a flat head cap screw.
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+!!! warning "Caution: Does not work with the 40mm fan intake. See [Issue #8](https://github.com/jon-harper/E34M1/issues/8)."
+
 !!! info "Based on work by [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about)"
 
 This allows stock EVA 3 rear cooling inlets to be used (e.g., [dual 5015 fans](https://main.eva-3d.page/heat_insert/cooling_inlet/dual_5015/)), or any mods based on the stock inlets.
