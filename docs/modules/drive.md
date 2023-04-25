@@ -42,9 +42,6 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-!!! tip "Fit test pending ([Issue #5](https://github.com/jon-harper/E34M1/issues/5))"
-    [Click here](https://main.eva-3d.page/heat_insert/drive/bmg/) for the tested, stock file from EVA instead.
-
 **Origin**: EVA
 
 **Bill of Materials**
