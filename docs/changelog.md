@@ -7,6 +7,16 @@ date: 2023-1-26
 
 ## April 2023
 
+### 23/04/25
+
+- ABL: moved CR Touch out 1mm.
+- Front: more test iterations.
+
+### 23/04/24
+
+- Front: made several iterations of a belt angle fix.
+- Front: new belt catches with better engagement.
+
 ### 23/04/20
 
 - Added drive module images.
