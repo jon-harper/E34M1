@@ -5,7 +5,6 @@ authors: Jon Harper
 date: 2023-4-8
 ---
 
-
 ## Overview
 
 <video controls="">
@@ -16,7 +15,7 @@ The final major remaining piece of assembly is the extruder and stepper motor. I
 
 ## Parts
 
-The EVA 3 Drive designs do not leave clearance for lock washers. They are left out of this stage of assembly.
+Drive designs not from E34M1 are compatible but do not leave room for lock washers. They should be left out if you are using a third party or stock EVA 3 drive mount.
 
 | Part | Qty |
 |---|---|
@@ -27,12 +26,13 @@ The EVA 3 Drive designs do not leave clearance for lock washers. They are left o
 | M3 x 35mm SHCS | 3 |
 | M3 x 12mm SHCS | 3 |
 | M3 x 8mm SHCS  | 4 |
+| *Lock washers, M3* | *7* |
 
 ## Steps
 
-1. Set the printed Drive module in place. The hexagonal hole is for the PTFE tube; this can be used to orient the part.
-2. Use M3 x 8mm screws to attach the Drive to the Front module.
-3. Use M3 x 12mm screws to attach the Drive to the Top module.
+1. Set the printed Drive module over the Front and Top. The hexagonal hole is for the PTFE tube; this can be used to orient the part.
+2. Use M3 x 8mm screws with lock washers to attach the Drive to the Front module.
+3. Use M3 x 12mm screws with lock washers to attach the Drive to the Top module.
 4. Insert the PTFE tube through the hexagonal cutout and into the Hotend module. It may be a tight fit; some users recommend rounding the hexagonal cutout with a precision hobby knife.
 5. Place the stepper motor and extruder in place. The stepper is normally installed so that the wires connect at the top or to the left.
 6. Secure the extruder and stepper with three (3) M3 x 35mm screws.
