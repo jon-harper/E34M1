@@ -35,6 +35,7 @@
 [rear_intake_adapter]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/stock_intake_adapter.stl
 [rear_inlet_beacon]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_inlet_beacon.stl
 [beacon_screw_cap]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/screw_cap.stl
+[dual_5015_inlet]: https://github.com/jon-harper/E34M1/blob/testing/STL/rear/dual_5015_inlet.stl
 
 [folder_cad]: https://github.com/jon-harper/E34M1/tree/main/CAD
 [folder_stl]: https://github.com/jon-harper/E34M1/tree/main/STL

@@ -9,10 +9,43 @@ The rear module acts as a part cooling fan inlet. An adapter is available to use
 
 Several options are available:
 
+- Dual 5015 Rear Inlet
 - Low-Profile Cooling Inlet: Modified stock 5015 inlet with lower height.
 - Low-Profile Sideways Cooling Inlet: Low-height sideways mount for a 5015 part fan.
 - Sideways Cooling Inlet for Beacon: modified version of the above for Beacon.
 - Stock Rear Inlet Adapter: Lightweight adapter for stock EVA rear inlets.
+
+### Dual 5015 Rear Inlet
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+!!! tip "Fit test pending. See [Issue #7](https://github.com/jon-harper/E34M1/issues/7)."
+
+**Description**
+
+This rear inlet is modified from the stock 5015. It offers plenty of airflow at the cost of a larger toolhead in the Y and Z axes.
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `dual_5015_inlet.stl`][dual_5015_inlet] | 1 |
+| 5015 Radial Fan           | 2 |
+| M3-0.5 x 6mm SHCS         | 1 |
+| M3-0.5 x 20mm SHCS        | 2 |
+| M3-0.5 x 45mm SHCS        | 4 |
+| Heat Set Insert, M3x5x4   | 2 |
+| *Lock washer, M3*         | *5* |
+
+</div>
+<div markdown class="jh-grid-img">
+![inlet_illustration](../img/parts/dual_5015_inlet.png){ width=256px}
+
+??? "Heat Set Inserts"
+    ![inlet_illustration](../img/inserts/dual_5015_intake.png){ width=256px}
+</div>
+</div>
 
 ### Low-Profile Cooling Inlet
 
@@ -22,6 +55,8 @@ Several options are available:
 **Description**
 
 This is a modified version of the stock EVA 3 cooling inlet. It has a much-reduced height to avoid clearance issues with BMG extruders.
+
+**Origin:** EVA
 
 **Bill of Materials**
 
@@ -126,6 +161,8 @@ Note that the M3 x 6mm screw is a flat head cap screw.
 
 This allows stock EVA 3 rear cooling inlets to be used (e.g., [dual 5015 fans](https://main.eva-3d.page/heat_insert/cooling_inlet/dual_5015/)), or any mods based on the stock inlets.
 
+**Origin**: [EVA 3 Beltless backplate for dual 5015](https://www.printables.com/model/430281-eva-3-beltless-backplate-for-dual-5015) by [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about)
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -133,8 +170,6 @@ This allows stock EVA 3 rear cooling inlets to be used (e.g., [dual 5015 fans](h
 | [:material-printer-3d-nozzle: `stock_intake_adapter.stl`][rear_intake_adapter] | 1 |
 | M3-0.5 x 45mm SHCS        | 4 |
 | *Lock washer, M3*         | *4* |
-
-**Origin**: [EVA 3 Beltless backplate for dual 5015](https://www.printables.com/model/430281-eva-3-beltless-backplate-for-dual-5015) by [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about)
 
 </div>
 <div markdown class="jh-grid-img">
