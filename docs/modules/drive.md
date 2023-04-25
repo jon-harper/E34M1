@@ -101,9 +101,6 @@ This extruder needs 20.8mm of PTFE.
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-!!! tip "Fit test pending ([Issue #5](https://github.com/jon-harper/E34M1/issues/5))"
-    [Click here](https://main.eva-3d.page/heat_insert/drive/lgx_lite/) for the tested, stock file from EVA instead.
-
 **Origin**: EVA
 
 **Bill of Materials**
