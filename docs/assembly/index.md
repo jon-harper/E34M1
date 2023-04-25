@@ -29,7 +29,7 @@ The table below lists parts that are universal to all builds:
 | [Bottom Horns](../modules/bottom.md)  | Dual Horns                        | 1 |
 | [Rear Inlet](../modules/rear.md)      | Low-Profile Sideways Inlet        | 1 |
 | [Hotend Mount](../compat/hotends.md)  | Dragon BMO Mount                  | 1 |
-| [Drive Mount](../compat/drives.md)    | BMG Drive Mount           | 1 |
+| [Drive Mount](../compat/drives.md)    | BMG Drive Mount                   | 1 |
 
 
 The following build-specific parts are used in this guide:
@@ -46,8 +46,8 @@ Not all parts for E34M1 are covered in this guide. Other parts you may need or w
 | [X Axis Stop Block](../modules/other.md#x-axis-stop-block) | Adjustable bumper for the X axis limit switch. |
 | [Front Intake Duct](../modules/other.md#front-intake-duct) | Easier hotend access using two (2) screws instead of four (4). |
 | [Z Endstop Mount](../modules/other.md#z-endstop-mount) | For Ender 5 Pros with stock Z axis; raises the Z limit switch. |
-| [PCB Mount](../modules/pcb_mounts.md) | Mounts for toolhead PCBs. |
-| [PCB Shrouds](../modules/pcb_shrouds.md) | Covers toolhead PCB wiring. |
+| [PCB Mount](../modules/pcb_mounts.md#pcb-mounts) | Mounts for toolhead PCBs. |
+| [PCB Shrouds](../modules/pcb_mounts.md#pcb-shrouds) | Covers toolhead PCB wiring. |
 
 ## Considerations
 
