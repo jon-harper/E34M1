@@ -31,12 +31,14 @@ These terms and icons are used throughout the site.
 - The :material-printer-3d-nozzle: icon is used to emphasize that a part is 3D printed.
 - The :material-cart: shopping cart icon is for example links. *There are no affiliate links on this site.*
 - Drive: EVA 3 refers to the extruder, stepper, and mount as the *Drive* module.
-- FHCS: Flat head cap screw, DIN 7991
-- SHCS: Socket head scap screw, DIN 912
+- FHCS: flat head cap screw (DIN 7991)
+- SHCS: socket head scap screw (DIN 912)
+- Voron-style inserts: M3 x 5mm OD x 4mm L heat set inserts
+- EVA-style inserts: M3 x 4.6mm OD x 4mm L heat set inserts
 
 ## E34M1 Modules
 
-Each E34M1 module comes in at least two versions and are specific to E34M1.
+Each E34M1 module comes in multiple varations. These parts are all specific to E34M1.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">
