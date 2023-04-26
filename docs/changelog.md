@@ -7,10 +7,18 @@ date: 2023-1-26
 
 ## April 2023
 
+### 23/04/26
+
+- Assembly: updated belts video to include inserting the belts
+
 ### 23/04/25
 
 - ABL: moved CR Touch out 1mm.
 - Front: more test iterations.
+- Started work on a version history page.
+- ABL: added new BLTouch mount.
+- Rear Inlets: added a Dual 5015 modified from stock.
+- Drives: added `drive_bmg.stl` and `drive_lgx_lite.stl` to the main branch.
 
 ### 23/04/24
 
