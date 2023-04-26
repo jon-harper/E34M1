@@ -33,7 +33,7 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
-  - neoteroi.cards
+
 theme:
   name: material
   features:
@@ -107,4 +107,8 @@ nav:
     - assembly/drive.md
     - assembly/abl.md
   - changelog.md
+  # - Versions & Changelog:
+  #   - revisions.md
+  #   - changelog.md
+    
   
