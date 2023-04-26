@@ -29,7 +29,9 @@ We're ready to install the hotend. The hotend, fan, thermistor, and heater cartr
 !!! note
     Stock EVA hotend mounts come with the M2.5 screw holes blocked by a single layer. Use a screwdriver or other small object to puncture holes for the M2.5 screws.
 
-!!! note "Tip: Fan Direction"
+    This is not necessary for E34M1 native hotend mounts.
+
+!!! tip "Tip: Fan Direction"
     A fan's airflow direction is usually the side with the manufacturer's sticker on it.
 
 1. Align the hotend's mounting holes with the Hotend module. Hotends with asymmetric heater blocks like the Dragon should have the larger side facing *forward*.
