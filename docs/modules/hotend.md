@@ -58,6 +58,8 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 | M3-0.5 x 12mm SHCS            | 4 |
 | Heat Set Insert, M3x5x4       | 8 |
 
+This hotend requires 39.65mm of PTFE.
+
 </div>
 <div markdown class="jh-grid-img">
 ![Name](../img/parts/hotend_nova.png){ width=256px}
@@ -82,6 +84,8 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 | M3-0.5 x 6mm SHCS             | 4 |
 | M3-0.5 x 12mm SHCS            | 4 |
 | Heat Set Insert, M3x5x4       | 8 |
+
+This hotend requires 27.15mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
@@ -110,6 +114,8 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 | M3-0.5 x 12mm SHCS        | 4 |
 | Heat Set Insert, M3x5x4   | 8 |
 
+This hotend requires 24.5mm of PTFE.
+
 </div>
 <div markdown class="jh-grid-img">
 ![Dragon BMO](../img/parts/hotend_dragon_bmo.png){ width=256px}
@@ -134,6 +140,8 @@ Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compati
 | M3-0.5 x 6mm SHCS             | 4 |
 | M3-0.5 x 12mm SHCS            | 4 |
 | Heat Set Insert, M3x5x4       | 8 |
+
+This hotend requires 39.5mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
@@ -167,6 +175,8 @@ Lock washers to mount the hotend are optional.
 | *Lock washer, M3*         | *2* |
 | Heat Set Insert, M3x5x4   | 10 |
 
+This hotend requires approximately 20mm of PTFE.
+
 </div>
 <div markdown class="jh-grid-img">
 ![Dragonfly BMS](../img/parts/hotend_dragonfly_bms.png){ width=256px}
@@ -192,6 +202,8 @@ Lock washers to mount the hotend are optional.
 | M3-0.5 x 12mm SHCS            | 4 |
 | Heat Set Insert, M3x5x4       | 8 |
 
+This hotend requires 29.8mm of PTFE.
+
 </div>
 <div markdown class="jh-grid-img">
 ![Rapido](../img/parts/hotend_rapido.png){ width=256px}
@@ -216,6 +228,8 @@ Lock washers to mount the hotend are optional.
 | M3-0.5 x 6mm SHCS             | 4 |
 | M3-0.5 x 12mm SHCS            | 4 |
 | Heat Set Insert, M3x5x4       | 8 |
+
+This hotend resquires 22.6mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
