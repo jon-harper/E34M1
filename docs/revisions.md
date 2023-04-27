@@ -11,11 +11,16 @@ This is a changelog of file revisions, organized by git folder.
 
 | File | Current Version |
 |---|---|
-| `bl_touch_mount.stl`\*        | v0.1 |
+| `bl_touch_mount.stl`\*        | v0.3 |
 | `bl_touch_volcano_mount.stl`\*| v0.1 |
 | `cr_touch_mount.stl`\*        | v0.1 |
 
 \* No printed part number.
+
+??? note "Folder Version History"
+    | Date | File | Version | Description |
+    |------|------|---------|-------------|
+    | 23/4/27 | `bl_touch_mount.stl` | 0.3 | Redesigned from scratch. |
 
 ## `/bottom`
 
