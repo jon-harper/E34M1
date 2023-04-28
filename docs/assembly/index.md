@@ -37,7 +37,7 @@ The following build-specific parts are used in this guide:
 | Part | Example | Qty |
 |---|---|---|
 | [ABL Mount](../modules/abl.md)        | BLTouch Mount | 1 |
-| [Cable Guide](../modules/other.md)    | Other         | 1 |
+| [Other](../modules/other.md)          | Cable Guide         | 1 |
 
 Not all parts for E34M1 are covered in this guide. Other parts you may need or want for your build:
 
