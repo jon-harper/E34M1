@@ -19,6 +19,8 @@ The Top module attaches to the MGN12H carriage and mounts the X axis endstop. It
 
 This is a stock EVA Top piece modified for users with umbilicals.
 
+[**Revision:**](#revision-history) v0.1
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -48,6 +50,8 @@ This is a stock EVA Top piece modified for users with umbilicals.
 
 A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolhead-pcb-mount).
 
+[**Revision:**](#revision-history) v0.1
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -65,3 +69,10 @@ A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolh
     ![top_pcb_illustration](../img/inserts/top_pcb.png){ width=200px}
 </div>
 </div>
+
+## Revision History
+
+| Date | File | Version | Description |
+|------|------|---------|-------------|
+| 23/03/10 | `top_endstop_mgn12h_pcb.stl`   | v0.1 | Initial tracked release. |
+| 23/03/10 | `top_endstop_mgn12h.stl`       | v0.1 | Initial tracked release. |

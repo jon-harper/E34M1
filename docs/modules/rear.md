@@ -26,6 +26,8 @@ Several options are available:
 
 This rear inlet is modified from the stock 5015. It offers plenty of airflow at the cost of a larger toolhead in the Y and Z axes.
 
+[**Revision:**](#revision-history) v0.1
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -55,6 +57,8 @@ This rear inlet is modified from the stock 5015. It offers plenty of airflow at 
 **Description**
 
 This is a modified version of the stock EVA 3 cooling inlet. It has a much-reduced height to avoid clearance issues with BMG extruders.
+
+[**Revision:**](#revision-history) v0.1
 
 **Origin:** EVA
 
@@ -90,6 +94,8 @@ This is a custom cooling inlet with that maximizes available build area.
 
 Use this if you are not sure which cooling inlet is best for you.
 
+[**Revision:**](#revision-history) v0.1
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -123,6 +129,8 @@ Use this if you are not sure which cooling inlet is best for you.
 This modification of the the sideways inlet has clearance for the Beacon connector and a cutout with zip tie anchor for the USB cable. This inlet is compatible with both [dual horn](bottom.md#dual-horns-for-beacon) and [trihorn](bottom.md#trihorns-for-beacon) beacon ducts.
 
 The inlet uses a **flat head cap screw** to secure the duct to the bottom horns. This screw may be left out if necessary, but may provide a less secure seal for the duct. `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+
+[**Revision:**](#revision-history) v0.1
 
 **Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
 
@@ -161,6 +169,8 @@ Note that the M3 x 6mm screw is a flat head cap screw.
 
 This allows stock EVA 3 rear cooling inlets to be used (e.g., [dual 5015 fans](https://main.eva-3d.page/heat_insert/cooling_inlet/dual_5015/)), or any mods based on the stock inlets.
 
+[**Revision:**](#revision-history) v0.1
+
 **Origin**: [EVA 3 Beltless backplate for dual 5015](https://www.printables.com/model/430281-eva-3-beltless-backplate-for-dual-5015) by [Psych0h3ad](https://www.printables.com/social/168275-psych0h3ad/about)
 
 **Bill of Materials**
@@ -176,3 +186,14 @@ This allows stock EVA 3 rear cooling inlets to be used (e.g., [dual 5015 fans](h
 ![inlet_illustration](../img/parts/stock_inlet_adapter.png){ width=256px}
 </div>
 </div>
+
+## Revision History
+
+| Date | File | Version | Description |
+|------|------|---------|-------------|
+| 23/04/25 | `dual_5015_inlet.stl`               | v0.1 | Initial release. |
+| 23/01/10 | `rear_5015_inlet.stl`               | v0.1 | Initial commit. |
+| 23/04/11 | `rear_5015_inlet_sideways.stl`      | v0.1 | Initial tracked release. |
+| 23/04/11 | `rear_inlet_beacon`                 | v0.1 | Initial release. |
+| 23/04/11 | `screw_cap.stl`\*                   | v0.1 | Initial release. |
+| 23/04/18 | `stock_intake_adapter`              | v0.1 | Initial tracked release. |

@@ -19,6 +19,8 @@ This page is divided into two sections for standard-length hotends and Volcano/U
 
 This is a modified version of the stock EVA dual horns.
 
+[**Revision:**](#revision-history) v0.1
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -46,9 +48,13 @@ This is a modified version of the stock EVA dual horns.
 
 !!! tip "This part requires the matching [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon)"
 
+**Description**
+
 A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-pin Sherlock connector. The Beacon kit should include the ultra-low-profile M3 screws needed to attach PCB.
 
 The Y offset of the Beacon probe is 34mm.
+
+[**Revision:**](#revision-history) v0.1
 
 **Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
 
@@ -80,6 +86,8 @@ A version of the dual horns for Klicky users, with cutouts for magnets and wirin
 
 The additional materials for Klicky wiring are not part of the BOM.
 
+[**Revision:**](#revision-history) v0.1
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -105,6 +113,8 @@ The additional materials for Klicky wiring are not part of the BOM.
 
 Three-horned duct adopted from stock EVA, recommended for the Mosquito hotend.
 
+[**Revision:**](#revision-history) v0.1
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -126,15 +136,17 @@ Three-horned duct adopted from stock EVA, recommended for the Mosquito hotend.
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-**Description**
-
 !!! info "Designed by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
 
 !!! tip "This part requires the matching [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon)"
 
+**Description**
+
 A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-pin Sherlock connector. The Beacon kit should include the ultra-low-profile M3 screws needed to attach PCB.
 
 The Y offset of the Beacon probe is 34mm.
+
+[**Revision:**](#revision-history) v0.1
 
 **Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
 
@@ -167,6 +179,8 @@ A version of the trihorns for Klicky, with cutouts for magnets and wiring.
 
 The additional materials for Klicky wiring are not part of the BOM.
 
+[**Revision:**](#revision-history) v0.1
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -193,9 +207,9 @@ Volcano bottom horn support is limited. The EVA 3 source file contains gemeotry 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-**Description**
-
 !!! info "Designed by [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)"
+
+**Description**
 
 These bottom horns have a mount for a Beacon PCB. The Beacon kit should include low-profile M3 screws to attach the PCB.
 
@@ -205,6 +219,8 @@ Two options are available for routing the rear wiring:
 
 - [cuiviemen](https://www.printables.com/@cuiviemen_127292)'s [Beacon mod](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) passes the USB cable between the rear intake and 5015 fan.
 - The [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon) routes the wire outside the cooling inlet.
+
+[**Revision:**](#revision-history) v0.1
 
 **Origin**
 
@@ -226,3 +242,16 @@ Two options are available for routing the rear wiring:
     ![bottom_illustration](../img/inserts/bottom_beacon_uhf.png){ width=256px}
 </div>
 </div>
+
+## Revision History
+
+| Date | File | Version | Description |
+|------|------|---------|-------------|
+| 23/04/18 | `beacon_bottom.stl`            | v0.1 | Initial release. |
+| 23/04/18 | `beacon_bottom_no_hsi.stl`     | v0.1 | Initial release. |
+| 23/04/18 | `beacon_bottom_trihorns.stl`   | v0.1 | Initial release. |
+| 23/04/04 | `beacon_bottom_uhf.stl`        | v0.1 | Initial commit. |
+| 23/02/01 | `klicky_bottom.stl`            | v0.1 | Initial commit. |
+| 23/04/04 | `klicky_bottom_trihorn.stl`    | v0.1 | Initial commit. |
+| 23/01/10 | `stock_bottom.stl`             | v0.1 | Initial commit. |
+| 23/04/04 |`stock_bottom_trihorn.stl`      | v0.1 | Initial commit. |

@@ -19,9 +19,9 @@ There are two version of the front module:
 
 Modification of the stock EVA Front for Mercury One. This mounts an ADXL345 accelerometer.
 
-**Bill of Materials**
+[**Revision:**](#revision-history) v0.2
 
-*Italic parts are optional.*
+**Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
@@ -61,9 +61,9 @@ Modification of the stock EVA Front for Mercury One. This mounts an ADXL345 acce
 
 Slightly modified Front that mounts a FYSETC portable input shaper.
 
-**Bill of Materials**
+[**Revision:**](#revision-history) v0.1
 
-*Italic parts are optional.*
+**Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
@@ -95,3 +95,14 @@ Slightly modified Front that mounts a FYSETC portable input shaper.
     ![illustration_pis](../img/inserts/front_pis.png){width=300}
     </div>
     </div>
+
+## Revision History
+
+| Date | File | Version | Description |
+    |------|------|---------|-------------|
+| 23/04/24 | `belt_grabber.stl` | v0.2 | Better belt grip. |
+| 23/04/25 | `pis_front.stl`    | v0.2 | Fixed belt angle. |
+| 23/04/25 | `stock_front.stl`  | v0.2 | Fixed belt angle. |
+| 23/01/24 | `pis_front.stl`    | v0.1 | Initial commit. |
+| 23/01/10 | `stock_front.stl`  | v0.1 | Initial commit. |
+| 23/01/10 | `belt_grabber.stl` | v0.1 | Initial commit. |
