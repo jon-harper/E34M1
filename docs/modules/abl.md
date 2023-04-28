@@ -51,6 +51,8 @@ Mounts a BLTouch.
 
 Adds support for BLTouch for longer hotends.
 
+[**Revision:**](#revision-history) v0.1
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -71,6 +73,10 @@ Adds support for BLTouch for longer hotends.
 <div markdown class="jh-grid-para">
 
 !!! tip "Fit test pending ([Issue #1](https://github.com/jon-harper/E34M1/issues/1))"
+
+**Description:** Mounts a Creality CR Touch.
+
+[**Revision:**](#revision-history) v0.1
 
 | Parts     | Qty |
 |-----------|-----|
