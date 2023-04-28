@@ -18,21 +18,27 @@ These ABL and hotend length combinations are available:
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
+
 **Description**
 
 Mounts a BLTouch.
+
+[**Revision:**](#revision-history) v0.3
 
 **Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `bl_touch_mount.stl`][bltouch_mount] | 1 |
-| Hex Nut, M3               | 2 |
+| Heat Set Insert, M3x5x4   | 2 |
 | M3-0.5 x 6mm SHCS         | 4 |
 
 </div>
 <div markdown class="jh-grid-img">
 ![bltouch_illustration](../img/parts/bltouch_mount.png){ width=100px }
+
+??? "Heat Set Insert Locations"
+    ![inserts](../img/inserts/bl_touch_mount.png){width="200px"}
 </div>
 </div>
 
@@ -86,3 +92,12 @@ Adds support for BLTouch for longer hotends.
 ### CR Touch (Volcano)
 
 Support for Volcano hotends is availabe through [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)'s mod [CR Touch for Volcano Hotends](https://www.printables.com/model/434179-eva3-uhf-cr-touch).
+
+## Revision History
+
+| Date | File | Version | Description |
+|------|------|---------|-------------|
+| 23/04/27  | `bl_touch_mount.stl`          | 0.3 | Redesign. |
+| 23/04/18  | `cr_touch_mount.stl`          | 0.1 | Initial commit. |
+| 23/02/01  | `bl_touch_volcano_mount.stl`  | 0.1 | Initial commit. |
+| 23/01/20  | `bl_touch_mount.stl`          | 0.1 | Inital commit.  |
