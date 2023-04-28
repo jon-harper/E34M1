@@ -9,6 +9,10 @@ date: 2023-1-26
 
 ### 23/04/27
 
+- Docs: All modules now have revision information.
+
+### 23/04/27
+
 - ABL: BLTouch from scratch.
 
 ### 23/04/26
