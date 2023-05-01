@@ -10,6 +10,7 @@ date: 2023-1-26
 ### 23/04/27
 
 - Docs: All modules now have revision information.
+- Front: merged in v0.2 that fixes the belt angle issue.
 
 ### 23/04/27
 
