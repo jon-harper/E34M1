@@ -20,8 +20,6 @@ Several options are available:
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-!!! tip "Fit test pending. See [Issue #7](https://github.com/jon-harper/E34M1/issues/7)."
-
 **Description**
 
 This rear inlet is modified from the stock 5015. It offers plenty of airflow at the cost of a larger toolhead in the Y and Z axes.
