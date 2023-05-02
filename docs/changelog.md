@@ -5,6 +5,13 @@ authors: Jon Harper
 date: 2023-1-26
 ---
 
+## May 2023
+
+### 23/05/02
+
+- Top: X endstop now mounts with heat set inserts.
+- Top: Improved free overhangs for insert holes.
+
 ## April 2023
 
 ### 23/04/27
