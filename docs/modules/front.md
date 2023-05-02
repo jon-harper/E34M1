@@ -61,7 +61,7 @@ Modification of the stock EVA Front for Mercury One. This mounts an ADXL345 acce
 
 Slightly modified Front that mounts a FYSETC portable input shaper.
 
-[**Revision:**](#revision-history) v0.1
+[**Revision:**](#revision-history) v0.2
 
 **Bill of Materials**
 

@@ -9,7 +9,7 @@ The rear module acts as a part cooling fan inlet. An adapter is available to use
 
 Several options are available:
 
-- Dual 5015 Rear Inlet
+- Dual 5015 Rear Inlet: Modified stock dual 5015 inlet.
 - Low-Profile Cooling Inlet: Modified stock 5015 inlet with lower height.
 - Low-Profile Sideways Cooling Inlet: Low-height sideways mount for a 5015 part fan.
 - Sideways Cooling Inlet for Beacon: modified version of the above for Beacon.
