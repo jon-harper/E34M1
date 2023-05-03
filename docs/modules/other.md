@@ -32,27 +32,6 @@ Hotend cooling fans may be attached using an intake duct that allows two (2) scr
 </div>
 </div>
 
-### X Axis Stop Block
-
-This is an adaptation of the M1 stop block for EVA 3. It acts as a bumper for the X endstop.
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-Roll in tee nuts may be used instead of drop-in for easier installation.
-
-| Parts     | Qty |
-|-----------|-----|
-| [:material-printer-3d-nozzle: `x_axis_stop_block.stl`][x_stop_block] | 1 |
-| Screw, M3-0.5 x 8mm | 2 |
-| Drop In Tee Nut, 2020 Profile, M3 | 2 | 
-
-</div>
-<div markdown class="jh-grid-img">
-![x_stop_block_illustration](../img/parts/x_stop_block.png){ width=200px }
-</div>
-</div>
-
 ### Z Endstop Mount
 
 This part is necessary for Ender 5 Pros with stock (non-Hydra) Z kinematics. This part mounts the limit switch higher than normal.

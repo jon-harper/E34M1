@@ -7,6 +7,13 @@ date: 2023-1-26
 
 ## May 2023
 
+### 23/05/03
+
+- Top: Added left-handed version of the Top module (endstop on the left side).
+- Top: updated documentation with changes from yesterday and today.
+- Stop Block: added separate page for X axis stop blocks.
+- Stop Block: added Max X stop block.
+
 ### 23/05/02
 
 - Top: X endstop now mounts with heat set inserts.

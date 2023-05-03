@@ -8,7 +8,7 @@ date: 2023-4-5
 The Top module attaches to the MGN12H carriage and mounts the X axis endstop. The default version has the X endstop on the right side. There is a left-handed version for homing to the left. Both left- and right-handed versions are available with and without a built-in anchor for a cable guide.
 
 !!! tip
-    Don't forget to grab the [X Axis Stop Block](other.md#x-axis-stop-block)!
+    Don't forget to grab the [X Axis Stop Block](stop_block.md)!
 
 ### Right-Handed Top with Endstop
 

@@ -92,6 +92,7 @@ nav:
       - modules/bottom.md
       - modules/rear.md
       - modules/abl.md
+      - modules/stop_block.md
     - Hotends & Extruders:
       - modules/hotend.md
       - modules/drive.md
