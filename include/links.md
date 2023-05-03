@@ -27,8 +27,10 @@
 [front_pis]: https://github.com/jon-harper/E34M1/blob/main/STL/front/pis_front.stl
 [belt_grabber]: https://github.com/jon-harper/E34M1/blob/main/STL/front/belt_grabber.stl
 
-[top]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_mgn12h.stl
-[top_pcb]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_mgn12h_pcb.stl
+[top]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_right.stl
+[top_pcb]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_right_pcb.stl
+[top_left]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_left.stl
+[top_left_pcb]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_left_pcb.stl
 
 [5015_inlet]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_5015_inlet.stl
 [5015_sideways_inlet]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_5015_inlet_sideways.stl
