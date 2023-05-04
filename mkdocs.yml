@@ -41,6 +41,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.footer
+    - navigation.expand
     - toc.integrate
     - toc.follow
 
