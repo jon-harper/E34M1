@@ -50,7 +50,7 @@ This is a modified version of the stock EVA dual horns.
 
 **Description**
 
-A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-pin Sherlock connector. The Beacon kit should include the ultra-low-profile M3 screws needed to attach PCB.
+A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-pin Sherlock connector. The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
 
 The Y offset of the Beacon probe is 34mm.
 
@@ -142,7 +142,7 @@ Three-horned duct adopted from stock EVA, recommended for the Mosquito hotend.
 
 **Description**
 
-A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-pin Sherlock connector. The Beacon kit should include the ultra-low-profile M3 screws needed to attach PCB.
+A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-pin Sherlock connector. The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
 
 The Y offset of the Beacon probe is 34mm.
 
