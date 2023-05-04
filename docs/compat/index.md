@@ -64,6 +64,15 @@ Files for these parts can be found in the [Bottom Horns Modules](../modules/bott
 
 Stock EVA cooling inlets may be used with E34M1 with an [rear inlet adapter](../modules/rear.md#stock-rear-inlet-adapter).
 
+## Other Components
+
+### Filament Sensors
+
+Multi-material printing often requires a filament sensor at the toolhead. There are two known solutions for this using different detection methods.
+
+- [Inductive Sensor](https://www.printables.com/model/239026-eva-3-toolhead-sensor)
+- [Microswitch and Ball Bearing](https://www.printables.com/model/442650-eva-3-toolhead-sensor-mechanical-and-reliable)
+
 ### Cable Management
 
 There are two methods of cable management and two attachment points. The default attachment is the Top module for umbilical users. PCB mounts supporting both umbilical (cable guide) and drag chain are available.
