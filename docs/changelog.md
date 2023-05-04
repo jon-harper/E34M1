@@ -7,6 +7,11 @@ date: 2023-1-26
 
 ## May 2023
 
+### 23/05/04
+
+- Added a section in Compatibility about filament sensors.
+- Sections in the navigation pane now auto-expand.
+
 ### 23/05/03
 
 - Top: Added left-handed version of the Top module (endstop on the left side).
