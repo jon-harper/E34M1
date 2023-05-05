@@ -10,9 +10,13 @@ date: 2023-5-3
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+**Description**
+
 This is an adaptation of the M1 stop block for EVA 3. It acts as a bumper for the X endstop that can be moved to trigger at the edge of the bed.
 
 Roll in tee nuts may be used instead of drop-in for easier installation.
+
+**Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
@@ -31,9 +35,13 @@ Roll in tee nuts may be used instead of drop-in for easier installation.
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+**Description**
+
 This block mounts on the top edge of the X joint, triggering at the maximum distance available on the X axis. Use this if you have a large bed or need room outside the bed (such as a nozzle brush).
 
 The M5 x 16mm screw replaces the M5 x 12mm screw that normally attaches the X joint to the X extrusion.
+
+**Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
