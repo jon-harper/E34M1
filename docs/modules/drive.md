@@ -8,9 +8,9 @@ date: 2023-4-19
 !!! tip
     See **[Extruder Compatibility](../compat/drives.md)** for a larger list that includes compatible third party mounts.
 
-These are Drive mounts modified in one of several ways from stock EVA:
+These are EVA 3 Drive mounts modified in one of several ways from stock EVA:
 
-- They are converted to better accept M3x5x4 inserts (where applicable),
+- They are converted to better accept Voron-style inserts (where applicable),
 - Most mounts are lighter,
 - Free overhangs are improved, and
 - There is room for lock washers on all fasteners.

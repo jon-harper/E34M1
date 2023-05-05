@@ -10,7 +10,7 @@ date: 2023-4-5
 
 These are existing hotend mounts that have been modified for ease of installation:
 
-- They are converted to better accept M3x5x4 inserts, and
+- They are converted to better accept Voron-style inserts, and
 - It is not necessary to punch open the screw holes for top-mounted hotends.
 
 Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compatibility](../compat/hotends.md) page for the full list.

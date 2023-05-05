@@ -7,6 +7,10 @@ date: 2023-1-26
 
 ## May 2023
 
+### 23/05/05
+
+- Began reorganizing documentation in Guide, Reference, and Assembly
+
 ### 23/05/04
 
 - Added a section in Compatibility about filament sensors.
