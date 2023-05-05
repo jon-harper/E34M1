@@ -80,25 +80,26 @@ plugins:
       
 nav:
   - index.md
-  - tour.md
-  - Compatibility & Support:
+  - Guide:
     - compat/index.md
+    - tour.md
     - compat/hotends.md
     - compat/drives.md
-  - Modules & BOM:
+  - Module Reference:
     - modules/index.md
     - Core Modules:
       - modules/front.md
       - modules/top.md
       - modules/bottom.md
       - modules/rear.md
-      - modules/abl.md
-      - modules/stop_block.md
     - Hotends & Extruders:
       - modules/hotend.md
       - modules/drive.md
-    - modules/pcb_mounts.md
-    - modules/other.md
+    - Other Modules:
+      - modules/abl.md
+      - modules/stop_block.md
+      - modules/pcb_mounts.md
+      - modules/other.md
   - Assembly:
     - assembly/index.md
     - assembly/first.md
@@ -109,8 +110,5 @@ nav:
     - assembly/drive.md
     - assembly/abl.md
   - changelog.md
-  # - Versions & Changelog:
-  #   - revisions.md
-  #   - changelog.md
-    
+  
   

@@ -11,17 +11,13 @@ hide: navigation toc
 Welcome! E34M1 adapts the [EVA 3][eva3] toolhead for [Mercury One.1][merc1] 3D printers.
 
 <div markdown class="jh-card">
-#### [:material-directions: Tour of E34M1](tour.md)
+#### [:material-book-open: Guide to E34M1](compat/index.md)
 
-Take a visual tour of E34M1 and see what's involved.
+An overview of E34M1 and how it fits in with EVA 3 and Mercury One. Includes a [Visual Tour](tour.md) and list of compatible [hotends](compat/hotends.md), [extruders](compat/drives.md), and ABL types.
 
-#### [:octicons-checklist-24: Compatibility & Support](compat/index.md)
+#### [:octicons-list-ordered-24: Module Reference](modules/index.md)
 
-A guide to compatibility with Mercury One and the larger EVA 3 ecosystem, along with lists of available [hotend](compat/hotends.md) and [extruder](compat/drives.md) mounts.
-
-#### [:octicons-list-ordered-24: Modules & Bills of Materials](modules/index.md)
-
-A list of the modules that make up E34M1, the available components for them, and bills of materials for everything.
+A list of the modules that are part of E34M1, the available components for each, and bills of materials for everything.
 
 #### [:material-hammer-screwdriver: Assembly Guide](assembly/index.md)
 

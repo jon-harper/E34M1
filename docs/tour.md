@@ -1,5 +1,5 @@
 ---
-title: Tour
+title: Visual Tour
 summary: E34M1 Modules Tour
 authors: Jon Harper
 date: 2023-1-26
@@ -23,18 +23,6 @@ E34M1 replaces many of the printed parts from EVA 3, while maintaining compatibi
 </figure>
 </div>
 </div>
-
-### Icons and Terminology
-
-These terms and icons are used throughout the site.
-
-- The :material-printer-3d-nozzle: icon is used to emphasize that a part is 3D printed.
-- The :material-cart: shopping cart icon is for example links. *There are no affiliate links on this site.*
-- Drive: EVA 3 refers to the extruder, stepper, and mount as the *Drive* module.
-- FHCS: flat head cap screw (DIN 7991)
-- SHCS: socket head scap screw (DIN 912)
-- Voron-style inserts: M3 x 5mm OD x 4mm L heat set inserts
-- EVA-style inserts: M3 x 4.6mm OD x 4mm L heat set inserts
 
 ## E34M1 Modules
 
@@ -108,7 +96,7 @@ The side ABL mount is modified from stock EVA. Most ABL methods mount here (e.g.
 
 ## Stock EVA Modules
 
-Stock modules have not changed in how they join with other parts. This keeps third party mods compatible while allowing us to make small improvements and fixes to the existing mounting options.
+Stock modules have not changed in how they join with other parts. This keeps third party mods compatible while allowing us to make small improvements and fixes to the existing options.
 
 We've assembled lists of known hotend and drive mounts.
 
@@ -122,7 +110,7 @@ This mounts the hotend, cooling fan, and optional shroud.
 <figure markdown>
 ![hotend](img/tour/hotend.png){width="300px"}
 
-[EVA 3 Hotends](compat/hotends.md){.md-button}
+[Explore EVA 3 Hotends](compat/hotends.md){.md-button}
 </figure>
 
 </div>
@@ -135,7 +123,7 @@ The drive module attaches the extruder and extruder stepper to the toolhead.
 <figure markdown>
 ![drive](img/tour/drive.png){width="300px"}
 
-[EVA 3 Extruders](compat/drives.md){.md-button}
+[Explore EVA 3 Extruders](compat/drives.md){.md-button}
 </figure>
 
 </div>
@@ -168,10 +156,17 @@ E34M1 provides several other components that may be useful:
 | [Z Limit Switch Mount](modules/other.md#z-endstop-mount) | Raises the Z endstop for Ender 5 Pro printers. |
 | [Toolhead PCB Mounts](modules/pcb_mounts.md) | Mounts for '36 and '42 PCBs for NEMA17 steppers and shrouds to cover them. |
 
-## Related and Contributed Mods
+## Additional Mods
 
 These are related mods not linked elsewhere that may be useful for your build.
 
 | Mod Name | Author | Purpose |
 |----------|--------|---------|
 | [Klicky Probe Dock for Mercury 1 Zero G](https://www.printables.com/model/386819-klicky-probe-dock-for-mercury-1-zero-g) | [Sir_Wash](https://www.printables.com/social/415185-sir_wash) | Adds a dock for Klicky; works with `klicky_bottom.stl`. |
+
+### Filament Sensors
+
+Multi-material printing often requires a filament sensor at the toolhead. There are two known third-party mods for this using different detection methods.
+
+- [Inductive Sensor](https://www.printables.com/model/239026-eva-3-toolhead-sensor) by [Dutchwoody](https://www.printables.com/@Dutchwoody)
+- [Microswitch and Ball Bearing](https://www.printables.com/model/442650-eva-3-toolhead-sensor-mechanical-and-reliable) by [Guy](https://www.printables.com/@Guy_258839)
