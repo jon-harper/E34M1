@@ -7,20 +7,23 @@ date: 2023-4-5
 
 This section of the documentation contains a page for each E34M1 module and the components available for them. Each component contains a bill of materials and visual illustrations of the heat set inserts locations, if applicable.
 
-## How does it fit together?
+Note that this is a reference for native E34M1 components--for example, there are additional, third-party hotend mounts available in the [Hotend Guide](../compat/hotends.md) list than are present here.
 
-Visit the [Tour](../tour.md) to get an overview of how the modules are arranged.
+**Core Modules**
 
-## What do I print?
+- [Front](front.md)
+- [Top](top.md)
+- [Rear Inlet](rear.md)
+- [Bottom Horns](bottom.md)
 
-See the Assembly guide's [Print Checklist](../assembly/#print-checklist) to ensure you have everything.
+**Hotends and Extruders**
 
-## What are :material-cart: :material-printer-3d-nozzle: icons for?
+- [Hotend Mounts](hotend.md)
+- [Extruder Mounts](drive.md)
 
-The :material-cart: cart icons are for BOM entries with external links. *No affiliate links are used on this site;* these links are examples to aid sourcing.
+**Additional Modules**
 
-The :material-printer-3d-nozzle: nozzle icon emphasizes that a part must be downloaded and printed.
-
-## What does an *italic* BOM entry mean?
-
-These are optional parts that may be included or left out, at your discretion.
+- [ABL Side Mount](abl.md)
+- [X Axis Stop Blocks](stop_block.md)
+- [Toolhead PCB Mounts and Shrouds](pcb_mounts.md)
+- [Optional & Build Specific](other.md)
