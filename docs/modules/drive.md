@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2023-4-19
 ---
 
-!!! warning
+!!! tip
     See **[Extruder Compatibility](../compat/drives.md)** for a larger list that includes compatible third party mounts.
 
 These are Drive mounts modified in one of several ways from stock EVA:
