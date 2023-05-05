@@ -11,46 +11,48 @@ E34M1 replaces many of the printed parts from EVA 3, while maintaining compatibi
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">
-### Core E34M1 Assembly
+
+**Core E34M1 Assembly**
 <figure markdown>
 ![core](img/tour/core.png){width="300px"}
 </figure>
 </div>
 <div markdown class="jh-card">
-### Complete Assembly
+**Complete Assembly**
 <figure markdown>
 ![complete](img/tour/master.png){width="300px"}
 </figure>
 </div>
 </div>
 
-## E34M1 Modules
+## Core Modules
 
 Each E34M1 module comes in multiple varations. These parts are all specific to E34M1.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">
 
-### Front
+**Front**
 
 The Front mounts the hotend, belts, and the front of the Drive module.
 
 <figure markdown>
 ![front](img/tour/front.png){width="300px"}
 
-[Details and BOM](modules/front.md){.md-button}
+[Front Module Reference](modules/front.md){.md-button}
 </figure>
 
 </div>
 <div markdown class="jh-card">
-### Top
 
-The top mounts the MGN12H carriage, the X axis endstop, and the back of the Drive module.
+**Top**
+
+The top mounts the MGN12H carriage, the X axis endstop, and the back of the Drive module. It has an optional attachment point for an umbilical cable guide.
 
 <figure markdown>
 ![top](img/tour/top.png){width="300px"}
 
-[Details and BOM](modules/top.md){.md-button}
+[Top Module Reference](modules/top.md){.md-button}
 </figure>
 
 <div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
@@ -58,54 +60,42 @@ The top mounts the MGN12H carriage, the X axis endstop, and the back of the Driv
 </div>
 <div markdown class="jh-card">
 
-### Bottom
+**Bottom Horns**
 
 The bottom horns are primarily for part cooling and form the lower joint between the Front and Rear Inlet. Some ABL methods (e.g., Beacon, Klicky) mount here.
 
 <figure markdown>
 ![bottom](img/tour/bottom.png){width="300px"}
 
-[Details and BOM](modules/bottom.md){.md-button}
+[Bottom Horns Reference](modules/bottom.md){.md-button}
 </figure>
 </div>
 <div markdown class="jh-card">
 
-### Rear Inlet
+**Rear Inlet**
 
 Stock EVA 3 has a rear piece here that acts as a belt tensioner. It's unneeded for Mercury One printers, so we moved the cooling inlet forward to save space.
 
 <figure markdown>
 ![inlet](img/tour/inlet.png){width="300px"}
 
-[Details and BOM](modules/rear.md){.md-button}
-</figure>
-</div>
-<div markdown class="jh-card">
-
-### ABL Side Mount
-
-The side ABL mount is modified from stock EVA. Most ABL methods mount here (e.g., BLTouch and CR Touch).
-
-<figure markdown>
-![abl mount](img/tour/abl.png){width="300px"}
-
-[Details and BOM](modules/abl.md){.md-button}
+[Rear Inlet Reference](modules/rear.md){.md-button}
 </figure>
 </div>
 </div>
 
-## Stock EVA Modules
+## Extruder, Hotends, and Shrouds
 
-Stock modules have not changed in how they join with other parts. This keeps third party mods compatible while allowing us to make small improvements and fixes to the existing options.
+These modules have not changed in how they join with other parts. This keeps third party mods compatible while allowing us to make small improvements and fixes to the existing options.
 
 We've assembled lists of known hotend and drive mounts.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">
 
-### Hotend
+**Hotend**
 
-This mounts the hotend, cooling fan, and optional shroud.
+The hotend module mounts the hotend, cooling fan, and an optional shroud.
 
 <figure markdown>
 ![hotend](img/tour/hotend.png){width="300px"}
@@ -116,7 +106,7 @@ This mounts the hotend, cooling fan, and optional shroud.
 </div>
 <div markdown class="jh-card">
 
-### Drive/Extruder
+**Drive/Extruder**
 
 The drive module attaches the extruder and extruder stepper to the toolhead.
 
@@ -129,7 +119,7 @@ The drive module attaches the extruder and extruder stepper to the toolhead.
 </div>
 <div markdown class="jh-card">
 
-### Shroud
+**Shroud**
 
 All stock shrouds are compatible with E34M1.
 
@@ -147,12 +137,27 @@ All stock shrouds are compatible with E34M1.
 
 ## Other E34M1 Components
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-card">
+
+**ABL Side Mount**
+
+The side ABL mount is modified from stock EVA. Most ABL methods mount here (e.g., BLTouch and CR Touch).
+
+<figure markdown>
+![abl mount](img/tour/abl.png){width="300px"}
+
+[ABL Side Mount Reference](modules/abl.md){.md-button}
+</figure>
+</div>
+</div>
+
 E34M1 provides several other components that may be useful:
 
 | Component                     | Purpose |
 |-------------------------------|---------|
 | [Front Intake Duct](modules/other.md#front-intake-duct) | Allows hotend cooling fans to be removed with two (2) screws. |
-| [X Axis Stop Block](modules/other.md#x-axis-stop-block) | Bumper for the X axis endstop, adapted from M1.1. |
+| [X Axis Stop Block](modules/stop_block.md) | Bumper for the X axis endstop. |
 | [Z Limit Switch Mount](modules/other.md#z-endstop-mount) | Raises the Z endstop for Ender 5 Pro printers. |
 | [Toolhead PCB Mounts](modules/pcb_mounts.md) | Mounts for '36 and '42 PCBs for NEMA17 steppers and shrouds to cover them. |
 

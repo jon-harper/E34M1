@@ -42,6 +42,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.footer
     - navigation.expand
+    - navigation.top
     - toc.integrate
     - toc.follow
 
@@ -110,5 +111,5 @@ nav:
     - assembly/drive.md
     - assembly/abl.md
   - changelog.md
-  
+
   
