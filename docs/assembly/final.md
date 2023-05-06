@@ -35,11 +35,12 @@ MCU boards *also* have a 3-pin JST-XH connector for endstops, but they are typic
 Although both sides have a 3-pin connector, the endstop connection only needs two (2) wires. Unfortunately, limit switch PCBs are often sold with a *3-wire* cable. This is hazardous if the +5V pin is connected to the endstop, and may start a fire.
 
 !!! warning
-    Never connect the board's +5V pin to a mechanical endstop.
+    Never connect a +5V pin to a mechanical endstop.
 
-Your limit switch should be wired this way:
+These are the correct pins to connect:
 
-| Switch Pin | Board Pin |
-|---|---|
-| C | SIG |
-| NC | GND |
+| Pin | Switch Pin | Board Pin |
+|---|---|---|
+| 1 | C (to SIG) |*(Unused)* | 
+| 2 | *(Unused)* | SIG |
+| 3 | NC (to GND) | GND |
