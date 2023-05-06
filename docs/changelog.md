@@ -7,6 +7,11 @@ date: 2023-1-26
 
 ## May 2023
 
+### 23/05/06
+
+- Cleanup and finishing up the Guide section.
+- Added to the FAQ.
+
 ### 23/05/05
 
 - Began reorganizing documentation in Guide, Reference, and Assembly

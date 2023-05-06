@@ -31,9 +31,9 @@ These terms and icons are used throughout the site.
 
 ## Frequent Asked Questions
 
-### How does it fit together?
+### How does this fit together?
 
-Visit the [Tour](../tour.md) to get an overview of how the modules are arranged.
+Visit the [Tour](../tour.md) to get an overview of how the modules are arranged. The [Assembly Guide](../assembly/index.md) includes videos to assist during your build process.
 
 ### What do I print?
 
@@ -43,11 +43,23 @@ See the Assembly guide's [Print Checklist](../assembly/#print-checklist) to ensu
 
 These are optional parts that may be included or left out, at your discretion.
 
+### How are Voron-style and EVA-style inserts different?
+
+Both insert styles are M3 and 4mm long, but Voron-style inserts are slightly thicker than EVA inserts. Mercury One relies on Voron-style inserts exclusively, so all E34M1 components use them, as well. Third-party and stock EVA components use EVA-style inserts instead.
+
+Does it matter? Somewhat: the adjustments we made for the larger, Voron-style inserts make insertion easier and visually cleaner. Users report that it is generally still possible to use Voron-style inserts with parts made for EVA inserts.
+
+### Is E34M1 supported by ZeroG or EVA?
+
+No, this is a third-party project started by [jonspaceharper](https://jon-harper.github.io).
+
 ## Compatibility Charts
+
+Some components are only compatible in certain combinations. This generally relates to whether a part is for a standard-length or Volcano hotend.
 
 ### ABL
 
-The side ABL mount points are different than EVA 3 stock, and not all ABL methods use them. The chart below shows which ABL methods are supported by E34M1.
+The chart below shows which ABL methods are supported by E34M1. The side ABL mount points are different than EVA 3 stock, and not all ABL methods use them.
 
 |          | Standard Hotends   | Volcano/UHF Hotends | Mount Point |
 |----------|:------------------:|:------------------:|:-----------:|
@@ -60,7 +72,7 @@ Support for 8mm and 12mm inductive probes is not planned but may be added in the
 
 ### Bottom Horns
 
-Files for these parts can be found in the [Bottom Horns Modules](../modules/bottom.md) page.
+More about Bottom Horns can be found on the [Bottom Horns Modules](../modules/bottom.md) page.
 
 | Duct Type             | Standard Hotends | Volcano/UHF Hotends  |
 |-----------------------|:----------------:|:--------------------:|
@@ -76,7 +88,7 @@ Files for these parts can be found in the [Bottom Horns Modules](../modules/bott
 
 ### Cable Management
 
-There are two methods of cable management and two attachment points. The default attachment is the Top module for umbilical users. PCB mounts supporting both umbilical (cable guide) and drag chain are available.
+There are two methods of cable management and two attachment points. The default attachment is the [Top](../modules/top.md) module for umbilical users. PCB mounts supporting both umbilical (cable guide) and drag chain are available.
 
 | Part             | Cable Guide | Drag Chain |
 |------------------|:-----------:|:-----------:|
