@@ -1,11 +1,11 @@
 ---
-title: X Axis Stop Block
+title: X Axis Stop Blocks
 summary: Options for triggering the X endstop.
 authors: Jon Harper
 date: 2023-5-3
 ---
 
-### Adustable X Axis Stop Block
+### Adjustable X Axis Stop Block
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">

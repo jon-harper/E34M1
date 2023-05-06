@@ -1,5 +1,5 @@
 ---
-title: Modules Overview
+title: Overview
 summary: Overview of component entries
 authors: Jon Harper
 date: 2023-4-5
