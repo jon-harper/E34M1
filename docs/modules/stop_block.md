@@ -5,6 +5,7 @@ authors: Jon Harper
 date: 2023-5-3
 ---
 
+
 ### Adjustable X Axis Stop Block
 
 <div markdown class="jh-grid-container jh-grid-2">
@@ -15,6 +16,8 @@ date: 2023-5-3
 This is an adaptation of the M1 stop block for EVA 3. It acts as a bumper for the X endstop that can be moved to trigger at the edge of the bed.
 
 Roll in tee nuts may be used instead of drop-in for easier installation.
+
+[**Revision:**](#revision-history) v0.1
 
 **Bill of Materials**
 
@@ -41,6 +44,8 @@ The adjustable stop block does not *quite* fit for the edge of the 370x377mm bed
 
 The M5 x 16mm screw replaces the M5 x 12mm screw that normally attaches the X Joint to the X extrusion.
 
+[**Revision:**](#revision-history) v0.1
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -66,6 +71,8 @@ This block mounts on the top edge of the X joint, triggering at the maximum dist
 
 The M5 x 16mm screw replaces the M5 x 12mm screw that normally attaches the X joint to the X extrusion.
 
+[**Revision:**](#revision-history) v0.1
+
 **Bill of Materials**
 
 | Parts     | Qty |
@@ -79,3 +86,11 @@ The M5 x 16mm screw replaces the M5 x 12mm screw that normally attaches the X jo
 ![x_stop_block_illustration](../img/parts/x_max_stop_block.png){ width=200px }
 </div>
 </div>
+
+## Revision History
+
+| Date | File | Version | Description |
+|------|------|---------|-------------|
+| 23/05/06 | `e5plus_x_axis_stop_block.stl` | v0.1 | Initial release. |
+| 23/05/03 | `x_axis_max_x_stop_block.stl`  | v0.1 | Initial release. |
+| 23/01/16 | `x_axis_stop_block.stl`        | v0.1 | Initial release. |

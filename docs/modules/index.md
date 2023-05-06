@@ -7,7 +7,7 @@ date: 2023-4-5
 
 This section of the documentation contains a page for each E34M1 module and the components available for them. Each component contains a bill of materials and visual illustrations of the heat set inserts locations, if applicable.
 
-Note that this is a reference for native E34M1 components--for example, there are additional, third-party hotend mounts available in the [Hotend Guide](../compat/hotends.md) list than are present here.
+Note that this is a reference for native E34M1 components--for example, there are third-party hotend mounts available in the [Hotend Guide](../compat/hotends.md).
 
 **Core Modules**
 
