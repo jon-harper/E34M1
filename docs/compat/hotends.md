@@ -28,7 +28,10 @@ Template:
 
 ## E34M1 Native Hotends
 
-Native hotends accept M3x5x4 inserts and have a bill of materials available.
+These are existing hotend mounts that have been modified for ease of installation:
+
+- They are converted to better accept Voron-style inserts, and
+- It is not necessary to punch open the screw holes for top-mounted hotends.
 
 <div markdown class="jh-grid-container jh-grid-3">
 <div markdown class="jh-card">
@@ -97,7 +100,7 @@ Native hotends accept M3x5x4 inserts and have a bill of materials available.
 
 ## EVA 3 Ecosystem Hotends
 
-These hotends are third party mounts that use either EVA-style, M3x4.6x4 inserts or hex nuts. They may or may not have a bill of materials.
+These hotends are third party mounts that use either EVA-style inserts or hex nuts. They may or may not have a bill of materials.
 
 <div markdown class="jh-grid-container jh-grid-2">
 

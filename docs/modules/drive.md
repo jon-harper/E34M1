@@ -8,16 +8,6 @@ date: 2023-4-19
 !!! tip
     See **[Extruder Compatibility](../compat/drives.md)** for a larger list that includes compatible third party mounts.
 
-These are EVA 3 Drive mounts modified in one of several ways from stock EVA:
-
-- They are converted to better accept Voron-style inserts (where applicable),
-- Most mounts are lighter,
-- Free overhangs are improved, and
-- There is room for lock washers on all fasteners.
-
-Other EVA 3 hotend mounts remain compatibile with E34M1; see the [Hotend Compatibility](../compat/hotends.md) page for the full list.
-
-
 <!-- Template
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">

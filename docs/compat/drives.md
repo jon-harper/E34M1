@@ -29,6 +29,13 @@ Template:
 
 ## E34M1 Drives
 
+These are EVA 3 Drive mounts modified in one of several ways from stock EVA:
+
+- They are converted to better accept Voron-style inserts (where applicable),
+- Most mounts are lighter,
+- Free overhangs are improved, and
+- There is room for lock washers on all fasteners.
+
 <div markdown class="jh-grid-container jh-grid-3">
 <div markdown class="jh-card">
 
@@ -75,6 +82,8 @@ Template:
 </div>
 
 ## EVA 3 Ecosystem Drives
+
+These are mounts from the larger EVA ecosystem that link to external sites.
 
 ### Annex Sherpa Micro
 
