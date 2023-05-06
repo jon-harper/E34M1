@@ -1,5 +1,5 @@
 ---
-title: Other Components
+title: Optional/Build-Specific
 summary: Parts for E34M1 not part of other modules.
 authors: Jon Harper
 date: 2023-4-5
