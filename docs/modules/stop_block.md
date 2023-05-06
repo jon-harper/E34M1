@@ -5,6 +5,7 @@ authors: Jon Harper
 date: 2023-5-3
 ---
 
+Stop blocks are bumpers for the X endstop (or toolhead if using sensorless homing). Several options are available based on your needs.
 
 ### Adjustable X Axis Stop Block
 
