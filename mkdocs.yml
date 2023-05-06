@@ -110,6 +110,7 @@ nav:
     - assembly/hotend.md
     - assembly/drive.md
     - assembly/abl.md
+    - assembly/final.md
   - changelog.md
 
   
