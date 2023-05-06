@@ -1,5 +1,6 @@
 [x_stop_block]: https://github.com/jon-harper/E34M1/blob/main/STL/misc/x_axis_stop_block.stl
 [x_max_stop_block]: https://github.com/jon-harper/E34M1/blob/main/STL/misc/x_axis_max_x_stop_block.stl
+[e5plus_stop_block]: https://github.com/jon-harper/E34M1/blob/main/STL/misc/e5plus_x_axis_stop_block.stl
 [z_limit_cover]: https://github.com/jon-harper/E34M1/blob/main/STL/misc/z_limit_switch_cover.stl
 [z_limit_mount]: https://github.com/jon-harper/E34M1/blob/main/STL/misc/z_limit_switch_mount.stl
 [cable_guide]: https://github.com/jon-harper/E34M1/blob/main/STL/misc/cable_guide.stl

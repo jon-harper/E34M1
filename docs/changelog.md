@@ -11,6 +11,7 @@ date: 2023-1-26
 
 - Cleanup and finishing up the Guide section.
 - Added to the FAQ.
+- Stop Block: added E5Plus stop block.
 
 ### 23/05/05
 

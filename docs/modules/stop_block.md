@@ -30,6 +30,31 @@ Roll in tee nuts may be used instead of drop-in for easier installation.
 </div>
 </div>
 
+### Ender 5 Plus 377mm Stop Block
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+The adjustable stop block does not *quite* fit for the edge of the 370x377mm bed. This stop block projects far enough out from the X Joint to trigger the endstop at *X = 377mm*.
+
+The M5 x 16mm screw replaces the M5 x 12mm screw that normally attaches the X Joint to the X extrusion.
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `e5plus_x_axis_stop_block.stl`][e5plus_stop_block] | 1 |
+| M5-0.8 x 16mm SHCS | 1 |
+| *Lock washer, M5* | *1* | 
+
+</div>
+<div markdown class="jh-grid-img">
+![x_stop_block_illustration](../img/parts/e5plus_x_stop_block.png){ width=200px }
+</div>
+</div>
+
 ### Max X Axis Stop Block
 
 <div markdown class="jh-grid-container jh-grid-2">
