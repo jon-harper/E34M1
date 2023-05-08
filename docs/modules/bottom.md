@@ -84,7 +84,7 @@ The Y offset of the Beacon probe is 34mm.
 
 A version of the dual horns for Klicky users, with cutouts for magnets and wiring.
 
-The additional materials for Klicky wiring are not part of the BOM.
+The Klicky probe's Y offset is approximately 37mm from the nozzle. The additional materials for Klicky wiring are not part of the BOM.
 
 [**Revision:**](#revision-history) v0.1
 
@@ -177,7 +177,7 @@ The Y offset of the Beacon probe is 34mm.
 
 A version of the trihorns for Klicky, with cutouts for magnets and wiring.
 
-The additional materials for Klicky wiring are not part of the BOM.
+The Klicky probe's Y offset is approximately 37mm from the nozzle. The additional materials for Klicky wiring are not part of the BOM.
 
 [**Revision:**](#revision-history) v0.1
 
