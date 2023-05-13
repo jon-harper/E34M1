@@ -61,7 +61,7 @@ Modification of the stock EVA Front for Mercury One. This mounts an ADXL345 acce
 
 Slightly modified Front that mounts a FYSETC portable input shaper.
 
-[**Revision:**](#revision-history) v0.2
+[**Revision:**](#revision-history) v0.3
 
 **Bill of Materials**
 
@@ -99,7 +99,8 @@ Slightly modified Front that mounts a FYSETC portable input shaper.
 ## Revision History
 
 | Date | File | Version | Description |
-    |------|------|---------|-------------|
+|------|------|---------|-------------|
+| 23/05/13 | `pis_front.stl`    | v0.3 | Fix for shaper mount. |
 | 23/04/24 | `belt_grabber.stl` | v0.2 | Better belt grip. |
 | 23/04/25 | `pis_front.stl`    | v0.2 | Fixed belt angle. |
 | 23/04/25 | `stock_front.stl`  | v0.2 | Fixed belt angle. |

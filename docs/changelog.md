@@ -7,6 +7,14 @@ date: 2023-1-26
 
 ## May 2023
 
+### 23/05/13
+
+- Front: fix for Portable Input Shaper, now v0.3
+
+### 23/05/08
+
+- Added Y offset info for Klicky.
+
 ### 23/05/06
 
 - Cleanup and finishing up the Guide section.
