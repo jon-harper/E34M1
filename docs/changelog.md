@@ -7,6 +7,11 @@ date: 2023-1-26
 
 ## May 2023
 
+### 23/05/16
+
+- Shrouds: now have wider "mouths" for cable entry.
+- Shrouds: set to print orientation.
+
 ### 23/05/13
 
 - Front: fix for Portable Input Shaper, now v0.3
