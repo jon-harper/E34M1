@@ -9,8 +9,8 @@ date: 2023-1-26
 
 ### 23/05/16
 
-- Shrouds: now have wider "mouths" for cable entry.
-- Shrouds: set to print orientation.
+- Shrouds: added to testing version with a wider "mouth" for the umbilical.
+- Shrouds: fixed print orientation.
 
 ### 23/05/13
 
