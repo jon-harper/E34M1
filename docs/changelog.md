@@ -5,6 +5,14 @@ authors: Jon Harper
 date: 2023-1-26
 ---
 
+## June 2023
+
+### 23/06/08
+
+- Front 0.4: *very* slightly tweaked belts and a better portable shaper front (can be mounted without removing the fan)
+- Updated all STEP files
+- Cleaned out stale files from the `testing` branch.
+
 ## May 2023
 
 ### 23/05/16
