@@ -26,7 +26,7 @@ This inlet accepts a 15mm ID CPAP hose. It is held in place with two (2) zip tie
 
 CPAP hoses typically come with a latching mechanism on each end; these must be cut off.
 
-[**Revision:**](#revision-history) v0.1
+[**Revision:**](#revision-history) v2
 
 **Bill of Materials**
 
@@ -41,12 +41,12 @@ CPAP hoses typically come with a latching mechanism on each end; these must be c
 
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/15mm_cpap.png){ width=256px}
+![inlet_illustration](../img/parts/rear_15mm_cpap.png){ width=256px}
 
 </div>
 </div>
 
-### 22mm CPAP Rear Inlet
+<!-- ### 22mm CPAP Rear Inlet
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -57,7 +57,7 @@ This inlet accepts a 22mm (19mm ID) CPAP hose. It is held in place with two (2) 
 
 CPAP hoses typically come with a latching mechanism on each end; these must be cut off.
 
-[**Revision:**](#revision-history) v0.1
+[**Revision:**](#revision-history) v3
 
 **Bill of Materials**
 
@@ -72,10 +72,10 @@ CPAP hoses typically come with a latching mechanism on each end; these must be c
 
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/22mm_cpap.png){ width=256px}
+![inlet_illustration](../img/parts/rear_22mm_cpap.png){ width=256px}
 
 </div>
-</div>
+</div> -->
 
 ### Dual 5015 Rear Inlet
 
@@ -251,9 +251,10 @@ This allows stock EVA 3 rear cooling inlets to be used (e.g., [dual 5015 fans](h
 
 | Date | File | Version | Description |
 |------|------|---------|-------------|
+| 23/07/09 | `rear_15mm_cpap.stl`                | v2   | Initial release. |
 | 23/04/25 | `dual_5015_inlet.stl`               | v0.1 | Initial release. |
-| 23/01/10 | `rear_5015_inlet.stl`               | v0.1 | Initial commit. |
+| 23/04/18 | `stock_intake_adapter`              | v0.1 | Initial tracked release. |
 | 23/04/11 | `rear_5015_inlet_sideways.stl`      | v0.1 | Initial tracked release. |
 | 23/04/11 | `rear_inlet_beacon`                 | v0.1 | Initial release. |
 | 23/04/11 | `screw_cap.stl`\*                   | v0.1 | Initial release. |
-| 23/04/18 | `stock_intake_adapter`              | v0.1 | Initial tracked release. |
+| 23/01/10 | `rear_5015_inlet.stl`               | v0.1 | Initial commit. |
