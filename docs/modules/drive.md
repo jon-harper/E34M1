@@ -50,6 +50,9 @@ This extruder needs 14mm of PTFE.
 </div>
 <div markdown class="jh-grid-img">
 ![Annex Sherpa Mini](../img/parts/sherpa_mini.png){ width=256px}
+
+??? info "Heat Set Insert Locations"
+    ![bottom_illustration](../img/inserts/sherpa_mini.png){ width=256px}
 </div>
 </div>
 
