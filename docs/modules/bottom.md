@@ -243,6 +243,35 @@ Two options are available for routing the rear wiring:
 </div>
 </div>
 
+### Dual Horns for Klicky
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+These horns have points for embedding magnets and holes to route the wiring for Klicky.
+
+The Klicky probe's Y offset is approximately 37mm from the nozzle. The additional materials for Klicky wiring are not part of the BOM.
+
+[**Revision:**](#revision-history) v0.1
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `beacon_bottom_uhf.stl`][bottom_klicky_uhf]     | 1 |
+| Heat Set Insert, M3x5x4   | 3 |
+
+</div>
+<div markdown class="jh-grid-img">
+![bottom_illustration](../img/parts/bottom_klicky_uhf.png){ width=256px}
+
+??? info "Heat Set Insert Locations"
+    ![bottom_illustration](../img/inserts/bottom_klicky_uhf.png){ width=256px}
+</div>
+</div>
+
 ## Revision History
 
 | Date | File | Version | Description |

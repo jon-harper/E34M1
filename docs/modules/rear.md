@@ -15,6 +15,68 @@ Several options are available:
 - Sideways Cooling Inlet for Beacon: modified version of the above for Beacon.
 - Stock Rear Inlet Adapter: Lightweight adapter for stock EVA rear inlets.
 
+### 15mm CPAP Rear Inlet
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+This inlet accepts a 15mm ID CPAP hose. It is held in place with two (2) zip ties.
+
+CPAP hoses typically come with a latching mechanism on each end; these must be cut off.
+
+[**Revision:**](#revision-history) v0.1
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `rear_15mm_cpap.stl`][rear_15mm_cpap] | 1 |
+| M3-0.5 x 6mm SHCS         | 1 |
+| M3-0.5 x 45mm SHCS        | 4 |
+| Zip ties                  | 2 |
+| 15mm CPAP hose            | 1 |
+| *Lock washer, M3*         | *4* |
+
+</div>
+<div markdown class="jh-grid-img">
+![inlet_illustration](../img/parts/15mm_cpap.png){ width=256px}
+
+</div>
+</div>
+
+### 22mm CPAP Rear Inlet
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+This inlet accepts a 22mm (19mm ID) CPAP hose. It is held in place with two (2) zip ties.
+
+CPAP hoses typically come with a latching mechanism on each end; these must be cut off.
+
+[**Revision:**](#revision-history) v0.1
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `rear_22mm_cpap.stl`][rear_22mm_cpap] | 1 |
+| M3-0.5 x 6mm SHCS         | 1 |
+| M3-0.5 x 45mm SHCS        | 4 |
+| Zip ties                  | 2 |
+| 22mm CPAP hose            | 1 |
+| *Lock washer, M3*         | *4* |
+
+</div>
+<div markdown class="jh-grid-img">
+![inlet_illustration](../img/parts/22mm_cpap.png){ width=256px}
+
+</div>
+</div>
+
 ### Dual 5015 Rear Inlet
 
 <div markdown class="jh-grid-container jh-grid-2">

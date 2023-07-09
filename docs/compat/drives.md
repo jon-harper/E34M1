@@ -39,6 +39,14 @@ These are EVA 3 Drive mounts modified in one of several ways from stock EVA:
 <div markdown class="jh-grid-container jh-grid-3">
 <div markdown class="jh-card">
 
+### [Annex Sherpa Mini](../modules/drive.md#annex-sherpa-mini)
+
+<figure markdown>
+[![Bondtech BMG](../img/drives/sherpa_mini.png){width="200px"}](../modules/drive.md#annex-sherpa-mini)
+</figure>
+</div>
+<div markdown class="jh-card">
+
 ### [Bondtech BMG](../modules/drive.md#bondtech-bmg)
 
 <figure markdown>
@@ -99,24 +107,6 @@ These are mounts from the larger EVA ecosystem that link to external sites.
 </div>
 <div markdown class="jh-grid-img">
 ![Annex Sherpa Micro](../img/drives/sherpa_micro.png){width="200px"}
-</div>
-</div>
-
-### Annex Sherpa Mini
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-- **Author**: [Luka](https://www.printables.com/@Luka) (inserts) / [Ozan Bozkurt](https://www.printables.com/@OzanBozkurt_340117) (hex nuts)
-- **Inserts/Hex Nuts**: M3x4.6x4 inserts or hex nuts
-
-<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
-[Inserts Link](https://www.printables.com/model/205809-sherpa-mini-mount-for-eva-3/comments){ .md-button}
-[Hex Nuts Link](https://www.printables.com/model/437381-eva-3-sherpa-mini-hex-nut-mount){ .md-button}
-</div>
-</div>
-<div markdown class="jh-grid-img">
-![Annex Sherpa Mini](../img/drives/sherpa_mini.png){width="200px"}
 </div>
 </div>
 

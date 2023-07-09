@@ -27,6 +27,32 @@ date: 2023-4-19
 </div>
 -->
 
+## Annex Sherpa Mini
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Origin**: EVA
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `drive_sherpa_mini.stl`][drive_sherpa_mini]  | 1 |
+| NEMA14 stepper            | 1 |
+| Assembled Sherpa Mini     | 1 |
+| M3-0.5 x 8mm SHCS         | 4 |
+| M3-0.5 x 12mm SHCS        | 6 |
+| *Lock washer, M3*         | 7 |
+
+This extruder needs 14mm of PTFE.
+
+</div>
+<div markdown class="jh-grid-img">
+![Annex Sherpa Mini](../img/parts/sherpa_mini.png){ width=256px}
+</div>
+</div>
+
 ## Bondtech BMG
 
 <div markdown class="jh-grid-container jh-grid-2">
