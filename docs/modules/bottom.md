@@ -243,7 +243,7 @@ Two options are available for routing the rear wiring:
 </div>
 </div>
 
-### Dual Horns for Klicky
+<!-- ### Dual Horns for Klicky
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -270,7 +270,7 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle. The additiona
 ??? info "Heat Set Insert Locations"
     ![bottom_illustration](../img/inserts/bottom_klicky_uhf.png){ width=256px}
 </div>
-</div>
+</div> -->
 
 ## Revision History
 
@@ -283,4 +283,4 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle. The additiona
 | 23/02/01 | `klicky_bottom.stl`            | v0.1 | Initial commit. |
 | 23/04/04 | `klicky_bottom_trihorn.stl`    | v0.1 | Initial commit. |
 | 23/01/10 | `stock_bottom.stl`             | v0.1 | Initial commit. |
-| 23/04/04 |`stock_bottom_trihorn.stl`      | v0.1 | Initial commit. |
+| 23/04/04 | `stock_bottom_trihorn.stl`     | v0.1 | Initial commit. |
