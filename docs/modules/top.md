@@ -19,7 +19,7 @@ The Top module attaches to the MGN12H carriage and mounts the X axis endstop. Th
 
 A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolhead-pcb-mount).
 
-[**Revision:**](#revision-history) v0.2
+[**Revision:**](#revision-history) v0.3
 
 **Bill of Materials**
 
@@ -48,7 +48,7 @@ A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolh
 
 This is a stock EVA Top piece modified for users with umbilicals.
 
-[**Revision:**](#revision-history) v0.2
+[**Revision:**](#revision-history) v0.3
 
 **Bill of Materials**
 
@@ -81,7 +81,7 @@ A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolh
 
 This part has the X endstop on the left side.
 
-[**Revision:**](#revision-history) v0.2
+[**Revision:**](#revision-history) v0.3
 
 **Bill of Materials**
 
@@ -112,7 +112,7 @@ This is a stock EVA Top piece modified for users with umbilicals.
 
 This part has the X endstop on the left side.
 
-[**Revision:**](#revision-history) v0.2
+[**Revision:**](#revision-history) v0.3
 
 **Bill of Materials**
 
@@ -138,6 +138,10 @@ This part has the X endstop on the left side.
 
 | Date | File | Version | Description |
 |------|------|---------|-------------|
+| 23/05/03 | `top_endstop_left.stl`         | v0.3 | Improved zip tie anchors. |
+| 23/05/03 | `top_endstop_left_pcb.stl`     | v0.3 | Improved zip tie anchors. |
+| 23/05/03 | `top_endstop_right.stl`        | v0.3 | Improved zip tie anchors. |
+| 23/05/03 | `top_endstop_right_pcb.stl`    | v0.3 | Improved zip tie anchors. |
 | 23/05/03 | `top_endstop_left.stl`         | v0.2 | Added mirrored version of standard. |
 | 23/05/03 | `top_endstop_left_pcb.stl`     | v0.2 | Added mirrored version of standard. |
 | 23/05/03 | `top_endstop_right.stl`        | v0.2 | Heat set inserts for limit switch; renamed from `top_endstop_mgn12h.stl` |

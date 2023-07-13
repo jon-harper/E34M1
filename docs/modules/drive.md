@@ -32,6 +32,8 @@ date: 2023-4-19
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+!!! tip "Fit test pending ([Issue #11](https://github.com/jon-harper/E34M1/issues/11))"
+
 **Origin**: EVA
 
 **Bill of Materials**

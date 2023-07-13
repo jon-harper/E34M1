@@ -5,6 +5,19 @@ authors: Jon Harper
 date: 2023-1-26
 ---
 
+## July 2023
+
+### 23/07/13
+
+- Updating docs to fix stuff that's been missing lately.
+- Drives: Commited Sherpa Mini mount for testing and added to docs.
+
+### 23/07/09
+
+- Rear: Added 15mm CPAP
+- Bottom: Added Klicky UHF
+- Began work on Sherpa Mini support.
+
 ## June 2023
 
 ### 23/06/08

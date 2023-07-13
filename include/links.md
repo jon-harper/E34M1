@@ -58,3 +58,4 @@
 [drive_lgx_lite]: https://github.com/jon-harper/E34M1/blob/main/STL/drives/drive_lgx_lite.stl
 [drive_orbiter_1_5]: https://github.com/jon-harper/E34M1/blob/testing/STL/drives/drive_orbiter_1_5.stl
 [drive_orbiter_2_0]: https://github.com/jon-harper/E34M1/blob/main/STL/drives/drive_orbiter_2_0.stl
+[drive_sherpa_mini]: https://github.com/jon-harper/E34M1/blob/testing/STL/drives/drive_sherpa_mini.stl
