@@ -47,7 +47,7 @@ date: 2023-4-19
 | M3-0.5 x 12mm SHCS        | 6 |
 | *Lock washer, M3*         | 7 |
 
-This extruder needs 14mm of PTFE.
+This extruder needs 17mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
