@@ -32,8 +32,6 @@ date: 2023-4-19
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-!!! tip "Fit test pending ([Issue #11](https://github.com/jon-harper/E34M1/issues/11))"
-
 **Origin**: EVA
 
 **Bill of Materials**
@@ -44,10 +42,17 @@ date: 2023-4-19
 | NEMA14 stepper            | 1 |
 | Assembled Sherpa Mini     | 1 |
 | M3-0.5 x 8mm SHCS         | 4 |
-| M3-0.5 x 12mm SHCS        | 6 |
-| *Lock washer, M3*         | 7 |
+| M3-0.5 x 12mm SHCS        | 4 |
+| *Lock washer, M3*         | 6 |
+| *M3-0.5 x 8mm BHCS*       | 1 |
+| *Zip tie*                 | 1 |
 
 This extruder needs 17mm of PTFE.
+
+The Sherpa Mini has two front faces. How the stepper and extruder are secured against vibration depends on the version used:
+
+- Stock: A zip-tie can be used to anchor the stepper motor.
+- k-type: An 8mm button head screw is used on the front face of the extruder. A button head screw must be used to clear the ADXL mount on the Front module.
 
 </div>
 <div markdown class="jh-grid-img">
