@@ -249,8 +249,6 @@ Two options are available for routing the rear wiring:
 
 ### Dual Horns for Klicky
 
-!!! tip "Fit Test Pending: See [Issue #12](https://github.com/jon-harper/E34M1/issues/12)"
-
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 

@@ -19,7 +19,7 @@
 [bottom_trihorns]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/stock_bottom_trihorn.stl
 [bottom_klicky]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/klicky_bottom.stl
 [bottom_klicky_trihorn]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/klicky_bottom_trihorn.stl
-[bottom_klicky_uhf]: https://github.com/jon-harper/E34M1/blob/testing/STL/bottom/bottom_klicky_uhf.stl
+[bottom_klicky_uhf]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/klicky_bottom_uhf.stl
 [bottom_beacon]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/beacon_bottom.stl
 [bottom_beacon_trihorn]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/beacon_bottom_trihorns.stl
 [bottom_beacon_uhf]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/beacon_bottom_uhf.stl
