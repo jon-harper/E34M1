@@ -10,6 +10,7 @@ date: 2023-1-26
 ### 23/09/04
 
 - Bottom Horns: updated Klicky entries and a added a missing Beacon link
+- Bottom Horns: added lighter v0.2 for stock and Beacon dual horns
 
 ### 23/09/03
 
