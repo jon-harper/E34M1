@@ -19,7 +19,7 @@ This page is divided into two sections for standard-length hotends and Volcano/U
 
 This is a modified version of the stock EVA dual horns.
 
-[**Revision:**](#revision-history) v0.1
+[**Revision:**](#revision-history) v0.2
 
 **Bill of Materials**
 
@@ -54,7 +54,7 @@ A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-
 
 The Y offset of the Beacon probe is 34mm.
 
-[**Revision:**](#revision-history) v0.1
+[**Revision:**](#revision-history) v0.2
 
 **Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
 
@@ -284,6 +284,8 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle.
 
 | Date | File | Version | Description |
 |------|------|---------|-------------|
+| 23/09/04 | `beacon_bottom.stl`            | v0.2 | Reduced part weight. |
+| 23/09/04 | `stock_bottom.stl`             | v0.2 | Reduced part weight. |
 | 23/09/03 | `klicky_bottom.stl`            | v0.2 | Fixed wiring issues. |
 | 23/08/16 | `klicky_bottom_trihorn.stl`    | v0.2 | Fixed wiring issues. |
 | 23/04/18 | `beacon_bottom.stl`            | v0.1 | Initial release. |
