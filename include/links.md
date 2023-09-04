@@ -19,7 +19,9 @@
 [bottom_trihorns]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/stock_bottom_trihorn.stl
 [bottom_klicky]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/klicky_bottom.stl
 [bottom_klicky_trihorn]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/klicky_bottom_trihorn.stl
+[bottom_klicky_uhf]: https://github.com/jon-harper/E34M1/blob/testing/STL/bottom/bottom_klicky_uhf.stl
 [bottom_beacon]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/beacon_bottom.stl
+[bottom_beacon_trihorn]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/beacon_bottom_trihorns.stl
 [bottom_beacon_uhf]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/beacon_bottom_uhf.stl
 
 [bltouch_mount]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/bl_touch_mount.stl
@@ -58,4 +60,4 @@
 [drive_lgx_lite]: https://github.com/jon-harper/E34M1/blob/main/STL/drives/drive_lgx_lite.stl
 [drive_orbiter_1_5]: https://github.com/jon-harper/E34M1/blob/testing/STL/drives/drive_orbiter_1_5.stl
 [drive_orbiter_2_0]: https://github.com/jon-harper/E34M1/blob/main/STL/drives/drive_orbiter_2_0.stl
-[drive_sherpa_mini]: https://github.com/jon-harper/E34M1/blob/testing/STL/drives/drive_sherpa_mini.stl
+[drive_sherpa_mini]: https://github.com/jon-harper/E34M1/blob/main/STL/drives/drive_sherpa_mini.stl

@@ -84,9 +84,9 @@ The Y offset of the Beacon probe is 34mm.
 
 A version of the dual horns for Klicky users, with cutouts for magnets and wiring.
 
-The Klicky probe's Y offset is approximately 37mm from the nozzle. The additional materials for Klicky wiring are not part of the BOM.
+The Klicky probe's Y offset is approximately 37mm from the nozzle.
 
-[**Revision:**](#revision-history) v0.1
+[**Revision:**](#revision-history) v0.2
 
 **Bill of Materials**
 
@@ -94,6 +94,8 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle. The additiona
 |-----------|-----|
 | [:material-printer-3d-nozzle: `klicky_bottom.stl`][bottom_klicky]     | 1 |
 | Heat Set Insert, M3x5x4   | 1 |
+| 24 awg hookup wire (1.5mm^2^) | 1ft/30cm |
+| 6mm x 3mm magnets         | 3 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -154,7 +156,7 @@ The Y offset of the Beacon probe is 34mm.
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `beacon_bottom.stl`][bottom_beacon]     | 1 | 
+| [:material-printer-3d-nozzle: `beacon_bottom.stl`][bottom_beacon_trihorn]     | 1 | 
 | Heat Set Insert, M3x5x4   | 3 |
 | Low-Profile Beacon Kit    | 1 |
 
@@ -177,7 +179,7 @@ The Y offset of the Beacon probe is 34mm.
 
 A version of the trihorns for Klicky, with cutouts for magnets and wiring.
 
-The Klicky probe's Y offset is approximately 37mm from the nozzle. The additional materials for Klicky wiring are not part of the BOM.
+The Klicky probe's Y offset is approximately 37mm from the nozzle.
 
 [**Revision:**](#revision-history) v0.1
 
@@ -187,6 +189,8 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle. The additiona
 |-----------|-----|
 | [:material-printer-3d-nozzle: `klicky_bottom_trihorn.stl`][bottom_klicky_trihorn]     | 1 |
 | Heat Set Insert, M3x5x4   | 1 |
+| 24 awg hookup wire (1.5mm^2^) | 1ft/30cm |
+| 6mm x 3mm magnets         | 3 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -243,7 +247,9 @@ Two options are available for routing the rear wiring:
 </div>
 </div>
 
-<!-- ### Dual Horns for Klicky
+### Dual Horns for Klicky
+
+!!! tip "Fit Test Pending: See [Issue #12](https://github.com/jon-harper/E34M1/issues/12)"
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -252,7 +258,7 @@ Two options are available for routing the rear wiring:
 
 These horns have points for embedding magnets and holes to route the wiring for Klicky.
 
-The Klicky probe's Y offset is approximately 37mm from the nozzle. The additional materials for Klicky wiring are not part of the BOM.
+The Klicky probe's Y offset is approximately 37mm from the nozzle.
 
 [**Revision:**](#revision-history) v0.1
 
@@ -262,6 +268,8 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle. The additiona
 |-----------|-----|
 | [:material-printer-3d-nozzle: `beacon_bottom_uhf.stl`][bottom_klicky_uhf]     | 1 |
 | Heat Set Insert, M3x5x4   | 3 |
+| 24 awg hookup wire (1.5mm^2^) | 1ft/30cm |
+| 6mm x 3mm magnets         | 3 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -270,12 +278,14 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle. The additiona
 ??? info "Heat Set Insert Locations"
     ![bottom_illustration](../img/inserts/bottom_klicky_uhf.png){ width=256px}
 </div>
-</div> -->
+</div>
 
 ## Revision History
 
 | Date | File | Version | Description |
 |------|------|---------|-------------|
+| 23/09/03 | `klicky_bottom.stl`            | v0.2 | Fixed wiring issues. |
+| 23/08/16 | `klicky_bottom_trihorn.stl`    | v0.2 | Fixed wiring issues. |
 | 23/04/18 | `beacon_bottom.stl`            | v0.1 | Initial release. |
 | 23/04/18 | `beacon_bottom_no_hsi.stl`     | v0.1 | Initial release. |
 | 23/04/18 | `beacon_bottom_trihorns.stl`   | v0.1 | Initial release. |
