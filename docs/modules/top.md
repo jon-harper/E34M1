@@ -19,7 +19,7 @@ The Top module attaches to the MGN12H carriage and mounts the X axis endstop. Th
 
 A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolhead-pcb-mount).
 
-[**Revision:**](#revision-history) v0.3
+[**Revision:**](#revision-history) v0.5
 
 **Bill of Materials**
 
@@ -27,8 +27,10 @@ A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolh
 |-----------|-----|
 | [:material-printer-3d-nozzle: `top_endstop_right_pcb.stl`][top_pcb] | 1 |
 | [:material-cart: Horizontal limit switch][bom_limit_switch]  | 1 |
+| M3-0.5 x 6mm SHCS         | 2 |
 | M3-0.5 x 8mm SHCS         | 6 |
 | Heat Set Insert, M3x5x4   | 6 |
+| *Lock washers, M3*        | 4 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -48,18 +50,20 @@ A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolh
 
 This is a stock EVA Top piece modified for users with umbilicals.
 
-[**Revision:**](#revision-history) v0.3
+[**Revision:**](#revision-history) v0.5
 
 **Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
 | [:material-printer-3d-nozzle: `top_endstop_right.stl`][top] | 1 |
+| [:material-printer-3d-nozzle: `cable_anchor.stl`][cable_anchor] | 1 |
 | [:material-printer-3d-nozzle: `cable_guide.stl`][cable_guide] | 1 |
 | [:material-cart: Horizontal limit switch][bom_limit_switch]  | 1 |
-| M3-0.5 x 6mm SHCS | 2 |
-| M3-0.5 x 8mm SHCS | 6 |
-| Heat Set Insert, M3x5x4  | 6 |
+| M3-0.5 x 6mm SHCS | 4 |
+| M3-0.5 x 8mm SHCS | 5 |
+| Heat Set Insert, M3x5x4  | 7 |
+| *Lock washers, M3*       | 7 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -81,7 +85,7 @@ A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolh
 
 This part has the X endstop on the left side.
 
-[**Revision:**](#revision-history) v0.3
+[**Revision:**](#revision-history) v0.5
 
 **Bill of Materials**
 
@@ -89,8 +93,10 @@ This part has the X endstop on the left side.
 |-----------|-----|
 | [:material-printer-3d-nozzle: `top_endstop_left_pcb.stl`][top_left_pcb] | 1 |
 | [:material-cart: Horizontal limit switch][bom_limit_switch]  | 1 |
+| M3-0.5 x 6mm SHCS         | 2 |
 | M3-0.5 x 8mm SHCS         | 6 |
 | Heat Set Insert, M3x5x4   | 6 |
+| *Lock washers, M3*        | 4 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -112,18 +118,20 @@ This is a stock EVA Top piece modified for users with umbilicals.
 
 This part has the X endstop on the left side.
 
-[**Revision:**](#revision-history) v0.3
+[**Revision:**](#revision-history) v0.5
 
 **Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `top_endstop_left_pcb.stl`][top] | 1 |
+| [:material-printer-3d-nozzle: `top_endstop_left.stl`][top] | 1 |
+| [:material-printer-3d-nozzle: `cable_anchor.stl`][cable_anchor] | 1 |
 | [:material-printer-3d-nozzle: `cable_guide.stl`][cable_guide] | 1 |
 | [:material-cart: Horizontal limit switch][bom_limit_switch]  | 1 |
-| M3-0.5 x 6mm SHCS | 2 |
-| M3-0.5 x 8mm SHCS | 6 |
-| Heat Set Insert, M3x5x4  | 6 |
+| M3-0.5 x 6mm SHCS | 4 |
+| M3-0.5 x 8mm SHCS | 5 |
+| Heat Set Insert, M3x5x4  | 7 |
+| *Lock washers, M3*       | 7 |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -138,6 +146,10 @@ This part has the X endstop on the left side.
 
 | Date | File | Version | Description |
 |------|------|---------|-------------|
+| 23/05/03 | `top_endstop_left.stl`         | v0.5 | Added cable anchor. |
+| 23/05/03 | `top_endstop_left_pcb.stl`     | v0.5 | Version bumpt to match. |
+| 23/05/03 | `top_endstop_right.stl`        | v0.5 | Added cable anchor. |
+| 23/05/03 | `top_endstop_right_pcb.stl`    | v0.5 | Version bump to match |
 | 23/05/03 | `top_endstop_left.stl`         | v0.3 | Improved zip tie anchors. |
 | 23/05/03 | `top_endstop_left_pcb.stl`     | v0.3 | Improved zip tie anchors. |
 | 23/05/03 | `top_endstop_right.stl`        | v0.3 | Improved zip tie anchors. |

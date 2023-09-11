@@ -13,6 +13,7 @@ date: 2023-1-26
 - Bottom Horns: even lighter stock dual horns
 - Bottom Horns: added UHF stock horns
 - Updated compatibility charts.
+- Top: updated docs to v0.5
 
 ### 23/09/04
 
