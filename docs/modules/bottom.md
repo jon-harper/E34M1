@@ -19,7 +19,7 @@ This page is divided into two sections for standard-length hotends and Volcano/U
 
 This is a modified version of the stock EVA dual horns.
 
-[**Revision:**](#revision-history) v0.2
+[**Revision:**](#revision-history) v0.3
 
 **Bill of Materials**
 
@@ -204,9 +204,34 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle.
 
 ## Volcano/UHF Bottom Horns
 
-Volcano bottom horn support is limited. The EVA 3 source file contains gemeotry errors and must be modified as a mesh.
+### UHF Dual Horns
 
-### Dual Horns for Beacon
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+This is a modified version of the EVA UHF dual horns.
+
+[**Revision:**](#revision-history) v0.3
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `stock_bottom_uhf.stl`][bottom_uhf]     | 1 |
+| Heat Set Insert, M3x5x4   | 1 |
+
+</div>
+<div markdown class="jh-grid-img">
+![bottom_illustration](../img/parts/bottom_horns_uhf.png){ width=256px}
+
+??? info "Heat Set Insert Locations"
+    ![bottom_illustration](../img/inserts/bottom_uhf.png){ width=256px}
+</div>
+</div>
+
+### UHF Dual Horns for Beacon
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -247,7 +272,7 @@ Two options are available for routing the rear wiring:
 </div>
 </div>
 
-### Dual Horns for Klicky
+### UHF Dual Horns for Klicky
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -282,6 +307,8 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle.
 
 | Date | File | Version | Description |
 |------|------|---------|-------------|
+| 23/09/04 | `stock_bottom_uhf.stl`         | v0.1 | Inital release. |
+| 23/09/11 | `stock_bottom.stl`             | v0.3 | Further reduced weight; new template |
 | 23/09/04 | `beacon_bottom.stl`            | v0.2 | Reduced part weight. |
 | 23/09/04 | `stock_bottom.stl`             | v0.2 | Reduced part weight. |
 | 23/09/03 | `klicky_bottom.stl`            | v0.2 | Fixed wiring issues. |

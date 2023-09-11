@@ -7,6 +7,13 @@ date: 2023-1-26
 
 ## September 2023
 
+### 23/09/11
+
+- Cleaned up `testing` branch, removed stale files.
+- Bottom Horns: even lighter stock dual horns
+- Bottom Horns: added UHF stock horns
+- Updated compatibility charts.
+
 ### 23/09/04
 
 - Bottom Horns: updated Klicky entries and a added a missing Beacon link

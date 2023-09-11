@@ -9,7 +9,7 @@ date: 2023-1-27
 
 E34M1 is compatible with Mercury One.1 without limiting the build area; no print area is lost by converting to EVA 3 from a different toolhead. Minor modifications may be necessary to your Z axis (such as adjusting the Z end stop height). See [Other Changes and Additions](#other-changes-and-additions) for examples.
 
-An Ender 5 Pro converted to Mercury One.1 with E34M1 has a theoretical build area of 275mm x 275mm using 330mm linear rails. Practical build area is affected by your build, e.g. the type of rear intake used or presence of a toolhead PCB.
+An Ender 5 Pro converted to Mercury One.1 with E34M1 has a *theoretical* build area of 275mm x 275mm using 330mm linear rails. Available area on the X axis is typically around 265mm. Available build area on the Y axis is affected by your build, e.g. the type of rear intake used, presence of a toolhead PCB, etc.
 
 !!! note
     E34M1 is *not* compatible with Mercury One Classic.
@@ -65,10 +65,10 @@ The chart below shows which ABL methods are supported by E34M1. The side ABL mou
 |----------|:------------------:|:------------------:|:-----------:|
 | BLTouch  | :white_check_mark: | :white_check_mark: | ABL         |
 | CR Touch | :white_check_mark: | :white_check_mark: | ABL         |
-| Klicky   | :white_check_mark: | *Planned*          | Bottom      |
+| Klicky   | :white_check_mark: | :white_check_mark: | Bottom      |
 | Beacon   | :white_check_mark: | :white_check_mark: | Bottom and Rear     |
 
-Support for 8mm and 12mm inductive probes is not planned but may be added in the future.
+Support for 8mm and 12mm inductive probes may be added in the future.
 
 ### Bottom Horns
 
@@ -76,23 +76,18 @@ More about Bottom Horns can be found on the [Bottom Horns Modules](../modules/bo
 
 | Duct Type             | Standard Hotends | Volcano/UHF Hotends  |
 |-----------------------|:----------------:|:--------------------:|
-| Dual Horns            | :white_check_mark: | *See note*         |
-| Dual Horns for Klicky | :white_check_mark: | *See note*         |
+| Dual Horns            | :white_check_mark: | :white_check_mark: |
+| Dual Horns for Klicky | :white_check_mark: | :white_check_mark: |
 | Dual Horns for Beacon | :white_check_mark: | :white_check_mark: |
 | Trihorns              | :white_check_mark: | :x:                |
 | Trihorns for Klicky   | :white_check_mark: | :x:                |
 | Trihorns for Beacon   | :white_check_mark: | :x:                |
 
-!!! note
-    EVA 3's dual horn for Volcano hotends contains geometry errors. This limits support for longer hotends at present.
-
 ### Cable Management
 
-There are two methods of cable management and two attachment points. The default attachment is the [Top](../modules/top.md) module for umbilical users. PCB mounts supporting both umbilical (cable guide) and drag chain are available.
+There are two methods of cable management. The default attachment is the [Top](../modules/top.md) module for umbilical users. PCB mounts supporting both umbilical (cable guide) and drag chain are available but are not supported in all configurations.
 
 | Part             | Cable Guide | Drag Chain |
 |------------------|:-----------:|:-----------:|
 | Top with Endstop | :white_check_mark: | *Planned* |
 | PCB Mount        | :white_check_mark: | :white_check_mark: |
-
-Currently only open cable chain hole patterns are supported.
