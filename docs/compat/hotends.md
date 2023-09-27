@@ -80,6 +80,15 @@ These are existing hotend mounts that have been modified for ease of installatio
 </div>
 <div markdown class="jh-card">
 
+### [Phaetus Dragon UHF](../modules/hotend.md#phaetus-dragon-uhf)
+
+<figure markdown>
+[![hotend name](../img/hotends/dragon_uhf.png){width="200"}](../modules/hotend.md#phaetus-dragon-uhf)
+</figure>
+
+</div>
+<div markdown class="jh-card">
+
 ### [Phaetus Rapido](../modules/hotend.md#phaetus-rapido)
 
 <figure markdown>

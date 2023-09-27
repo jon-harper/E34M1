@@ -114,6 +114,35 @@ This hotend requires 24.5mm of PTFE.
 </div>
 </div>
 
+## Phaetus Dragon UHF
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+!!! note "Fit Test Pending: See [Issue #16](https://github.com/jon-harper/E34M1/issues/16)"
+
+**Origin**: EVA
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `hotend_dragon_uhf.stl`][hotend_dragon_uhf]  | 1 |
+| Phaetus Dragon UHF            | 1 |
+| Fan, 40mm x 10mm              | 1 |
+| M2.5-0.45 x 8mm SHCS          | 4 |
+| M3-0.5 x 6mm SHCS             | 4 |
+| M3-0.5 x 12mm SHCS            | 4 |
+| Heat Set Insert, M3x5x4       | 8 |
+
+This hotend requires 15mm of PTFE.
+
+</div>
+<div markdown class="jh-grid-img">
+![Dragon UHF](../img/parts/hotend_dragon_uhf.png){ width=256px}
+</div>
+</div>
+
 ## Phaetus Dragonfly BMO
 
 <div markdown class="jh-grid-container jh-grid-2">

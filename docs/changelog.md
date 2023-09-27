@@ -7,6 +7,11 @@ date: 2023-1-26
 
 ## September 2023
 
+### 23/09/27
+
+- Added new Dragon UHF mount to `testing`.
+- Added Dragon UHF mount to docs.
+
 ### 23/09/11
 
 - Cleaned up `testing` branch, removed stale files.
