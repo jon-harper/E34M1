@@ -43,7 +43,7 @@ Not all parts for E34M1 are covered in this guide. Other parts you may need or w
 
 | Part | Purpose |
 |------|---------|
-| [X Axis Stop Block](../modules/other.md#x-axis-stop-block) | Adjustable bumper for the X axis limit switch. |
+| [X Axis Stop Block](../modules/stop_block.md) | Adjustable bumper for the X axis limit switch. |
 | [Front Intake Duct](../modules/other.md#front-intake-duct) | Easier hotend access using two (2) screws instead of four (4). |
 | [Z Endstop Mount](../modules/other.md#z-endstop-mount) | For Ender 5 Pros with stock Z axis; raises the Z limit switch. |
 | [PCB Mount](../modules/pcb_mounts.md#pcb-mounts) | Mounts for toolhead PCBs. |
