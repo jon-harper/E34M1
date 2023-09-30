@@ -7,6 +7,11 @@ date: 2023-1-26
 
 ## September 2023
 
+### 23/09/30
+
+- Assembly: Fixed a dead link. Thanks to [dhazelett](https://github.com/dhazelett) for the edit.
+- Assembly: Fixed some stale info.
+
 ### 23/09/27
 
 - Added new Dragon UHF mount to `testing`.
