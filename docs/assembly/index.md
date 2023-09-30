@@ -13,7 +13,7 @@ You should have your Mercury One build's X axis extrusion and linear rail assemb
 
 Assembly time depends on your experience level and build configuration. Wiring and connecting the belts are not part of this guide, but some guidence is given on these topics.
 
-Excluding wiring and belt routing, assembly time is approximately 30 minutes.
+Excluding wiring and belt routing, assembly time is approximately 30-45 minutes.
 
 ## :material-printer-3d-nozzle: Print Checklist
 
@@ -60,6 +60,6 @@ All heat set inserts should be installed before beginning this guide. The [Modul
 
 ### Lock Washers
 
-M3 lock washers are used extensively in this guide. Lock washers are not required (and cannot be used for the Drive module) but are strongly recommended to prevent loosening screws.
+M3 lock washers are used extensively in this guide. Lock washers are not required but are strongly recommended to prevent loosening screws.
 
 To emphasize that they are optional, lock washers are *italicized* in the guide's Parts lists.
