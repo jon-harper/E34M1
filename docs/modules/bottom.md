@@ -289,7 +289,7 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle.
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `beacon_bottom_uhf.stl`][bottom_klicky_uhf]     | 1 |
+| [:material-printer-3d-nozzle: `bottom_klicky_uhf.stl`][bottom_klicky_uhf]     | 1 |
 | Heat Set Insert, M3x5x4   | 3 |
 | 24 awg hookup wire (1.5mm^2^) | 1ft/30cm |
 | 6mm x 3mm magnets         | 3 |
