@@ -32,7 +32,7 @@ CPAP hoses typically come with a latching mechanism on each end; these must be c
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `rear_15mm_cpap.stl`][rear_15mm_cpap] | 1 |
+| [:material-printer-3d-nozzle: `rear_15mm_cpap.stl`][cpap_15mm_inlet] | 1 |
 | M3-0.5 x 6mm SHCS         | 1 |
 | M3-0.5 x 45mm SHCS        | 4 |
 | Zip ties                  | 2 |
