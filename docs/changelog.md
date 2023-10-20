@@ -5,6 +5,12 @@ authors: Jon Harper
 date: 2023-1-26
 ---
 
+## October 2023
+
+### 10/20/23
+
+- Rear Inlet: fixed inlet link
+
 ## September 2023
 
 ### 23/09/30
