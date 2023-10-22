@@ -29,7 +29,7 @@ These terms and icons are used throughout the site.
 - Voron-style inserts: M3 x 5mm OD x 4mm L heat set inserts
 - EVA-style inserts: M3 x 4.6mm OD x 4mm L heat set inserts
 
-## Frequent Asked Questions
+## Frequently Asked Questions
 
 ### How does this fit together?
 

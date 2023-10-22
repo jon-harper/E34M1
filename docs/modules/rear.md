@@ -15,7 +15,7 @@ Several options are available:
 - Sideways Cooling Inlet for Beacon: modified version of the above for Beacon.
 - Stock Rear Inlet Adapter: Lightweight adapter for stock EVA rear inlets.
 
-### 15mm CPAP Rear Inlet
+### 15mm CPAP
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -77,7 +77,7 @@ CPAP hoses typically come with a latching mechanism on each end; these must be c
 </div>
 </div> -->
 
-### Dual 5015 Rear Inlet
+### Dual 5015
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -109,7 +109,7 @@ This rear inlet is modified from the stock 5015. It offers plenty of airflow at 
 </div>
 </div>
 
-### Low-Profile Cooling Inlet
+### Low-Profile EVA Stock
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -143,7 +143,7 @@ This is a modified version of the stock EVA 3 cooling inlet. It has a much-reduc
 </div>
 </div>
 
-### Low-Profile Sideways Cooling Inlet
+### Low-Profile Sideways
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -218,7 +218,7 @@ Note that the M3 x 6mm screw is a flat head cap screw.
 </div>
 </div>
 
-### Stock Rear Inlet Adapter
+### EVA Rear Inlet Adapter
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
