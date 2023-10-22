@@ -181,7 +181,7 @@ Note that this does not have an anchor for an umbilical.
 |------|------|---------|-------------|
 | 23/10/22 | `top_no_endstop.stl`           | v0.5 | Added senorless homing top based on v0.5. |
 | 23/05/03 | `top_endstop_left.stl`         | v0.5 | Added cable anchor. |
-| 23/05/03 | `top_endstop_left_pcb.stl`     | v0.5 | Version bumpt to match. |
+| 23/05/03 | `top_endstop_left_pcb.stl`     | v0.5 | Version bump to match. |
 | 23/05/03 | `top_endstop_right.stl`        | v0.5 | Added cable anchor. |
 | 23/05/03 | `top_endstop_right_pcb.stl`    | v0.5 | Version bump to match |
 | 23/05/03 | `top_endstop_left.stl`         | v0.3 | Improved zip tie anchors. |
