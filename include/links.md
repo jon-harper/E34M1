@@ -37,6 +37,7 @@
 [top_left]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_left.stl
 [top_left_pcb]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_left_pcb.stl
 [cable_anchor]: https://github.com/jon-harper/E34M1/blob/main/STL/top/cable_anchor.stl
+[top_no_endstop]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_no_endstop.stl
 
 [5015_inlet]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_5015_inlet.stl
 [5015_sideways_inlet]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_5015_inlet_sideways.stl
