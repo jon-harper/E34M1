@@ -79,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#right-handed-top-with-endstop" class="md-skip">
+        <a href="#left-handed" class="md-skip">
           Skip to content
         </a>
       
@@ -561,29 +561,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#right-handed-top-with-endstop" class="md-nav__link">
-    Right-Handed Top with Endstop
+  <a href="#left-handed" class="md-nav__link">
+    Left-Handed
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#right-handed-top-with-endstop-and-wire-anchor" class="md-nav__link">
-    Right-Handed Top with Endstop and Wire Anchor
+  <a href="#left-handed-with-wire-anchor" class="md-nav__link">
+    Left-Handed with Wire Anchor
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#left-handed-top-with-endstop" class="md-nav__link">
-    Left-Handed Top with Endstop
+  <a href="#right-handed" class="md-nav__link">
+    Right-Handed
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#left-handed-top-with-endstop-and-wire-anchor" class="md-nav__link">
-    Left-Handed Top with Endstop and Wire Anchor
+  <a href="#right-handed-with-wire-anchor" class="md-nav__link">
+    Right-Handed with Wire Anchor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sensorless-homing" class="md-nav__link">
+    Sensorless Homing
   </a>
   
 </li>
@@ -996,120 +1003,13 @@
 
   <h1>Top</h1>
 
-<p>The Top module attaches to the MGN12H carriage and mounts the X axis endstop. The default version has the X endstop on the right side. There is a left-handed version for homing to the left. Both left- and right-handed versions are available with and without a built-in anchor for a cable guide.</p>
+<p>The Top module attaches to the MGN12H carriage and mounts the X axis endstop. The right-handed versions home to the right, and vice versa for the left. Both left- and right-handed versions are available with and without a built-in anchor for a cable guide.</p>
+<p>Finally, sensorless homing users may save weight and print a Top without a mount for an endstop.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Don't forget to grab the <a href="../stop_block/">X Axis Stop Block</a>!</p>
 </div>
-<h3 id="right-handed-top-with-endstop">Right-Handed Top with Endstop</h3>
-<div class="jh-grid-container jh-grid-2">
-<div class="jh-grid-para">
-<p><strong>Description</strong></p>
-<p>A Top for PCB mount users without a cable guide. See <a href="#toolhead-pcb-mount">Toolhead PCB Mount</a>.</p>
-<p><a href="#revision-history"><strong>Revision:</strong></a> v0.5</p>
-<p><strong>Bill of Materials</strong></p>
-<table>
-<thead>
-<tr>
-<th>Parts</th>
-<th>Qty</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_right_pcb.stl"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>top_endstop_right_pcb.stl</code></a></td>
-<td>1</td>
-</tr>
-<tr>
-<td><a href="https://www.amazon.com/REIFENG-Mechanical-Vertical-Printers-Accessories/dp/B08CDF3Q6T/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Horizontal limit switch</a></td>
-<td>1</td>
-</tr>
-<tr>
-<td>M3-0.5 x 6mm SHCS</td>
-<td>2</td>
-</tr>
-<tr>
-<td>M3-0.5 x 8mm SHCS</td>
-<td>6</td>
-</tr>
-<tr>
-<td>Heat Set Insert, M3x5x4</td>
-<td>6</td>
-</tr>
-<tr>
-<td><em>Lock washers, M3</em></td>
-<td>4</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="jh-grid-img">
-<p><img alt="top_illustration" src="../../img/parts/top_endstop_right_pcb.png" width="256px" /></p>
-<details class="info">
-<summary>Heat Set Insert Locations</summary>
-<p><img alt="top_pcb_illustration" src="../../img/inserts/top_right_pcb.png" width="200px" /></p>
-</details>
-</div>
-</div>
-<h3 id="right-handed-top-with-endstop-and-wire-anchor">Right-Handed Top with Endstop and Wire Anchor</h3>
-<div class="jh-grid-container jh-grid-2">
-<div class="jh-grid-para">
-<p><strong>Description</strong></p>
-<p>This is a stock EVA Top piece modified for users with umbilicals.</p>
-<p><a href="#revision-history"><strong>Revision:</strong></a> v0.5</p>
-<p><strong>Bill of Materials</strong></p>
-<table>
-<thead>
-<tr>
-<th>Parts</th>
-<th>Qty</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_right.stl"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>top_endstop_right.stl</code></a></td>
-<td>1</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/E34M1/blob/main/STL/top/cable_anchor.stl"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>cable_anchor.stl</code></a></td>
-<td>1</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/E34M1/blob/main/STL/misc/cable_guide.stl"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>cable_guide.stl</code></a></td>
-<td>1</td>
-</tr>
-<tr>
-<td><a href="https://www.amazon.com/REIFENG-Mechanical-Vertical-Printers-Accessories/dp/B08CDF3Q6T/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Horizontal limit switch</a></td>
-<td>1</td>
-</tr>
-<tr>
-<td>M3-0.5 x 6mm SHCS</td>
-<td>4</td>
-</tr>
-<tr>
-<td>M3-0.5 x 8mm SHCS</td>
-<td>5</td>
-</tr>
-<tr>
-<td>Heat Set Insert, M3x5x4</td>
-<td>7</td>
-</tr>
-<tr>
-<td><em>Lock washers, M3</em></td>
-<td>7</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="jh-grid-img">
-<p><img alt="top_illustration" src="../../img/parts/top_endstop_right.png" width="256px" /></p>
-<details class="info">
-<summary>Heat Set Insert Locations</summary>
-<p><img alt="top_pcb_illustration" src="../../img/inserts/top_right.png" width="200px" /></p>
-</details>
-</div>
-</div>
-<h3 id="left-handed-top-with-endstop">Left-Handed Top with Endstop</h3>
+<h3 id="left-handed">Left-Handed</h3>
 <div class="jh-grid-container jh-grid-2">
 <div class="jh-grid-para">
 <p><strong>Description</strong></p>
@@ -1160,7 +1060,7 @@
 </details>
 </div>
 </div>
-<h3 id="left-handed-top-with-endstop-and-wire-anchor">Left-Handed Top with Endstop and Wire Anchor</h3>
+<h3 id="left-handed-with-wire-anchor">Left-Handed with Wire Anchor</h3>
 <div class="jh-grid-container jh-grid-2">
 <div class="jh-grid-para">
 <p><strong>Description</strong></p>
@@ -1219,7 +1119,158 @@
 </details>
 </div>
 </div>
-<h2 id="revision-history">Revision History</h2>
+<h3 id="right-handed">Right-Handed</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p><strong>Description</strong></p>
+<p>A Top for PCB mount users without a cable guide. See <a href="#toolhead-pcb-mount">Toolhead PCB Mount</a>.</p>
+<p><a href="#revision-history"><strong>Revision:</strong></a> v0.5</p>
+<p><strong>Bill of Materials</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parts</th>
+<th>Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_right_pcb.stl"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>top_endstop_right_pcb.stl</code></a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="https://www.amazon.com/REIFENG-Mechanical-Vertical-Printers-Accessories/dp/B08CDF3Q6T/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Horizontal limit switch</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>M3-0.5 x 6mm SHCS</td>
+<td>2</td>
+</tr>
+<tr>
+<td>M3-0.5 x 8mm SHCS</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Heat Set Insert, M3x5x4</td>
+<td>6</td>
+</tr>
+<tr>
+<td><em>Lock washers, M3</em></td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="jh-grid-img">
+<p><img alt="top_illustration" src="../../img/parts/top_endstop_right_pcb.png" width="256px" /></p>
+<details class="info">
+<summary>Heat Set Insert Locations</summary>
+<p><img alt="top_pcb_illustration" src="../../img/inserts/top_right_pcb.png" width="200px" /></p>
+</details>
+</div>
+</div>
+<h3 id="right-handed-with-wire-anchor">Right-Handed with Wire Anchor</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p><strong>Description</strong></p>
+<p>This is a stock EVA Top piece modified for users with umbilicals.</p>
+<p><a href="#revision-history"><strong>Revision:</strong></a> v0.5</p>
+<p><strong>Bill of Materials</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parts</th>
+<th>Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_right.stl"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>top_endstop_right.stl</code></a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jon-harper/E34M1/blob/main/STL/top/cable_anchor.stl"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>cable_anchor.stl</code></a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="https://github.com/jon-harper/E34M1/blob/main/STL/misc/cable_guide.stl"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>cable_guide.stl</code></a></td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="https://www.amazon.com/REIFENG-Mechanical-Vertical-Printers-Accessories/dp/B08CDF3Q6T/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Horizontal limit switch</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>M3-0.5 x 6mm SHCS</td>
+<td>4</td>
+</tr>
+<tr>
+<td>M3-0.5 x 8mm SHCS</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Heat Set Insert, M3x5x4</td>
+<td>7</td>
+</tr>
+<tr>
+<td><em>Lock washers, M3</em></td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="jh-grid-img">
+<p><img alt="top_illustration" src="../../img/parts/top_endstop_right.png" width="256px" /></p>
+<details class="info">
+<summary>Heat Set Insert Locations</summary>
+<p><img alt="top_pcb_illustration" src="../../img/inserts/top_right.png" width="200px" /></p>
+</details>
+</div>
+</div>
+<h3 id="sensorless-homing">Sensorless Homing</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p><strong>Description</strong></p>
+<p>This top piece is specifically for users with sensorless homing.</p>
+<p>Note that this does not have an anchor for an umbilical.</p>
+<p><a href="#revision-history"><strong>Revision:</strong></a> v0.5</p>
+<p><strong>Bill of Materials</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parts</th>
+<th>Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/jon-harper/E34M1/blob/main/STL/top/top_no_endstop.stl"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>top_no_endstop.stl</code></a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>M3-0.5 x 8mm SHCS</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Heat Set Insert, M3x5x4</td>
+<td>4</td>
+</tr>
+<tr>
+<td><em>Lock washers, M3</em></td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="jh-grid-img">
+<p><img alt="top_illustration" src="../../img/parts/top_no_endstop.png" width="256px" /></p>
+<details class="info">
+<summary>Heat Set Insert Locations</summary>
+<p><img alt="top_pcb_illustration" src="../../img/inserts/top_no_endstop.png" width="200px" /></p>
+</details>
+</div>
+</div>
+<h3 id="revision-history">Revision History</h3>
 <table>
 <thead>
 <tr>
@@ -1230,6 +1281,12 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>23/10/22</td>
+<td><code>top_no_endstop.stl</code></td>
+<td>v0.5</td>
+<td>Added senorless homing top based on v0.5.</td>
+</tr>
 <tr>
 <td>23/05/03</td>
 <td><code>top_endstop_left.stl</code></td>
