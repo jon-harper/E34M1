@@ -10,6 +10,8 @@ date: 2023-1-26
 ### 10/21/23
 
 - Top: added a sensorless homing top
+- Assembly: corrected that M3 x 45mm screws are used for the Rear Inlet.
+- Assembly: clarified how to attach the Drive module.
 
 ### 10/20/23
 
