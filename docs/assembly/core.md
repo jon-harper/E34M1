@@ -24,14 +24,14 @@ With the Top installed, we next build the rest of the Core using the Front, Bott
 | :material-printer-3d-nozzle: [Rear Inlet](../modules/rear.md) | 1 |
 | :material-printer-3d-nozzle: [Bottom Horns](../modules/bottom.md) | 1 |
 | :material-printer-3d-nozzle: [Front](../modules/front.md)     | 1 |
-| M3 x 40mm SHCS | 4 |
+| M3 x 45mm SHCS | 4 |
 | M3 x 6mm SHCS  | 1 |
 | *Lock washer, M3* | *5* |
 
 ## Steps
 
 1. Use a single M3 x 6mm screw and lock washer to fasten the Bottom Horns and Rear Inlet together.
-2. Put an M3 x 40mm screw and lock washer through each of the top two (2) screw holes on the Rear Inlet.
+2. Put an M3 x 45mm screw and lock washer through each of the top two (2) screw holes on the Rear Inlet.
 3. Slide the screws from front to back through the holes on the Top.
-4. Take large, flat side of the Front and align the upper two (2) inserts with installed 40mm screws. Thread the screws in and tighten.
-5. Slide the remaining two (2) M3 x 40mm screws with lock washers through the bottom holes in the Rear Inlet. Thread the screws into the back of the Front component and tighten.
+4. Take large, flat side of the Front and align the upper two (2) inserts with installed 45mm screws. Thread the screws in and tighten.
+5. Slide the remaining two (2) M3 x 45mm screws with lock washers through the bottom holes in the Rear Inlet. Thread the screws into the back of the Front component and tighten.
