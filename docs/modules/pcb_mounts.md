@@ -5,6 +5,9 @@ authors: Jon Harper
 date: 2023-4-5
 ---
 
+!!! warning "Warning: Deprecated"
+    The files on this page are deprecated and may be removed in the future.
+
 This page contains parts for mounting toolhead PCBs on the back of a NEMA17 stepper. Optional shrouds are used to cover the PCB wiring.
 
 The first half of this page contains mounts for both NEMA14 ("36") and NEMA17 ("42") PCBs. Examples of '36 PCBs are the BIGTREETECH EBB36 and  Mellow Fly SHT36. An example of a '42 PCB is the BIGTREETECH EBB42. Variants of each mount are available for both cable guides and drag chains.

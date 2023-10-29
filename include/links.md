@@ -27,6 +27,7 @@
 
 [bltouch_mount]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/bl_touch_mount.stl
 [bltouch_volcano]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/bl_touch_volcano_mount.stl
+[crtouch_mount]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/cr_touch_mount.stl
 
 [front]: https://github.com/jon-harper/E34M1/blob/main/STL/front/stock_front.stl
 [front_pis]: https://github.com/jon-harper/E34M1/blob/main/STL/front/pis_front.stl

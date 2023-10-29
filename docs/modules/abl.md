@@ -9,10 +9,10 @@ The side mount is used by most ABL methods and attaches to the Front. See the [B
 
 These ABL and hotend length combinations are available:
 
-- BLTouch
-- BLTouch (Volcano)
-- CR Touch
-- CR Touch (Volcano)
+- [BLTouch](#bltouch)
+- [BLTouch UHF](#bltouch-uhf)
+- [CR Touch](#cr-touch)
+- [CR Touch UHF](#cr-touch-uhf)
 
 ### BLTouch
 
@@ -42,7 +42,7 @@ Mounts a BLTouch.
 </div>
 </div>
 
-### BLTouch (Volcano)
+### BLTouch UHF
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -72,8 +72,6 @@ Adds support for BLTouch for longer hotends.
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-!!! tip "Fit test pending ([Issue #1](https://github.com/jon-harper/E34M1/issues/1))"
-
 **Description:** Mounts a Creality CR Touch.
 
 [**Revision:**](#revision-history) v0.1
@@ -95,7 +93,7 @@ Adds support for BLTouch for longer hotends.
 </div>
 </div>
 
-### CR Touch (Volcano)
+### CR Touch UHF
 
 Support for Volcano hotends is availabe through [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)'s mod [CR Touch for Volcano Hotends](https://www.printables.com/model/434179-eva3-uhf-cr-touch).
 

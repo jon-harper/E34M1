@@ -7,6 +7,14 @@ date: 2023-1-26
 
 ## October 2023
 
+### 10/29/23
+
+- Fixed a number of links.
+- Migrated multiple files from `testing` to `main`.
+- Initial Release 2 commit to `testing` branch.
+- ABL: cleaned up page somewhat
+- Toolhead PCBs: added deprecation note
+
 ### 10/21/23
 
 - Top: added a sensorless homing top
