@@ -58,10 +58,10 @@
 [hotend_rapido]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_rapido.stl
 [hotend_nova]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_nova.stl
 [hotend_mosquito]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_mosquito.stl
-[hotend_dragon_uhf]: https://github.com/jon-harper/E34M1/blob/testing/STL/hotend/hotend_dragon_uhf.stl
+[hotend_dragon_uhf]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_dragon_uhf.stl
 
 [drive_bmg]: https://github.com/jon-harper/E34M1/blob/main/STL/drives/drive_bmg.stl
-[drive_lgx]: https://github.com/jon-harper/E34M1/blob/testing/STL/drives/drive_lgx.stl
+[drive_lgx]: https://github.com/jon-harper/E34M1/blob/main/STL/drives/drive_lgx.stl
 [drive_lgx_lite]: https://github.com/jon-harper/E34M1/blob/main/STL/drives/drive_lgx_lite.stl
 [drive_orbiter_1_5]: https://github.com/jon-harper/E34M1/blob/main/STL/drives/drive_orbiter_1_5.stl
 [drive_orbiter_2_0]: https://github.com/jon-harper/E34M1/blob/main/STL/drives/drive_orbiter_2_0.stl

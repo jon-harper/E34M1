@@ -119,8 +119,6 @@ This hotend requires 24.5mm of PTFE.
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-!!! note "Fit Test Pending: See [Issue #16](https://github.com/jon-harper/E34M1/issues/16)"
-
 **Origin**: EVA
 
 **Bill of Materials**
