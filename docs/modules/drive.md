@@ -148,9 +148,6 @@ This extruder needs 14.2mm of PTFE.
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-!!! tip "Fit test pending ([Issue #5](https://github.com/jon-harper/E34M1/issues/5))"
-    [Click here](https://main.eva-3d.page/heat_insert/drive/orbiter_1_5/) for the tested, stock file from EVA instead.
-
 **Origin**: EVA
 
 **Bill of Materials**
