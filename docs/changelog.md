@@ -7,6 +7,11 @@ date: 2023-1-26
 
 ## October 2023
 
+### 10/30/23
+
+- Rear Inlet: new template for making inlets, part of Release 2.
+- Rear Inlet: updated sideways rear inlet and 15mm CPAP rear inlet to new template, part of Release 2.
+
 ### 10/29/23
 
 - Fixed a number of links.
