@@ -7,9 +7,27 @@ date: 2023-4-5
 
 Several versions of the bottom horns are available for E34M1. Which version you should use depends on your hotend and your ABL method. See the [Compatibility](../compat/index.md#bottom-horns) page for a breakdown table.
 
-This page is divided into two sections for standard-length hotends and Volcano/UHF hotends.
+This page is divided into sections by ABL support:
 
-## Standard Hotend Bottom Horns
+Standard
+
+- [Dual Horns](#dual-horns)
+- [Trihorns](#trihorns)
+- [UHF Dual Horns](#uhf-dual-horns)
+
+Beacon
+
+- [Dual Horns](#dual-horns-beacon)
+- [Trihorns](#trihorns-beacon)
+- [UHF Dual Horns](#uhf-dual-horns-beacon)
+
+Klicky
+
+- [Dual Horns](#dual-horns-klicky)
+- [Trihorns](#trihorns-klicky)
+- [UHF Dual Horns](#trihorns-klicky)
+
+## Standard Horns
 
 ### Dual Horns
 <div markdown class="jh-grid-container jh-grid-2">
@@ -17,7 +35,7 @@ This page is divided into two sections for standard-length hotends and Volcano/U
 
 **Description**
 
-This is a modified version of the stock EVA dual horns.
+This is a lightweight version of the stock EVA dual horns. These are recommended for nearly all configurations.
 
 [**Revision:**](#revision-history) v0.3
 
@@ -37,7 +55,67 @@ This is a modified version of the stock EVA dual horns.
 </div>
 </div>
 
-### Dual Horns for Beacon
+### Trihorns
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+Three-horned duct adopted from stock EVA, recommended for the Mosquito hotend *only*.
+
+!!! warning
+    This duct provides unequal airflow to attempt to compensate for the Mosquito's heater block. It is *not* recommended for other hotends.
+
+[**Revision:**](#revision-history) v0.1
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `stock_bottom_trihorn.stl`][bottom_trihorns]     | 1 |
+| Heat Set Insert, M3x5x4   | 1 |
+
+</div>
+<div markdown class="jh-grid-img">
+![bottom_illustration](../img/parts/bottom_trihorns.png){ width=256px}
+
+??? info "Heat Set Insert Locations"
+    ![bottom_illustration](../img/inserts/bottom_trihorn.png){ width=256px}
+</div>
+</div>
+
+
+### UHF Dual Horns
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+This is a modified version of the EVA UHF dual horns. Currently, only the Rapido Plus requires these.
+
+[**Revision:**](#revision-history) v0.3
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `stock_bottom_uhf.stl`][bottom_uhf]     | 1 |
+| Heat Set Insert, M3x5x4   | 1 |
+
+</div>
+<div markdown class="jh-grid-img">
+![bottom_illustration](../img/parts/bottom_horns_uhf.png){ width=256px}
+
+??? info "Heat Set Insert Locations"
+    ![bottom_illustration](../img/inserts/bottom_uhf.png){ width=256px}
+</div>
+</div>
+
+## Beacon Horns
+
+### Dual Horns (Beacon)
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -46,7 +124,7 @@ This is a modified version of the stock EVA dual horns.
 
 !!! info "Designed by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
 
-!!! tip "This part requires the matching [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon)"
+!!! tip "This part requires a [Rear Inlet compatible with Beacon](rear.md)"
 
 **Description**
 
@@ -75,78 +153,23 @@ The Y offset of the Beacon probe is 34mm.
 </div>
 </div>
 
-### Dual Horns for Klicky
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-**Description**
-
-A version of the dual horns for Klicky users, with cutouts for magnets and wiring.
-
-The Klicky probe's Y offset is approximately 37mm from the nozzle.
-
-[**Revision:**](#revision-history) v0.2
-
-**Bill of Materials**
-
-| Parts     | Qty |
-|-----------|-----|
-| [:material-printer-3d-nozzle: `klicky_bottom.stl`][bottom_klicky]     | 1 |
-| Heat Set Insert, M3x5x4   | 1 |
-| 24 awg hookup wire (1.5mm^2^) | 1ft/30cm |
-| 6mm x 3mm magnets         | 3 |
-
-</div>
-<div markdown class="jh-grid-img">
-![bottom_illustration](../img/parts/bottom_horns_klicky.png){ width=256px}
-
-??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom_klicky.png){ width=256px}
-</div>
-</div>
-
-### Trihorns
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-**Description**
-
-Three-horned duct adopted from stock EVA, recommended for the Mosquito hotend.
-
-[**Revision:**](#revision-history) v0.1
-
-**Bill of Materials**
-
-| Parts     | Qty |
-|-----------|-----|
-| [:material-printer-3d-nozzle: `stock_bottom_trihorn.stl`][bottom_trihorns]     | 1 |
-| Heat Set Insert, M3x5x4   | 1 |
-
-</div>
-<div markdown class="jh-grid-img">
-![bottom_illustration](../img/parts/bottom_trihorns.png){ width=256px}
-
-??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom_trihorn.png){ width=256px}
-</div>
-</div>
-
-### Trihorns for Beacon
+### Trihorns (Beacon)
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
 !!! info "Designed by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
 
-!!! tip "This part requires the matching [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon)"
+!!! tip "This part requires a [Rear Inlet compatible with Beacon](rear.md)"
 
 **Description**
 
 A version of the dual horns that mounts a Beacon probe, with a cutout for the 4-pin Sherlock connector. The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
 
 The Y offset of the Beacon probe is 34mm.
+
+!!! warning
+    This duct provides unequal airflow to attempt to compensate for the Mosquito's heater block. It is *not* recommended for other hotends.
 
 [**Revision:**](#revision-history) v0.1
 
@@ -169,69 +192,7 @@ The Y offset of the Beacon probe is 34mm.
 </div>
 </div>
 
-
-### Trihorns for Klicky
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-**Description**
-
-A version of the trihorns for Klicky, with cutouts for magnets and wiring.
-
-The Klicky probe's Y offset is approximately 37mm from the nozzle.
-
-[**Revision:**](#revision-history) v0.1
-
-**Bill of Materials**
-
-| Parts     | Qty |
-|-----------|-----|
-| [:material-printer-3d-nozzle: `klicky_bottom_trihorn.stl`][bottom_klicky_trihorn]     | 1 |
-| Heat Set Insert, M3x5x4   | 1 |
-| 24 awg hookup wire (1.5mm^2^) | 1ft/30cm |
-| 6mm x 3mm magnets         | 3 |
-
-</div>
-<div markdown class="jh-grid-img">
-![bottom_illustration](../img/parts/bottom_klicky_trihorns.png){ width=256px}
-
-??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom_trihorn_klicky.png){ width=256px}
-
-</div>
-</div>
-
-## Volcano/UHF Bottom Horns
-
-### UHF Dual Horns
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-**Description**
-
-This is a modified version of the EVA UHF dual horns.
-
-[**Revision:**](#revision-history) v0.3
-
-**Bill of Materials**
-
-| Parts     | Qty |
-|-----------|-----|
-| [:material-printer-3d-nozzle: `stock_bottom_uhf.stl`][bottom_uhf]     | 1 |
-| Heat Set Insert, M3x5x4   | 1 |
-
-</div>
-<div markdown class="jh-grid-img">
-![bottom_illustration](../img/parts/bottom_horns_uhf.png){ width=256px}
-
-??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom_uhf.png){ width=256px}
-</div>
-</div>
-
-### UHF Dual Horns for Beacon
+### UHF Dual Horns (Beacon)
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -272,7 +233,75 @@ Two options are available for routing the rear wiring:
 </div>
 </div>
 
-### UHF Dual Horns for Klicky
+## Klicky Horns
+
+### Dual Horns (Klicky)
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+A version of the dual horns for Klicky users, with cutouts for magnets and wiring.
+
+The Klicky probe's Y offset is approximately 37mm from the nozzle.
+
+[**Revision:**](#revision-history) v0.2
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `klicky_bottom.stl`][bottom_klicky]     | 1 |
+| Heat Set Insert, M3x5x4   | 1 |
+| 24 awg hookup wire (1.5mm^2^) | 1ft/30cm |
+| 6mm x 3mm magnets         | 3 |
+
+</div>
+<div markdown class="jh-grid-img">
+![bottom_illustration](../img/parts/bottom_horns_klicky.png){ width=256px}
+
+??? info "Heat Set Insert Locations"
+    ![bottom_illustration](../img/inserts/bottom_klicky.png){ width=256px}
+</div>
+</div>
+
+### Trihorns (Klicky)
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+A version of the trihorns for Klicky, with cutouts for magnets and wiring.
+
+The Klicky probe's Y offset is approximately 37mm from the nozzle.
+
+!!! warning
+    This duct provides unequal airflow to attempt to compensate for the Mosquito's heater block. It is *not* recommended for other hotends.
+
+[**Revision:**](#revision-history) v0.2
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `klicky_bottom_trihorn.stl`][bottom_klicky_trihorn]     | 1 |
+| Heat Set Insert, M3x5x4   | 1 |
+| 24 awg hookup wire (1.5mm^2^) | 1ft/30cm |
+| 6mm x 3mm magnets         | 3 |
+
+</div>
+<div markdown class="jh-grid-img">
+![bottom_illustration](../img/parts/bottom_klicky_trihorns.png){ width=256px}
+
+??? info "Heat Set Insert Locations"
+    ![bottom_illustration](../img/inserts/bottom_trihorn_klicky.png){ width=256px}
+
+</div>
+</div>
+
+### UHF Dual Horns (Klicky)
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">

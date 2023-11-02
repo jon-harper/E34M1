@@ -50,7 +50,7 @@ date: 2023-4-5
 | M3-0.5 x 12mm SHCS            | 4 |
 | Heat Set Insert, M3x5x4       | 8 |
 
-This hotend requires 39.65mm of PTFE.
+This hotend requires 39.65mm of PTFE tubing. It uses standard-length Bottom Horns.
 
 </div>
 <div markdown class="jh-grid-img">
@@ -77,7 +77,7 @@ This hotend requires 39.65mm of PTFE.
 | M3-0.5 x 12mm SHCS            | 4 |
 | Heat Set Insert, M3x5x4       | 8 |
 
-This hotend requires 27.15mm of PTFE.
+This hotend requires 27.15mm of PTFE tubing. It uses standard-length Bottom Horns.
 
 </div>
 <div markdown class="jh-grid-img">
@@ -106,7 +106,7 @@ This hotend requires 27.15mm of PTFE.
 | M3-0.5 x 12mm SHCS        | 4 |
 | Heat Set Insert, M3x5x4   | 8 |
 
-This hotend requires 24.5mm of PTFE.
+This hotend requires 24.5mm of PTFE tubing. It uses standard-length Bottom Horns.
 
 </div>
 <div markdown class="jh-grid-img">
@@ -133,7 +133,7 @@ This hotend requires 24.5mm of PTFE.
 | M3-0.5 x 12mm SHCS            | 4 |
 | Heat Set Insert, M3x5x4       | 8 |
 
-This hotend requires 15mm of PTFE.
+This hotend requires 15mm of PTFE tubing. It uses standard-length Bottom Horns (*not* UHF).
 
 </div>
 <div markdown class="jh-grid-img">
@@ -160,7 +160,7 @@ This hotend requires 15mm of PTFE.
 | M3-0.5 x 12mm SHCS            | 4 |
 | Heat Set Insert, M3x5x4       | 8 |
 
-This hotend requires 39.5mm of PTFE.
+This hotend requires 39.5mm of PTFE tubing. It uses standard-length Bottom Horns.
 
 </div>
 <div markdown class="jh-grid-img">
@@ -194,7 +194,7 @@ Lock washers to mount the hotend are optional.
 | *Lock washer, M3*         | *2* |
 | Heat Set Insert, M3x5x4   | 10 |
 
-This hotend requires approximately 20mm of PTFE.
+This hotend requires approximately 20mm of PTFE tubing. It uses standard-length Bottom Horns.
 
 </div>
 <div markdown class="jh-grid-img">
@@ -221,7 +221,34 @@ This hotend requires approximately 20mm of PTFE.
 | M3-0.5 x 12mm SHCS            | 4 |
 | Heat Set Insert, M3x5x4       | 8 |
 
-This hotend requires 29.8mm of PTFE.
+This hotend requires 29.8mm of PTFE tubing. It uses standard-length Bottom Horns.
+
+</div>
+<div markdown class="jh-grid-img">
+![Rapido](../img/parts/hotend_rapido.png){ width=256px}
+</div>
+</div>
+
+## Phaetus Rapido UHF
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Origin**: EVA
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `hotend_rapido.stl`][hotend_rapido]  | 1 |
+| Rapido                        | 1 |
+| Fan, 40mm x 10mm              | 1 |
+| M2.5-0.45 x 8mm SHCS          | 4 |
+| M3-0.5 x 6mm SHCS             | 4 |
+| M3-0.5 x 12mm SHCS            | 4 |
+| Heat Set Insert, M3x5x4       | 8 |
+
+This hotend requires 27.23mm of PTFE tubing. It requires UHF Bottom Horns.
 
 </div>
 <div markdown class="jh-grid-img">
@@ -248,7 +275,7 @@ This hotend requires 29.8mm of PTFE.
 | M3-0.5 x 12mm SHCS            | 4 |
 | Heat Set Insert, M3x5x4       | 8 |
 
-This hotend resquires 22.6mm of PTFE.
+This hotend resquires 22.6mm of PTFE tubing. It requires the trihorn Bottom Horns.
 
 </div>
 <div markdown class="jh-grid-img">

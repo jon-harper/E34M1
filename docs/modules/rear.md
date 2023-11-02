@@ -28,7 +28,7 @@ This inlet accepts a 15mm ID CPAP hose, secured by zip ties.
 
 CPAP hoses typically come with a latching mechanism on each end; these must be removed.
 
-[**Revision:**](#revision-history) v2
+[**Revision:**](#revision-history) v3
 
 **Bill of Materials**
 
@@ -191,7 +191,7 @@ This is a cooling inlet for a single 5015 fan that maximizes available build are
 
 Use this if you are not sure which cooling inlet is best for you.
 
-[**Revision:**](#revision-history) v0.1
+[**Revision:**](#revision-history) v0.2
 
 **Bill of Materials**
 
@@ -228,7 +228,7 @@ This modification of the the sideways inlet has clearance for the Beacon connect
 !!! warning 
     The inlet uses a **flat head cap screw** to secure the duct to the bottom horns. This screw may be left out if necessary, but may provide a less secure seal for the duct. `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
 
-[**Revision:**](#revision-history) v0.1
+[**Revision:**](#revision-history) v0.2
 
 **Origin**: [Beacon 3D mount solution for E34M1 - EVA 3 for Mercury One](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
 
