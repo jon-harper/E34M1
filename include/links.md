@@ -33,10 +33,10 @@
 [front_pis]: https://github.com/jon-harper/E34M1/blob/main/STL/front/pis_front.stl
 [belt_grabber]: https://github.com/jon-harper/E34M1/blob/main/STL/front/belt_grabber.stl
 
-[top]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_right.stl
-[top_pcb]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_right_pcb.stl
-[top_left]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_left.stl
-[top_left_pcb]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_endstop_left_pcb.stl
+[top_right_endstop_anchor]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_right_endstop_anchor.stl
+[top_right_endstop]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_right_endstop.stl
+[top_left_endstop_anchor]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_left_endstop_anchor.stl
+[top_left_endstop]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_left_endstop.stl
 [cable_anchor]: https://github.com/jon-harper/E34M1/blob/main/STL/top/cable_anchor.stl
 [top_no_endstop]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_no_endstop.stl
 

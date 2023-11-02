@@ -7,10 +7,18 @@ date: 2023-4-5
 
 The Top module attaches to the MGN12H carriage and mounts the X axis endstop. The right-handed versions home to the right, and vice versa for the left. Both left- and right-handed versions are available with and without a built-in anchor for a cable guide.
 
-Finally, sensorless homing users may save weight and print a Top without a mount for an endstop.
-
 !!! tip
     Don't forget to grab the [X Axis Stop Block](stop_block.md)!
+
+Six versions of this module are available:
+
+- [Left-handed](#left-handed)
+- [Left-handed with Wire Anchor](#left-handed-with-wire-anchor)
+- [Right-handed](#right-handed)
+- [Right-handed with Wire Anchor](#right-handed-with-wire-anchor)
+- [Sensorless Homing](#sensorless-homing)
+- [Integrated Microswitch](https://www.printables.com/model/555302-zero-g-mercury-e34m1-top-mgn12h-with-inbuilt-limit): A mod by [syph3rd](https://www.printables.com/@syph3rd_963296) that integrates a microswitch into the Top.
+
 
 ### Left-Handed
 
@@ -23,13 +31,13 @@ A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolh
 
 This part has the X endstop on the left side.
 
-[**Revision:**](#revision-history) v0.5
+[**Revision:**](#revision-history) v0.7
 
 **Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `top_endstop_left_pcb.stl`][top_left_pcb] | 1 |
+| [:material-printer-3d-nozzle: `top_left_endstop.stl`][top_left_endstop] | 1 |
 | [:material-cart: Horizontal limit switch][bom_limit_switch]  | 1 |
 | M3-0.5 x 6mm SHCS         | 2 |
 | M3-0.5 x 8mm SHCS         | 6 |
@@ -38,10 +46,10 @@ This part has the X endstop on the left side.
 
 </div>
 <div markdown class="jh-grid-img">
-![top_illustration](../img/parts/top_endstop_left_pcb.png){ width=256px}
+![top_illustration](../img/parts/top_left_endstop.png){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![top_pcb_illustration](../img/inserts/top_left_pcb.png){ width=200px}
+    ![top_pcb_illustration](../img/inserts/top_left_endstop.png){ width=200px}
 </div>
 </div>
 
@@ -56,13 +64,13 @@ This is a stock EVA Top piece modified for users with umbilicals.
 
 This part has the X endstop on the left side.
 
-[**Revision:**](#revision-history) v0.5
+[**Revision:**](#revision-history) v0.7
 
 **Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `top_endstop_left.stl`][top] | 1 |
+| [:material-printer-3d-nozzle: `top_left_endstop_anchor.stl`][top_left_endstop_anchor] | 1 |
 | [:material-printer-3d-nozzle: `cable_anchor.stl`][cable_anchor] | 1 |
 | [:material-printer-3d-nozzle: `cable_guide.stl`][cable_guide] | 1 |
 | [:material-cart: Horizontal limit switch][bom_limit_switch]  | 1 |
@@ -73,10 +81,10 @@ This part has the X endstop on the left side.
 
 </div>
 <div markdown class="jh-grid-img">
-![top_illustration](../img/parts/top_endstop_left.png){ width=256px}
+![top_illustration](../img/parts/top_left_endstop_anchor.png){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![top_pcb_illustration](../img/inserts/top_left.png){ width=200px}
+    ![top_pcb_illustration](../img/inserts/top_left_endstop_anchor.png){ width=200px}
 </div>
 </div>
 
@@ -89,13 +97,13 @@ This part has the X endstop on the left side.
 
 A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolhead-pcb-mount).
 
-[**Revision:**](#revision-history) v0.5
+[**Revision:**](#revision-history) v0.7
 
 **Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `top_endstop_right_pcb.stl`][top_pcb] | 1 |
+| [:material-printer-3d-nozzle: `top_right_endstop.stl`][top_right_endstop] | 1 |
 | [:material-cart: Horizontal limit switch][bom_limit_switch]  | 1 |
 | M3-0.5 x 6mm SHCS         | 2 |
 | M3-0.5 x 8mm SHCS         | 6 |
@@ -104,10 +112,10 @@ A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolh
 
 </div>
 <div markdown class="jh-grid-img">
-![top_illustration](../img/parts/top_endstop_right_pcb.png){ width=256px}
+![top_illustration](../img/parts/top_right_endstop.png){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![top_pcb_illustration](../img/inserts/top_right_pcb.png){ width=200px}
+    ![top_pcb_illustration](../img/inserts/top_right_endstop.png){ width=200px}
 </div>
 </div>
 
@@ -120,13 +128,13 @@ A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolh
 
 This is a stock EVA Top piece modified for users with umbilicals.
 
-[**Revision:**](#revision-history) v0.5
+[**Revision:**](#revision-history) v0.7
 
 **Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `top_endstop_right.stl`][top] | 1 |
+| [:material-printer-3d-nozzle: `top_right_endstop_anchor.stl`][top_right_endstop_anchor] | 1 |
 | [:material-printer-3d-nozzle: `cable_anchor.stl`][cable_anchor] | 1 |
 | [:material-printer-3d-nozzle: `cable_guide.stl`][cable_guide] | 1 |
 | [:material-cart: Horizontal limit switch][bom_limit_switch]  | 1 |
@@ -137,10 +145,10 @@ This is a stock EVA Top piece modified for users with umbilicals.
 
 </div>
 <div markdown class="jh-grid-img">
-![top_illustration](../img/parts/top_endstop_right.png){ width=256px}
+![top_illustration](../img/parts/top_right_endstop_anchor.png){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![top_pcb_illustration](../img/inserts/top_right.png){ width=200px}
+    ![top_pcb_illustration](../img/inserts/top_right_endstop_anchor.png){ width=200px}
 </div>
 </div>
 
@@ -155,7 +163,7 @@ This top piece is specifically for users with sensorless homing.
 
 Note that this does not have an anchor for an umbilical.
 
-[**Revision:**](#revision-history) v0.5
+[**Revision:**](#revision-history) v0.7
 
 **Bill of Materials**
 
@@ -179,6 +187,11 @@ Note that this does not have an anchor for an umbilical.
 
 | Date | File | Version | Description |
 |------|------|---------|-------------|
+| 23/11/02 | `top_left_endstop.stl`         | v0.7 | Redesign; renamed from `top_endstop_left_pcb.stl` |
+| 23/11/02 | `top_left_endstop_anchor.stl`  | v0.7 | Redesign; renamed from `top_endstop_left.stl` |
+| 23/11/02 | `top_right_endstop.stl`        | v0.7 | Redesign; renamed from `top_endstop_right_pcb.stl` |
+| 23/11/02 | `top_right_endstop_anchor.stl` | v0.7 | Redesign; renamed from `top_endstop_right.stl` |
+| 23/11/02 | `top_no_endstop.stl`           | v0.7 | Redesign |
 | 23/10/22 | `top_no_endstop.stl`           | v0.5 | Added senorless homing top based on v0.5. |
 | 23/05/03 | `top_endstop_left.stl`         | v0.5 | Added cable anchor. |
 | 23/05/03 | `top_endstop_left_pcb.stl`     | v0.5 | Version bump to match. |
