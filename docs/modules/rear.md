@@ -5,15 +5,17 @@ authors: Jon Harper
 date: 2023-4-5
 ---
 
-The rear module acts as a part cooling fan inlet. An adapter is available to use stock cooling inlets (e.g., for dual-5015 fans).
+The rear module acts as a part cooling fan inlet. An adapter is available to use stock cooling inlets (e.g., 40mm x 28mm fans).
 
 Several options are available:
 
-- Dual 5015 Rear Inlet: Modified stock dual 5015 inlet.
-- Low-Profile Cooling Inlet: Modified stock 5015 inlet with lower height.
-- Low-Profile Sideways Cooling Inlet: Low-height sideways mount for a 5015 part fan.
-- Sideways Cooling Inlet for Beacon: modified version of the above for Beacon.
-- Stock Rear Inlet Adapter: Lightweight adapter for stock EVA rear inlets.
+- [Single 5015 Fan](#single-5015-fan): Use this if you aren't sure what's best.
+- [Single 5015 Fan (Beacon)](#single-5015-fan-beacon): The above, modified for Beacon ABL probes.
+- [Single 5015 Fan (EVA-style)](#single-5015-fan-eva-style): Modified stock 5015 inlet with lower height.
+- [Dual 5015 Fans](#dual-5015-fan): Redesigned from EVA stock for a lower profile.
+- [15mm CPAP](#15mm-cpap): For remote cooling.
+- [15mm CPAP (Beacon)](#15mm-cpap-beacon): The above, modified for Beacon ABL probes.
+- [Stock Rear Inlet Adapter](#eva-rear-inlet-adapter): Lightweight adapter for stock EVA rear inlets.
 
 ### 15mm CPAP
 
@@ -22,9 +24,9 @@ Several options are available:
 
 **Description**
 
-This inlet accepts a 15mm ID CPAP hose. It is held in place with two (2) zip ties.
+This inlet accepts a 15mm ID CPAP hose, secured by zip ties.
 
-CPAP hoses typically come with a latching mechanism on each end; these must be cut off.
+CPAP hoses typically come with a latching mechanism on each end; these must be removed.
 
 [**Revision:**](#revision-history) v2
 
@@ -32,7 +34,7 @@ CPAP hoses typically come with a latching mechanism on each end; these must be c
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `rear_15mm_cpap.stl`][cpap_15mm_inlet] | 1 |
+| [:material-printer-3d-nozzle: `rear_15mm_cpap.stl`][rear_15mm_cpap] | 1 |
 | M3-0.5 x 6mm SHCS         | 1 |
 | M3-0.5 x 45mm SHCS        | 4 |
 | Zip ties                  | 2 |
@@ -42,6 +44,41 @@ CPAP hoses typically come with a latching mechanism on each end; these must be c
 </div>
 <div markdown class="jh-grid-img">
 ![inlet_illustration](../img/parts/rear_15mm_cpap.png){ width=256px}
+
+</div>
+</div>
+
+### 15mm CPAP (Beacon)
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+This inlet accepts a 15mm ID CPAP hose, held in place zip ties. This is modified to work with Beacon probes.
+
+CPAP hoses typically come with a latching mechanism on each end; these must be cut off.
+
+!!! warning 
+    The inlet uses a **flat head cap screw** to secure the duct to the bottom horns. This screw may be left out if necessary, but may provide a less secure seal for the duct. `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+
+[**Revision:**](#revision-history) v3
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `rear_15mm_cpap_beacon.stl`][rear_15mm_cpap_beacon] | 1 |
+| [:material-printer-3d-nozzle: `screw_cap.stl`][beacon_screw_cap] |1 |
+| [:material-cart: M3-0.5 x 6mm FHCS][bom_m3x6_fhcs] | 1 |
+| M3-0.5 x 45mm SHCS        | 4 |
+| Zip ties                  | 1-2 |
+| 15mm CPAP hose            | 1 |
+| *Lock washer, M3*         | *4* |
+
+</div>
+<div markdown class="jh-grid-img">
+![inlet_illustration](../img/parts/rear_15mm_cpap_beacon.png){ width=256px}
 
 </div>
 </div>
@@ -77,7 +114,7 @@ CPAP hoses typically come with a latching mechanism on each end; these must be c
 </div>
 </div> -->
 
-### Dual 5015
+### Dual 5015 Fan
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -109,7 +146,7 @@ This rear inlet is modified from the stock 5015. It offers plenty of airflow at 
 </div>
 </div>
 
-### Low-Profile EVA Stock
+### Single 5015 Fan (EVA-Style)
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -143,14 +180,14 @@ This is a modified version of the stock EVA 3 cooling inlet. It has a much-reduc
 </div>
 </div>
 
-### Low-Profile Sideways
+### Single 5015 Fan
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
 **Description**
 
-This is a custom cooling inlet with that maximizes available build area.
+This is a cooling inlet for a single 5015 fan that maximizes available build area.
 
 Use this if you are not sure which cooling inlet is best for you.
 
@@ -160,7 +197,7 @@ Use this if you are not sure which cooling inlet is best for you.
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `rear_5015_inlet_sideways.stl`][5015_sideways_inlet] | 1 |
+| [:material-printer-3d-nozzle: `rear_inlet_single_5015.stl`][rear_inlet_single_5015] | 1 |
 | 5015 Radial Fan           | 1 |
 | M3-0.5 x 6mm SHCS         | 1 |
 | M3-0.5 x 20mm SHCS        | 1 |
@@ -170,14 +207,14 @@ Use this if you are not sure which cooling inlet is best for you.
 
 </div>
 <div markdown class="jh-grid-para">
-![inlet_illustration](../img/parts/5015_sideways_inlet.png){ width=256px}
+![inlet_illustration](../img/parts/rear_single_5015.png){ width=256px}
 
 ??? "Heat Set Inserts"
-    ![inlet_illustration](../img/inserts/inlet_sideways.png){ width=256px}
+    ![inlet_illustration](../img/inserts/rear_single_5015.png){ width=256px}
 </div>
 </div>
 
-### Sideways Cooling Inlet for Beacon
+### Single 5015 Fan (Beacon)
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -186,9 +223,10 @@ Use this if you are not sure which cooling inlet is best for you.
 
 !!! info "Based on work by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
 
-This modification of the the sideways inlet has clearance for the Beacon connector and a cutout with zip tie anchor for the USB cable. This inlet is compatible with both [dual horn](bottom.md#dual-horns-for-beacon) and [trihorn](bottom.md#trihorns-for-beacon) beacon ducts.
+This modification of the the sideways inlet has clearance for the Beacon connector and a chamfered bottom hole for a flat head cap screw (FHCS). This inlet is compatible with all Beacon ducts.
 
-The inlet uses a **flat head cap screw** to secure the duct to the bottom horns. This screw may be left out if necessary, but may provide a less secure seal for the duct. `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+!!! warning 
+    The inlet uses a **flat head cap screw** to secure the duct to the bottom horns. This screw may be left out if necessary, but may provide a less secure seal for the duct. `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
 
 [**Revision:**](#revision-history) v0.1
 
@@ -200,7 +238,7 @@ Note that the M3 x 6mm screw is a flat head cap screw.
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `rear_inlet_beacon.stl`][rear_inlet_beacon] | 1 |
+| [:material-printer-3d-nozzle: `rear_inlet_single_5015_beacon.stl`][rear_inlet_beacon] | 1 |
 | [:material-printer-3d-nozzle: `screw_cap.stl`][beacon_screw_cap] |1 |
 | 5015 Radial Fan           | 1 |
 | [:material-cart: M3-0.5 x 6mm FHCS][bom_m3x6_fhcs] | 1 |
@@ -211,10 +249,10 @@ Note that the M3 x 6mm screw is a flat head cap screw.
 
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/5015_sideways_inlet_beacon.png){ width=350px}
+![inlet_illustration](../img/parts/rear_single_5015_beacon.png){ width=350px}
 
 ??? "Heat Set Inserts"
-    ![inlet_illustration](../img/inserts/rear_inlet_beacon.png){ width=256px}
+    ![inlet_illustration](../img/inserts/rear_single_5015.png){ width=256px}
 </div>
 </div>
 
@@ -251,10 +289,14 @@ This allows stock EVA 3 rear cooling inlets to be used (e.g., [dual 5015 fans](h
 
 | Date | File | Version | Description |
 |------|------|---------|-------------|
+| 23/11/02 | `rear_single_5015.stl`              | v0.2 | Replaces `rear_5015_inlet_sideways.stl`; new template |
+| 23/11/02 | `rear_single_5015_beacon.stl`       | v0.2 | Replaces `rear_inlet_beacon.stl`; new template |
+| 23/11/02 | `rear_15mm_cpap.stl`                | v3   | Updated to new template |
+| 23/11/02 | `rear_15mm_cpap_beacon.stl`         | v3   | Beacon CPAP support based on new template |
 | 23/07/09 | `rear_15mm_cpap.stl`                | v2   | Initial release. |
 | 23/04/25 | `dual_5015_inlet.stl`               | v0.1 | Initial release. |
 | 23/04/18 | `stock_intake_adapter`              | v0.1 | Initial tracked release. |
 | 23/04/11 | `rear_5015_inlet_sideways.stl`      | v0.1 | Initial tracked release. |
-| 23/04/11 | `rear_inlet_beacon`                 | v0.1 | Initial release. |
+| 23/04/11 | `rear_inlet_beacon.stl`             | v0.1 | Initial release. |
 | 23/04/11 | `screw_cap.stl`\*                   | v0.1 | Initial release. |
 | 23/01/10 | `rear_5015_inlet.stl`               | v0.1 | Initial commit. |

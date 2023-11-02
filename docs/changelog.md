@@ -12,7 +12,8 @@ date: 2023-1-26
 - Rear Inlet: added Beacon versions of new sideways 5015 and CPAP inlets.
 - Rear Inlet: cleaned up airflow path inside new inlets.
 - Bottom: Fixed print orientation on two files.
-
+- Top: updated page to R2
+- Rear: updated page to R2
 
 ## October 2023
 
