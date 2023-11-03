@@ -234,14 +234,14 @@ This hotend requires 29.8mm of PTFE tubing. It uses standard-length Bottom Horns
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-**Origin**: EVA
+**Origin**: EVA, modified from Rapido mount
 
 **Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `hotend_rapido.stl`][hotend_rapido]  | 1 |
-| Rapido                        | 1 |
+| [:material-printer-3d-nozzle: `hotend_rapido_uhf.stl`][hotend_rapido_uhf]  | 1 |
+| Rapido UHF                    | 1 |
 | Fan, 40mm x 10mm              | 1 |
 | M2.5-0.45 x 8mm SHCS          | 4 |
 | M3-0.5 x 6mm SHCS             | 4 |
@@ -252,7 +252,7 @@ This hotend requires 27.23mm of PTFE tubing. It requires UHF Bottom Horns.
 
 </div>
 <div markdown class="jh-grid-img">
-![Rapido](../img/parts/hotend_rapido.png){ width=256px}
+![Rapido](../img/parts/hotend_rapido_uhf.png){ width=256px}
 </div>
 </div>
 

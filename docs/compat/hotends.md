@@ -96,6 +96,16 @@ These are existing hotend mounts that have been modified for ease of installatio
 </figure>
 
 </div>
+
+<div markdown class="jh-card">
+
+### [Phaetus Rapido UHF](../modules/hotend.md#phaetus-rapido-uhf)
+
+<figure markdown>
+[![hotend name](../img/hotends/rapido.png){width="200px"}](../modules/hotend.md#phaetus-rapido-uhf)
+</figure>
+
+</div>
 <div markdown class="jh-card">
 
 ### [Slice Engineering Mosquito](../modules/hotend.md#slice-engineering-mosquito)
