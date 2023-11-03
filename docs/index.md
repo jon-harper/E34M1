@@ -8,7 +8,7 @@ hide: navigation toc
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-container jh-grid-1">
-Welcome! E34M1 adapts the [EVA 3][eva3] toolhead for [Mercury One.1][merc1] 3D printers.
+Welcome! E34M1 is a project by [jonspaceharper](https://jon-harper.github.io/) to adapt the [EVA 3][eva3] toolhead for [Mercury One.1][merc1] 3D printers.
 
 <div markdown class="jh-card">
 #### [:material-book-open: Guide to E34M1](compat/index.md)
@@ -26,6 +26,10 @@ Video assembly overviews and step-by-step instructions.
 #### [:octicons-log-24: Changelog](changelog.md)
 
 What's new?
+
+#### [:simple-kofi: Tip Jar](https://ko-fi.com/jonspaceharper)
+
+E34M1 is free, but a Fusion 360 subscription and filament are not. Every tip helps. :material-heart:{.jh-red} *- Jon*
 
 </div>
 <div markdown class="jh-card">
