@@ -29,14 +29,11 @@ Lightweight version of the Front that does not mount an accelerometer.
 | [:material-printer-3d-nozzle: `front_basic.stl`][front_basic]  | 1 |
 | [:material-printer-3d-nozzle: `belt_grabber.stl`][belt_grabber] | 2 |
 | M3-0.5 x 6mm SHCS  | 4    |
-| M3-0.5 x 40mm SHCS | 4    |
 | Heat Set Insert, M3x5x4   | 14   |
-| *ADXL345*                 | *1*  |
-| *M3-0.5 x 8mm SHCS*| *2*  |
 
 </div>
 <div markdown class="jh-grid-img">
-![front_illustration](../img/parts/front_universal.png){ width=256px}
+![front_illustration](../img/parts/front_basic.png){ width=256px}
 </div>
 </div>
 
@@ -71,14 +68,13 @@ Modification of the stock EVA Front for Mercury One. This mounts an ADXL345 acce
 | [:material-printer-3d-nozzle: `front_adxl345.stl`][front]  | 1 |
 | [:material-printer-3d-nozzle: `belt_grabber.stl`][belt_grabber] | 2 |
 | M3-0.5 x 6mm SHCS  | 4    |
-| M3-0.5 x 40mm SHCS | 4    |
 | Heat Set Insert, M3x5x4   | 14   |
 | *ADXL345*                 | *1*  |
 | *M3-0.5 x 8mm SHCS*| *2*  |
 
 </div>
 <div markdown class="jh-grid-img">
-![front_illustration](../img/parts/front_universal.png){ width=256px}
+![front_illustration](../img/parts/front_adxl.png){ width=256px}
 </div>
 </div>
 
@@ -92,6 +88,9 @@ Modification of the stock EVA Front for Mercury One. This mounts an ADXL345 acce
     </div>
     <div markdown class="jh-grid-img">
     ![illustration3](../img/inserts/front3.png){width=300}
+    </div>
+    <div markdown class="jh-grid-img">
+    ![illustration_pis](../img/inserts/front_pis.png){width=300}
     </div>
     </div>
 
@@ -115,11 +114,11 @@ Slightly modified Front that mounts a FYSETC portable input shaper.
 | M3-0.5 x 6mm SHCS         | 4 |
 | Heat Set Insert, M3x5x4   | 16 |
 | *FYSETC Portable Input Shaper* | *1* |
-| *M3-0.5 x 8mm SHCS*       | *2* |
+| *M3-0.5 x 6mm SHCS*       | *2* |
 
 </div>
 <div markdown class="jh-grid-img">
-![front_illustration](../img/parts/front_universal_pis.png){ width=256px}
+![front_illustration](../img/parts/front_pis.png){ width=256px}
 </div>
 </div>
 
