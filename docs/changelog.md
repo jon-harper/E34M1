@@ -11,6 +11,7 @@ date: 2023-1-26
 
 - Hotends, Tour, Front, ABL: fixed numerous errors and updated illustrations
 - Compatibility page: updated tables
+- Bottom Horns: moved Beacon UHF up 0.6mm; lightened part
 
 ### 11/2/23
 

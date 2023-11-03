@@ -210,7 +210,7 @@ Two options are available for routing the rear wiring:
 - [cuiviemen](https://www.printables.com/@cuiviemen_127292)'s [Beacon mod](https://www.printables.com/model/438193-beacon-3d-mount-solution-for-e34m1-eva-3-for-mercu) passes the USB cable between the rear intake and 5015 fan.
 - The [Sideways Cooling Inlet for Beacon](rear.md#sideways-cooling-inlet-for-beacon) routes the wire outside the cooling inlet.
 
-[**Revision:**](#revision-history) v0.1
+[**Revision:**](#revision-history) v0.2
 
 **Origin**
 
@@ -336,6 +336,7 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle.
 
 | Date | File | Version | Description |
 |------|------|---------|-------------|
+| 23/11/02 | `beacon_bottom_uhf.stl`        | v0.2 | Raised Beacon; lightened part |
 | 23/09/04 | `stock_bottom_uhf.stl`         | v0.1 | Inital release. |
 | 23/09/11 | `stock_bottom.stl`             | v0.3 | Further reduced weight; new template |
 | 23/09/04 | `beacon_bottom.stl`            | v0.2 | Reduced part weight. |
