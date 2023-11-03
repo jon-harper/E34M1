@@ -5,14 +5,42 @@ authors: Jon Harper
 date: 2023-4-5
 ---
 
-The side mount is used by most ABL methods and attaches to the Front. See the [Bottom Horns](bottom.md) module for Klicky and Beacon mounting options.
+The side mount is used by many ABL methods and attaches to the Front. If you use Klicky or Beacon, see the [Bottom Horns](bottom.md) module for mounting options.
 
 These ABL and hotend length combinations are available:
 
+- [8mm Inductive Probe](#8mm-inductive-probe)
 - [BLTouch](#bltouch)
 - [BLTouch UHF](#bltouch-uhf)
 - [CR Touch](#cr-touch)
 - [CR Touch UHF](#cr-touch-uhf)
+
+### 8mm Inductive Probe
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description:** Mounts an 8mm inductive probe, such the Prusa Research SuperPINDA.
+
+[**Revision:**](#revision-history) v0.4
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `abl_8mm_probe.stl`][abl_8mm_probe] | 1 |
+| 8mm Inductive Probe       | 1 |
+| Heat Set Insert, M3x5x4   | 2 |
+| M3-0.5 x 6mm SHCS         | 2 |
+| M3-0.5 x 12mm SHCS        | 2 |
+
+</div>
+<div markdown class="jh-grid-img">
+![8mm_probe_illustration](../img/parts/abl_8mm_probe.png){ width=100px }
+
+??? "Heat Set Insert Locations"
+    ![inserts](../img/inserts/abl_8mm_probe.png){width="150px"}
+
+</div>
+</div>
 
 ### BLTouch
 
@@ -23,22 +51,23 @@ These ABL and hotend length combinations are available:
 
 Mounts a BLTouch.
 
-[**Revision:**](#revision-history) v0.3
+[**Revision:**](#revision-history) v0.4
 
 **Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `bl_touch_mount.stl`][bltouch_mount] | 1 |
+| [:material-printer-3d-nozzle: `abl_bl_touch.stl`][bltouch_mount] | 1 |
+| BL-Touch or clone         | 1 |
 | Heat Set Insert, M3x5x4   | 2 |
 | M3-0.5 x 6mm SHCS         | 4 |
 
 </div>
 <div markdown class="jh-grid-img">
-![bltouch_illustration](../img/parts/bltouch_mount.png){ width=100px }
+![bltouch_illustration](../img/parts/abl_bl_touch.png){ width=100px }
 
 ??? "Heat Set Insert Locations"
-    ![inserts](../img/inserts/bl_touch_mount.png){width="200px"}
+    ![inserts](../img/inserts/abl_bl_touch.png){width="200px"}
 </div>
 </div>
 
@@ -51,19 +80,23 @@ Mounts a BLTouch.
 
 Adds support for BLTouch for longer hotends.
 
-[**Revision:**](#revision-history) v0.1
+[**Revision:**](#revision-history) v0.4
 
 **Bill of Materials**
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `bl_touch_volcano_mount.stl`][bltouch_volcano] | 1 |
+| [:material-printer-3d-nozzle: `abl_bl_touch_uhf.stl`][bltouch_volcano] | 1 |
+| BL-Touch or clone         | 1 |
 | Hex Nut, M3               | 2 |
 | M3-0.5 x 6mm SHCS         | 4 |
 
 </div>
 <div markdown class="jh-grid-img">
-![Volcano BLTouch illustration](../img/parts/bltouch_volcano_mount.png){ width=100px }
+![UHF BLTouch illustration](../img/parts/abl_bl_touch_uhf.png){ width=100px }
+
+??? "Heat Set Insert Locations"
+    ![inserts](../img/inserts/abl_bl_touch_uhf.png){width="150px"}
 </div>
 </div>
 
@@ -74,33 +107,64 @@ Adds support for BLTouch for longer hotends.
 
 **Description:** Mounts a Creality CR Touch.
 
-[**Revision:**](#revision-history) v0.1
+[**Revision:**](#revision-history) v0.4
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `cr_touch_mount.stl`][crtouch_mount] | 1 |
+| [:material-printer-3d-nozzle: `abl_cr_touch.stl`][crtouch_mount] | 1 |
+| Creality CR-Touch         | 1 |
 | Heat Set Insert, M3x5x4   | 2 |
 | M3-0.5 x 6mm SHCS         | 2 |
 | M3-0.5 x 12mm SHCS        | 2 |
 
 </div>
 <div markdown class="jh-grid-img">
-![cr_touch_illustration](../img/parts/cr_touch.png){ width=100px }
+![cr_touch_illustration](../img/parts/abl_cr_touch.png){ width=100px }
 
 ??? "Heat Set Insert Locations"
-    ![inserts](../img/inserts/cr_touch.png){width="150px"}
+    ![inserts](../img/inserts/abl_cr_touch.png){width="150px"}
 
 </div>
 </div>
 
 ### CR Touch UHF
 
-Support for Volcano hotends is availabe through [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)'s mod [CR Touch for Volcano Hotends](https://www.printables.com/model/434179-eva3-uhf-cr-touch).
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description:** Mounts a Creality CR Touch.
+
+Legacy support for Volcano hotends is availabe through [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)'s mod [CR Touch for Volcano Hotends](https://www.printables.com/model/434179-eva3-uhf-cr-touch).
+
+[**Revision:**](#revision-history) v0.4
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `abl_cr_touch_uhf.stl`][crtouch_volcano] | 1 |
+| Creality CR-Touch         | 1 |
+| Heat Set Insert, M3x5x4   | 2 |
+| M3-0.5 x 6mm SHCS         | 2 |
+| M3-0.5 x 12mm SHCS        | 2 |
+
+</div>
+<div markdown class="jh-grid-img">
+![cr_touch_illustration](../img/parts/abl_cr_touch_uhf.png){ width=100px }
+
+??? "Heat Set Insert Locations"
+    ![inserts](../img/inserts/abl_cr_touch_uhf.png){width="150px"}
+
+</div>
+</div>
 
 ## Revision History
 
 | Date | File | Version | Description |
 |------|------|---------|-------------|
+| 23/11/03  | `abl_bl_touch.stl`            | 0.4 | Renamed `bl_touch_mount.stl`; new template |
+| 23/11/03  | `abl_bl_touch_uhf.stl`        | 0.4 | Renamed `bl_touch_volcano_mount.stl`; new template |
+| 23/11/03  | `abl_cr_touch.stl`            | 0.4 | Renamed `cr_touch_mount.stl`; new template |
+| 23/11/03  | `abl_cr_touch_uhf.stl`        | 0.4 | Added support based on new template. |
+| 23/11/03  | `abl_8mm_probe.stl`           | 0.4 | Added support based on new template. |
 | 23/04/27  | `bl_touch_mount.stl`          | 0.3 | Redesign. |
 | 23/04/18  | `cr_touch_mount.stl`          | 0.1 | Initial commit. |
 | 23/02/01  | `bl_touch_volcano_mount.stl`  | 0.1 | Initial commit. |

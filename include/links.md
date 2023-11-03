@@ -25,9 +25,11 @@
 [bottom_beacon_trihorn]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/beacon_bottom_trihorns.stl
 [bottom_beacon_uhf]: https://github.com/jon-harper/E34M1/blob/main/STL/bottom/beacon_bottom_uhf.stl
 
-[bltouch_mount]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/bl_touch_mount.stl
-[bltouch_volcano]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/bl_touch_volcano_mount.stl
-[crtouch_mount]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/cr_touch_mount.stl
+[bltouch_mount]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/abl_bl_touch.stl
+[bltouch_volcano]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/abl_bl_touch_uhf.stl
+[crtouch_mount]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/abl_cr_touch.stl
+[crtouch_volcano]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/abl_cr_touch_uhf.stl
+[abl_8mm_probe]: https://github.com/jon-harper/E34M1/blob/main/STL/abl/abl_8mm_probe.stl
 
 [front]: https://github.com/jon-harper/E34M1/blob/main/STL/front/front_adxl345.stl
 [front_pis]: https://github.com/jon-harper/E34M1/blob/main/STL/front/front_fysetc_pis.stl
@@ -62,6 +64,7 @@
 [hotend_nova]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_nova.stl
 [hotend_mosquito]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_mosquito.stl
 [hotend_dragon_uhf]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_dragon_uhf.stl
+[hotend_rapido_uhf]: https://github.com/jon-harper/E34M1/blob/main/STL/hotend/hotend_rapido_uhf.stl
 
 [drive_bmg]: https://github.com/jon-harper/E34M1/blob/main/STL/drives/drive_bmg.stl
 [drive_lgx]: https://github.com/jon-harper/E34M1/blob/main/STL/drives/drive_lgx.stl
