@@ -61,27 +61,33 @@ Some components are only compatible in certain combinations. This generally rela
 
 The chart below shows which ABL methods are supported by E34M1. The side ABL mount points are different than EVA 3 stock, and not all ABL methods use them.
 
-|          | Standard Hotends   | Volcano/UHF Hotends | Mount Point |
-|----------|:------------------:|:------------------:|:-----------:|
-| BLTouch  | :white_check_mark: | :white_check_mark: | ABL         |
-| CR Touch | :white_check_mark: | :white_check_mark: | ABL         |
-| Klicky   | :white_check_mark: | :white_check_mark: | Bottom      |
-| Beacon   | :white_check_mark: | :white_check_mark: | Bottom and Rear     |
+|            | Standard Hotends   | Volcano/UHF Hotends | Mount Point |
+|------------|:------------------:|:------------------:|:-----------:|
+| 8mm Probes |  :white_check_mark: | :white_check_mark: | ABL         |
+| 12mm Probes | :x:               | :x:                | ABL         |
+| Beacon     | :white_check_mark: | :white_check_mark: | Bottom and Rear     |
+| BL-Touch   | :white_check_mark: | :white_check_mark: | ABL         |
+| CR-Touch   | :white_check_mark: | :white_check_mark: | ABL         |
+| Klicky     | :white_check_mark: | :white_check_mark: | Bottom      |
 
-Support for 8mm and 12mm inductive probes may be added in the future.
 
 ### Bottom Horns
 
+Most hotends are paired with the basic Dual Horns. Very long hotends, such as the Rapido UHF, require the UHF bottom horns. The Mosquito has its own bottom horns as a workaround.
+
 More about Bottom Horns can be found on the [Bottom Horns Modules](../modules/bottom.md) page.
 
-| Duct Type             | Standard Hotends | Volcano/UHF Hotends  |
-|-----------------------|:----------------:|:--------------------:|
-| Dual Horns            | :white_check_mark: | :white_check_mark: |
-| Dual Horns for Klicky | :white_check_mark: | :white_check_mark: |
-| Dual Horns for Beacon | :white_check_mark: | :white_check_mark: |
-| Trihorns              | :white_check_mark: | :x:                |
-| Trihorns for Klicky   | :white_check_mark: | :x:                |
-| Trihorns for Beacon   | :white_check_mark: | :x:                |
+| Duct Type             | Bottom Horns  |
+|-----------------------|:-------------:|
+| 3D Passion Nova       | Dual          |
+| E3D Revo Voron        | Dual          |
+| Phaetus Dragonfly BMO | Dual          |
+| Phaetus Dragonfly BMS | Dual          |
+| Phaetus Dragon BMO    | Dual          |
+| Phaetus Dragon UHF    | Dual          |
+| Phaetus Rapido        | Dual          |
+| Phaetus Rapido UHF    | UHF           |
+| Slice Engineering Mosquito | Trihorn  |
 
 ### Cable Management
 

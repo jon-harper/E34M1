@@ -7,7 +7,12 @@ date: 2023-1-26
 
 ## November 2023
 
-### 11/1/23
+### 11/3/23
+
+- Hotends, Tour, Front, ABL: fixed numerous errors and updated illustrations
+- Compatibility page: updated tables
+
+### 11/2/23
 
 - Rear Inlet: added Beacon versions of new sideways 5015 and CPAP inlets.
 - Rear Inlet: cleaned up airflow path inside new inlets.
