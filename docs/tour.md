@@ -84,7 +84,7 @@ Stock EVA 3 has a rear piece here that acts as a belt tensioner. It's unneeded f
 </div>
 </div>
 
-## Extruder, Hotends, and Shrouds
+## Extruder, Hotend, and Shroud
 
 These modules have not changed in how they join with other parts. This keeps third party mods compatible while allowing us to make small improvements and fixes to the existing options.
 
@@ -156,10 +156,10 @@ E34M1 provides several other components that may be useful:
 
 | Component                     | Purpose |
 |-------------------------------|---------|
-| [Front Intake Duct](modules/other.md#front-intake-duct) | Allows hotend cooling fans to be removed with two (2) screws. |
 | [X Axis Stop Block](modules/stop_block.md) | Bumper for the X axis endstop. |
 | [Z Limit Switch Mount](modules/other.md#z-endstop-mount) | Raises the Z endstop for Ender 5 Pro printers. |
 | [Toolhead PCB Mounts](modules/pcb_mounts.md) | Mounts for '36 and '42 PCBs for NEMA17 steppers and shrouds to cover them. |
+| [Front Intake Duct](modules/other.md#front-intake-duct) | Allows hotend cooling fans to be removed with two (2) screws. |
 
 ## Additional Mods
 
