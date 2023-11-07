@@ -7,7 +7,7 @@ date: 2023-1-27
 
 ## Mercury One Compatibility
 
-E34M1 is compatible with Mercury One.1 without limiting the build area; no print area is lost by converting to EVA 3 from a different toolhead. Minor modifications may be necessary to your Z axis (such as adjusting the Z end stop height). See [Other Changes and Additions](#other-changes-and-additions) for examples.
+E34M1 is compatible with Mercury One.1 without limiting the build area; no print area is lost by converting to EVA 3 from a different toolhead. In some configuratinos, minor adjustments to the Z axis are needed. See [Other Changes and Additions](#other-changes-and-additions) for examples.
 
 An Ender 5 Pro converted to Mercury One.1 with E34M1 has a *theoretical* build area of 275mm x 275mm using 330mm linear rails. Available area on the X axis is typically around 265mm. Available build area on the Y axis is affected by your build, e.g. the type of rear intake used, presence of a toolhead PCB, etc.
 
