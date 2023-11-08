@@ -61,19 +61,21 @@ Some components are only compatible in certain combinations. This generally rela
 
 The chart below shows which ABL methods are supported by E34M1. The side ABL mount points are different than EVA 3 stock, and not all ABL methods use them.
 
-|            | Standard Hotends   | Volcano/UHF Hotends | Mount Point |
+|            | Standard Hotends   | UHF Hotends        | Mount Point |
 |------------|:------------------:|:------------------:|:-----------:|
-| 8mm Probes |  :white_check_mark: | :white_check_mark: | ABL         |
+| 8mm Probes | :white_check_mark: | :white_check_mark: | ABL         |
 | 12mm Probes | :x:               | :x:                | ABL         |
-| Beacon     | :white_check_mark: | :white_check_mark: | Bottom and Rear     |
+| Beacon     | :white_check_mark: | :white_check_mark: | Bottom/Rear |
 | BL-Touch   | :white_check_mark: | :white_check_mark: | ABL         |
 | CR-Touch   | :white_check_mark: | :white_check_mark: | ABL         |
 | Klicky     | :white_check_mark: | :white_check_mark: | Bottom      |
+| Klicky PCB | :x:                | :x:                | ABL         |
+
 
 
 ### Bottom Horns
 
-Most hotends are paired with the basic Dual Horns. Very long hotends, such as the Rapido UHF, require the UHF bottom horns. The Mosquito has its own bottom horns as a workaround.
+Most hotends are paired with the basic Dual Horns. Very long hotends, such as the Rapido UHF, require the UHF bottom horns. The Mosquito has its own bottom horns as a cooling workaround.
 
 More about Bottom Horns can be found on the [Bottom Horns Modules](../modules/bottom.md) page.
 
