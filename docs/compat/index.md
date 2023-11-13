@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Introduction to E34M1
 summary: Summary of changes and compatibility.
 authors: Jon Harper
 date: 2023-1-27
@@ -7,9 +7,13 @@ date: 2023-1-27
 
 ## Mercury One Compatibility
 
-E34M1 is compatible with Mercury One.1 without limiting the build area; no print area is lost by converting to EVA 3 from a different toolhead. In some configuratinos, minor adjustments to the Z axis are needed. See [Other Changes and Additions](#other-changes-and-additions) for examples.
+E34M1 is compatible with Mercury One.1 without limiting the build area; no print area is lost with stock beds by converting to EVA 3 from a different toolhead. In some configurations, minor adjustments to the Z axis are needed. See [Other Changes and Additions](#other-changes-and-additions) for examples.
 
-An Ender 5 Pro converted to Mercury One.1 with E34M1 has a *theoretical* build area of 275mm x 275mm using 330mm linear rails. Available area on the X axis is typically around 265mm. Available build area on the Y axis is affected by your build, e.g. the type of rear intake used, presence of a toolhead PCB, etc.
+An Ender 5 Pro rebuilt as a Mercury One.1 with 330mm rails:
+
+- Has a *theoretical* build area of 275mm x 275mm;
+- Can expect at least 265mm of X axis travel;
+- Can expect at least 250mm of Y axis travel, typically more.
 
 !!! note
     E34M1 is *not* compatible with Mercury One Classic.
@@ -55,7 +59,7 @@ No, this is a third-party project started by [jonspaceharper](https://jon-harper
 
 ## Compatibility Charts
 
-Some components are only compatible in certain combinations. This generally relates to whether a part is for a standard-length or Volcano hotend.
+Some components are only compatible in certain combinations. This generally relates to whether a part is for a standard-length or UHF-length hotend.
 
 ### ABL
 
@@ -71,15 +75,13 @@ The chart below shows which ABL methods are supported by E34M1. The side ABL mou
 | Klicky     | :white_check_mark: | :white_check_mark: | Bottom      |
 | Klicky PCB | :x:                | :x:                | ABL         |
 
-
-
 ### Bottom Horns
 
 Most hotends are paired with the basic Dual Horns. Very long hotends, such as the Rapido UHF, require the UHF bottom horns. The Mosquito has its own bottom horns as a cooling workaround.
 
 More about Bottom Horns can be found on the [Bottom Horns Modules](../modules/bottom.md) page.
 
-| Duct Type             | Bottom Horns  |
+| Hotend                | Bottom Horns  |
 |-----------------------|:-------------:|
 | 3D Passion Nova       | Dual          |
 | E3D Revo Voron        | Dual          |
@@ -93,9 +95,4 @@ More about Bottom Horns can be found on the [Bottom Horns Modules](../modules/bo
 
 ### Cable Management
 
-There are two methods of cable management. The default attachment is the [Top](../modules/top.md) module for umbilical users. PCB mounts supporting both umbilical (cable guide) and drag chain are available but are not supported in all configurations.
-
-| Part             | Cable Guide | Drag Chain |
-|------------------|:-----------:|:-----------:|
-| Top with Endstop | :white_check_mark: | *Planned* |
-| PCB Mount        | :white_check_mark: | :white_check_mark: |
+There are two methods of cable management. The default attachment is the [Top](../modules/top.md) module for umbilical users. Third parties offer PCB mounts supporting both umbilical (cable guide) and drag chains.
