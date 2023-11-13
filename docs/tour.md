@@ -100,7 +100,7 @@ The hotend module mounts the hotend, cooling fan, and an optional shroud.
 <figure markdown>
 ![hotend](img/tour/hotend.png){width="300px"}
 
-[Explore EVA 3 Hotends](compat/hotends.md){.md-button}
+[Explore EVA 3 Hotends](modules/hotend.md){.md-button}
 </figure>
 
 </div>
@@ -113,7 +113,7 @@ The drive module attaches the extruder and extruder stepper to the toolhead.
 <figure markdown>
 ![drive](img/tour/drive.png){width="300px"}
 
-[Explore EVA 3 Extruders](compat/drives.md){.md-button}
+[Explore EVA 3 Extruders](modules/drive.md){.md-button}
 </figure>
 
 </div>

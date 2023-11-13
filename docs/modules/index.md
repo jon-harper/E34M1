@@ -7,8 +7,6 @@ date: 2023-4-5
 
 This section of the documentation contains a page for each E34M1 module and the components available for them. Each component contains a bill of materials and visual illustrations of the heat set inserts locations, if applicable.
 
-Note that this is a reference for native E34M1 components--for example, there are third-party hotend mounts available in the [Hotend Guide](../compat/hotends.md).
-
 **Core Modules**
 
 - [Front](front.md)
@@ -16,7 +14,9 @@ Note that this is a reference for native E34M1 components--for example, there ar
 - [Rear Inlet](rear.md)
 - [Bottom Horns](bottom.md)
 
-**Hotends and Extruders**
+**Universal Modules**
+
+These modules are compatible with stock EVA 3.
 
 - [Hotend Mounts](hotend.md)
 - [Extruder Mounts](drive.md)

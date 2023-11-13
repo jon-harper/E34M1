@@ -8,16 +8,22 @@ hide: navigation toc
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-container jh-grid-1">
+
 Welcome! E34M1 is a project by [jonspaceharper](https://jon-harper.github.io/) to adapt the [EVA 3][eva3] toolhead for [Mercury One.1][merc1] 3D printers.
 
 <div markdown class="jh-card">
-#### [:material-book-open: Guide to E34M1](compat/index.md)
 
-An overview of E34M1 and how it fits in with EVA 3 and Mercury One. Includes a [Visual Tour](tour.md) and list of compatible [hotends](compat/hotends.md), [extruders](compat/drives.md), and ABL types.
+#### [:material-book-open: Intro Guide to E34M1](guide.md)
+
+An overview of E34M1 and how it works with EVA 3 and Mercury One. 
+
+#### [:material-directions: Visual Tour](tour.md)
+
+See the modules that make up E34M1 and how they fit together.
 
 #### [:octicons-list-ordered-24: Module Reference](modules/index.md)
 
-A list of the modules that are part of E34M1, the available components for each, and bills of materials for everything.
+A list of components for each module, bills of materials, and component-specific instructions.
 
 #### [:material-hammer-screwdriver: Assembly Guide](assembly/index.md)
 

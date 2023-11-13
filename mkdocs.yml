@@ -81,11 +81,8 @@ plugins:
       
 nav:
   - index.md
-  - Guide:
-    - compat/index.md
-    - tour.md
-    - compat/hotends.md
-    - compat/drives.md
+  - guide.md
+  - tour.md
   - Module Reference:
     - modules/index.md
     - Core Modules:
@@ -93,7 +90,7 @@ nav:
       - modules/top.md
       - modules/bottom.md
       - modules/rear.md
-    - Hotends & Extruders:
+    - Universal Modules:
       - modules/hotend.md
       - modules/drive.md
     - Other Modules:

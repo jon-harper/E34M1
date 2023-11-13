@@ -6,7 +6,7 @@ date: 2023-4-5
 ---
 
 !!! tip
-    See **[Hotend Compatibility](../compat/hotends.md)** for a larger list that includes compatible third party mounts.
+    See [the end of this page](#eva-3-ecosystem-hotends) for compatible third party mounts.
 
 <!-- Template
 <div markdown class="jh-grid-container jh-grid-2">
@@ -31,7 +31,9 @@ date: 2023-4-5
 </div>
 -->
 
-## 3D Passion Nova
+## E34M1 Native Hotends
+
+### 3D Passion Nova
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -58,7 +60,7 @@ This hotend requires 39.65mm of PTFE tubing. It uses standard-length Bottom Horn
 </div>
 </div>
 
-## E3D REVO Voron
+### E3D REVO Voron
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -85,7 +87,7 @@ This hotend requires 27.15mm of PTFE tubing. It uses standard-length Bottom Horn
 </div>
 </div>
 
-## Phaetus Dragon BMO
+### Phaetus Dragon BMO
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -114,7 +116,7 @@ This hotend requires 24.5mm of PTFE tubing. It uses standard-length Bottom Horns
 </div>
 </div>
 
-## Phaetus Dragon UHF
+### Phaetus Dragon UHF
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -141,7 +143,7 @@ This hotend requires 15mm of PTFE tubing. It uses standard-length Bottom Horns (
 </div>
 </div>
 
-## Phaetus Dragonfly BMO
+### Phaetus Dragonfly BMO
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -168,7 +170,7 @@ This hotend requires 39.5mm of PTFE tubing. It uses standard-length Bottom Horns
 </div>
 </div>
 
-## Phaetus Dragonfly BMS
+### Phaetus Dragonfly BMS
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -202,7 +204,7 @@ This hotend requires approximately 20mm of PTFE tubing. It uses standard-length 
 </div>
 </div>
 
-## Phaetus Rapido
+### Phaetus Rapido
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -229,7 +231,7 @@ This hotend requires 29.8mm of PTFE tubing. It uses standard-length Bottom Horns
 </div>
 </div>
 
-## Phaetus Rapido UHF
+### Phaetus Rapido UHF
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -256,7 +258,7 @@ This hotend requires 27.23mm of PTFE tubing. It requires UHF Bottom Horns.
 </div>
 </div>
 
-## Slice Engineering Mosquito
+### Slice Engineering Mosquito
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -280,5 +282,38 @@ This hotend resquires 22.6mm of PTFE tubing. It requires the trihorn Bottom Horn
 </div>
 <div markdown class="jh-grid-img">
 ![Mosquito](../img/parts/hotend_mosquito.png){ width=256px}
+</div>
+</div>
+
+## EVA 3 Ecosystem Hotends
+
+These hotends are third party mounts that use either EVA-style inserts or hex nuts. They may or may not have a bill of materials.
+
+<div markdown class="jh-grid-container jh-grid-2">
+
+<div markdown class="jh-grid-para">
+
+### E3D Revo Micro
+
+- **Author**: [hebijirik](https://www.printables.com/@hebijirik_84624)
+- **Inserts/Hex Nuts**: hex nuts
+
+[Link](https://www.printables.com/model/225581-eva-3-revo-micro-hotend/files){.md-button}
+
+</div>
+<div markdown class="jh-grid-img">
+![revo_micro_image](../img/hotends/revo_micro.png){width="200px"}
+</div>
+<div markdown class="jh-grid-para">
+
+### E3D V6 & Revo V6
+
+- **Author**: [3DP-MAMSIH](https://www.printables.com/@3DPMAMSIH)
+- **Inserts/Hex Nuts**: M3x4.6x4 inserts or hex nuts
+
+[Link](https://www.printables.com/model/201093-eva-30-e3dv6-revo-revo-micro-hotends-mount){.md-button}
+</div>
+<div markdown class="jh-grid-img">
+![E3D V6](../img/hotends/e3d_v6.png){width="200px"}
 </div>
 </div>

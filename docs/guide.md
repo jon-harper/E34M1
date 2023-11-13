@@ -1,5 +1,5 @@
 ---
-title: Introduction to E34M1
+title: Intro Guide
 summary: Summary of changes and compatibility.
 authors: Jon Harper
 date: 2023-1-27
@@ -7,13 +7,13 @@ date: 2023-1-27
 
 ## Mercury One Compatibility
 
-E34M1 is compatible with Mercury One.1 without limiting the build area; no print area is lost with stock beds by converting to EVA 3 from a different toolhead. In some configurations, minor adjustments to the Z axis are needed. See [Other Changes and Additions](#other-changes-and-additions) for examples.
+E34M1 is compatible with Mercury One.1 without limiting the build area; no print area is lost with stock beds by converting to EVA 3 from a different toolhead. In some configurations, minor adjustments to the Z axis are needed.
 
 An Ender 5 Pro rebuilt as a Mercury One.1 with 330mm rails:
 
-- Has a *theoretical* build area of 275mm x 275mm;
+- Has a theoretical build area of 275mm x 275mm;
 - Can expect at least 265mm of X axis travel;
-- Can expect at least 250mm of Y axis travel, typically more.
+- Can expect at least 250mm of Y axis travel (available Y axis depends on the rear intake).
 
 !!! note
     E34M1 is *not* compatible with Mercury One Classic.

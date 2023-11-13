@@ -6,7 +6,7 @@ date: 2023-4-19
 ---
 
 !!! tip
-    See **[Extruder Compatibility](../compat/drives.md)** for a larger list that includes compatible third party mounts.
+    See [the end of this page](#eva-3-ecosystem-drives) for compatible third party mounts.
 
 <!-- Template
 <div markdown class="jh-grid-container jh-grid-2">
@@ -27,7 +27,7 @@ date: 2023-4-19
 </div>
 -->
 
-## Annex Sherpa Mini
+### Annex Sherpa Mini
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -63,7 +63,7 @@ The Sherpa Mini has two front faces. How the stepper and extruder are secured ag
 </div>
 </div>
 
-## Bondtech BMG
+### Bondtech BMG
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -90,7 +90,7 @@ This extruder needs 28.9mm of PTFE.
 </div>
 </div>
 
-## Bondtech LGX
+### Bondtech LGX
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -116,7 +116,7 @@ This extruder needs 20.8mm of PTFE.
 </div>
 </div>
 
-## Bondtech LGX Lite
+### Bondtech LGX Lite
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -143,7 +143,7 @@ This extruder needs 14.2mm of PTFE.
 </div>
 </div>
 
-## LDO Orbiter 1.5
+### LDO Orbiter 1.5
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -174,7 +174,7 @@ This extruder needs 22.2mm of PTFE.
 </div>
 </div>
 
-## LDO Orbiter 2.0
+### LDO Orbiter 2.0
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -202,5 +202,61 @@ This extruder needs 17.95mm of PTFE.
 
 ??? info "Heat Set Insert Locations"
     ![bottom_illustration](../img/inserts/orbiter_2_0.png){ width=256px}
+</div>
+</div>
+
+## EVA 3 Ecosystem Drives
+
+These are mounts from the larger EVA ecosystem that link to external sites.
+
+### Annex Sherpa Micro
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+- **Author**: [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275)
+- **Inserts/Hex Nuts**: M3x4.6x4 inserts
+
+<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
+[Link](https://www.printables.com/model/224597-sherpa-micro-mount-for-eva-3){ .md-button}
+</div>
+</div>
+<div markdown class="jh-grid-img">
+![Annex Sherpa Micro](../img/drives/sherpa_micro.png){width="200px"}
+</div>
+</div>
+
+### E3D Titan
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+- **Author**: [Chana Kennington](https://www.printables.com/@ChanaKenningt_484474)
+- **Inserts/Hex Nuts**: None
+
+<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
+[Link](https://www.printables.com/model/424090-eva3-titan-extruder-mount){ .md-button }
+</div>
+</div>
+<div markdown class="jh-grid-img">
+![E3D Titan](../img/drives/titan.png){width="200px"}
+</div>
+</div>
+
+
+### VzBoT3D Vz-HextrudORT Low
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+- **Author**: [Pr20100](https://www.printables.com/@Pr20100)
+- **Inserts/Hex Nuts**: M3x4.6x4 inserts or hex nuts
+
+<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
+[Link](https://www.printables.com/model/355751-eva-3-vz-hextrudort-low-extruder-mounting-plate){ .md-button }
+</div>
+</div>
+<div markdown class="jh-grid-img">
+![VzBoT3D Vz-HextrudORT Low](../img/drives/hextrudort.png){width="200px"}
 </div>
 </div>
