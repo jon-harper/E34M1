@@ -7,6 +7,15 @@ date: 2023-1-26
 
 ## November 2023
 
+### 11/13/23
+
+- Updated assembly steps
+
+### 11/12/23
+
+- Reworded some of the guide introduction.
+- Cleaned up the end of the Tour.
+
 ### 11/3/23
 
 - Hotends, Tour, Front, ABL: fixed numerous errors and updated illustrations

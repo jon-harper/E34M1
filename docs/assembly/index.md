@@ -20,13 +20,13 @@ Excluding wiring and belt routing, assembly time is approximately 30-45 minutes.
 Before continuing, check that you have all the printed parts necessary.
 
 | Module | Example Part | Revision | Qty |
-|---|---|---|
+|---|---|---|---|
 | [Front](../modules/front.md)          | FYSETC Portable Input Shaper Front| v0.5 | 1 |
 | Front                                 | Belt Grabbers                     | v0.5 | 2 |
 | [Top](../modules/top.md)              | Left-Handed Top with Cable Guide  | v0.5 | 1 |
 | [Bottom Horns](../modules/bottom.md)  | Dual Horns                        | v0.3 | 1 |
-| [Rear Inlet](../modules/rear.md)      | Low-Profile Sideways Inlet        | v0.2 | 1 |
-| [Hotend Mount](../compat/hotends.md)  | Dragon BMO Mount                  | n/a | | 1 |
+| [Rear Inlet](../modules/rear.md)      | Single 5015 Fan                   | v0.2 | 1 |
+| [Hotend Mount](../compat/hotends.md)  | Dragon BMO Mount                  | n/a | 1 |
 | [Drive Mount](../compat/drives.md)    | Sherpa Mini Drive Mount           | n/a | 1 |
 | [ABL Mount](../modules/abl.md)        | BLTouch Mount                     | v0.3 | 1 |
 | [Other](../modules/other.md)          | Cable Guide                       | n/a | 1 |
