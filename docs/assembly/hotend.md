@@ -17,7 +17,7 @@ We're ready to install the hotend. The hotend, fan, thermistor, and heater cartr
 | Part | Qty |
 |---|---|
 | :material-printer-3d-nozzle: [Hotend Module](../compat/hotends.md) | 1 |
-| Dragon BMO Hotend | 1 |
+| Phaetus Rapido Hotend | 1 |
 | 40mm x 10mm axial fan    | 1 |
 | M2.5 x 8mm SHCS   | 4 |
 | M3 x 6mm SHCS     | 4 |
@@ -32,9 +32,9 @@ We're ready to install the hotend. The hotend, fan, thermistor, and heater cartr
     This is not necessary for E34M1 native hotend mounts.
 
 !!! tip "Tip: Fan Direction"
-    A fan's airflow direction is usually the side with the manufacturer's sticker on it.
+    The 40mm fan should blow *towards* the hotend. A fan's airflow direction is usually the side with the manufacturer's sticker on it.
 
-1. Align the hotend's mounting holes with the Hotend module. Hotends with asymmetric heater blocks like the Dragon should have the larger side facing *forward*.
+1. Align the hotend's mounting holes with the Hotend module. Hotends with asymmetric heater blocks like the Dragon should have the longer/larger side facing *forward*.
 2. Secure the hotend with four (4) M2.5 screws.
 3. Install the hotend's heater cartridge and thermistor.
 4. Place the 40mm fan on the hotend mount with the airflow directed *towards* the hotend. Rotate the fan so that the wiring trails to the top right edge.

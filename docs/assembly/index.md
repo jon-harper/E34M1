@@ -5,9 +5,9 @@ authors: Jon Harper
 date: 2023-4-8
 ---
 
-This guide covers assembly of a basic E34M1 build with a Dragon hotend, BMG extruder, and BLTouch probe. The first half of the assembly process—building the Core—is universal. The second half—adding the hotend, extruder, and ABL—may differ in details to your assembly.
+This guide covers assembly of a basic E34M1 build with a Rapido hotend, Sherpa Mini extruder, and BLTouch probe.
 
-You should have your Mercury One build's X axis extrusion and linear rail assembled before following this guide. It is recommended that you include routing and securing the belts as part of the E34M1 build process.
+You should have your Mercury One build's X axis extrusion and linear rail assembled before following this guide. It is recommended that you include routing and securing the belts as part of the E34M1 build process, and will be prompted to do so.
 
 ## Time
 
@@ -19,35 +19,27 @@ Excluding wiring and belt routing, assembly time is approximately 30-45 minutes.
 
 Before continuing, check that you have all the printed parts necessary.
 
-The table below lists parts that are universal to all builds:
-
-| Module | Example Part | Qty |
+| Module | Example Part | Revision | Qty |
 |---|---|---|
-| [Front](../modules/front.md)          | Stock Front                       | 1 |
-| Front                                 | Belt Grabbers                     | 2 |
-| [Top](../modules/top.md)              | Top with Endstop and Cable Guide  | 1 |
-| [Bottom Horns](../modules/bottom.md)  | Dual Horns                        | 1 |
-| [Rear Inlet](../modules/rear.md)      | Low-Profile Sideways Inlet        | 1 |
-| [Hotend Mount](../compat/hotends.md)  | Dragon BMO Mount                  | 1 |
-| [Drive Mount](../compat/drives.md)    | BMG Drive Mount                   | 1 |
-
-
-The following build-specific parts are used in this guide:
-
-| Part | Example | Qty |
-|---|---|---|
-| [ABL Mount](../modules/abl.md)        | BLTouch Mount | 1 |
-| [Other](../modules/other.md)          | Cable Guide         | 1 |
+| [Front](../modules/front.md)          | FYSETC Portable Input Shaper Front| v0.5 | 1 |
+| Front                                 | Belt Grabbers                     | v0.5 | 2 |
+| [Top](../modules/top.md)              | Left-Handed Top with Cable Guide  | v0.5 | 1 |
+| [Bottom Horns](../modules/bottom.md)  | Dual Horns                        | v0.3 | 1 |
+| [Rear Inlet](../modules/rear.md)      | Low-Profile Sideways Inlet        | v0.2 | 1 |
+| [Hotend Mount](../compat/hotends.md)  | Dragon BMO Mount                  | n/a | | 1 |
+| [Drive Mount](../compat/drives.md)    | Sherpa Mini Drive Mount           | n/a | 1 |
+| [ABL Mount](../modules/abl.md)        | BLTouch Mount                     | v0.3 | 1 |
+| [Other](../modules/other.md)          | Cable Guide                       | n/a | 1 |
 
 Not all parts for E34M1 are covered in this guide. Other parts you may need or want for your build:
 
 | Part | Purpose |
 |------|---------|
 | [X Axis Stop Block](../modules/stop_block.md) | Adjustable bumper for the X axis limit switch. |
-| [Front Intake Duct](../modules/other.md#front-intake-duct) | Easier hotend access using two (2) screws instead of four (4). |
 | [Z Endstop Mount](../modules/other.md#z-endstop-mount) | For Ender 5 Pros with stock Z axis; raises the Z limit switch. |
 | [PCB Mount](../modules/pcb_mounts.md#pcb-mounts) | Mounts for toolhead PCBs. |
 | [PCB Shrouds](../modules/pcb_mounts.md#pcb-shrouds) | Covers toolhead PCB wiring. |
+| Rear Cable Arm | Raises and supports cable umbilical. |
 
 ## Considerations
 
