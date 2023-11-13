@@ -18,7 +18,7 @@ There are three versions of the front module:
 
 **Description**
 
-Lightweight version of the Front that does not mount an accelerometer.
+Version of the Front that does not mount an accelerometer.
 
 [**Revision:**](#revision-history) v0.5
 

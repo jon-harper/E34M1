@@ -5,15 +5,15 @@ authors: Jon Harper
 date: 2023-4-5
 ---
 
-!!! warning "Warning: Deprecated"
-    The files on this page are deprecated and may be removed in the future.
-
 !!! tip "Important"
     These mounts are designed for **NEMA17** steppers. There are several off-the-shelf options for **NEMA14** steppers:
 
     - ZeroG Discord members can use TurtleCrawler's [CANbus 36 mounts](https://discord.com/channels/747612067951018075/1058784239539191838/1058784239539191838)
     - [https://github.com/KayosMaker/CANboard_Mounts](https://github.com/KayosMaker/CANboard_Mounts)
 
+
+!!! warning "Warning: Deprecated"
+    The files on this page are deprecated and may be removed in the future.
 
 This page contains parts for mounting toolhead PCBs on the back of a NEMA17 stepper. Optional shrouds are used to cover the PCB wiring.
 
