@@ -9,7 +9,11 @@ date: 2023-1-26
 
 ### 11/13/23
 
-- Updated assembly steps
+- Updated assembly steps to R2.
+- Numerous fixes and edits for R2 all over the site.
+- Integrated third party hotends and extruders into the modules section; removed compatibility pages completely.
+- Moved Tour Guide to top level.
+- Updated assembly part list to R2.
 
 ### 11/12/23
 
