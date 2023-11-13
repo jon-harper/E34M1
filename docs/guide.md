@@ -37,11 +37,11 @@ These terms and icons are used throughout the site.
 
 ### How does this fit together?
 
-Visit the [Tour](../tour.md) to get an overview of how the modules are arranged. The [Assembly Guide](../assembly/index.md) includes videos to assist during your build process.
+Visit the [Tour](tour.md) to get an overview of how the modules are arranged. The [Assembly Guide](assembly/index.md) includes videos to assist during your build process.
 
 ### What do I print?
 
-See the Assembly guide's [Print Checklist](../assembly/#print-checklist) to ensure you have everything.
+See the Assembly guide's [Print Checklist](assembly/#print-checklist) to ensure you have everything.
 
 ### What does an *italic* BOM entry mean?
 
@@ -79,7 +79,7 @@ The chart below shows which ABL methods are supported by E34M1. The side ABL mou
 
 Most hotends are paired with the basic Dual Horns. Very long hotends, such as the Rapido UHF, require the UHF bottom horns. The Mosquito has its own bottom horns as a cooling workaround.
 
-More about Bottom Horns can be found on the [Bottom Horns Modules](../modules/bottom.md) page.
+More about Bottom Horns can be found on the [Bottom Horns Modules](modules/bottom.md) page.
 
 | Hotend                | Bottom Horns  |
 |-----------------------|:-------------:|
@@ -95,4 +95,4 @@ More about Bottom Horns can be found on the [Bottom Horns Modules](../modules/bo
 
 ### Cable Management
 
-There are two methods of cable management. The default attachment is the [Top](../modules/top.md) module for umbilical users. Third parties offer PCB mounts supporting both umbilical (cable guide) and drag chains.
+There are two methods of cable management. The default attachment is the [Top](modules/top.md) module for umbilical users. Third parties offer PCB mounts supporting both umbilical (cable guide) and drag chains.

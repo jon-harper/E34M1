@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2023-4-5
 ---
 
-Several versions of the bottom horns are available for E34M1. Which version you should use depends on your hotend and your ABL method. See the [Compatibility](../compat/index.md#bottom-horns) page for a breakdown table.
+Several versions of the bottom horns are available for E34M1. Which version you should use depends on your hotend and your ABL method. See the [Compatibility](../guide.md#bottom-horns) page for a breakdown table.
 
 This page is divided into sections by ABL support:
 

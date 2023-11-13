@@ -22,7 +22,7 @@ Drive designs not from E34M1 are compatible but do not leave room for lock washe
 
 | Part | Qty |
 |---|---|
-| :material-printer-3d-nozzle: [Drive mount](../compat/drives.md) | 1 |
+| :material-printer-3d-nozzle: [Drive mount](../modules/drive.md) | 1 |
 | Assembled Sherpa Mini extruder and stepper   | 1 |
 | PTFE tube, approx. 45.8mm | 1 |
 | M3 x 12mm SHCS | 2 |

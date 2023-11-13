@@ -17,7 +17,7 @@ We're ready to install the hotend. The hotend, fan, thermistor, and heater cartr
 
 | Part | Qty |
 |---|---|
-| :material-printer-3d-nozzle: [Hotend Module](../compat/hotends.md) | 1 |
+| :material-printer-3d-nozzle: [Hotend Module](../modules/hotend.md) | 1 |
 | Phaetus Rapido Hotend | 1 |
 | 40mm x 10mm axial fan    | 1 |
 | M2.5 x 8mm SHCS   | 4 |
