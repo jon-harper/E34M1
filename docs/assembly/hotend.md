@@ -12,6 +12,7 @@ date: 2023-4-8
 </video>
 
 We're ready to install the hotend. The hotend, fan, thermistor, and heater cartridge are all meant to be removable as once piece, so we assemble them first.
+
 ## Parts
 
 | Part | Qty |
@@ -25,11 +26,6 @@ We're ready to install the hotend. The hotend, fan, thermistor, and heater cartr
 | *Lock washer, M3* | 4 |
 
 ## Steps
-
-!!! note
-    Stock EVA hotend mounts come with the M2.5 screw holes blocked by a single layer. Use a screwdriver or other small object to puncture holes for the M2.5 screws.
-
-    This is not necessary for E34M1 native hotend mounts.
 
 !!! tip "Tip: Fan Direction"
     The 40mm fan should blow *towards* the hotend. A fan's airflow direction is usually the side with the manufacturer's sticker on it.

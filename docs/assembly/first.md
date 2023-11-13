@@ -29,9 +29,7 @@ First, we assemble the Top, including X axis endstop and cable guide/wire anchor
 ## Steps
 
 !!! note
-    If you printed a right-handed Top to home X to the right, the endstop mount and cable guide anchor should be on the right, as well.
-
-    Likewise, reverse left and right in the directions below.
+    If you printed a right-handed Top, reverse left and right in the directions below.
 
 1. The cable anchor attaches to the rear left of the Top with a lock washer and an M3 x 6mm screw. Orient the two inserts on the anchor to the rear or left side of the Top. 
 2. Secure the cable guide to the cable anchor with two (2) M3 x 6mm screws.

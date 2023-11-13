@@ -9,12 +9,6 @@ This guide covers assembly of a basic E34M1 build with a Rapido hotend, Sherpa M
 
 You should have your Mercury One build's X axis extrusion and linear rail assembled before following this guide. It is recommended that you include routing and securing the belts as part of the E34M1 build process, and will be prompted to do so.
 
-## Time
-
-Assembly time depends on your experience level and build configuration. Wiring and connecting the belts are not part of this guide, but some guidence is given on these topics.
-
-Excluding wiring and belt routing, assembly time is approximately 30-45 minutes.
-
 ## :material-printer-3d-nozzle: Print Checklist
 
 Before continuing, check that you have all the printed parts necessary.
@@ -42,6 +36,12 @@ Not all parts for E34M1 are covered in this guide. Other parts you may need or w
 | Rear Cable Arm | Raises and supports cable umbilical. |
 
 ## Considerations
+
+### Time
+
+Assembly time depends on your experience level and build configuration. Wiring and connecting the belts are not part of this guide, but some guidence is given on these topics.
+
+Excluding wiring and belt routing, assembly time is approximately 30-45 minutes.
 
 ### Heat Set Inserts
 

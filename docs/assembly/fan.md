@@ -16,8 +16,8 @@ date: 2023-4-8
 | Part | Qty |
 |------|---|
 | 50mm x 15mm radial fan | 1 |
-| M3 x 20mm SHCS | 1 |
-| *M3 washer* | 1 |
+| M3 x 20mm SHCS         | 1 |
+| *M3 washer*            | 1 |
 
 ## Steps
 
