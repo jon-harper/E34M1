@@ -11,6 +11,7 @@ date: 2023-1-26
 
 - Added numerous third-party modules.
 - Added cuiviemen's Papst RLF35-8 intake.
+- Added dual 5015 (Owl Eyes) rear inlet.
 
 ### 11/13/23
 
