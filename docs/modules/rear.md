@@ -12,6 +12,8 @@ Several options are available:
 - [Single 5015 Fan](#single-5015-fan): Use this if you aren't sure what's best.
 - [Single 5015 Fan (Beacon)](#single-5015-fan-beacon): The above, modified for Beacon ABL probes.
 - [Single 5015 Fan (EVA-style)](#single-5015-fan-eva-style): Modified stock 5015 inlet with lower height.
+- [Single Papst RLF35-8](#single-papst-rlf35-8): Fits a Papst [RLF35-8][bom_papst_rlf35]
+- [Single Papst RLF35-8](#single-papst-rlf35-8-beacon): The above, modified for Beacon ABL probes.
 - [Dual 5015 Fans](#dual-5015-fan): Redesigned from EVA stock for a lower profile.
 - [15mm CPAP](#15mm-cpap): For remote cooling.
 - [15mm CPAP (Beacon)](#15mm-cpap-beacon): The above, modified for Beacon ABL probes.
@@ -255,6 +257,10 @@ Note that the M3 x 6mm screw is a flat head cap screw.
     ![inlet_illustration](../img/inserts/rear_single_5015.png){ width=256px}
 </div>
 </div>
+
+### Single Papst RLF35-8
+
+### Single Papst RLF35-8 (Beacon)
 
 ### EVA Rear Inlet Adapter
 

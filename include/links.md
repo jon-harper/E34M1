@@ -52,6 +52,11 @@
 [rear_15mm_cpap]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_15mm_cpap.stl
 [rear_15mm_cpap_beacon]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_15mm_cpap_beacon.stl
 [rear_22mm_cpap]: https://github.com/jon-harper/E34M1/blob/testing/STL/rear/rear_22mm_cpap.stl
+[rear_rlf35]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_inlet_single_papst_rlf35.stl
+[rear_rlf35_beacon]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_inlet_single_papst_rlf35_beacon.stl
+
+
+
 [folder_cad]: https://github.com/jon-harper/E34M1/tree/main/CAD
 [folder_stl]: https://github.com/jon-harper/E34M1/tree/main/STL
 [repo]: https://github.com/jon-harper/E34M1
