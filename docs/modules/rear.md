@@ -15,6 +15,7 @@ Several options are available:
 - [Single Papst RLF35-8](#single-papst-rlf35-8): Fits a Papst [RLF35-8][bom_papst_rlf35] blower.
 - [Single Papst RLF35-8](#single-papst-rlf35-8-beacon): The above, modified for Beacon ABL probes.
 - [Dual 5015 Fans](#dual-5015-fan): Redesigned from EVA stock for a lower profile.
+- [Dual 5015 Fans (Owl Eyes)](#dual-5015-fan-owl-eyes): Alternative fan layout for smaller footprint.
 - [15mm CPAP](#15mm-cpap): For remote cooling.
 - [15mm CPAP (Beacon)](#15mm-cpap-beacon): The above, modified for Beacon ABL probes.
 - [Stock Rear Inlet Adapter](#eva-rear-inlet-adapter): Lightweight adapter for stock EVA rear inlets.
@@ -145,6 +146,38 @@ This rear inlet is modified from the stock 5015. It offers plenty of airflow at 
 
 ??? "Heat Set Inserts"
     ![inlet_illustration](../img/inserts/dual_5015_intake.png){ width=256px}
+</div>
+</div>
+
+### Dual 5015 Fan (Owl Eyes)
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+This inlet mounts two 5015 fans perpendicular to the toolhead (so that they look like an owl's eyes behind the toolhead). It has a lower overall height than the modified stock inlet listed above.
+
+[**Revision:**](#revision-history) v0.2
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `dual_5015_inlet_owl_eyes.stl`][dual_5015_inlet_owl_eyes] | 1 |
+| 5015 Radial Fan           | 2 |
+| M3-0.5 x 6mm SHCS         | 1 |
+| M3-0.5 x 20mm SHCS        | 2 |
+| M3-0.5 x 45mm SHCS        | 4 |
+| Heat Set Insert, M3x5x4   | 2 |
+| *Lock washer, M3*         | *5* |
+
+</div>
+<div markdown class="jh-grid-img">
+![inlet_illustration](../img/parts/dual_5015_inlet_owl_eyes.png){ width=256px}
+
+??? "Heat Set Inserts"
+    ![inlet_illustration](../img/inserts/dual_5015_inlet_owl_eyes.png){ width=256px}
 </div>
 </div>
 
@@ -288,7 +321,7 @@ This is an intake for a high-flow [Papst RLF35-8][bom_papst_rlf35] radial blower
 | M3-0.5 x 45mm SHCS        | 2 |
 | M3-0.5 x 50mm FHCS        | 2 |
 | Heat Set Insert, M3x5x4   | 2 |
-| *Lock washer, M3*         | *2* |
+| *Lock washer, M3*         | *3* |
 
 </div>
 <div markdown class="jh-grid-img">
@@ -375,6 +408,7 @@ This allows stock EVA 3 rear cooling inlets to be used (e.g., [dual 5015 fans](h
 
 | Date | File | Version | Description |
 |------|------|---------|-------------|
+| 23/11/27 | `rear_dual_5015_owl_eyes.stl`       | v0.2 | Initial release. | 
 | 23/11/27 | `rear_inlet_single_papst_rlf35.stl` | v0.1 | Initial release. |
 | 23/11/27 | `rear_inlet_single_papst_rlf35_beacon.stl` | v0.1 | Initial release. |
 | 23/11/27 | `screw_cap.stl`                     | v0.2 | Improved fit. |
