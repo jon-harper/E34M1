@@ -12,7 +12,7 @@ Several options are available:
 - [Single 5015 Fan](#single-5015-fan): Use this if you aren't sure what's best.
 - [Single 5015 Fan (Beacon)](#single-5015-fan-beacon): The above, modified for Beacon ABL probes.
 - [Single 5015 Fan (EVA-style)](#single-5015-fan-eva-style): Modified stock 5015 inlet with lower height.
-- [Single Papst RLF35-8](#single-papst-rlf35-8): Fits a Papst [RLF35-8][bom_papst_rlf35]
+- [Single Papst RLF35-8](#single-papst-rlf35-8): Fits a Papst [RLF35-8][bom_papst_rlf35] blower.
 - [Single Papst RLF35-8](#single-papst-rlf35-8-beacon): The above, modified for Beacon ABL probes.
 - [Dual 5015 Fans](#dual-5015-fan): Redesigned from EVA stock for a lower profile.
 - [15mm CPAP](#15mm-cpap): For remote cooling.
@@ -260,7 +260,87 @@ Note that the M3 x 6mm screw is a flat head cap screw.
 
 ### Single Papst RLF35-8
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+!!! info "Design by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
+
+This is an intake for a high-flow [Papst RLF35-8][bom_papst_rlf35] radial blower.
+
+!!! warning 
+    The inlet requires several **flat head cap screws**.
+
+[**Revision:**](#revision-history) v0.1
+
+**Origin**: Design by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
+
+**Bill of Materials**
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `rear_inlet_single_5015.stl`][rear_inlet_beacon] | 1 |
+| [:material-printer-3d-nozzle: `screw_cap.stl`][beacon_screw_cap] |1 |
+| [Papst RLF35-8 Radial Fan][bom_papst_rlf35]  | 1 |
+| M3-0.5 x 6mm SHCS         | 1 |
+| M3-0.5 x 20mm SHCS        | 2 |
+| M3-0.5 x 45mm SHCS        | 2 |
+| M3-0.5 x 50mm FHCS        | 2 |
+| Heat Set Insert, M3x5x4   | 2 |
+| *Lock washer, M3*         | *2* |
+
+</div>
+<div markdown class="jh-grid-img">
+![inlet_illustration](../img/parts/papst_rlf35.png){ width=350px}
+
+??? "Heat Set Inserts"
+    ![inlet_illustration](../img/inserts/papst_rlf35.png){ width=256px}
+</div>
+</div>
+
 ### Single Papst RLF35-8 (Beacon)
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+**Description**
+
+!!! info "Design by [cuiviemen](https://www.printables.com/@cuiviemen_127292)"
+
+This is an intake for a [Papst RLF35-8][bom_papst_rlf35] radial blower. It is modified to accept a Beacon connector, and wire guides are included for routing the Beacon USB cable.
+
+!!! warning 
+    The inlet uses several **flat head cap screws**. `screw_cap.stl` is used to cover the M3 x 6mm screw so that it cannot loosen and contact the Beacon connector.
+
+[**Revision:**](#revision-history) v0.1
+
+**Origin**: Design by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
+
+**Bill of Materials**
+
+Note that the M3 x 6mm screw and M3 x 50mm screws are flat head cap screws.
+
+| Parts     | Qty |
+|-----------|-----|
+| [:material-printer-3d-nozzle: `rear_inlet_single_5015_beacon.stl`][rear_inlet_beacon] | 1 |
+| [:material-printer-3d-nozzle: `screw_cap.stl`][beacon_screw_cap] |1 |
+| [Papst RLF35-8 Radial Fan][bom_papst_rlf35]  | 1 |
+| [:material-cart: M3-0.5 x 6mm FHCS][bom_m3x6_fhcs] | 1 |
+| M3-0.5 x 20mm SHCS        | 2 |
+| M3-0.5 x 45mm SHCS        | 2 |
+| M3-0.5 x 50mm FHCS        | 2 |
+| Heat Set Insert, M3x5x4   | 2 |
+| *Lock washer, M3*         | *2* |
+
+</div>
+<div markdown class="jh-grid-img">
+![inlet_illustration](../img/parts/papst_rlf35_beacon.png){ width=350px}
+
+??? "Heat Set Inserts"
+    ![inlet_illustration](../img/inserts/papst_rlf35.png){ width=256px}
+</div>
+</div>
 
 ### EVA Rear Inlet Adapter
 
@@ -295,6 +375,9 @@ This allows stock EVA 3 rear cooling inlets to be used (e.g., [dual 5015 fans](h
 
 | Date | File | Version | Description |
 |------|------|---------|-------------|
+| 23/11/27 | `rear_inlet_single_papst_rlf35.stl` | v0.1 | Initial release. |
+| 23/11/27 | `rear_inlet_single_papst_rlf35_beacon.stl` | v0.1 | Initial release. |
+| 23/11/27 | `screw_cap.stl`                     | v0.2 | Improved fit. |
 | 23/11/02 | `rear_single_5015.stl`              | v0.2 | Replaces `rear_5015_inlet_sideways.stl`; new template |
 | 23/11/02 | `rear_single_5015_beacon.stl`       | v0.2 | Replaces `rear_inlet_beacon.stl`; new template |
 | 23/11/02 | `rear_15mm_cpap.stl`                | v3   | Updated to new template |

@@ -7,6 +7,11 @@ date: 2023-1-26
 
 ## November 2023
 
+### 11/27/23
+
+- Added numerous third-party modules.
+- Added cuiviemen's Papst RLF35-8 intake.
+
 ### 11/13/23
 
 - Updated assembly steps to R2.
