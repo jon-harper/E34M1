@@ -41,7 +41,7 @@ Visit the [Tour](tour.md) to get an overview of how the modules are arranged. Th
 
 ### What do I print?
 
-See the Assembly guide's [Print Checklist](assembly/#print-checklist) to ensure you have everything.
+See the Assembly guide's [Print Checklist](assembly/index.md#print-checklist) to ensure you have everything.
 
 ### What does an *italic* BOM entry mean?
 

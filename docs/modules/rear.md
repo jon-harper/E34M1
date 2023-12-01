@@ -313,7 +313,7 @@ This is an intake for a high-flow [Papst RLF35-8][bom_papst_rlf35] radial blower
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `rear_inlet_single_5015.stl`][rear_inlet_beacon] | 1 |
+| [:material-printer-3d-nozzle: `rear_inlet_single_5015.stl`][rear_rlf35] | 1 |
 | [:material-printer-3d-nozzle: `screw_cap.stl`][beacon_screw_cap] |1 |
 | [Papst RLF35-8 Radial Fan][bom_papst_rlf35]  | 1 |
 | M3-0.5 x 6mm SHCS         | 1 |
@@ -356,7 +356,7 @@ Note that the M3 x 6mm screw and M3 x 50mm screws are flat head cap screws.
 
 | Parts     | Qty |
 |-----------|-----|
-| [:material-printer-3d-nozzle: `rear_inlet_single_5015_beacon.stl`][rear_inlet_beacon] | 1 |
+| [:material-printer-3d-nozzle: `rear_inlet_single_5015_beacon.stl`][rear_rlf35_beacon] | 1 |
 | [:material-printer-3d-nozzle: `screw_cap.stl`][beacon_screw_cap] |1 |
 | [Papst RLF35-8 Radial Fan][bom_papst_rlf35]  | 1 |
 | [:material-cart: M3-0.5 x 6mm FHCS][bom_m3x6_fhcs] | 1 |
