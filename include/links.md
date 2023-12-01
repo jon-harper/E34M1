@@ -44,9 +44,9 @@
 [top_no_endstop]: https://github.com/jon-harper/E34M1/blob/main/STL/top/top_no_endstop.stl
 
 [5015_inlet]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_5015_inlet.stl
-[rear_inlet_single_5015]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_5015_inlet_sideways.stl
+[rear_inlet_single_5015]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_inlet_single_5015.stl
 [rear_intake_adapter]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/stock_intake_adapter.stl
-[rear_inlet_beacon]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_inlet_beacon.stl
+[rear_inlet_beacon]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_inlet_single_5015_beacon.stl
 [beacon_screw_cap]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/screw_cap.stl
 [dual_5015_inlet]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/dual_5015_inlet.stl
 [rear_15mm_cpap]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_15mm_cpap.stl
