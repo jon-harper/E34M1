@@ -49,8 +49,8 @@
 [rear_inlet_beacon]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_inlet_single_5015_beacon.stl
 [beacon_screw_cap]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/screw_cap.stl
 [dual_5015_inlet]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/dual_5015_inlet.stl
-[rear_15mm_cpap]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_15mm_cpap.stl
-[rear_15mm_cpap_beacon]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_15mm_cpap_beacon.stl
+[rear_15mm_cpap]:  https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_inlet_15mm_cpap_beacon.stl
+[rear_15mm_cpap_beacon]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_inlet_15mm_cpap_beacon.stl
 [rear_22mm_cpap]: https://github.com/jon-harper/E34M1/blob/testing/STL/rear/rear_22mm_cpap.stl
 [rear_rlf35]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_inlet_single_papst_rlf35.stl
 [rear_rlf35_beacon]: https://github.com/jon-harper/E34M1/blob/main/STL/rear/rear_inlet_single_papst_rlf35_beacon.stl
