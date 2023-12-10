@@ -209,6 +209,23 @@ This extruder needs 17.95mm of PTFE.
 
 These are mounts from the larger EVA ecosystem that link to external sites.
 
+### Galileo 2 StandAlone
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+- **Author**: [cuiviemen](https://www.printables.com/@cuiviemen_127292)
+- **Inserts/Hex Nuts**: M3x4.6x4 inserts
+
+<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
+[Link](https://www.printables.com/model/648710-galileo-2-sa-extruder-for-eva3){ .md-button}
+</div>
+</div>
+<div markdown class="jh-grid-img">
+![Galileo 2 StandAlone](../img/drives/drive_g2sa.webp){width="200px"}
+</div>
+</div>
+
 ### Annex Sherpa Micro
 
 <div markdown class="jh-grid-container jh-grid-2">

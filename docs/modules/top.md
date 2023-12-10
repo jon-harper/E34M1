@@ -10,14 +10,14 @@ The Top module attaches to the MGN12H carriage and mounts the X axis endstop. Th
 !!! tip
     Don't forget to grab the [X Axis Stop Block](stop_block.md)!
 
-Six versions of this module are available:
+Available versions of this module:
 
 - [Left-handed](#left-handed)
 - [Left-handed with Wire Anchor](#left-handed-with-wire-anchor)
 - [Right-handed](#right-handed)
 - [Right-handed with Wire Anchor](#right-handed-with-wire-anchor)
 - [Sensorless Homing](#sensorless-homing)
-- [Integrated Microswitch](https://www.printables.com/model/555302-zero-g-mercury-e34m1-top-mgn12h-with-inbuilt-limit): A mod by [syph3rd](https://www.printables.com/@syph3rd_963296) that integrates a microswitch into the Top.
+- [Integrated Microswitch](#integrated-microswitch)
 
 
 ### Left-Handed
@@ -182,6 +182,13 @@ Note that this does not have an anchor for an umbilical.
     ![top_pcb_illustration](../img/inserts/top_no_endstop.png){ width=200px}
 </div>
 </div>
+
+### Integrated Microswitch
+
+There are two known mods for using a simple microswitch (e.g. Omron D2F-L):
+
+- [Top MGN12H with Inbuilt Limit](https://www.printables.com/model/555302-zero-g-mercury-e34m1-top-mgn12h-with-inbuilt-limit) by [syph3rd](https://www.printables.com/@syph3rd_963296)
+- [Top MGN12H with Integrated Limit Switch (remix)](https://www.printables.com/model/658976-zero-g-mercury-e34m1-top-mgn12h-with-integrated-li) by [Christopher Heinlein](https://www.printables.com/@ChristopherHe_488911)
 
 ### Revision History
 

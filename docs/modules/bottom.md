@@ -254,7 +254,7 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle.
 |-----------|-----|
 | [:material-printer-3d-nozzle: `klicky_bottom.stl`][bottom_klicky]     | 1 |
 | Heat Set Insert, M3x5x4   | 1 |
-| 24 awg hookup wire (1.5mm^2^) | 1ft/30cm |
+| 24 awg hookup wire (0.25mm^2^) | 0.5ft/15cm |
 | 6mm x 3mm magnets         | 3 |
 
 </div>
@@ -288,7 +288,7 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle.
 |-----------|-----|
 | [:material-printer-3d-nozzle: `klicky_bottom_trihorn.stl`][bottom_klicky_trihorn]     | 1 |
 | Heat Set Insert, M3x5x4   | 1 |
-| 24 awg hookup wire (1.5mm^2^) | 1ft/30cm |
+| 24 awg hookup wire (0.25mm^2^) | 0.5ft/15cm |
 | 6mm x 3mm magnets         | 3 |
 
 </div>
@@ -320,7 +320,7 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle.
 |-----------|-----|
 | [:material-printer-3d-nozzle: `bottom_klicky_uhf.stl`][bottom_klicky_uhf]     | 1 |
 | Heat Set Insert, M3x5x4   | 3 |
-| 24 awg hookup wire (1.5mm^2^) | 1ft/30cm |
+| 24 awg hookup wire (0.25mm^2^) | 0.5ft/15cm |
 | 6mm x 3mm magnets         | 3 |
 
 </div>
