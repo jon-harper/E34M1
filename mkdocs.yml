@@ -51,18 +51,24 @@ theme:
   font:
     text: Noto Sans
   palette: 
-    - scheme: slate
-      primary: green
-      accent: deep orange
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/lightbulb-off-outline
+        icon: material/lightbulb-auto
         name: Switch to light mode
-    - scheme: default
-      primary: green
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
       accent: deep orange
       toggle:
         icon: material/lightbulb-on
         name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: teal
+      toggle:
+        icon: material/lightbulb-off-outline
+        name: Switch to match system light/dark mode
 
 extra:
   social:
@@ -72,12 +78,19 @@ extra:
     - icon: material/home
       link: https://jon-harper.github.io/
       name: "jonspaceharper's Homepage"
-
+  meta: 
+    bom: assets/e34m1.yaml
+    bom_template_str: v2
 extra_css:
   - assets/stylesheets/extra.css
 
 plugins:
   - search
+  - macros:
+      module_name: "src"
+      include_dir: include
+  - social:
+      enabled: !ENV [CI, false]
       
 nav:
   - index.md
