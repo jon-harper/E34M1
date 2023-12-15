@@ -14,13 +14,13 @@ E34M1 replaces most of stock EVA 3 but is still compatible with stock hotends, e
 
 **Core E34M1 Assembly**
 <figure markdown>
-![core](img/tour/core.png){width="300px"}
+![core](img/tour/core.webp){width="300px"}
 </figure>
 </div>
 <div markdown class="jh-card">
 **Complete Assembly**
 <figure markdown>
-![complete](img/tour/master.png){width="300px"}
+![complete](img/tour/master.webp){width="300px"}
 </figure>
 </div>
 </div>
@@ -37,7 +37,7 @@ Each E34M1 module comes in multiple varations. These parts are all specific to E
 The Front mounts the hotend, belts, and the front of the Drive module.
 
 <figure markdown>
-![front](img/tour/front.png){width="300px"}
+![front](img/tour/front.webp){width="300px"}
 
 [Front Module Reference](modules/front.md){.md-button}
 </figure>
@@ -50,7 +50,7 @@ The Front mounts the hotend, belts, and the front of the Drive module.
 The top mounts the MGN12H carriage, the X axis endstop, and the back of the Drive module. It has an optional attachment point for an umbilical cable guide.
 
 <figure markdown>
-![top](img/tour/top.png){width="300px"}
+![top](img/tour/top.webp){width="300px"}
 
 [Top Module Reference](modules/top.md){.md-button}
 </figure>
@@ -65,7 +65,7 @@ The top mounts the MGN12H carriage, the X axis endstop, and the back of the Driv
 The bottom horns are primarily for part cooling and form the lower joint between the Front and Rear Inlet. Some ABL methods (e.g., Beacon, Klicky) mount here.
 
 <figure markdown>
-![bottom](img/tour/bottom.png){width="300px"}
+![bottom](img/tour/bottom.webp){width="300px"}
 
 [Bottom Horns Reference](modules/bottom.md){.md-button}
 </figure>
@@ -77,7 +77,7 @@ The bottom horns are primarily for part cooling and form the lower joint between
 Stock EVA 3 has a rear piece here that acts as a belt tensioner. It's unneeded for Mercury One printers, so we moved the cooling inlet forward to save space.
 
 <figure markdown>
-![inlet](img/tour/inlet.png){width="300px"}
+![inlet](img/tour/inlet.webp){width="300px"}
 
 [Rear Inlet Reference](modules/rear.md){.md-button}
 </figure>
@@ -98,7 +98,7 @@ We've assembled lists of known hotend and drive mounts.
 The hotend module mounts the hotend, cooling fan, and an optional shroud.
 
 <figure markdown>
-![hotend](img/tour/hotend.png){width="300px"}
+![hotend](img/tour/hotend.webp){width="300px"}
 
 [Explore EVA 3 Hotends](modules/hotend.md){.md-button}
 </figure>
@@ -111,7 +111,7 @@ The hotend module mounts the hotend, cooling fan, and an optional shroud.
 The drive module attaches the extruder and extruder stepper to the toolhead.
 
 <figure markdown>
-![drive](img/tour/drive.png){width="300px"}
+![drive](img/tour/drive.webp){width="300px"}
 
 [Explore EVA 3 Extruders](modules/drive.md){.md-button}
 </figure>
@@ -124,7 +124,7 @@ The drive module attaches the extruder and extruder stepper to the toolhead.
 All stock shrouds are compatible with E34M1.
 
 <figure markdown>
-![shroud](img/tour/shroud.png){width="300px"}
+![shroud](img/tour/shroud.webp){width="300px"}
 
 [Stock EVA 3 Shrouds](https://main.eva-3d.page/heat_insert/shrouds/chonkier/){.md-button}
 
@@ -145,7 +145,7 @@ All stock shrouds are compatible with E34M1.
 The side ABL mount is modified from stock EVA. Most ABL methods mount here (e.g., BLTouch and CR Touch).
 
 <figure markdown>
-![abl mount](img/tour/abl.png){width="300px"}
+![abl mount](img/tour/abl.webp){width="300px"}
 
 [ABL Side Mount Reference](modules/abl.md){.md-button}
 </figure>

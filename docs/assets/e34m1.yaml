@@ -366,69 +366,69 @@ parts:
   ###
     3dpassion_nova:
       name: 3D Passion Nova
-      img: img/parts/passion.png
+      img: img/parts/passion.webp
     e3d_revo_voron:
       name: E3D REVO Voron
-      img: img/parts/revo_voron.png
+      img: img/parts/revo_voron.webp
     e3d_revo_micro:
       name: E3D REVO Micro
-      img: img/parts/revo_micro.png
+      img: img/parts/revo_micro.webp
     e3d_v6:
       name: E3D V6
-      img: img/parts/e3d_v6.png
+      img: img/parts/e3d_v6.webp
     slice_mosquito:
       name: Slice Engineering Mosquito
-      img: img/parts/mosquito.png
+      img: img/parts/mosquito.webp
     phaetus_dragon:
       name: Phaetus Dragon SF/HF
-      img: img/parts/dragon.png
+      img: img/parts/dragon.webp
     phaetus_dragon_uhf:
       name: Phaetus Dragon UHF
-      img: img/parts/dragon_uhf.png
+      img: img/parts/dragon_uhf.webp
     phaetus_dragonfly_bmo:
       name: Phaetus Dragonfly BMO
-      img: img/parts/dragonfly_bmo.png
+      img: img/parts/dragonfly_bmo.webp
     phaetus_dragonfly_bms:
       name: Phaetus Dragonfly BMS
-      img: img/parts/dragonfly_bms.png
+      img: img/parts/dragonfly_bms.webp
     phaetus_rapido:
       name: Phaetus Rapido
-      img: img/parts/rapido.png
+      img: img/parts/rapido.webp
     phaetus_rapido_uhf:
       name: Phaetus Rapido UHF
-      img: img/parts/rapido.png
+      img: img/parts/rapido.webp
   
   Extruders:
     bondtech_bmg:
       name: Bondtech BMG
-      img: img/components/bmg.png
+      img: img/components/bmg.webp
     galileo2:
       name: Galileo 2 StandAlone
       img: img/components/g2sa.webp
     hextrudort:
       name: Hextrudort-Low
-      img: img/components/hextrudort.png
+      img: img/components/hextrudort.webp
     bondtech_lgx:
       name: Bondtech LGX
-      img: img/components/lgx.png
+      img: img/components/lgx.webp
     bondtech_lgx_lite:
       name: Bondtech LGX Lite
-      img: img/components/lgx_lite.png
+      img: img/components/lgx_lite.webp
     orbiter1_5:
       name: Orbiter 1.5
-      img: img/components/orbiter_1_5.png
+      img: img/components/orbiter_1_5.webp
     orbiter2:
       name: Orbiter 2
-      img: img/drivers/orbiter_2_0.png
+      img: img/drivers/orbiter_2_0.webp
     annex_sherpa_micro:
       name: Annex Sherpa Micro
-      img: img/components/sherpa_micro.png
+      img: img/components/sherpa_micro.webp
     annex_sherpa_mini:
       name: Annex Sherpa Mini
-      img: img/components/sherpa_mini.png
+      img: img/components/sherpa_mini.webp
     e3d_titan:
       name: E3D Titan
-      img: img/components/titan.png
+      img: img/components/titan.webp
 
   Input Shapers:
     adxl345:

@@ -56,10 +56,10 @@ The Sherpa Mini has two front faces. How the stepper and extruder are secured ag
 
 </div>
 <div markdown class="jh-grid-img">
-![Annex Sherpa Mini](../img/components/sherpa_mini.png){ width=256px}
+![Annex Sherpa Mini](../img/components/sherpa_mini.webp){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/sherpa_mini.png){ width=256px}
+    ![bottom_illustration](../img/inserts/sherpa_mini.webp){ width=256px}
 </div>
 </div>
 
@@ -86,7 +86,7 @@ This extruder needs 28.9mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
-![Bondtech BMG](../img/components/bmg.png){ width=256px}
+![Bondtech BMG](../img/components/bmg.webp){ width=256px}
 </div>
 </div>
 
@@ -112,7 +112,7 @@ This extruder needs 20.8mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
-![Bondtech LGX](../img/components/lgx.png){ width=256px}
+![Bondtech LGX](../img/components/lgx.webp){ width=256px}
 </div>
 </div>
 
@@ -139,7 +139,7 @@ This extruder needs 14.2mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
-![Bondtech LGX Lite](../img/components/lgx_lite.png){ width=256px}
+![Bondtech LGX Lite](../img/components/lgx_lite.webp){ width=256px}
 </div>
 </div>
 
@@ -167,10 +167,10 @@ This extruder needs 22.2mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
-![Orbiter 1.5](../img/components/orbiter_1_5.png){ width=256px}
+![Orbiter 1.5](../img/components/orbiter_1_5.webp){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/orbiter_1_5.png){ width=256px}
+    ![bottom_illustration](../img/inserts/orbiter_1_5.webp){ width=256px}
 </div>
 </div>
 
@@ -198,10 +198,10 @@ This extruder needs 17.95mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
-![Orbiter 2.0](../img/components/orbiter_2_0.png){ width=256px}
+![Orbiter 2.0](../img/components/orbiter_2_0.webp){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/orbiter_2_0.png){ width=256px}
+    ![bottom_illustration](../img/inserts/orbiter_2_0.webp){ width=256px}
 </div>
 </div>
 
@@ -239,7 +239,7 @@ These are mounts from the larger EVA ecosystem that link to external sites.
 </div>
 </div>
 <div markdown class="jh-grid-img">
-![Annex Sherpa Micro](../img/drives/sherpa_micro.png){width="200px"}
+![Annex Sherpa Micro](../img/drives/sherpa_micro.webp){width="200px"}
 </div>
 </div>
 
@@ -256,7 +256,7 @@ These are mounts from the larger EVA ecosystem that link to external sites.
 </div>
 </div>
 <div markdown class="jh-grid-img">
-![E3D Titan](../img/drives/titan.png){width="200px"}
+![E3D Titan](../img/drives/titan.webp){width="200px"}
 </div>
 </div>
 
@@ -274,6 +274,6 @@ These are mounts from the larger EVA ecosystem that link to external sites.
 </div>
 </div>
 <div markdown class="jh-grid-img">
-![VzBoT3D Vz-HextrudORT Low](../img/drives/hextrudort.png){width="200px"}
+![VzBoT3D Vz-HextrudORT Low](../img/drives/hextrudort.webp){width="200px"}
 </div>
 </div>

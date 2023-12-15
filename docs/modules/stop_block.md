@@ -30,7 +30,7 @@ Roll in tee nuts may be used instead of drop-in for easier installation.
 
 </div>
 <div markdown class="jh-grid-img">
-![x_stop_block_illustration](../img/components/x_stop_block.png){ width=200px }
+![x_stop_block_illustration](../img/components/x_stop_block.webp){ width=200px }
 </div>
 </div>
 
@@ -57,7 +57,7 @@ The M5 x 16mm screw replaces the M5 x 12mm screw that normally attaches the X Jo
 
 </div>
 <div markdown class="jh-grid-img">
-![x_stop_block_illustration](../img/components/e5plus_x_stop_block.png){ width=200px }
+![x_stop_block_illustration](../img/components/e5plus_x_stop_block.webp){ width=200px }
 </div>
 </div>
 
@@ -84,7 +84,7 @@ The M5 x 16mm screw replaces the M5 x 12mm screw that normally attaches the X jo
 
 </div>
 <div markdown class="jh-grid-img">
-![x_stop_block_illustration](../img/components/x_max_stop_block.png){ width=200px }
+![x_stop_block_illustration](../img/components/x_max_stop_block.webp){ width=200px }
 </div>
 </div>
 

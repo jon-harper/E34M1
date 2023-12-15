@@ -33,20 +33,20 @@ Version of the Front that does not mount an accelerometer.
 
 </div>
 <div markdown class="jh-grid-img">
-![front_illustration](../img/components/front_basic.png){ width=256px}
+![front_illustration](../img/components/front_basic.webp){ width=256px}
 </div>
 </div>
 
 ??? info "Heat Set Insert Locations"
     <div markdown class="jh-grid-container jh-grid-3">
     <div markdown class="jh-grid-img">
-    ![illustration1](../img/inserts/front1.png){width=300}
+    ![illustration1](../img/inserts/front1.webp){width=300}
     </div>
     <div markdown class="jh-grid-img">
-    ![illustration2](../img/inserts/front2.png){width=300}
+    ![illustration2](../img/inserts/front2.webp){width=300}
     </div>
     <div markdown class="jh-grid-img">
-    ![illustration3](../img/inserts/front3.png){width=300}
+    ![illustration3](../img/inserts/front3.webp){width=300}
     </div>
     </div>
 
@@ -74,23 +74,23 @@ Modification of the stock EVA Front for Mercury One. This mounts an ADXL345 acce
 
 </div>
 <div markdown class="jh-grid-img">
-![front_illustration](../img/components/front_adxl.png){ width=256px}
+![front_illustration](../img/components/front_adxl.webp){ width=256px}
 </div>
 </div>
 
 ??? info "Heat Set Insert Locations"
     <div markdown class="jh-grid-container jh-grid-3">
     <div markdown class="jh-grid-img">
-    ![illustration1](../img/inserts/front1.png){width=300}
+    ![illustration1](../img/inserts/front1.webp){width=300}
     </div>
     <div markdown class="jh-grid-img">
-    ![illustration2](../img/inserts/front2.png){width=300}
+    ![illustration2](../img/inserts/front2.webp){width=300}
     </div>
     <div markdown class="jh-grid-img">
-    ![illustration3](../img/inserts/front3.png){width=300}
+    ![illustration3](../img/inserts/front3.webp){width=300}
     </div>
     <div markdown class="jh-grid-img">
-    ![illustration_pis](../img/inserts/front_pis.png){width=300}
+    ![illustration_pis](../img/inserts/front_pis.webp){width=300}
     </div>
     </div>
 
@@ -118,23 +118,23 @@ Slightly modified Front that mounts a FYSETC portable input shaper.
 
 </div>
 <div markdown class="jh-grid-img">
-![front_illustration](../img/components/front_pis.png){ width=256px}
+![front_illustration](../img/components/front_pis.webp){ width=256px}
 </div>
 </div>
 
 ??? info "Heat Set Insert Locations"
     <div markdown class="jh-grid-container jh-grid-3">
     <div markdown class="jh-grid-img">
-    ![illustration1](../img/inserts/front1.png){width=300}
+    ![illustration1](../img/inserts/front1.webp){width=300}
     </div>
     <div markdown class="jh-grid-img">
-    ![illustration2](../img/inserts/front2.png){width=300}
+    ![illustration2](../img/inserts/front2.webp){width=300}
     </div>
     <div markdown class="jh-grid-img">
-    ![illustration3](../img/inserts/front3.png){width=300}
+    ![illustration3](../img/inserts/front3.webp){width=300}
     </div>
     <div markdown class="jh-grid-img">
-    ![illustration_pis](../img/inserts/front_pis.png){width=300}
+    ![illustration_pis](../img/inserts/front_pis.webp){width=300}
     </div>
     </div>
 

@@ -48,10 +48,10 @@ This is a lightweight version of the stock EVA dual horns. These are recommended
 
 </div>
 <div markdown class="jh-grid-img">
-![bottom_illustration](../img/components/bottom_horns.png){ width=256px}
+![bottom_illustration](../img/components/bottom_horns.webp){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom.png){ width=256px}
+    ![bottom_illustration](../img/inserts/bottom.webp){ width=256px}
 </div>
 </div>
 
@@ -78,10 +78,10 @@ Three-horned duct adopted from stock EVA, recommended for the Mosquito hotend *o
 
 </div>
 <div markdown class="jh-grid-img">
-![bottom_illustration](../img/components/bottom_trihorns.png){ width=256px}
+![bottom_illustration](../img/components/bottom_trihorns.webp){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom_trihorn.png){ width=256px}
+    ![bottom_illustration](../img/inserts/bottom_trihorn.webp){ width=256px}
 </div>
 </div>
 
@@ -106,10 +106,10 @@ This is a modified version of the EVA UHF dual horns. Currently, only the Rapido
 
 </div>
 <div markdown class="jh-grid-img">
-![bottom_illustration](../img/components/bottom_horns_uhf.png){ width=256px}
+![bottom_illustration](../img/components/bottom_horns_uhf.webp){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom_uhf.png){ width=256px}
+    ![bottom_illustration](../img/inserts/bottom_uhf.webp){ width=256px}
 </div>
 </div>
 
@@ -146,10 +146,10 @@ The Y offset of the Beacon probe is 34mm.
 
 </div>
 <div markdown class="jh-grid-img">
-![bottom_illustration](../img/components/bottom_beacon.png){ width=256px}
+![bottom_illustration](../img/components/bottom_beacon.webp){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom_beacon.png){ width=256px}
+    ![bottom_illustration](../img/inserts/bottom_beacon.webp){ width=256px}
 </div>
 </div>
 
@@ -185,10 +185,10 @@ The Y offset of the Beacon probe is 34mm.
 
 </div>
 <div markdown class="jh-grid-img">
-![bottom_illustration](../img/components/bottom_beacon.png){ width=256px}
+![bottom_illustration](../img/components/bottom_beacon.webp){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom_beacon.png){ width=256px}
+    ![bottom_illustration](../img/inserts/bottom_beacon.webp){ width=256px}
 </div>
 </div>
 
@@ -226,10 +226,10 @@ Two options are available for routing the rear wiring:
 
 </div>
 <div markdown class="jh-grid-img">
-![bottom_illustration](../img/components/bottom_beacon_uhf.png){ width=256px}
+![bottom_illustration](../img/components/bottom_beacon_uhf.webp){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom_beacon_uhf.png){ width=256px}
+    ![bottom_illustration](../img/inserts/bottom_beacon_uhf.webp){ width=256px}
 </div>
 </div>
 
@@ -259,10 +259,10 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle.
 
 </div>
 <div markdown class="jh-grid-img">
-![bottom_illustration](../img/components/bottom_horns_klicky.png){ width=256px}
+![bottom_illustration](../img/components/bottom_horns_klicky.webp){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom_klicky.png){ width=256px}
+    ![bottom_illustration](../img/inserts/bottom_klicky.webp){ width=256px}
 </div>
 </div>
 
@@ -293,10 +293,10 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle.
 
 </div>
 <div markdown class="jh-grid-img">
-![bottom_illustration](../img/components/bottom_klicky_trihorns.png){ width=256px}
+![bottom_illustration](../img/components/bottom_klicky_trihorns.webp){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom_trihorn_klicky.png){ width=256px}
+    ![bottom_illustration](../img/inserts/bottom_trihorn_klicky.webp){ width=256px}
 
 </div>
 </div>
@@ -325,10 +325,10 @@ The Klicky probe's Y offset is approximately 37mm from the nozzle.
 
 </div>
 <div markdown class="jh-grid-img">
-![bottom_illustration](../img/components/bottom_klicky_uhf.png){ width=256px}
+![bottom_illustration](../img/components/bottom_klicky_uhf.webp){ width=256px}
 
 ??? info "Heat Set Insert Locations"
-    ![bottom_illustration](../img/inserts/bottom_klicky_uhf.png){ width=256px}
+    ![bottom_illustration](../img/inserts/bottom_klicky_uhf.webp){ width=256px}
 </div>
 </div>
 

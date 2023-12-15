@@ -8,7 +8,7 @@ date: 2023-4-8
 ## X Endstop Wiring
 
 <figure markdown>
-![Horizontal limit switch](../img/bom_endstop.png)
+![Horizontal limit switch](../img/parts/switch_horizontal.webp)
 <figcaption>
 Example of a mechanical limit switch from the BOM.
 </figcaption>
@@ -22,7 +22,7 @@ Mechanical limit switch PCBs (as above) have a 3-pin JST-XH connector with the f
 2. Normally Open (NO)
 3. Normally Closed (NC).
 
-![MCU endstop wire order example](../img/endstop.png){width="100px" align="right"}
+![MCU endstop wire order example](../img/endstop.webp){width="100px" align="right"}
 
 MCU boards *also* have a 3-pin JST-XH connector for endstops, but they are typically wired as seen in the graphic at right:
 
