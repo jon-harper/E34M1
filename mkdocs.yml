@@ -56,16 +56,16 @@ theme:
         icon: material/lightbulb-auto
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal
+      scheme: slate
+      primary: green
       accent: deep orange
       toggle:
         icon: material/lightbulb-on
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: deep orange
-      accent: teal
+      scheme: default
+      primary: green
+      accent: deep orange
       toggle:
         icon: material/lightbulb-off-outline
         name: Switch to match system light/dark mode
