@@ -2,3 +2,4 @@
 /.*
 *.bat
 /.cache
+/__pycache__
