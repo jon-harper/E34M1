@@ -1,0 +1,656 @@
+config:
+  id: test
+  baseUrl: 'https://raw.githubusercontent.com/jon-harper/E34M1/main'
+suppliers:
+  aliexpress:
+    name: AliExpress
+    region: Worldwide
+    ships: Worlwide
+  amazon_us:
+    name: Amazon.com (USA)
+    region: US
+    ships: US
+  bolt_depot:
+    name: Bolt Depot
+    region: US
+    ships: US
+  digikey:
+    name: Digikey
+    region: Worldwide
+    ships: Worldwide
+  fabreeko:
+    name: Fabreeko
+    region: US
+    ships: Worldwide
+  stepperonline:
+    name: StepperOnline
+    region: Worldwide
+    ships: Worldwide
+  3djake:
+    name: 3DJake
+    region: EU (AT)
+    ships: Worldwide
+  kb3d:
+    name: KB-3D
+    region: US
+    ships: Worldwide
+  west3d:
+    name: West3D
+    region: US
+    ships: Worldwide
+  biqu:
+    name: Biqu/Bigtreetech
+    region: CN, US, EU, CA
+    ships: Worldwide
+  tinymachines:
+    name: Tiny Machines
+    region: US
+    ships: US
+parts:
+  DIN 127:
+    lock_washer_m3:
+      name: M3 Split Lock Washer
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=4810"
+
+  ### Socket head cap screws
+  DIN 912:
+    # M2.5 SHCS
+    shcs_m2.5_6:
+      name: M2.5 x 6mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6370"
+    shcs_m2.5_8:
+      name: M2.5 x 8mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6371"
+    
+    # M3 SHCS
+    shcs_m3_4:
+      name: M3 x 4mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Metric_socket_cap_Stainless_steel_316_(A-4)_4mm_x_0.7mm.aspx"
+    shcs_m3_5:
+      name: M3 x 5mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=22496"
+    shcs_m3_6:
+      name: M3 x 6mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=22481"
+        amazon_us:
+          url: "https://www.amazon.com/Fullerkreg-Socket-Stainless-Machine-Quantity/dp/B07CJ7PDYT"
+    shcs_m3_8:
+      name: M3 x 8mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=22482"
+        amazon_us:
+          url: "https://www.amazon.com/Fullerkreg-Socket-Stainless-Machine-Quantity/dp/B07CJ9BRCK/"
+    shcs_m3_10:
+      name: M3 x 10mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=22483"
+        amazon_us:
+          url: "https://www.amazon.com/Fullerkreg-Socket-Stainless-Machine-Quantity/dp/B07CK3RSN3"
+    shcs_m3_12:
+      name: M3 x 12mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=22484"
+    shcs_m3_14:
+      name: M3 x 14mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=22485"
+    shcs_m3_15:
+      name: M3 x 15mm SHCS
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/M3-0-5-Socket-Screws-Stainless-Machine/dp/B0CG2968F1"
+    shcs_m3_16:
+      name: M3 x 16mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6382"
+    shcs_m3_18:
+      name: M3 x 18mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=22487"
+    shcs_m3_20:
+      name: M3 x 20mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=22488"
+    shcs_m3_22:
+      name: M3 x 22mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=18867"
+    shcs_m3_25:
+      name: M3 x 25mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6384"
+    shcs_m3_30:
+      name: M3 x 30mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6385"
+    shcs_m3_35:
+      name: M3 x 35mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6386"
+    shcs_m3_40:
+      name: M3 x 40mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6387"
+    shcs_m3_45:
+      name: M3 x 45mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6388"
+    shcs_m3_50:
+      name: M3 x 50mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6389"
+    
+  # Button head cap screws
+  DIN 7380:
+    # M3 BHCS
+    bhcs_m3_6:
+      name: M3 x 6mm BHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=7218"
+    bhcs_m3_8:
+      name: M3 x 8mm BHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=7219"
+
+  Other Fasteners:
+    hsi_m3_5od_4l:
+      name: M3 x 5mm OD x 4mm L Insert
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/uxcell-Knurled-Insert-Female-Embedding/dp/B09MCWTBCC"
+          note: 120pk
+        fabreeko:
+          url: "https://www.fabreeko.com/products/cnc-kitchen-heat-inserts-m2-m8?_pos=1&_sid=09bf25e0f&_ss=r&variant=44311958061311"
+          note: 100pk
+        kb3d:
+          url: "https://kb-3d.com/store/inserts-fasteners-adhesives/278-brass-heat-set-threaded-insert-for-plastic-m3x5x4mm.html"
+          note: Sold as eaches.
+    standoff_m2.5_10_6:
+      name: M2.5 Brass Standoff, Female/Male, 10mm + 6mm
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/YOKIVE-Standoff-Standoffs-Consistent-Motherboard/dp/B0BK9C7849"
+    standoff_m2.5_12_6:
+      name: M2.5 Brass Standoff, Female/Male, 12mm + 6mm
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Female-Standoff-Quadcopter-Computer-Circuit/dp/B0CJCHCRVJ/"
+  ###
+  Fan:
+  ###
+    fan_4010:
+      name: 40mm x 10mm Axial Fan
+      img: img/parts/fan_4010.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/dp/B08R9L9YR2"
+        kb3d:
+          url: "https://kb-3d.com/store/fans/455-sunon-4010-fan-24v-maglev-1642214237163.html"
+          note: Sunon Maglev 24V
+    fan_4020:
+      name: 40mm x 20mm Axial Fan 
+      img: img/parts/fan_4020.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Wathai-40x40x20mm-40mm-Burshless-Cooling/dp/B07PYWVPMY"
+          note: Wathai Brushless 24V
+    fan_blower_5015:
+      name: 50mm x 15mm Radial Blower
+      img: img/parts/5015_blower.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/GDSTIME-Brushless-Bearing-Cooling-Extruder/dp/B0B1V6JTB8/"
+          note: GDSTIME Brushless 24V
+        kb3d:
+          url: "https://kb-3d.com/store/fans/501-sunon-5015-blower-fan-24v-maglev-1646515411413.html"
+          note: Sunon Maglev 24V
+    fan_rlf35_8:
+      name: Papst RLF35-8
+      img: img/parts/fan_rlf35_8.webp
+      sources:
+        digikey:
+          url: "https://www.digikey.com/en/products/detail/ebm-papst-inc/RLF35-8-14N/8611997"
+  
+  ###
+  Other:
+  ###
+    cpap_hose_15mm:
+      name: 15mm CPAP Hose
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Standard-Plastic-Philips-Respironics-DreamStation-15mm-PR15/dp/B01FS0IWA6/"
+          note: 6ft/1.8m
+    zip_tie_100mm:
+      name: Zip Tie 100mm/4"
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Cable-Nylon-Locking-Pieces-Black/dp/B07VRSQ6YL"
+          note: 200 pk
+    magnets_6_3:
+      name: 6mm x 3mm Magnet
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/gp/product/B08M3YP56J"
+          note: 50 pk
+  ###
+  Filament:
+  ###
+    filament_asa:
+      name: ASA Filament, 1kg
+      units: kg
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/gp/product/B09DKR3BTG/"
+  
+  ###
+  Electrical Connector:
+  ###
+    conn_f_spade_14-16:
+      name: Insulated Spade Connector, Female, 14-16 awg
+      img: img/parts/conn_f_spade_14-16.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/gp/product/B07FQB6WXP"
+          note: 100 pk
+    conn_fork_14-16:
+      name: "Insulated Fork Connector, #8, 14-16 awg"
+      img: img/parts/conn_fork_14-16.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Baomain-Insulated-Connector-Electrical-Terminal/dp/B01B1DL4OA"
+          note: 100 pk
+    wago_221_412:
+      name: Wago 221-412 2-Position Lever Nut
+      img: img/parts/wago_221_412.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/WAGO-221-412-Lever-Nuts-2-Conductor-Connectors/dp/B07W4RQ6R6"
+    wago_221_413:
+      name: Wago 221-413 3-Position Lever Nut
+      img: img/parts/wago_221_413.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Wago-221-413-LEVER-NUTS-Conductor-Connectors/dp/B06XGYXVXR"
+    wago_221_415:
+      name: Wago 221-415 5-Position Lever Nut
+      img: img/parts/wago_221_415.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Wago-221-413-LEVER-NUTS-Conductor-Connectors/dp/B06XGYXVXR"
+    kit_jst_sm:
+      name: JST SM Kit
+      img: img/parts/kit_jst_sm.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/gp/product/B07D9HRDT6"
+          note: 2-5 Position
+    kit_molex_mf3:
+      name: Molex MicroFit 3.0 Kit
+      img: img/parts/kit_molex_mf3.webp
+      sources:
+        kb3d:
+          url: "https://kb-3d.com/store/wiring-connectors/421-molex-microfit-30-connector-kit-360-pieces-1639956145863.html"
+          note: 2-4 Position
+    kit_jst_xh:
+      name: JST XH Connector Kit
+      img: img/parts/kit_jst_xh.webp
+      sources:
+        kb3d:
+          url: "https://kb-3d.com/store/wiring-connectors/422-jst-xh-connector-kit-195-pieces-1639956145863.html"
+          note: 2-4 Position
+        amazon_us:
+          url: "https://www.amazon.com/Connector-Housing-Adapter-Terminal-Connectors/dp/B0BZDCGJ32"
+          note: 2-6 Position
+    kit_jst_ph:
+      name: JST PH Connector Kit
+      img: img/parts/kit_jst_ph.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Taiss-Connector-Housing-Connectors-F-066-580PCS/dp/B0BHT1FQGY"
+          note: 2-6 position, 580pcs
+  Other Electrical:
+    wire_16awg:
+      name: Stranded Silicone Hookup Wire, 16 awg/1.25mm^2^
+      img: img/parts/wire_16awg.webp
+      units: cm
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/BNTECHGO-Silicone-Flexible-Strands-Stranded/dp/B00TG1TRL2"
+    wire_20awg:
+      name: Stranded Silicone Hookup Wire, 20 awg/0.5mm^2^
+      units: cm
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/gp/product/B08CC1DLQF" 
+          note: 6 colors, 7m/ea
+    wire_24awg:
+      name: Stranded Silicone Hookup Wire, 24 awg/0.5mm^2^
+      units: cm
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/gp/product/B087TJNJZS"
+          note: 6 colors, 9m/ea
+
+    #TODO heatshrink
+
+  ###
+  Hotends:
+  ###
+    3dpassion_nova:
+      name: 3D Passion Nova
+      img: img/parts/passion.png
+    e3d_revo_voron:
+      name: E3D REVO Voron
+      img: img/parts/revo_voron.png
+    e3d_revo_micro:
+      name: E3D REVO Micro
+      img: img/parts/revo_micro.png
+    e3d_v6:
+      name: E3D V6
+      img: img/parts/e3d_v6.png
+    slice_mosquito:
+      name: Slice Engineering Mosquito
+      img: img/parts/mosquito.png
+    phaetus_dragon:
+      name: Phaetus Dragon SF/HF
+      img: img/parts/dragon.png
+    phaetus_dragon_uhf:
+      name: Phaetus Dragon UHF
+      img: img/parts/dragon_uhf.png
+    phaetus_dragonfly_bmo:
+      name: Phaetus Dragonfly BMO
+      img: img/parts/dragonfly_bmo.png
+    phaetus_dragonfly_bms:
+      name: Phaetus Dragonfly BMS
+      img: img/parts/dragonfly_bms.png
+    phaetus_rapido:
+      name: Phaetus Rapido
+      img: img/parts/rapido.png
+    phaetus_rapido_uhf:
+      name: Phaetus Rapido UHF
+      img: img/parts/rapido.png
+  
+  Extruders:
+    bondtech_bmg:
+      name: Bondtech BMG
+      img: img/components/bmg.png
+    galileo2:
+      name: Galileo 2 StandAlone
+      img: img/components/g2sa.webp
+    hextrudort:
+      name: Hextrudort-Low
+      img: img/components/hextrudort.png
+    bondtech_lgx:
+      name: Bondtech LGX
+      img: img/components/lgx.png
+    bondtech_lgx_lite:
+      name: Bondtech LGX Lite
+      img: img/components/lgx_lite.png
+    orbiter1_5:
+      name: Orbiter 1.5
+      img: img/components/orbiter_1_5.png
+    orbiter2:
+      name: Orbiter 2
+      img: img/drivers/orbiter_2_0.png
+    annex_sherpa_micro:
+      name: Annex Sherpa Micro
+      img: img/components/sherpa_micro.png
+    annex_sherpa_mini:
+      name: Annex Sherpa Mini
+      img: img/components/sherpa_mini.png
+    e3d_titan:
+      name: E3D Titan
+      img: img/components/titan.png
+
+  Input Shapers:
+    adxl345:
+      name: ADXL345
+    fysetc_pis:
+      name: FYSETC Portable Input Shaper
+
+  ABL:
+    8mm_probe:
+      name: 8mm Inductive Probe
+    bltouch:
+      name: BLTouch
+    cr_touch:
+      name: Creality CR-Touch
+    beacon:
+      name: Annex Beacon Low-Profile Kit
+    
+  Switches:
+    switch_horizontal:
+      name: Horizontal Limit Switch
+      img: img/parts/switch_horizontal.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/REIFENG-Mechanical-Vertical-Printers-Accessories/dp/B08CDF3Q6T/"
+          note: 6 pk
+    microswitch_lever:
+      name: Omron D2F-5L
+      img: img/parts/omron_d2f_5l.webp
+      sources:
+        kb3d:
+          url: "https://kb-3d.com/store/omron/173-omron-d2f-5l-snap-action-micro-switch-limit-switch-1634505070092.html"
+
+  Printed:
+    front_basic:
+      name: front_basic.stl
+      file_url: /STL/front/front_basic.stl
+    front_pis:
+      name: front_fysetc_pis.stl
+      file_url: /STL/front/front_fysetc_pis.stl
+    front_adxl_345:
+      name: front_adxl345.stl
+      file_url: /STL/front/front_adxl345.stl
+    belt_grabber:
+      name: belt_grabber.stl
+      file_url: /STL/front/belt_grabber.stl
+    cable_anchor:
+      name: cable_anchor.stl
+      file_url: /STL/top/cable_anchor.stl
+    top_left_endstop:
+      name: top_left_endstop.stl
+      file_url: /STL/top/top_left_endstop.stl
+    top_left_endstop_anchor:
+      name: top_left_endstop_anchor.stl
+      file_url: /STL/top/top_left_endstop_anchor.stl
+    top_no_endstop:
+      name: top_no_endstop.stl
+      file_url: /STL/top/top_no_endstop.stl
+    top_right_endstop:
+      name: top_right_endstop.stl
+      file_url: /STL/top/top_right_endstop.stl
+    top_right_endstop_anchor:
+      name: top_right_endstop_anchor.stl
+      file_url: /STL/top/top_right_endstop_anchor.stl
+    rear_single_5015:
+      name: rear_inlet_single_5015.stl
+      file_url: /STL/rear/rear_inlet_single_5015.stl
+    rear_single_5015_eva:
+      name: rear_5015_inlet.stl
+      file_url: /STL/rear/rear_5015_inlet.stl
+    rear_single_5015_beacon:
+      name: rear_inlet_single_5015_beacon.stl
+      file_url: /STL/rear/rear_inlet_single_5015_beacon.stl
+    rear_inlet_rlf35_8:
+      name: rear_inlet_single_papst_rlf35.stl
+      file_url: /STL/rear/rear_inlet_single_papst_rlf35.stl
+    rear_inlet_rlf35_8_beacon:
+      name: rear_inlet_single_papst_rlf35_beacon.stl
+      file_url: /STL/rear/rear_inlet_single_papst_rlf35_beacon.stl
+    screw_cap:
+      name: screw_cap.stl
+      file_url: /STL/rear/screw_cap.stl
+    rear_inlet_15mm_cpap:
+      name: rear_inlet_15mm_cpap.stl
+      file_url: /STL/rear/rear_inlet_15mm_cpap.stl
+    rear_inlet_15mm_cpap_beacon:
+      name: rear_inlet_15mm_cpap_beacon.stl
+      file_url: /STL/rear/rear_inlet_15mm_cpap_beacon.stl
+    rear_inlet_dual_5015:
+      name: dual_5015_inlet.stl
+      file_url: /STL/rear/dual_5015_inlet.stl
+    rear_inlet_dual_5015_owl_eyes:
+      name: rear_dual_5015_owl_eyes.stl
+      file_url: /STL/rear/rear_dual_5015_owl_eyes.stl
+    rear_inlet_15mm_cpap:ear_stock_intake_adapter:
+      name: stock_intake_adapter.stl
+      file_url: /STL/rear/stock_intake_adapter.stl
+    dual_horns:
+      name: stock_bottom.stl
+      file_url: /STL/bottom/stock_bottom.stl
+    trihorns:
+      name: stock_bottom_trihorn.stl
+      file_url: /STL/bottom/stock_bottom_trihorn.stl
+    dual_horns_uhf:
+      name: stock_bottom_uhf.stl
+      file_url: /STL/bottom/stock_bottom_uhf.stl
+    dual_horns_klicky:
+      name: klicky_bottom.stl
+      file_url: /STL/bottom/klicky_bottom.stl
+    trihorns_klicky:
+      name: klicky_bottom_trihorn.stl
+      file_url: /STL/bottom/klicky_bottom_trihorn.stl
+    dual_horns_uhf_klicky:
+      name: klicky_bottom_uhf.stl
+      file_url: /STL/bottom/klicky_bottom_uhf.stl
+    dual_horns_beacon:
+      name: beacon_bottom.stl
+      file_url: /STL/bottom/beacon_bottom.stl
+    dual_horns_beacon_no_hsi:
+      name: beacon_bottom_no_hsi.stl
+      file_url: /STL/bottom/beacon_bottom_no_hsi.stl
+    trihorns_beacon:
+      name: beacon_bottom_trihorns.stl
+      file_url: /STL/bottom/beacon_bottom_trihorns.stl
+    dual_horns_uhf_beacon:
+      name: beacon_bottom_uhf.stl
+      file_url: /STL/bottom/beacon_bottom_uhf.stl
+    abl_8mm_probe:
+      name: abl_8mm_probe.stl
+      file_url: /STL/abl/abl_8mm_probe.stl
+    abl_bl_touch:
+      name: abl_bl_touch.stl
+      file_url: /STL/abl/abl_bl_touch.stl
+    abl_bl_touch_uhf:
+      name: abl_bl_touch_uhf.stl
+      file_url: /STL/abl/abl_bl_touch_uhf.stl
+    abl_cr_touch:
+      name: abl_cr_touch.stl
+      file_url: /STL/abl/abl_cr_touch.stl
+    abl_cr_touch_uhf: 
+      name: abl_cr_touch_uhf.stl
+      file_url: /STL/abl/abl_cr_touch_uhf.stl
+    drive_bmg:
+      name: drive_bmg.stl
+      file_url: /STL/drives/drive_bmg.stl
+    drive_creality_sprite_se:
+      name: drive_creality_sprite_se.stl
+      file_url: /STL/drives/drive_creality_sprite_se.stl
+    drive_lgx:
+      name: drive_lgx.stl
+      file_url: /STL/drives/drive_lgx.stl
+    drive_lgx_lite:
+      name: drive_lgx_lite.stl
+      file_url: /STL/drives/drive_lgx_lite.stl
+    drive_orbiter_1_5:
+      name: drive_orbiter_1_5.stl
+      file_url: /STL/drives/drive_orbiter_1_5.stl
+    drive_orbiter_2:
+      name: drive_orbiter_2_0.stl
+      file_url: /STL/drives/drive_orbiter_2_0.stl
+    drive_sherpa_mini:
+      name: drive_sherpa_mini.stl
+      file_url: /STL/drives/drive_sherpa_mini.stl
+
+    hotend_dragon_sf:
+      name: hotend_dragon_bmo.stl
+      file_url: /STL/hotend/hotend_dragon_bmo.stl
+    hotend_dragon_uhf:
+      name: hotend_dragon_uhf.stl
+      file_url: /STL/hotend/hotend_dragon_uhf.stl
+    hotend_dragonfly_bmo:
+      name: hotend_dragonfly_bmo.stl
+      file_url: /STL/hotend/hotend_dragonfly_bmo.stl
+    hotend_dragonfly_bms:
+      name: hotend_dragonfly_bms.stl
+      file_url: /STL/hotend/hotend_dragonfly_bms.stl
+    hotend_mosquito:
+      name: hotend_mosquito.stl
+      file_url: /STL/hotend/hotend_mosquito.stl
+    hotend_nova:
+      name: hotend_nova.stl
+      file_url: /STL/hotend/hotend_nova.stl
+    hotend_rapido:
+      name: hotend_rapido.stl
+      file_url: /STL/hotend/hotend_rapido.stl
+    hotend_rapido_uhf:
+      name: hotend_rapido_uhf.stl
+      file_url: /STL/hotend/hotend_rapido_uhf.stl
+    hotend_revo_voron:
+      name: hotend_revo_voron.stl
+      file_url: /STL/hotend/hotend_revo_voron.stl
+
+    e5plus_x_axis_stop_block:
+      name: e5plus_x_axis_stop_block.stl
+      file_url: /STL/misc/e5plus_x_axis_stop_block.stl
+    taller_x_axis_stop_block:
+      name: taller_x_axis_stop_block.stl
+      file_url: /STL/misc/taller_x_axis_stop_block.stl
+    x_axis_max_x_stop_block:
+      name: x_axis_max_x_stop_block.stl
+      file_url: /STL/misc/x_axis_max_x_stop_block.stl
+    x_axis_stop_block:
+      name: x_axis_stop_block.stl
+      file_url: /STL/misc/x_axis_stop_block.stl
+    z_limit_switch_mount:
+      name: z_limit_switch_mount.stl
+      file_url: /STL/misc/z_limit_switch_mount.stl
+    z_limit_switch_cover:
+      name: z_limit_switch_cover.stl
+      file_url: /STL/misc/z_limit_switch_cover.stl
+    
+    nema17_pcb36_mount:
+      name: pcb36_mount.stl
+      file_url: /STL/pcb/mounts/pcb36_mount.stl
+    nema17_pcb_36_mount_cable_chain:
+      name: pcb36_mount_cable_chain.stl
+      file_url: /STL/pcb/mounts/pcb36_mount_cable_chain.stl
+    nema17_pcb42_mount:
+      name: pcb42_mount.stl
+      file_url: /STL/pcb/mounts/pcb42_mount.stl
+    nema17_pcb_42_mount_cable_chain:
+      name: pcb42_mount_cable_chain.stl
+      file_url: /STL/pcb/mounts/pcb42_mount_cable_chain.stl
+    pcb_shroud_30mm_fan:
+      name: pcb_shroud_30mm_fan.stl
+      file_url: /STL/pcb/shrouds/pcb_shroud_30mm_fan.stl
