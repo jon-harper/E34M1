@@ -22,7 +22,7 @@ date: 2023-4-19
 
 </div>
 <div markdown class="jh-grid-img">
-![Name](../img/parts/drive_){ width=256px}
+![Name](../img/components/drive_){ width=256px}
 </div>
 </div>
 -->
@@ -56,7 +56,7 @@ The Sherpa Mini has two front faces. How the stepper and extruder are secured ag
 
 </div>
 <div markdown class="jh-grid-img">
-![Annex Sherpa Mini](../img/parts/sherpa_mini.png){ width=256px}
+![Annex Sherpa Mini](../img/components/sherpa_mini.png){ width=256px}
 
 ??? info "Heat Set Insert Locations"
     ![bottom_illustration](../img/inserts/sherpa_mini.png){ width=256px}
@@ -86,7 +86,7 @@ This extruder needs 28.9mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
-![Bondtech BMG](../img/parts/bmg.png){ width=256px}
+![Bondtech BMG](../img/components/bmg.png){ width=256px}
 </div>
 </div>
 
@@ -112,7 +112,7 @@ This extruder needs 20.8mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
-![Bondtech LGX](../img/parts/lgx.png){ width=256px}
+![Bondtech LGX](../img/components/lgx.png){ width=256px}
 </div>
 </div>
 
@@ -139,7 +139,7 @@ This extruder needs 14.2mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
-![Bondtech LGX Lite](../img/parts/lgx_lite.png){ width=256px}
+![Bondtech LGX Lite](../img/components/lgx_lite.png){ width=256px}
 </div>
 </div>
 
@@ -167,7 +167,7 @@ This extruder needs 22.2mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
-![Orbiter 1.5](../img/parts/orbiter_1_5.png){ width=256px}
+![Orbiter 1.5](../img/components/orbiter_1_5.png){ width=256px}
 
 ??? info "Heat Set Insert Locations"
     ![bottom_illustration](../img/inserts/orbiter_1_5.png){ width=256px}
@@ -198,7 +198,7 @@ This extruder needs 17.95mm of PTFE.
 
 </div>
 <div markdown class="jh-grid-img">
-![Orbiter 2.0](../img/parts/orbiter_2_0.png){ width=256px}
+![Orbiter 2.0](../img/components/orbiter_2_0.png){ width=256px}
 
 ??? info "Heat Set Insert Locations"
     ![bottom_illustration](../img/inserts/orbiter_2_0.png){ width=256px}

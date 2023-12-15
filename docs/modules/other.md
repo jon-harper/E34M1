@@ -25,7 +25,7 @@ Hotend cooling fans may be attached using an intake duct that allows two (2) scr
 
 </div>
 <div markdown class="jh-grid-img">
-![intake_illustration](../img/parts/intake_duct.png){ width=256px }
+![intake_illustration](../img/components/intake_duct.png){ width=256px }
 
 ??? info "Heat Set Insert Locations"
     ![front_intake_illustration](../img/inserts/front_intake.png){width=200px}
@@ -51,7 +51,7 @@ This part is necessary for Ender 5 Pros with stock (non-Hydra) Z kinematics. Thi
 
 </div>
 <div markdown class="jh-grid-img">
-![z_endstop_illustration](../img/parts/z_limit_switch.png){ width=256px }
+![z_endstop_illustration](../img/components/z_limit_switch.png){ width=256px }
 
 ??? info "Heat Set Insert Locations"
     ![z_endstop_illustration](../img/inserts/z_mount.png){ width=256px }

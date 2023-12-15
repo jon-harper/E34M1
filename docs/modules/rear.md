@@ -46,7 +46,7 @@ CPAP hoses typically come with a latching mechanism on each end; these must be r
 
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/rear_15mm_cpap.png){ width=256px}
+![inlet_illustration](../img/components/rear_15mm_cpap.png){ width=256px}
 
 </div>
 </div>
@@ -81,7 +81,7 @@ CPAP hoses typically come with a latching mechanism on each end; these must be c
 
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/rear_15mm_cpap_beacon.png){ width=256px}
+![inlet_illustration](../img/components/rear_15mm_cpap_beacon.png){ width=256px}
 
 </div>
 </div>
@@ -112,7 +112,7 @@ CPAP hoses typically come with a latching mechanism on each end; these must be c
 
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/rear_22mm_cpap.png){ width=256px}
+![inlet_illustration](../img/components/rear_22mm_cpap.png){ width=256px}
 
 </div>
 </div> -->
@@ -142,7 +142,7 @@ This rear inlet is modified from the stock 5015. It offers plenty of airflow at 
 
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/dual_5015_inlet.png){ width=256px}
+![inlet_illustration](../img/components/dual_5015_inlet.png){ width=256px}
 
 ??? "Heat Set Inserts"
     ![inlet_illustration](../img/inserts/dual_5015_intake.png){ width=256px}
@@ -174,7 +174,7 @@ This inlet mounts two 5015 fans perpendicular to the toolhead (so that they look
 
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/dual_5015_inlet_owl_eyes.png){ width=256px}
+![inlet_illustration](../img/components/dual_5015_inlet_owl_eyes.png){ width=256px}
 
 ??? "Heat Set Inserts"
     ![inlet_illustration](../img/inserts/dual_5015_inlet_owl_eyes.png){ width=256px}
@@ -208,7 +208,7 @@ This is a modified version of the stock EVA 3 cooling inlet. It has a much-reduc
 
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/5015_inlet.png){ width=256px}
+![inlet_illustration](../img/components/5015_inlet.png){ width=256px}
 
 ??? "Heat Set Inserts"
     ![inlet_illustration](../img/inserts/inlet.png){ width=256px}
@@ -242,7 +242,7 @@ Use this if you are not sure which cooling inlet is best for you.
 
 </div>
 <div markdown class="jh-grid-para">
-![inlet_illustration](../img/parts/rear_single_5015.png){ width=256px}
+![inlet_illustration](../img/components/rear_single_5015.png){ width=256px}
 
 ??? "Heat Set Inserts"
     ![inlet_illustration](../img/inserts/rear_single_5015.png){ width=256px}
@@ -284,7 +284,7 @@ Note that the M3 x 6mm screw is a flat head cap screw.
 
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/rear_single_5015_beacon.png){ width=350px}
+![inlet_illustration](../img/components/rear_single_5015_beacon.png){ width=350px}
 
 ??? "Heat Set Inserts"
     ![inlet_illustration](../img/inserts/rear_single_5015.png){ width=256px}
@@ -325,7 +325,7 @@ This is an intake for a high-flow [Papst RLF35-8][bom_papst_rlf35] radial blower
 
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/papst_rlf35.png){ width=350px}
+![inlet_illustration](../img/components/papst_rlf35.png){ width=350px}
 
 ??? "Heat Set Inserts"
     ![inlet_illustration](../img/inserts/papst_rlf35.png){ width=256px}
@@ -368,7 +368,7 @@ Note that the M3 x 6mm screw and M3 x 50mm screws are flat head cap screws.
 
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/papst_rlf35_beacon.png){ width=350px}
+![inlet_illustration](../img/components/papst_rlf35_beacon.png){ width=350px}
 
 ??? "Heat Set Inserts"
     ![inlet_illustration](../img/inserts/papst_rlf35.png){ width=256px}
@@ -400,7 +400,7 @@ This allows stock EVA 3 rear cooling inlets to be used (e.g., [dual 5015 fans](h
 
 </div>
 <div markdown class="jh-grid-img">
-![inlet_illustration](../img/parts/stock_inlet_adapter.png){ width=256px}
+![inlet_illustration](../img/components/stock_inlet_adapter.png){ width=256px}
 </div>
 </div>
 

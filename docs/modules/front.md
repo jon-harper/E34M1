@@ -33,7 +33,7 @@ Version of the Front that does not mount an accelerometer.
 
 </div>
 <div markdown class="jh-grid-img">
-![front_illustration](../img/parts/front_basic.png){ width=256px}
+![front_illustration](../img/components/front_basic.png){ width=256px}
 </div>
 </div>
 
@@ -74,7 +74,7 @@ Modification of the stock EVA Front for Mercury One. This mounts an ADXL345 acce
 
 </div>
 <div markdown class="jh-grid-img">
-![front_illustration](../img/parts/front_adxl.png){ width=256px}
+![front_illustration](../img/components/front_adxl.png){ width=256px}
 </div>
 </div>
 
@@ -118,7 +118,7 @@ Slightly modified Front that mounts a FYSETC portable input shaper.
 
 </div>
 <div markdown class="jh-grid-img">
-![front_illustration](../img/parts/front_pis.png){ width=256px}
+![front_illustration](../img/components/front_pis.png){ width=256px}
 </div>
 </div>
 

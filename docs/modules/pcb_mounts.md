@@ -42,7 +42,7 @@ Mounts a '36 toolhead PCB with anchor points a cable guide. Meant for umbilical 
 
 </div>
 <div markdown class="jh-grid-img">
-![pcb36_illustration](../img/parts/pcb36.png){ width=200px }
+![pcb36_illustration](../img/components/pcb36.png){ width=200px }
 
 ??? info "Heat Set Insert Locations"
     ![pcb36_illustration](../img/inserts/pcb36.png){ width=256px}
@@ -70,7 +70,7 @@ Mounts a '36 toolhead PCB with anchor points for an open drag chain.
 
 </div>
 <div markdown class="jh-grid-img">
-![pcb36_illustration](../img/parts/pcb36_cable_chain.png){ width=200px }
+![pcb36_illustration](../img/components/pcb36_cable_chain.png){ width=200px }
 
 ??? info "Heat Set Insert Locations"
     ![pcb36_illustration](../img/inserts/pcb36_chain.png){ width=256px}
@@ -99,7 +99,7 @@ Mounts a '46 toolhead PCB with anchor points a cable guide. Meant for umbilical 
 
 </div>
 <div markdown class="jh-grid-img">
-![pcb42_illustration](../img/parts/pcb42.png){ width=200px }
+![pcb42_illustration](../img/components/pcb42.png){ width=200px }
 
 ??? info "Heat Set Insert Locations"
     ![pcb42_illustration](../img/inserts/pcb42.png){ width=256px}
@@ -127,7 +127,7 @@ Mounts a '46 toolhead PCB with anchor points for an open drag chain.
 
 </div>
 <div markdown class="jh-grid-img">
-![pcb42_illustration](../img/parts/pcb42_cable_chain.png){ width=200px }
+![pcb42_illustration](../img/components/pcb42_cable_chain.png){ width=200px }
 
 ??? info "Heat Set Insert Locations"
     ![pcb42_illustration](../img/inserts/pcb42_chain.png){ width=200px}
@@ -158,7 +158,7 @@ The cat face shroud is purely cosmetic and uses the same materials as the stock 
 
 </div>
 <div markdown class="jh-grid-img">
-![pcb42_illustration](../img/parts/pcb_shrouds.png){ width=400px }
+![pcb42_illustration](../img/components/pcb_shrouds.png){ width=400px }
 </div>
 </div>
 
@@ -177,7 +177,7 @@ The cat face shroud is purely cosmetic and uses the same materials as the stock 
 
 </div>
 <div markdown class="jh-grid-img">
-![pcb42_illustration](../img/parts/pcb_shroud_30mm.png){ width=200px }
+![pcb42_illustration](../img/components/pcb_shroud_30mm.png){ width=200px }
 </div>
 </div>
 

@@ -34,7 +34,7 @@ These ABL and hotend length combinations are available:
 
 </div>
 <div markdown class="jh-grid-img">
-![8mm_probe_illustration](../img/parts/abl_8mm_probe.png){ width=100px }
+![8mm_probe_illustration](../img/components/abl_8mm_probe.png){ width=100px }
 
 ??? "Heat Set Insert Locations"
     ![inserts](../img/inserts/abl_8mm_probe.png){width="150px"}
@@ -64,7 +64,7 @@ Mounts a BLTouch.
 
 </div>
 <div markdown class="jh-grid-img">
-![bltouch_illustration](../img/parts/abl_bl_touch.png){ width=100px }
+![bltouch_illustration](../img/components/abl_bl_touch.png){ width=100px }
 
 ??? "Heat Set Insert Locations"
     ![inserts](../img/inserts/abl_bl_touch.png){width="200px"}
@@ -93,7 +93,7 @@ Adds support for BLTouch for longer hotends.
 
 </div>
 <div markdown class="jh-grid-img">
-![UHF BLTouch illustration](../img/parts/abl_bl_touch_uhf.png){ width=100px }
+![UHF BLTouch illustration](../img/components/abl_bl_touch_uhf.png){ width=100px }
 
 ??? "Heat Set Insert Locations"
     ![inserts](../img/inserts/abl_bl_touch_uhf.png){width="150px"}
@@ -119,7 +119,7 @@ Adds support for BLTouch for longer hotends.
 
 </div>
 <div markdown class="jh-grid-img">
-![cr_touch_illustration](../img/parts/abl_cr_touch.png){ width=100px }
+![cr_touch_illustration](../img/components/abl_cr_touch.png){ width=100px }
 
 ??? "Heat Set Insert Locations"
     ![inserts](../img/inserts/abl_cr_touch.png){width="150px"}
@@ -148,7 +148,7 @@ Legacy support for Volcano hotends is availabe through [Psych0h3ad](https://www.
 
 </div>
 <div markdown class="jh-grid-img">
-![cr_touch_illustration](../img/parts/abl_cr_touch_uhf.png){ width=100px }
+![cr_touch_illustration](../img/components/abl_cr_touch_uhf.png){ width=100px }
 
 ??? "Heat Set Insert Locations"
     ![inserts](../img/inserts/abl_cr_touch_uhf.png){width="150px"}

@@ -46,7 +46,7 @@ This part has the X endstop on the left side.
 
 </div>
 <div markdown class="jh-grid-img">
-![top_illustration](../img/parts/top_left_endstop.png){ width=256px}
+![top_illustration](../img/components/top_left_endstop.png){ width=256px}
 
 ??? info "Heat Set Insert Locations"
     ![top_pcb_illustration](../img/inserts/top_left_endstop.png){ width=200px}
@@ -81,7 +81,7 @@ This part has the X endstop on the left side.
 
 </div>
 <div markdown class="jh-grid-img">
-![top_illustration](../img/parts/top_left_endstop_anchor.png){ width=256px}
+![top_illustration](../img/components/top_left_endstop_anchor.png){ width=256px}
 
 ??? info "Heat Set Insert Locations"
     ![top_pcb_illustration](../img/inserts/top_left_endstop_anchor.png){ width=200px}
@@ -112,7 +112,7 @@ A Top for PCB mount users without a cable guide. See [Toolhead PCB Mount](#toolh
 
 </div>
 <div markdown class="jh-grid-img">
-![top_illustration](../img/parts/top_right_endstop.png){ width=256px}
+![top_illustration](../img/components/top_right_endstop.png){ width=256px}
 
 ??? info "Heat Set Insert Locations"
     ![top_pcb_illustration](../img/inserts/top_right_endstop.png){ width=200px}
@@ -145,7 +145,7 @@ This is a stock EVA Top piece modified for users with umbilicals.
 
 </div>
 <div markdown class="jh-grid-img">
-![top_illustration](../img/parts/top_right_endstop_anchor.png){ width=256px}
+![top_illustration](../img/components/top_right_endstop_anchor.png){ width=256px}
 
 ??? info "Heat Set Insert Locations"
     ![top_pcb_illustration](../img/inserts/top_right_endstop_anchor.png){ width=200px}
@@ -176,7 +176,7 @@ Note that this does not have an anchor for an umbilical.
 
 </div>
 <div markdown class="jh-grid-img">
-![top_illustration](../img/parts/top_no_endstop.png){ width=256px}
+![top_illustration](../img/components/top_no_endstop.png){ width=256px}
 
 ??? info "Heat Set Insert Locations"
     ![top_pcb_illustration](../img/inserts/top_no_endstop.png){ width=200px}

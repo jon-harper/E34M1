@@ -26,7 +26,7 @@ date: 2023-4-5
 
 </div>
 <div markdown class="jh-grid-img">
-![Name](../img/parts/hotend_){ width=256px}
+![Name](../img/components/hotend_){ width=256px}
 </div>
 </div>
 -->
@@ -56,7 +56,7 @@ This hotend requires 39.65mm of PTFE tubing. It uses standard-length Bottom Horn
 
 </div>
 <div markdown class="jh-grid-img">
-![Name](../img/parts/hotend_nova.png){ width=256px}
+![Name](../img/components/hotend_nova.png){ width=256px}
 </div>
 </div>
 
@@ -83,7 +83,7 @@ This hotend requires 27.15mm of PTFE tubing. It uses standard-length Bottom Horn
 
 </div>
 <div markdown class="jh-grid-img">
-![REVO Voron](../img/parts/hotend_revo_voron.png){ width=256px}
+![REVO Voron](../img/components/hotend_revo_voron.png){ width=256px}
 </div>
 </div>
 
@@ -112,7 +112,7 @@ This hotend requires 24.5mm of PTFE tubing. It uses standard-length Bottom Horns
 
 </div>
 <div markdown class="jh-grid-img">
-![Dragon BMO](../img/parts/hotend_dragon_bmo.png){ width=256px}
+![Dragon BMO](../img/components/hotend_dragon_bmo.png){ width=256px}
 </div>
 </div>
 
@@ -139,7 +139,7 @@ This hotend requires 15mm of PTFE tubing. It uses standard-length Bottom Horns (
 
 </div>
 <div markdown class="jh-grid-img">
-![Dragon UHF](../img/parts/hotend_dragon_uhf.png){ width=256px}
+![Dragon UHF](../img/components/hotend_dragon_uhf.png){ width=256px}
 </div>
 </div>
 
@@ -166,7 +166,7 @@ This hotend requires 39.5mm of PTFE tubing. It uses standard-length Bottom Horns
 
 </div>
 <div markdown class="jh-grid-img">
-![Dragonfly BMO](../img/parts/hotend_dragonfly_bmo.png){ width=256px}
+![Dragonfly BMO](../img/components/hotend_dragonfly_bmo.png){ width=256px}
 </div>
 </div>
 
@@ -200,7 +200,7 @@ This hotend requires approximately 20mm of PTFE tubing. It uses standard-length 
 
 </div>
 <div markdown class="jh-grid-img">
-![Dragonfly BMS](../img/parts/hotend_dragonfly_bms.png){ width=256px}
+![Dragonfly BMS](../img/components/hotend_dragonfly_bms.png){ width=256px}
 </div>
 </div>
 
@@ -227,7 +227,7 @@ This hotend requires 29.8mm of PTFE tubing. It uses standard-length Bottom Horns
 
 </div>
 <div markdown class="jh-grid-img">
-![Rapido](../img/parts/hotend_rapido.png){ width=256px}
+![Rapido](../img/components/hotend_rapido.png){ width=256px}
 </div>
 </div>
 
@@ -254,7 +254,7 @@ This hotend requires 27.23mm of PTFE tubing. It requires UHF Bottom Horns.
 
 </div>
 <div markdown class="jh-grid-img">
-![Rapido](../img/parts/hotend_rapido_uhf.png){ width=256px}
+![Rapido](../img/components/hotend_rapido_uhf.png){ width=256px}
 </div>
 </div>
 
@@ -281,7 +281,7 @@ This hotend resquires 22.6mm of PTFE tubing. It requires the trihorn Bottom Horn
 
 </div>
 <div markdown class="jh-grid-img">
-![Mosquito](../img/parts/hotend_mosquito.png){ width=256px}
+![Mosquito](../img/components/hotend_mosquito.png){ width=256px}
 </div>
 </div>
 
@@ -302,7 +302,7 @@ These hotends are third party mounts that use either EVA-style inserts or hex nu
 
 </div>
 <div markdown class="jh-grid-img">
-![revo_micro_image](../img/hotends/revo_micro.png){width="200px"}
+![revo_micro_image](../img/parts/revo_micro.png){width="200px"}
 </div>
 <div markdown class="jh-grid-para">
 
@@ -314,6 +314,6 @@ These hotends are third party mounts that use either EVA-style inserts or hex nu
 [Link](https://www.printables.com/model/201093-eva-30-e3dv6-revo-revo-micro-hotends-mount){.md-button}
 </div>
 <div markdown class="jh-grid-img">
-![E3D V6](../img/hotends/e3d_v6.png){width="200px"}
+![E3D V6](../img/parts/e3d_v6.png){width="200px"}
 </div>
 </div>
