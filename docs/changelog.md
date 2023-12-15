@@ -5,6 +5,21 @@ authors: Jon Harper
 date: 2023-1-26
 ---
 
+## December 2023
+
+### 12/13/23
+
+- Merged in Creality Sprite SE drive.
+
+### 12/10/23
+
+- Added Galileo 2 SA (thanks cuiviemen)
+- Added Papst RL35-8 fan rear inlets (thanks again, cuiviemen)
+
+### 12/4/23
+
+- Fixed videos
+
 ## November 2023
 
 ### 11/27/23
