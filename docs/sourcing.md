@@ -3,7 +3,7 @@ title: Sourcing
 summary: List of parts and known sources
 authors: Jon Harper
 date: 2023-11-30
-prefix: '../'
+prefix: ''
 ---
 
 This page lists sources for (ideally all) parts used with E34M1.

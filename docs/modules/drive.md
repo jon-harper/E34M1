@@ -222,7 +222,7 @@ These are mounts from the larger EVA ecosystem that link to external sites.
 </div>
 </div>
 <div markdown class="jh-grid-img">
-![Galileo 2 StandAlone](../img/drives/drive_g2sa.webp){width="200px"}
+![Galileo 2 StandAlone](../img/parts/drive_g2sa.webp){width="200px"}
 </div>
 </div>
 
@@ -239,7 +239,7 @@ These are mounts from the larger EVA ecosystem that link to external sites.
 </div>
 </div>
 <div markdown class="jh-grid-img">
-![Annex Sherpa Micro](../img/drives/sherpa_micro.webp){width="200px"}
+![Annex Sherpa Micro](../img/parts/sherpa_micro.webp){width="200px"}
 </div>
 </div>
 
@@ -256,7 +256,7 @@ These are mounts from the larger EVA ecosystem that link to external sites.
 </div>
 </div>
 <div markdown class="jh-grid-img">
-![E3D Titan](../img/drives/titan.webp){width="200px"}
+![E3D Titan](../img/parts/titan.webp){width="200px"}
 </div>
 </div>
 
@@ -274,6 +274,6 @@ These are mounts from the larger EVA ecosystem that link to external sites.
 </div>
 </div>
 <div markdown class="jh-grid-img">
-![VzBoT3D Vz-HextrudORT Low](../img/drives/hextrudort.webp){width="200px"}
+![VzBoT3D Vz-HextrudORT Low](../img/parts/hextrudort.webp){width="200px"}
 </div>
 </div>

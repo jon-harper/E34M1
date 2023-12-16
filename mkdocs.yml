@@ -45,7 +45,7 @@ theme:
     - navigation.top
     - toc.integrate
     - toc.follow
-
+    - content.tooltips
   icon:
     logo: material/printer-3d-nozzle
   font:
@@ -54,15 +54,15 @@ theme:
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/lightbulb-auto
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: green
       accent: deep orange
       toggle:
         icon: material/lightbulb-on
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: green
       accent: deep orange
@@ -122,5 +122,6 @@ nav:
     - assembly/abl.md
     - assembly/final.md
   - changelog.md
-
+  - sourcing.md
+  - testing.md
   

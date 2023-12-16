@@ -35,6 +35,8 @@ class Product:
         self.assembly_types = []
 
         for comp_id, comp in components.items():
+            # Only add a component if it lacks a template or if the
+            # template is in the list.
             if not comp.template or comp.template in templates:
                 self.components[comp_id] = comp
                 if comp.comp_type not in self.assembly_types:
@@ -65,7 +67,8 @@ class Product:
                 if comp.attributes and attribute_filter in comp.attributes.keys():
                     if not attribute_value or attribute_value == comp.attributes[attribute_filter]:
                         ret[comp_id] = comp
-                ret[comp_id] = comp
+                else:
+                    ret[comp_id] = comp
             elif comp.attributes and attribute_filter in comp.attributes.keys():
                 if not attribute_value or attribute_value == comp.attributes[attribute_filter]:
                     ret[comp_id] = comp

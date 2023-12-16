@@ -62,9 +62,11 @@ def define_env(env):
             else:
                 return ret.format(':octicons-link-external-24:', url_text, part.file_url, 'External site file download')
         elif part.sources:
-            return ret.format(':material-cart:', url_text, prefix + 'sourcing.md#' + part_id, "Sourcing information")
+            return ret.format(':material-cart:', url_text, prefix + 'sourcing/#' + part_id, "Sourcing information")
         else:
             return url_text
+
+    env.macro(badge.badge)
 
     @env.macro
     def render_badges(comp : bom.Component, variant : bom.Variant, prefix='') -> str:
