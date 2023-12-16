@@ -1,15 +1,17 @@
+{% import 'badges.md'as badges -%}
+
 {% macro part_header(part_id, name) -%}
 <a name="{{part_id}}"></a> {{ name }}
 {% endmacro -%}
 
-{% macro comp_img(comp, width="240px", prefix = '') -%}
-{% if comp.img_url -%}
-    {% set url = prefix + comp.img_url -%}
-[![{{comp.name}}]({{url}}){ width="{{width}}" }]({{url}})
+{% macro add_image(obj, width="240px", prefix = '') -%}
+{% if obj.img_url -%}
+    {% set url = prefix + obj.img_url -%}
+[![{{obj.name}}]({{url}}){ width="{{width}}" }]({{url}})
 {% endif -%}
 {% endmacro -%}
 
-{% macro comp_note(comp) -%}
+{% macro add_note(comp) -%}
 {% if comp.note -%}
 {{ comp.note }}
 {% else -%}
@@ -29,12 +31,7 @@
 
 :octicons-paperclip-24: **General Notes**
 
-{{ comp_note(comp) }}
-</div>
-<div markdown>
-{{ comp_img(comp, width=img_width, prefix=prefix) }}
-</div>
-</div>
+{{ add_note(comp) }}
 
 :octicons-versions-24: **Details**
 
@@ -42,16 +39,65 @@
 {% set indent='    ' -%}
 {% for v in comp.variants -%}
 === "{{ v.name }}"
-    {{ render_badges(comp, v, prefix=prefix) }}
+    {{ badges.render(comp, v, prefix=prefix) }}
 
 {{ bom_table(v, indent=indent, prefix=prefix)}}
 {% endfor -%}
 {% else -%}
 {% set v = comp.variants[0] -%}
-{{ render_badges(comp, v, prefix=prefix) }}
+{{ badges.render(comp, v, prefix=prefix) }}
 
 {{ bom_table(v, prefix=prefix) }}
+{% endif -%} {# comp.variants | count > 1 #}
+</div>
+<div markdown>
+{{ add_image(comp, width=img_width, prefix=prefix) }}
+</div>
+</div>
+---------
+{% endmacro -%}
+
+{% macro variant_entry(comp, prefix='', img_width="240px") -%}
+{% for v in comp.variants -%}
+
+{% if comp.variants | count > 1 -%}
+### {{ v.name }}
+{% else -%}
+### {{ comp.name }}
 {% endif -%}
+
+<div markdown class="grid">
+<div markdown>
+{% if comp.attributes and comp.attributes['fit_test'] -%}
+
+{{issue_tag(comp.attributes['fit_test'])}}
+{% endif -%}
+
+:octicons-paperclip-24: **General Notes**
+
+{% if comp.variants | count > 1 -%}
+{{ add_note(v) }}
+{% else -%}
+{{ add_note(comp) }}
+{% endif -%}
+
+:octicons-versions-24: **Details**
+
+{{ badges.render(comp, v, prefix=prefix) }}
+
+{{ bom_table(v, indent='', prefix=prefix)}}
+</div>
+<div markdown>
+
+{% if comp.variants | count > 1 -%}
+{{ add_image(v, width=img_width, prefix=prefix) }}
+{% else -%}
+{{ add_image(comp, width=img_width, prefix=prefix) }}
+{% endif -%}
+
+</div>
+</div>
+{% endfor -%}
 ---------
 {% endmacro -%}
 
@@ -81,4 +127,32 @@
 {% endif -%}
 {% endfor -%}
 {% endif %}
+{% endmacro -%}
+
+{# I hate the way this macro is written, but a more concise version has newlines. #}
+{% macro part_link(part_id, part = None, prefix = '', url_text=None) -%}
+{% if not part -%}
+{% set part = product.partFromId(part_id=part_id) -%}
+{% endif -%}
+{% if not url_text -%}
+{% set url_text = part.name -%}
+{% endif -%}
+{% if not part.file_url and not part.sources -%}
+{{url_text}}{% else -%}
+{% if part.part_type == 'Printed' and part.file_url -%}
+{% if part.file_url.startswith(product.local_url_prefix) -%}
+{% set icon = ":material-git:" -%}
+{% set url = part.file_url -%}
+{% set tooltip = "E34M1 GitHub file download"-%}
+{% else -%}
+{% set icon = ':octicons-link-external-24:' -%}
+{% set url = part.file_url -%}
+{% set tooltip = 'External site file download'-%}
+{% endif -%}
+{% elif part.sources -%}
+{% set icon = ':material-cart:' -%}
+{% set url = prefix + 'sourcing.md#' + part_id -%}
+{% set tooltip =  'Sourcing information' -%}
+{% endif -%}
+[{{icon}} {{url_text}}]({{url}} "{{tooltip}}"){% endif -%}
 {% endmacro -%}
