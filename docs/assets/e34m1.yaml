@@ -47,6 +47,13 @@ suppliers:
     region: US
     ships: US
 parts:
+  DIN 125:
+    washer_m3:
+      name: M3 Washer
+      sources:
+        bolt_depot: 
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=4513"
+
   DIN 127:
     lock_washer_m3:
       name: M3 Split Lock Washer
@@ -179,7 +186,20 @@ parts:
       sources:
         bolt_depot:
           url: "https://www.boltdepot.com/Product-Details.aspx?product=7219"
+  # Flat head cap screws
 
+  DIN 7991:
+    fhcs_m3_6:
+      name: M3 x 6mm FHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Metric_socket_flat_head_Stainless_steel_18-8_(A-2)_6mm_x_1.0mm.aspx"
+    fhcs_m3_45:
+      name: M3 x 45mm FHCS
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Countersunk-Socket-Screws-50-Piece-Stainless/dp/B01HBN0YFE"
+          note: 50 pcs
   Other Fasteners:
     hsi_m3_5od_4l:
       name: M3 x 5mm OD x 4mm L Insert
@@ -336,7 +356,10 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/Taiss-Connector-Housing-Connectors-F-066-580PCS/dp/B0BHT1FQGY"
           note: 2-6 position, 580pcs
+  
+  ###
   Other Electrical:
+  ###
     wire_16awg:
       name: Stranded Silicone Hookup Wire, 16 awg/1.25mm^2^
       img: img/parts/wire_16awg.webp
@@ -361,6 +384,30 @@ parts:
 
     #TODO heatshrink
 
+  ###
+  Steppers:
+  ###
+    stepper_nema17_25mm:
+      name: NEMA17 stepper, 25mm
+      sources:
+        kb3d:
+          url: "https://kb-3d.com/store/spare-parts/226-bondtech-lgx-25mm-pancake-stepper-motor-7350011413805.html"
+
+    stepper_nema14_10t:
+      name: NEMA14 stepper, 10t integral gear
+      sources:
+        kb3d:
+          url: "https://kb-3d.com/store/stepper-motors/460-ldo-nema-14-high-temp-stepper-motor-36sth20-1004ahg-1640706867164.html"
+          note: LDO 36STH20-1004AHG
+        fabreeko:
+          url: "https://www.fabreeko.com/products/moons-nema-14-36mm-motors-for-clockwork-2-orbiter-sherpa"
+          note: Moons' CSE14RA1L410A-01
+    stepper_nema14_8t:
+      name: NEMA14 stepper, 8t integral gear
+      sources:
+        fabreeko:
+          url: "https://www.fabreeko.com/products/moons-nema-14-36mm-motors-for-clockwork-2-orbiter-sherpa"
+          note: LDO 36STH20-1004(G8T)
   ###
   Hotends:
   ###
@@ -492,6 +539,7 @@ parts:
     top_right_endstop_anchor:
       name: top_right_endstop_anchor.stl
       file_url: /STL/top/top_right_endstop_anchor.stl
+    
     rear_single_5015:
       name: rear_inlet_single_5015.stl
       file_url: /STL/rear/rear_inlet_single_5015.stl
@@ -521,8 +569,8 @@ parts:
       file_url: /STL/rear/dual_5015_inlet.stl
     rear_inlet_dual_5015_owl_eyes:
       name: rear_dual_5015_owl_eyes.stl
-      file_url: /STL/rear/rear_dual_5015_owl_eyes.stl
-    rear_inlet_15mm_cpap:ear_stock_intake_adapter:
+      file_url: /STL/rear/rear_dual_5015_owl_eyes.st    
+    rear_stock_intake_adapter:
       name: stock_intake_adapter.stl
       file_url: /STL/rear/stock_intake_adapter.stl
     dual_horns:
@@ -619,7 +667,9 @@ parts:
     hotend_revo_voron:
       name: hotend_revo_voron.stl
       file_url: /STL/hotend/hotend_revo_voron.stl
-
+    cable_guide:
+      name: Cable Guide
+      file_url: /STL/misc/cable_guide.stl
     e5plus_x_axis_stop_block:
       name: e5plus_x_axis_stop_block.stl
       file_url: /STL/misc/e5plus_x_axis_stop_block.stl
@@ -654,3 +704,441 @@ parts:
     pcb_shroud_30mm_fan:
       name: pcb_shroud_30mm_fan.stl
       file_url: /STL/pcb/shrouds/pcb_shroud_30mm_fan.stl
+subassemblies:
+  assy_hotend_fan:
+    fan_4010: 1
+    shcs_m3_12: 4
+  assy_hotend_common:
+    hsi_m3_5od_4l: 8
+    shcs_m3_6: 4
+    assy_limit_switch:
+      switch_horizontal: 1
+      shcs_m3_6: 2
+      hsi_m3_5od_4l: 2
+    assy_cable_anchor:
+      cable_anchor: 1
+      cable_guide: 1
+      shcs_m3_6: 3
+      hsi_m3_5od_4l: 3
+    assy_top_common:
+      hsi_m3_5od_4l: 4
+      shcs_m3_8: 4
+      lock_washer_m3: 4
+    assy_rear_inlet_common:
+      shcs_m3_45: 4
+      shcs_m3_6: 1
+      lock_washer_m3: 5
+    assy_5015:
+      shcs_m3_20: 1
+      fan_blower_5015: 1
+      washer_m3: 1
+components:
+  Hotend:
+    comp_3dpassion_nova:
+      name: 3D Passion Nova
+      attributes:
+        hsi: true
+        length: standard
+        ptfe: 39.65
+      parts:
+        3dpassion_nova: 1
+        assy_hotend_fan: 1
+        assy_hotend_common: 1
+        shcs_m2.5_8: 4
+      variants:
+        Stock:
+          parts:
+            hotend_nova.stl: 1
+    comp_revo_voron:
+      name: E3D REVO Voron
+      attributes:
+        hsi: true
+        length: standard
+        ptfe: 27.15
+      parts:
+        e3d_revo_voron: 1
+        assy_hotend_fan: 1
+        assy_hotend_common: 1
+        shcs_m2.5_8: 4
+      variants:
+        Stock:
+          parts:
+            hotend_revo_voron: 1
+    comp_dragon_sf:
+      name: Dragon SF/HF
+      attributes:
+        hsi: true
+        length: standard
+        ptfe: 24.5
+      parts:
+        phaetus_dragon: 1
+        assy_hotend_fan: 1
+        assy_hotend_common: 1
+        shcs_m2.5_8: 4
+      variants:
+        Stock:
+          parts:
+            hotend_dragon_sf: 1
+    comp_dragon_uhf:    
+      name: Dragon UHF
+      attributes:
+        hsi: true
+        length: standard
+        ptfe: 15.0
+      parts:
+        phaetus_dragon_uhf: 1
+        assy_hotend_fan: 1
+        assy_hotend_common: 1
+        shcs_m2.5_8: 4
+      variants:
+        Stock:
+          parts:
+            hotend_dragon_uhf: 1
+    comp_dragonfly_bmo:
+      name: Dragonfly BMO
+      attributes:
+        hsi: true
+        length: standard
+        ptfe: 39.5
+      parts:
+        phaetus_dragonfly_bmo: 1
+        assy_hotend_fan: 1
+        assy_hotend_common: 1
+        shcs_m2.5_8: 4
+      variants:
+        Stock:
+          parts:
+            hotend_dragonfly_bmo: 1
+    comp_dragonfly_bms:
+      name: Dragonfly BMS
+      attributes:
+        hsi: True
+        length: standard
+        ptfe: 20.0
+      parts:
+        phaetus_dragonfly_bms: 1
+        assy_hotend_fan: 1
+        shcs_m3_6: 4
+        shcs_m3_16: 2
+        lock_washer_m3: 2
+        hsi_m3_5od_4l: 10
+      variants:
+        Stock:
+          parts:
+            hotend_dragonfly_bms: 1
+    comp_rapido:
+      name: Rapido
+      attributes:
+        hsi: True
+        length: standard
+        ptfe: 29.8
+      parts:
+        phaetus_rapido: 1
+        assy_hotend_fan: 1
+        assy_hotend_common: 1
+        shcs_m2.5_8: 4
+      variants: 
+        Stock:
+          parts:
+            hotend_rapido: 1
+    comp_rapido_uhf:
+      name: Rapido UHF
+      attributes:
+        hsi: True
+        length: uhf
+        ptfe: 27.23
+      parts:
+        phaetus_rapido_uhf: 1
+        assy_hotend_fan: 1
+        assy_hotend_common: 1
+        shcs_m2.5_8: 4
+      variants:
+        Stock:
+          parts:
+            hotend_rapido_uhf: 1
+    comp_mosquito:
+      name: Mosquito
+      note: |
+        - The only compatible bottom horns with this hotend are the trihorns.
+        - Mellow NF-Crazy hotends are not compatible with this mount.
+      attributes:
+        hsi: True
+        length: standard
+        ptfe: 22.6
+        origin: EVA
+      parts:
+        slice_mosquito: 1
+        assy_hotend_fan: 1
+        assy_hotend_common: 1
+        shcs_m2.5_8: 2
+      variants:
+        Stock:
+          parts:
+            hotend_mosquito: 1
+    # comp_revo_micro:
+    #   name: Revo Micro
+    #   attributes:
+    #     hex: True
+  Drive:
+    comp_sherpa_mini:
+      name: Annex Sherpa Mini
+      attributes:
+        hsi: true
+        ptfe: 17.0
+        origin: EVA
+      parts:
+        annex_sherpa_mini: 1
+        shcs_m3_8: 4
+        shcs_m3_12: 4
+        lock_washer_m3: 6
+        bhcs_m3_6: 1
+      variants:
+        Stock:
+          parts:
+            drive_sherpa_mini: 1
+    comp_bmg:
+      name: Bondtech BMG
+      attributes:
+        ptfe: 28.9
+        origin: EVA
+      parts:
+        bondtech_bmg: 1
+        stepper_nema17_25mm: 1
+        shcs_m3_8: 4
+        shcs_m3_12: 3
+        shcs_m3_35: 3
+        lock_washer_m3: 7
+      variants:
+        Stock:
+          parts:
+            drive_bmg: 1
+    comp_lgx:
+      name: Bondtech LGX
+      attributes:
+        ptfe: 20.8
+        origin: EVA
+      parts:
+        bondtech_lgx: 1
+        stepper_nema17_25mm: 1
+        shcs_m3_8: 6
+        shcs_m3_12: 4
+        lock_washer_m3: 10
+      variants:
+        Stock:
+          parts:
+            drive_lgx: 1
+      
+    comp_lgx_lite:
+      name: Bondtech LGX Lite
+      attributes:
+        ptfe: 14.2
+        origin: EVA
+      parts:
+        bondtech_lgx_lite: 1
+        stepper_nema14_10t: 1
+        shcs_m3_6: 3
+        shcs_m3_8: 2
+        shcs_m3_12: 4
+        lock_washer_m3: 9
+      variants: 
+        Stock:
+          parts:
+            drive_lgx_lite: 1
+
+    comp_orbiter_1_5:
+      name: LDO Orbiter 1.5
+      attributes:
+        ptfe: 17.95
+        origin: EVA
+        hsi: true
+      parts:
+        stepper_nema14_10t: 1
+        orbiter1_5: 1
+        shcs_m3_8: 4
+        shcs_m3_10: 2
+        shcs_m3_12: 3
+        hsi_m3_5od_4l: 2
+        lock_washer_m3: 9
+      variants:
+        Stock:
+          parts:
+            drive_orbiter_1_5: 1
+
+    comp_orbiter_2:
+      name: LDO Orbiter 2
+      attributes:
+        ptfe: 17.95
+        origin: EVA
+        hsi: true
+      parts:
+        stepper_nema14_10t: 1
+        orbiter2: 1
+        shcs_m3_8: 4
+        shcs_m3_10: 2
+        shcs_m3_12: 3
+        lock_washer_m3: 9
+        hsi_m3_5od_4l: 2
+      variants:
+        Stock:
+          drive_orbiter_2: 1
+
+  ###
+  Front:
+  ###
+    comp_front:
+      name: Front
+      attributes:
+        hsi: true
+        version: v0.5
+      parts:
+        hsi_m3_5od_4l: 14
+        belt_grabber: 2
+        shcs_m3_6: 4
+      variants:
+        Basic:
+          parts:
+            front_basic: 1
+        Portable Input Shaper:
+          parts:
+            hsi_m3_5od_4l: 2
+            fysetc_pis: 1
+            shcs_m3_6: 2
+        ADXL345:
+          parts:
+            adxl345: 1
+            shcs_m3_6: 2
+            hsi_m3_5od_4l: 2
+    ###
+    Top:
+    ###
+      comp_top:
+        name: Top
+        attributes:
+          hsi: true
+          version: v0.7
+        parts:
+          assy_top_common: 1
+        variants:
+          Left Homing:
+            parts:
+              assy_limit_switch: 1
+              top_left_endstop: 1
+          Left Homing with Anchor:
+            parts:
+              assy_limit_switch: 1
+              assy_cable_anchor: 1
+              top_left_endstop_anchor: 1
+          Right-Homing Top:
+            parts:
+              assy_limit_switch: 1
+              top_right_endstop: 1
+          Right-Homing with Anchor:
+            parts:
+              assy_limit_switch: 1
+              assy_cable_anchor: 1
+              top_right_endstop_anchor: 1
+          Sensorless Homing:
+            parts:
+              top_no_endstop: 1
+
+      ###
+      Rear Inlet:
+      ###
+        comp_single_5015:
+          name: Single 5015 Rear Inlet
+          attributes:
+            hsi: true
+          parts:
+            assy_5015: 1
+            hsi_m3_5od_4l: 1
+          variants:
+            Stock:
+              parts:
+                assy_rear_inlet_common: 1
+                rear_single_5015: 1
+            Beacon:
+              parts:
+                shcs_m3_45: 4
+                lock_washer_m3: 4
+                fhcs_m3_6: 1
+                screw_cap: 1
+                rear_single_5015_beacon: 1
+        comp_single_5015_eva:
+          name: Single 5015 Rear Inlet, EVA-Style
+          attributes:
+            hsi: True
+            origin: EVA
+          parts:
+            assy_5015: 1
+            hsi_m3_5od_4l: 1
+            assy_rear_inlet_common: 1
+          variants:
+            Stock:
+              parts:
+                rear_single_5015_eva: 1
+        
+        comp_dual_5015:
+          name: Dual 5015 Rear Inlet
+          attributes:
+            hsi: True
+            origin: EVA
+          parts:
+            assy_5015: 2
+            hsi_m3_5od_4l: 2
+            assy_rear_inlet_common: 1
+          variants:
+            Stock:
+              parts:
+                rear_inlet_dual_5015: 1
+
+        comp_dual_5015_owl_eyes:
+          name: Dual 5015 Rear Inlet (Owl's Eyes)
+          attributes:
+            hsi: true
+          parts:
+            assy_5015: 2
+            hsi_m3_5od_4l: 2
+            assy_rear_inlet_common: 1
+          variants:
+            Stock:
+              parts:
+                rear_inlet_dual_5015_owl_eyes: 1
+        
+        comp_papst_rlf35:
+          name: Single Papst RLF35-8
+          attributes:
+            hsi: true
+          parts:
+            fan_rlf35_8: 1
+            washer_m3: 2
+            shcs_m3_20: 2
+            hsi_m3_5od_4l: 2
+            shcs_m3_45: 2
+            lock_washer_m3: 2
+            fhcs_m3_45: 2
+          variants:
+            Stock:
+              parts:
+                shcs_m3_6: 1
+                lock_washer_m3: 1
+                rear_inlet_rlf35_8: 1
+            Beacon:
+              parts:
+                fhcs_m3_6: 1
+                rear_inlet_rlf35_8_beacon: 1
+        
+        comp_intake_adapter:
+          name: Rear Intake Adapter
+          parts:
+            shcs_m3_45: 4
+            lock_washer_m3: 4
+          variants:
+            Stock:
+              parts:
+                rear_stock_intake_adapter: 1
+templates:
+  v2:
+    - front_v2
+    - top_v2
+    - rear_v2
+    - bottom_v2
