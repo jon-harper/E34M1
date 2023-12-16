@@ -46,6 +46,28 @@ suppliers:
     name: Tiny Machines
     region: US
     ships: US
+  filastruder:
+    name: Filastruder
+    region: US
+    ships: US
+  e3d:
+    name: E3D Online Store
+    region: UK
+    ships: Worldwide
+  beacon3d:
+    name: Beacon3D Store
+    region: US
+    ships: Worldwide
+authors:
+  u_cuiviemen:
+    name: cuiviemen
+    url: https://www.printables.com/@cuiviemen_127292
+  u_psychohead:
+    name: Psych0h3ad
+    url: https://www.printables.com/@Psych0h3ad_168275
+  u_flow4enol:
+    name: flow4enol
+    url: https://www.printables.com/@Flow4Enol_518511
 parts:
   DIN 125:
     washer_m3:
@@ -186,9 +208,10 @@ parts:
       sources:
         bolt_depot:
           url: "https://www.boltdepot.com/Product-Details.aspx?product=7219"
-  # Flat head cap screws
-
+  
+  ### Flat head cap screws
   DIN 7991:
+  ###
     fhcs_m3_6:
       name: M3 x 6mm FHCS
       sources:
@@ -203,6 +226,7 @@ parts:
   Other Fasteners:
     hsi_m3_5od_4l:
       name: M3 x 5mm OD x 4mm L Insert
+      img: img/parts/hsi_m3_5od_4l.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/uxcell-Knurled-Insert-Female-Embedding/dp/B09MCWTBCC"
@@ -215,11 +239,13 @@ parts:
           note: Sold as eaches.
     standoff_m2.5_10_6:
       name: M2.5 Brass Standoff, Female/Male, 10mm + 6mm
+      img: img/parts/standoff_m2.5_10_6.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/YOKIVE-Standoff-Standoffs-Consistent-Motherboard/dp/B0BK9C7849"
     standoff_m2.5_12_6:
       name: M2.5 Brass Standoff, Female/Male, 12mm + 6mm
+      img: img/parts/standoff_m2.5_12_6.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/Female-Standoff-Quadcopter-Computer-Circuit/dp/B0CJCHCRVJ/"
@@ -264,18 +290,21 @@ parts:
   ###
     cpap_hose_15mm:
       name: 15mm CPAP Hose
+      img: img/parts/cpap_hose_15mm.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/Standard-Plastic-Philips-Respironics-DreamStation-15mm-PR15/dp/B01FS0IWA6/"
           note: 6ft/1.8m
     zip_tie_100mm:
       name: Zip Tie 100mm/4"
+      img: img/parts/zip_ties.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/Cable-Nylon-Locking-Pieces-Black/dp/B07VRSQ6YL"
           note: 200 pk
     magnets_6_3:
       name: 6mm x 3mm Magnet
+      img: img/parts/magnets_6_3.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B08M3YP56J"
@@ -284,11 +313,15 @@ parts:
   Filament:
   ###
     filament_asa:
-      name: ASA Filament, 1kg
+      name: ASA Filament
       units: kg
       sources:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B09DKR3BTG/"
+          note: Polymaker ASA
+        fabreeko:
+          url: "https://www.fabreeko.com/collections/asa/products/polymaker-polylite-asa-1-75mm-1kg-roll-grey"
+          note: Polymaker ASA
   
   ###
   Electrical Connector:
@@ -369,6 +402,7 @@ parts:
           url: "https://www.amazon.com/BNTECHGO-Silicone-Flexible-Strands-Stranded/dp/B00TG1TRL2"
     wire_20awg:
       name: Stranded Silicone Hookup Wire, 20 awg/0.5mm^2^
+      img: img/parts/wire_20awg.webp
       units: cm
       sources:
         amazon_us:
@@ -376,6 +410,7 @@ parts:
           note: 6 colors, 7m/ea
     wire_24awg:
       name: Stranded Silicone Hookup Wire, 24 awg/0.5mm^2^
+      img: img/parts/wire_24awg.webp
       units: cm
       sources:
         amazon_us:
@@ -389,12 +424,20 @@ parts:
   ###
     stepper_nema17_25mm:
       name: NEMA17 stepper, 25mm
+      img: img/parts/stepper_nema17_25mm.webp
       sources:
         kb3d:
           url: "https://kb-3d.com/store/spare-parts/226-bondtech-lgx-25mm-pancake-stepper-motor-7350011413805.html"
-
+          note: Bondtech LGX stepper
+        amazon_us:
+          url: "https://www.amazon.com/Iverntech-Stepper-Extruder-Printer-4-Lead/dp/B07PMWQ21T"
+          note: Generic 1.5A 23mm stepper
+        stepperonline:
+          url: "https://www.omc-stepperonline.com/e-series-nema-17-bipolar-1-8deg-17ncm-24-07oz-in-1a-42x42x23mm-4-wires-17he08-1004s"
+          note: 17HE08-1004S 1A 23mm stepper
     stepper_nema14_10t:
       name: NEMA14 stepper, 10t integral gear
+      img: img/parts/stepper_nema14_10t.webp
       sources:
         kb3d:
           url: "https://kb-3d.com/store/stepper-motors/460-ldo-nema-14-high-temp-stepper-motor-36sth20-1004ahg-1640706867164.html"
@@ -404,6 +447,7 @@ parts:
           note: Moons' CSE14RA1L410A-01
     stepper_nema14_8t:
       name: NEMA14 stepper, 8t integral gear
+      img: img/parts/stepper_nema14_8t.webp
       sources:
         fabreeko:
           url: "https://www.fabreeko.com/products/moons-nema-14-36mm-motors-for-clockwork-2-orbiter-sherpa"
@@ -417,81 +461,236 @@ parts:
     e3d_revo_voron:
       name: E3D REVO Voron
       img: img/parts/revo_voron.webp
+      sources:
+        kb3d:
+          url: "https://kb-3d.com/store/voron/454-e3d-rapid-change-revo-hotend-voron-24v-1640229946834.html"
+        tinymachines:
+          url: "https://www.tinymachines3d.com/products/revo-voron"
+        e3d:
+          url: "https://e3d-online.com/products/revo-voron"
     e3d_revo_micro:
       name: E3D REVO Micro
       img: img/parts/revo_micro.webp
+      sources:
+        kb3d:
+          url: "https://kb-3d.com/store/extruders-hotends/424-e3d-rapid-change-revo-hotend-micro-24v-1640229946834.html"
+        e3d:
+          url: "https://e3d-online.com/products/revo-micro?variant=39800212684859"
     e3d_v6:
       name: E3D V6
       img: img/parts/e3d_v6.webp
+      sources:
+        tinymachines:
+          url: "https://www.tinymachines3d.com/products/e3d-v6-hotend-1-75mm-metal-only"
+        e3d:
+          url: "https://e3d-online.com/products/v6-all-metal-hotend?variant=40923457486907"
+          note: 24V direct drive
     slice_mosquito:
       name: Slice Engineering Mosquito
       img: img/parts/mosquito.webp
+      sources:  
+        kb3d:
+          url: "https://kb-3d.com/store/slice-engineering/109-slice-engineering-mosquito-hotend-0850005423102.html"
+        tinymachines:
+          url: "https://www.tinymachines3d.com/products/mosquito-hotend-1-75mm"
     phaetus_dragon:
       name: Phaetus Dragon SF/HF
       img: img/parts/dragon.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Upgrade-Lizard-Compatible-Extruder-Printer/dp/B09P595BPJ/"
+          note: Red Lizard K1 clone
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256803652913533.html"
+          note: Red Lizard K1 clone
     phaetus_dragon_uhf:
       name: Phaetus Dragon UHF
       img: img/parts/dragon_uhf.webp
+      sources:
+        fabreeko:
+          url: "https://www.fabreeko.com/products/phaetus-dragon-uhf"
+        amazon_us:
+          url: "https://www.amazon.com/Dragonfly-Printing-Temperature-Extruder-Voron0-1/dp/B0B4JBQ2Y2"
     phaetus_dragonfly_bmo:
       name: Phaetus Dragonfly BMO
       img: img/parts/dragonfly_bmo.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Phaetus-Dragonfly-Hotend-Compatible-Extruder/dp/B0BY3R7XP6"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256801479855635.html"
     phaetus_dragonfly_bms:
       name: Phaetus Dragonfly BMS
       img: img/parts/dragonfly_bms.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Phaetus-Dragonfly-Hotend-Heating-Compatible/dp/B0BS6CVRHR"
+          note: Blue. Product image shows a 6-fin heatsink.
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256801479855635.html"
+          note: Black. Product image shows a 6-fin heatsink.
     phaetus_rapido:
       name: Phaetus Rapido
       img: img/parts/rapido.webp
+      sources:
+        west3d:
+          url: "https://west3d.com/products/rapido-hot-end-high-flow-tl-phaetus"
+        fabreeko:
+          url: "https://www.fabreeko.com/products/phaetus-rapido-high-flow-hotend"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805715328881.html"
+          note: Blue
     phaetus_rapido_uhf:
       name: Phaetus Rapido UHF
       img: img/parts/rapido.webp
-  
+      sources:
+        fabreeko:
+          url: "https://www.fabreeko.com/products/phaetus-rapido-high-flow-hotend"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805715328881.html"
+          note: Black
   Extruders:
     bondtech_bmg:
       name: Bondtech BMG
-      img: img/components/bmg.webp
+      img: img/parts/bmg.webp
+      sources:
+        kb3d:
+          url: "https://kb-3d.com/store/bmg/280-bondtech-bmg-extruder-7350011410309.html"
+
     galileo2:
       name: Galileo 2 StandAlone
-      img: img/components/g2sa.webp
+      img: img/parts/g2sa.webp
+      sources:
+        fabreeko:
+          url: "https://www.fabreeko.com/products/galileo-2-kits-by-ldo-g2e-g2z"
     hextrudort:
-      name: Hextrudort-Low
-      img: img/components/hextrudort.webp
+      name: Vz-Hextrudort-Low
+      img: img/parts/hextrudort.webp
+      sources:
+        fabreeko:
+          url: "https://www.fabreeko.com/products/vz-hextrudort-cnc-extruder-by-mellow"
+        
     bondtech_lgx:
       name: Bondtech LGX
-      img: img/components/lgx.webp
+      img: img/parts/lgx.webp
+      note: Includes stepper.
+      sources:
+        kb3d:
+          url: "https://kb-3d.com/store/extruders-hotends/101-bondtech-lgx-large-gears-extruder-7350011413607.html"
+        fabreeko:
+          url: "https://www.fabreeko.com/products/lgx%C2%AE-large-gears-extruder"
+        tinymachines:
+          url: "https://www.tinymachines3d.com/products/lgx-extruder"
     bondtech_lgx_lite:
       name: Bondtech LGX Lite
-      img: img/components/lgx_lite.webp
+      img: img/parts/lgx_lite.webp
+      note: Includes stepper.
+      sources:
+        kb3d:
+          url: "https://kb-3d.com/store/lgx-lgx-upgrade-kits/402-bondtech-lgx-lite-large-gears-extruder-complete-7350011413607.html"
+        fabreeko:
+          url: "https://www.fabreeko.com/products/lgx%C2%AE-lite-large-gears-extruder"
+        tinymachines:
+          url: "https://www.tinymachines3d.com/products/bondtech-lgx-lite-extruder-no-motor"
     orbiter1_5:
       name: Orbiter 1.5
-      img: img/components/orbiter_1_5.webp
+      img: img/parts/orbiter_1_5.webp
+      note: This product is discontinued.
     orbiter2:
       name: Orbiter 2
-      img: img/drivers/orbiter_2_0.webp
+      img: img/parts/orbiter_2_0.webp
+      sources:
+        fabreeko:
+          url: "https://www.fabreeko.com/products/ldo-orbiter-extruder-1-75mm"
+        tinymachines:
+          url: "https://www.tinymachines3d.com/products/orbiter-v2-0-direct-drive-extruder-upgrade"
+          note: Available with and without stepper.
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256803481076263.html"
+          note: Trianglelab version.
     annex_sherpa_micro:
       name: Annex Sherpa Micro
-      img: img/components/sherpa_micro.webp
+      img: img/parts/sherpa_micro.webp
+      note: This extruder is typically printed, but CNC versions are available.
+      sources:
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256804960962034.html"
+          note: Mellow CNC version
+        
     annex_sherpa_mini:
       name: Annex Sherpa Mini
-      img: img/components/sherpa_mini.webp
+      img: img/parts/sherpa_mini.webp
+      note: This extruder is typically printed, but CNC versions are available.
+      sources:
+        fabreeko:
+          url: "https://www.fabreeko.com/products/sherpa-mini-extruder-cnc-version-by-fysetc"
+          note: FYSETC CNC version
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805435434413.html"
+          note: FYSETC CNC version
     e3d_titan:
       name: E3D Titan
-      img: img/components/titan.webp
+      img: img/parts/titan.webp
+      sources:
+        filastruder:
+          url: "https://www.filastruder.com/products/e3d-titan-extruder"
+        e3d:
+          url: "https://e3d-online.com/products/titan-extruder"
 
-  Input Shapers:
+  Accelerometers:
     adxl345:
       name: ADXL345
+      img: img/parts/adxl345.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/WWZMDiB-ADXL345-Digital-Acceleration-Transmission/dp/B0BHP8CKDT"
+          note: 2 ea
+        kb3d:
+          url: "https://kb-3d.com/store/electronics/309-adxl345-accelerometer-3-axis-gy-291-1634426680707.html"
     fysetc_pis:
       name: FYSETC Portable Input Shaper
-
+      img: img/parts/fysetc_pis.webp
+      sources: 
+        tinymachines:
+          url: "https://www.tinymachines3d.com/products/portable-input-shaper-adxl345-klipper"
+        fabreeko:
+          url: "https://www.fabreeko.com/products/portable-input-shaper-adxl345"
+        amazon_us:
+          url: "https://www.amazon.com/FYSETC-Portable-Upgraded-Klippe-r-Triden-t-Pack/dp/B0B8MMW2Z9/"
   ABL:
     8mm_probe:
       name: 8mm Inductive Probe
+      img: img/parts/8mm_probe.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Taiss-LJ8A3-2-Z-Inductive-Proximity-Detection/dp/B073XDFV6M/"
+          note: 2 ea
+        fabreeko:
+          url: "https://www.fabreeko.com/products/super-pinda-by-fysetc"
+          note: FYSETC SuperPINDA clone
     bltouch:
       name: BLTouch
+      img: img/parts/bltouch.webp 
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/ANTCLABS-BLTouch-Leveling-Premium-Extension/dp/B076PQG1FF/"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/2251832591471681.html"
     cr_touch:
       name: Creality CR-Touch
+      img: img/parts/crtouch.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Professional-Auto-Leveling-Specially-Designed/dp/B0979F7RWN/"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256806155495000.html"
     beacon:
       name: Annex Beacon Low-Profile Kit
+      img: img/parts/beacon.webp
+      sources:
+        beacon3d:
+          url: "https://beacon3d.com/product/beacon/"
+          note: "*Only* the low-profile kit is compatible."
     
   Switches:
     switch_horizontal:
@@ -501,13 +700,22 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/REIFENG-Mechanical-Vertical-Printers-Accessories/dp/B08CDF3Q6T/"
           note: 6 pk
+        aliexpress:
+          url: "https://www.aliexpress.us/item/2251832631380062.html"
+          note: 1 ea
     microswitch_lever:
-      name: Omron D2F-5L
+      name: Microswitch
       img: img/parts/omron_d2f_5l.webp
       sources:
         kb3d:
           url: "https://kb-3d.com/store/omron/173-omron-d2f-5l-snap-action-micro-switch-limit-switch-1634505070092.html"
-
+          note: D2F-5L
+        fabreeko:
+          url: "https://www.fabreeko.com/products/microswitch-d2f-l-type"
+          note: D2F-L
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805036337265.html"
+          note: D2F-L. Uncertain if authentic.
   Printed:
     front_basic:
       name: front_basic.stl
@@ -711,31 +919,33 @@ subassemblies:
   assy_hotend_common:
     hsi_m3_5od_4l: 8
     shcs_m3_6: 4
-    assy_limit_switch:
-      switch_horizontal: 1
-      shcs_m3_6: 2
-      hsi_m3_5od_4l: 2
-    assy_cable_anchor:
-      cable_anchor: 1
-      cable_guide: 1
-      shcs_m3_6: 3
-      hsi_m3_5od_4l: 3
-    assy_top_common:
-      hsi_m3_5od_4l: 4
-      shcs_m3_8: 4
-      lock_washer_m3: 4
-    assy_rear_inlet_common:
-      shcs_m3_45: 4
-      shcs_m3_6: 1
-      lock_washer_m3: 5
-    assy_5015:
-      shcs_m3_20: 1
-      fan_blower_5015: 1
-      washer_m3: 1
+  assy_limit_switch:
+    switch_horizontal: 1
+    shcs_m3_6: 2
+    hsi_m3_5od_4l: 2
+  assy_cable_anchor:
+    cable_anchor: 1
+    cable_guide: 1
+    shcs_m3_6: 3
+    hsi_m3_5od_4l: 3
+  assy_top_common:
+    hsi_m3_5od_4l: 4
+    shcs_m3_8: 4
+    lock_washer_m3: 4
+  assy_rear_inlet_common:
+    shcs_m3_45: 4
+    shcs_m3_6: 1
+    lock_washer_m3: 5
+  assy_5015:
+    shcs_m3_20: 1
+    fan_blower_5015: 1
+    washer_m3: 1
 components:
   Hotend:
     comp_3dpassion_nova:
       name: 3D Passion Nova
+      template: hotend_v1
+      img: img/components/hotend_nova.webp
       attributes:
         hsi: true
         length: standard
@@ -748,9 +958,11 @@ components:
       variants:
         Stock:
           parts:
-            hotend_nova.stl: 1
+            hotend_nova: 1
     comp_revo_voron:
       name: E3D REVO Voron
+      template: hotend_v1
+      img: img/components/hotend_revo_voron.webp
       attributes:
         hsi: true
         length: standard
@@ -766,6 +978,8 @@ components:
             hotend_revo_voron: 1
     comp_dragon_sf:
       name: Dragon SF/HF
+      template: hotend_v1
+      img: img/components/hotend_dragon_bmo.webp
       attributes:
         hsi: true
         length: standard
@@ -781,6 +995,8 @@ components:
             hotend_dragon_sf: 1
     comp_dragon_uhf:    
       name: Dragon UHF
+      template: hotend_v1
+      img: img/components/hotend_dragon_uhf.webp
       attributes:
         hsi: true
         length: standard
@@ -796,6 +1012,8 @@ components:
             hotend_dragon_uhf: 1
     comp_dragonfly_bmo:
       name: Dragonfly BMO
+      template: hotend_v1
+      img: img/components/hotend_dragonfly_bmo.webp
       attributes:
         hsi: true
         length: standard
@@ -811,6 +1029,8 @@ components:
             hotend_dragonfly_bmo: 1
     comp_dragonfly_bms:
       name: Dragonfly BMS
+      template: hotend_v1
+      img: img/components/hotend_dragonfly_bms.webp
       attributes:
         hsi: True
         length: standard
@@ -828,6 +1048,8 @@ components:
             hotend_dragonfly_bms: 1
     comp_rapido:
       name: Rapido
+      template: hotend_v1
+      img: img/components/hotend_rapido.webp
       attributes:
         hsi: True
         length: standard
@@ -843,6 +1065,8 @@ components:
             hotend_rapido: 1
     comp_rapido_uhf:
       name: Rapido UHF
+      template: hotend_v1
+      img: img/components/hotend_rapido.webp
       attributes:
         hsi: True
         length: uhf
@@ -858,6 +1082,8 @@ components:
             hotend_rapido_uhf: 1
     comp_mosquito:
       name: Mosquito
+      template: hotend_v1
+      img: img/components/hotend_mosquito.webp
       note: |
         - The only compatible bottom horns with this hotend are the trihorns.
         - Mellow NF-Crazy hotends are not compatible with this mount.
@@ -882,10 +1108,13 @@ components:
   Drive:
     comp_sherpa_mini:
       name: Annex Sherpa Mini
+      note: |
+        - The k-type Sherpa Mini front is a button head cap screw when using any Front other than the Basic.
+      template: drive_v1
+      img: img/components/sherpa_mini.webp
       attributes:
         hsi: true
         ptfe: 17.0
-        origin: EVA
       parts:
         annex_sherpa_mini: 1
         shcs_m3_8: 4
@@ -898,6 +1127,8 @@ components:
             drive_sherpa_mini: 1
     comp_bmg:
       name: Bondtech BMG
+      template: drive_v1
+      img: img/components/bmg.webp
       attributes:
         ptfe: 28.9
         origin: EVA
@@ -914,6 +1145,8 @@ components:
             drive_bmg: 1
     comp_lgx:
       name: Bondtech LGX
+      template: drive_v1
+      img: img/components/lgx.webp
       attributes:
         ptfe: 20.8
         origin: EVA
@@ -930,6 +1163,8 @@ components:
       
     comp_lgx_lite:
       name: Bondtech LGX Lite
+      img: img/components/lgx_lite.webp
+      template: drive_v1
       attributes:
         ptfe: 14.2
         origin: EVA
@@ -947,6 +1182,8 @@ components:
 
     comp_orbiter_1_5:
       name: LDO Orbiter 1.5
+      img: img/components/orbiter_1_5.webp
+      template: drive_v1
       attributes:
         ptfe: 17.95
         origin: EVA
@@ -966,6 +1203,8 @@ components:
 
     comp_orbiter_2:
       name: LDO Orbiter 2
+      img: img/components/orbiter_2_0.webp
+      template: drive_v1
       attributes:
         ptfe: 17.95
         origin: EVA
@@ -980,13 +1219,15 @@ components:
         hsi_m3_5od_4l: 2
       variants:
         Stock:
-          drive_orbiter_2: 1
+          parts:
+            drive_orbiter_2: 1
 
   ###
   Front:
   ###
     comp_front:
       name: Front
+      template: front_v2
       attributes:
         hsi: true
         version: v0.5
@@ -996,149 +1237,162 @@ components:
         shcs_m3_6: 4
       variants:
         Basic:
+          img: img/components/front_basic.webp
           parts:
             front_basic: 1
         Portable Input Shaper:
+          img: img/components/front_pis.webp
           parts:
             hsi_m3_5od_4l: 2
             fysetc_pis: 1
             shcs_m3_6: 2
         ADXL345:
+          img: img/components/front_adxl.webp
           parts:
             adxl345: 1
             shcs_m3_6: 2
             hsi_m3_5od_4l: 2
-    ###
-    Top:
-    ###
-      comp_top:
-        name: Top
-        attributes:
-          hsi: true
-          version: v0.7
-        parts:
-          assy_top_common: 1
-        variants:
-          Left Homing:
-            parts:
-              assy_limit_switch: 1
-              top_left_endstop: 1
-          Left Homing with Anchor:
-            parts:
-              assy_limit_switch: 1
-              assy_cable_anchor: 1
-              top_left_endstop_anchor: 1
-          Right-Homing Top:
-            parts:
-              assy_limit_switch: 1
-              top_right_endstop: 1
-          Right-Homing with Anchor:
-            parts:
-              assy_limit_switch: 1
-              assy_cable_anchor: 1
-              top_right_endstop_anchor: 1
-          Sensorless Homing:
-            parts:
-              top_no_endstop: 1
+  ###
+  Top:
+  ###
+    comp_top:
+      name: Top
+      template: top_v2
+      attributes:
+        hsi: true
+        version: v0.7
+      parts:
+        assy_top_common: 1
+      variants:
+        Left Homing:
+          parts:
+            assy_limit_switch: 1
+            top_left_endstop: 1
+        Left Homing with Anchor:
+          parts:
+            assy_limit_switch: 1
+            assy_cable_anchor: 1
+            top_left_endstop_anchor: 1
+        Right-Homing Top:
+          parts:
+            assy_limit_switch: 1
+            top_right_endstop: 1
+        Right-Homing with Anchor:
+          parts:
+            assy_limit_switch: 1
+            assy_cable_anchor: 1
+            top_right_endstop_anchor: 1
+        Sensorless Homing:
+          parts:
+            top_no_endstop: 1
 
-      ###
-      Rear Inlet:
-      ###
-        comp_single_5015:
-          name: Single 5015 Rear Inlet
-          attributes:
-            hsi: true
+  ###
+  Rear Inlet:
+  ###
+    comp_single_5015:
+      name: Single 5015 Rear Inlet
+      template: rear_v2
+      attributes:
+        hsi: true
+      parts:
+        assy_5015: 1
+        hsi_m3_5od_4l: 1
+      variants:
+        Stock:
           parts:
-            assy_5015: 1
-            hsi_m3_5od_4l: 1
-          variants:
-            Stock:
-              parts:
-                assy_rear_inlet_common: 1
-                rear_single_5015: 1
-            Beacon:
-              parts:
-                shcs_m3_45: 4
-                lock_washer_m3: 4
-                fhcs_m3_6: 1
-                screw_cap: 1
-                rear_single_5015_beacon: 1
-        comp_single_5015_eva:
-          name: Single 5015 Rear Inlet, EVA-Style
-          attributes:
-            hsi: True
-            origin: EVA
-          parts:
-            assy_5015: 1
-            hsi_m3_5od_4l: 1
             assy_rear_inlet_common: 1
-          variants:
-            Stock:
-              parts:
-                rear_single_5015_eva: 1
-        
-        comp_dual_5015:
-          name: Dual 5015 Rear Inlet
-          attributes:
-            hsi: True
-            origin: EVA
-          parts:
-            assy_5015: 2
-            hsi_m3_5od_4l: 2
-            assy_rear_inlet_common: 1
-          variants:
-            Stock:
-              parts:
-                rear_inlet_dual_5015: 1
-
-        comp_dual_5015_owl_eyes:
-          name: Dual 5015 Rear Inlet (Owl's Eyes)
-          attributes:
-            hsi: true
-          parts:
-            assy_5015: 2
-            hsi_m3_5od_4l: 2
-            assy_rear_inlet_common: 1
-          variants:
-            Stock:
-              parts:
-                rear_inlet_dual_5015_owl_eyes: 1
-        
-        comp_papst_rlf35:
-          name: Single Papst RLF35-8
-          attributes:
-            hsi: true
-          parts:
-            fan_rlf35_8: 1
-            washer_m3: 2
-            shcs_m3_20: 2
-            hsi_m3_5od_4l: 2
-            shcs_m3_45: 2
-            lock_washer_m3: 2
-            fhcs_m3_45: 2
-          variants:
-            Stock:
-              parts:
-                shcs_m3_6: 1
-                lock_washer_m3: 1
-                rear_inlet_rlf35_8: 1
-            Beacon:
-              parts:
-                fhcs_m3_6: 1
-                rear_inlet_rlf35_8_beacon: 1
-        
-        comp_intake_adapter:
-          name: Rear Intake Adapter
+            rear_single_5015: 1
+        Beacon:
           parts:
             shcs_m3_45: 4
             lock_washer_m3: 4
-          variants:
-            Stock:
-              parts:
-                rear_stock_intake_adapter: 1
+            fhcs_m3_6: 1
+            screw_cap: 1
+            rear_single_5015_beacon: 1
+    comp_single_5015_eva:
+      name: Single 5015 Rear Inlet, EVA-Style
+      template: rear_v1
+      attributes:
+        hsi: True
+        origin: EVA
+      parts:
+        assy_5015: 1
+        hsi_m3_5od_4l: 1
+        assy_rear_inlet_common: 1
+      variants:
+        Stock:
+          parts:
+            rear_single_5015_eva: 1
+    
+    comp_dual_5015:
+      name: Dual 5015 Rear Inlet
+      template: rear_v1
+      attributes:
+        hsi: True
+        origin: EVA
+      parts:
+        assy_5015: 2
+        hsi_m3_5od_4l: 2
+        assy_rear_inlet_common: 1
+      variants:
+        Stock:
+          parts:
+            rear_inlet_dual_5015: 1
+
+    comp_dual_5015_owl_eyes:
+      name: Dual 5015 Rear Inlet (Owl's Eyes)
+      template: rear_v2
+      attributes:
+        hsi: true
+      parts:
+        assy_5015: 2
+        hsi_m3_5od_4l: 2
+        assy_rear_inlet_common: 1
+      variants:
+        Stock:
+          parts:
+            rear_inlet_dual_5015_owl_eyes: 1
+    
+    comp_papst_rlf35:
+      name: Single Papst RLF35-8
+      template: rear_v2
+      attributes:
+        hsi: true
+      parts:
+        fan_rlf35_8: 1
+        washer_m3: 2
+        shcs_m3_20: 2
+        hsi_m3_5od_4l: 2
+        shcs_m3_45: 2
+        lock_washer_m3: 2
+        fhcs_m3_45: 2
+      variants:
+        Stock:
+          parts:
+            shcs_m3_6: 1
+            lock_washer_m3: 1
+            rear_inlet_rlf35_8: 1
+        Beacon:
+          parts:
+            fhcs_m3_6: 1
+            rear_inlet_rlf35_8_beacon: 1
+    
+    comp_intake_adapter:
+      name: Rear Intake Adapter
+      template: rear_v1
+      parts:
+        shcs_m3_45: 4
+        lock_washer_m3: 4
+      variants:
+        Stock:
+          parts:
+            rear_stock_intake_adapter: 1
 templates:
   v2:
     - front_v2
     - top_v2
+    - rear_v1
     - rear_v2
     - bottom_v2
+    - drive_v1
+    - hotend_v1
