@@ -318,3 +318,32 @@
     box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.7);
     margin: 0rem 0rem 1rem 1rem;
 }
+
+
+.jh-badge {
+    font-size: 0.6rem;
+    display: inline-block;
+    margin: 2px;
+    border-width: 1px;
+    border: 1px solid var(--md-code-hl-color--light);
+    border-radius: 2.5px;
+    font-family: var(--md-code-font-family);
+}
+
+.jh-icon-badge {
+    padding: 2px;
+    font-size: 0.75rem;
+    background-color: var(--md-code-hl-color--light);
+}
+
+.jh-text-badge {
+    padding-right: 2px;
+}
+
+span.jh-icon-badge {
+    color: var(--md-primary-fg-color--light);
+} 
+
+span.jh-icon-badge :is(:hover, :focus) {
+    color: var(--md-primary-fg-color);
+}
