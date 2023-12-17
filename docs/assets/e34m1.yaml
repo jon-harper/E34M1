@@ -1,7 +1,11 @@
 config:
   id: test
-  baseUrl: 'https://raw.githubusercontent.com/jon-harper/E34M1/main'
+  baseUrl: https://raw.githubusercontent.com/jon-harper/E34M1/main
 suppliers:
+  3do:
+    name: 3DO
+    region: EU (DK)
+    ships: EU
   aliexpress:
     name: AliExpress
     region: Worldwide
@@ -68,6 +72,21 @@ authors:
   u_flow4enol:
     name: flow4enol
     url: https://www.printables.com/@Flow4Enol_518511
+  u_3dpandme:
+    name: 3DP and Me
+    url: https://www.printables.com/@3DPandMe
+  u_eva:
+    name: EVA
+    url: https://main.eva-3d.page/
+  u_etotheipi:
+    name: etotheipi
+    url: "https://www.printables.com/@etotheipi"
+  u_themacboy:
+    name: themacboy
+    url: "https://www.printables.com/@themacboy_276431"
+  u_jonspaceharper:
+    name: jonspaceharper
+    url: "https://www.github.com/jon-harper/"
 parts:
   DIN 125:
     washer_m3:
@@ -261,6 +280,9 @@ parts:
         kb3d:
           url: "https://kb-3d.com/store/fans/455-sunon-4010-fan-24v-maglev-1642214237163.html"
           note: Sunon Maglev 24V
+        3do:
+          url: "https://3do.eu/fans/191-gdstime-4010-24v-axial-fan-298dba-7500rpm.html"
+          note: GDSTIME Brushless 24V 
     fan_4020:
       name: 40mm x 20mm Axial Fan 
       img: img/parts/fan_4020.webp
@@ -268,6 +290,8 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/Wathai-40x40x20mm-40mm-Burshless-Cooling/dp/B07PYWVPMY"
           note: Wathai Brushless 24V
+        3do:
+          url: ""
     fan_blower_5015:
       name: 50mm x 15mm Radial Blower
       img: img/parts/5015_blower.webp
@@ -278,6 +302,9 @@ parts:
         kb3d:
           url: "https://kb-3d.com/store/fans/501-sunon-5015-blower-fan-24v-maglev-1646515411413.html"
           note: Sunon Maglev 24V
+        3do:
+          url: "https://3do.eu/fans/193-gdstime-5015-24v-blower-fan-346dba-6000rpm.html"
+          note: GDSTIME Brushless 24V
     fan_rlf35_8:
       name: Papst RLF35-8
       img: img/parts/fan_rlf35_8.webp
@@ -322,6 +349,9 @@ parts:
         fabreeko:
           url: "https://www.fabreeko.com/collections/asa/products/polymaker-polylite-asa-1-75mm-1kg-roll-grey"
           note: Polymaker ASA
+        3do:
+          url: "https://3do.eu/asa/502-815-3do-asa-1kg-black.html#/19-colour-black"
+          note: 3DO ASA
   
   ###
   Electrical Connector:
@@ -431,10 +461,13 @@ parts:
           note: Bondtech LGX stepper
         amazon_us:
           url: "https://www.amazon.com/Iverntech-Stepper-Extruder-Printer-4-Lead/dp/B07PMWQ21T"
-          note: Generic 1.5A 23mm stepper
+          note: Generic 1.8deg 1.5A 23mm stepper
         stepperonline:
           url: "https://www.omc-stepperonline.com/e-series-nema-17-bipolar-1-8deg-17ncm-24-07oz-in-1a-42x42x23mm-4-wires-17he08-1004s"
-          note: 17HE08-1004S 1A 23mm stepper
+          note: 17HE08-1004S 1.8deg 1A 23mm stepper
+        3do:
+          url: "https://3do.eu/motors/253-nema17-slim-power-42sth25-1404mac.html"
+          note: LDO 42STH25-1404MAC, 0.9 deg, 1.4A 25mm stepper
     stepper_nema14_10t:
       name: NEMA14 stepper, 10t integral gear
       img: img/parts/stepper_nema14_10t.webp
@@ -445,6 +478,9 @@ parts:
         fabreeko:
           url: "https://www.fabreeko.com/products/moons-nema-14-36mm-motors-for-clockwork-2-orbiter-sherpa"
           note: Moons' CSE14RA1L410A-01
+        3do:
+          url: "https://3do.eu/motors/556-ldo-nema14-round-20mm-pancake-motor-ldo-36sth20-1004ahgvrn.html"
+          note: LDO 36STH20-1004AHG(VRN), high temperature
     stepper_nema14_8t:
       name: NEMA14 stepper, 8t integral gear
       img: img/parts/stepper_nema14_8t.webp
@@ -452,6 +488,9 @@ parts:
         fabreeko:
           url: "https://www.fabreeko.com/products/moons-nema-14-36mm-motors-for-clockwork-2-orbiter-sherpa"
           note: LDO 36STH20-1004(G8T)
+        3do:
+          url: "https://3do.eu/motors/1011-moons-nema14-36mm-8t-high-temperature.html"
+          note: Moons', high temperature
   ###
   Hotends:
   ###
@@ -468,6 +507,8 @@ parts:
           url: "https://www.tinymachines3d.com/products/revo-voron"
         e3d:
           url: "https://e3d-online.com/products/revo-voron"
+        3do:
+          url: "https://3do.eu/complete-hotend/655-1021-e3d-rapidchange-revo-voron.html#/37-tension-24v/129-nozzle_pack-fully_loaded_1_x_025_040_060_080mm"
     e3d_revo_micro:
       name: E3D REVO Micro
       img: img/parts/revo_micro.webp
@@ -476,6 +517,8 @@ parts:
           url: "https://kb-3d.com/store/extruders-hotends/424-e3d-rapid-change-revo-hotend-micro-24v-1640229946834.html"
         e3d:
           url: "https://e3d-online.com/products/revo-micro?variant=39800212684859"
+        3do:
+          url: "https://3do.eu/complete-hotend/663-1036-e3d-rapidchange-revo-micro.html#/37-tension-24v/128-nozzle_pack-single_nozzle_1_x_04"
     e3d_v6:
       name: E3D V6
       img: img/parts/e3d_v6.webp
@@ -503,6 +546,8 @@ parts:
         aliexpress:
           url: "https://www.aliexpress.us/item/3256803652913533.html"
           note: Red Lizard K1 clone
+        3do:
+          url: "https://3do.eu/complete-hotend/39-133-phaetus-dragon.html#/19-colour-black/27-dragon_type-high_flow_hf"
     phaetus_dragon_uhf:
       name: Phaetus Dragon UHF
       img: img/parts/dragon_uhf.webp
@@ -519,10 +564,16 @@ parts:
           url: "https://www.amazon.com/Phaetus-Dragonfly-Hotend-Compatible-Extruder/dp/B0BY3R7XP6"
         aliexpress:
           url: "https://www.aliexpress.us/item/3256801479855635.html"
+        3do:
+          url: "https://3do.eu/complete-hotend/42-139-phaetus-dragonfly-bmo.html#/19-colour-black"
+          note: Multiple colors.
     phaetus_dragonfly_bms:
       name: Phaetus Dragonfly BMS
       img: img/parts/dragonfly_bms.webp
       sources:
+        3do:
+          url: "https://3do.eu/complete-hotend/41-138-phaetus-dragonfly-bms.html#/24-colour-blue"
+          note: Multiple colors.
         amazon_us:
           url: "https://www.amazon.com/Phaetus-Dragonfly-Hotend-Heating-Compatible/dp/B0BS6CVRHR"
           note: Blue. Product image shows a 6-fin heatsink.
@@ -540,6 +591,8 @@ parts:
         aliexpress:
           url: "https://www.aliexpress.us/item/3256805715328881.html"
           note: Blue
+        3do:
+          url: "https://3do.eu/complete-hotend/1280-1641-pheatus-rapido-plus-hotend-350-hf-pt1000-2.html#/24-colour-blue/27-dragon_type-high_flow_hf"
     phaetus_rapido_uhf:
       name: Phaetus Rapido UHF
       img: img/parts/rapido.webp
@@ -549,6 +602,8 @@ parts:
         aliexpress:
           url: "https://www.aliexpress.us/item/3256805715328881.html"
           note: Black
+        3do:
+          url: "https://3do.eu/complete-hotend/1251-phaetus-rapido-uhf-plus-v2-magenta-pt1000-limited-edition-3.html"
   Extruders:
     bondtech_bmg:
       name: Bondtech BMG
@@ -569,7 +624,8 @@ parts:
       sources:
         fabreeko:
           url: "https://www.fabreeko.com/products/vz-hextrudort-cnc-extruder-by-mellow"
-        
+        3do:
+          url: "https://3do.eu/complete-extruder/738-1143-vz-hextrudort-from-vzbot-by-mellow.html#/19-colour-black"
     bondtech_lgx:
       name: Bondtech LGX
       img: img/parts/lgx.webp
@@ -586,6 +642,8 @@ parts:
       img: img/parts/lgx_lite.webp
       note: Includes stepper.
       sources:
+        3do:
+          url: "https://3do.eu/complete-extruder/1449-lgx-lite-v2-large-gears-extruder.html"
         kb3d:
           url: "https://kb-3d.com/store/lgx-lgx-upgrade-kits/402-bondtech-lgx-lite-large-gears-extruder-complete-7350011413607.html"
         fabreeko:
@@ -600,6 +658,8 @@ parts:
       name: Orbiter 2
       img: img/parts/orbiter_2_0.webp
       sources:
+        3do:
+          url: "https://3do.eu/complete-extruder/413-ldo-orbiter-v2-dual-drive-direct-extruder.html"
         fabreeko:
           url: "https://www.fabreeko.com/products/ldo-orbiter-extruder-1-75mm"
         tinymachines:
@@ -668,6 +728,9 @@ parts:
         fabreeko:
           url: "https://www.fabreeko.com/products/super-pinda-by-fysetc"
           note: FYSETC SuperPINDA clone
+        3do:
+          url: "https://3do.eu/abl-probe/740-super-pinda-by-fysetc.html"
+          note: FYSETC SuperPINDA clone
     bltouch:
       name: BLTouch
       img: img/parts/bltouch.webp 
@@ -719,199 +782,199 @@ parts:
   Printed:
     front_basic:
       name: front_basic.stl
-      file_url: /STL/front/front_basic.stl
+      file: /STL/front/front_basic.stl
     front_pis:
       name: front_fysetc_pis.stl
-      file_url: /STL/front/front_fysetc_pis.stl
+      file: /STL/front/front_fysetc_pis.stl
     front_adxl_345:
       name: front_adxl345.stl
-      file_url: /STL/front/front_adxl345.stl
+      file: /STL/front/front_adxl345.stl
     belt_grabber:
       name: belt_grabber.stl
-      file_url: /STL/front/belt_grabber.stl
+      file: /STL/front/belt_grabber.stl
     cable_anchor:
       name: cable_anchor.stl
-      file_url: /STL/top/cable_anchor.stl
+      file: /STL/top/cable_anchor.stl
     top_left_endstop:
       name: top_left_endstop.stl
-      file_url: /STL/top/top_left_endstop.stl
+      file: /STL/top/top_left_endstop.stl
     top_left_endstop_anchor:
       name: top_left_endstop_anchor.stl
-      file_url: /STL/top/top_left_endstop_anchor.stl
+      file: /STL/top/top_left_endstop_anchor.stl
     top_no_endstop:
       name: top_no_endstop.stl
-      file_url: /STL/top/top_no_endstop.stl
+      file: /STL/top/top_no_endstop.stl
     top_right_endstop:
       name: top_right_endstop.stl
-      file_url: /STL/top/top_right_endstop.stl
+      file: /STL/top/top_right_endstop.stl
     top_right_endstop_anchor:
       name: top_right_endstop_anchor.stl
-      file_url: /STL/top/top_right_endstop_anchor.stl
+      file: /STL/top/top_right_endstop_anchor.stl
     
     rear_single_5015:
       name: rear_inlet_single_5015.stl
-      file_url: /STL/rear/rear_inlet_single_5015.stl
+      file: /STL/rear/rear_inlet_single_5015.stl
     rear_single_5015_eva:
       name: rear_5015_inlet.stl
-      file_url: /STL/rear/rear_5015_inlet.stl
+      file: /STL/rear/rear_5015_inlet.stl
     rear_single_5015_beacon:
       name: rear_inlet_single_5015_beacon.stl
-      file_url: /STL/rear/rear_inlet_single_5015_beacon.stl
+      file: /STL/rear/rear_inlet_single_5015_beacon.stl
     rear_inlet_rlf35_8:
       name: rear_inlet_single_papst_rlf35.stl
-      file_url: /STL/rear/rear_inlet_single_papst_rlf35.stl
+      file: /STL/rear/rear_inlet_single_papst_rlf35.stl
     rear_inlet_rlf35_8_beacon:
       name: rear_inlet_single_papst_rlf35_beacon.stl
-      file_url: /STL/rear/rear_inlet_single_papst_rlf35_beacon.stl
+      file: /STL/rear/rear_inlet_single_papst_rlf35_beacon.stl
     screw_cap:
       name: screw_cap.stl
-      file_url: /STL/rear/screw_cap.stl
+      file: /STL/rear/screw_cap.stl
     rear_inlet_15mm_cpap:
       name: rear_inlet_15mm_cpap.stl
-      file_url: /STL/rear/rear_inlet_15mm_cpap.stl
+      file: /STL/rear/rear_inlet_15mm_cpap.stl
     rear_inlet_15mm_cpap_beacon:
       name: rear_inlet_15mm_cpap_beacon.stl
-      file_url: /STL/rear/rear_inlet_15mm_cpap_beacon.stl
+      file: /STL/rear/rear_inlet_15mm_cpap_beacon.stl
     rear_inlet_dual_5015:
       name: dual_5015_inlet.stl
-      file_url: /STL/rear/dual_5015_inlet.stl
+      file: /STL/rear/dual_5015_inlet.stl
     rear_inlet_dual_5015_owl_eyes:
       name: rear_dual_5015_owl_eyes.stl
-      file_url: /STL/rear/rear_dual_5015_owl_eyes.st    
+      file: /STL/rear/rear_dual_5015_owl_eyes.st    
     rear_stock_intake_adapter:
       name: stock_intake_adapter.stl
-      file_url: /STL/rear/stock_intake_adapter.stl
+      file: /STL/rear/stock_intake_adapter.stl
     dual_horns:
       name: stock_bottom.stl
-      file_url: /STL/bottom/stock_bottom.stl
+      file: /STL/bottom/stock_bottom.stl
     trihorns:
       name: stock_bottom_trihorn.stl
-      file_url: /STL/bottom/stock_bottom_trihorn.stl
+      file: /STL/bottom/stock_bottom_trihorn.stl
     dual_horns_uhf:
       name: stock_bottom_uhf.stl
-      file_url: /STL/bottom/stock_bottom_uhf.stl
+      file: /STL/bottom/stock_bottom_uhf.stl
     dual_horns_klicky:
       name: klicky_bottom.stl
-      file_url: /STL/bottom/klicky_bottom.stl
+      file: /STL/bottom/klicky_bottom.stl
     trihorns_klicky:
       name: klicky_bottom_trihorn.stl
-      file_url: /STL/bottom/klicky_bottom_trihorn.stl
+      file: /STL/bottom/klicky_bottom_trihorn.stl
     dual_horns_uhf_klicky:
       name: klicky_bottom_uhf.stl
-      file_url: /STL/bottom/klicky_bottom_uhf.stl
+      file: /STL/bottom/klicky_bottom_uhf.stl
     dual_horns_beacon:
       name: beacon_bottom.stl
-      file_url: /STL/bottom/beacon_bottom.stl
+      file: /STL/bottom/beacon_bottom.stl
     dual_horns_beacon_no_hsi:
       name: beacon_bottom_no_hsi.stl
-      file_url: /STL/bottom/beacon_bottom_no_hsi.stl
+      file: /STL/bottom/beacon_bottom_no_hsi.stl
     trihorns_beacon:
       name: beacon_bottom_trihorns.stl
-      file_url: /STL/bottom/beacon_bottom_trihorns.stl
+      file: /STL/bottom/beacon_bottom_trihorns.stl
     dual_horns_uhf_beacon:
       name: beacon_bottom_uhf.stl
-      file_url: /STL/bottom/beacon_bottom_uhf.stl
+      file: /STL/bottom/beacon_bottom_uhf.stl
     abl_8mm_probe:
       name: abl_8mm_probe.stl
-      file_url: /STL/abl/abl_8mm_probe.stl
+      file: /STL/abl/abl_8mm_probe.stl
     abl_bl_touch:
       name: abl_bl_touch.stl
-      file_url: /STL/abl/abl_bl_touch.stl
+      file: /STL/abl/abl_bl_touch.stl
     abl_bl_touch_uhf:
       name: abl_bl_touch_uhf.stl
-      file_url: /STL/abl/abl_bl_touch_uhf.stl
+      file: /STL/abl/abl_bl_touch_uhf.stl
     abl_cr_touch:
       name: abl_cr_touch.stl
-      file_url: /STL/abl/abl_cr_touch.stl
+      file: /STL/abl/abl_cr_touch.stl
     abl_cr_touch_uhf: 
       name: abl_cr_touch_uhf.stl
-      file_url: /STL/abl/abl_cr_touch_uhf.stl
+      file: /STL/abl/abl_cr_touch_uhf.stl
     drive_bmg:
       name: drive_bmg.stl
-      file_url: /STL/drives/drive_bmg.stl
+      file: /STL/drives/drive_bmg.stl
     drive_creality_sprite_se:
       name: drive_creality_sprite_se.stl
-      file_url: /STL/drives/drive_creality_sprite_se.stl
+      file: /STL/drives/drive_creality_sprite_se.stl
     drive_lgx:
       name: drive_lgx.stl
-      file_url: /STL/drives/drive_lgx.stl
+      file: /STL/drives/drive_lgx.stl
     drive_lgx_lite:
       name: drive_lgx_lite.stl
-      file_url: /STL/drives/drive_lgx_lite.stl
+      file: /STL/drives/drive_lgx_lite.stl
     drive_orbiter_1_5:
       name: drive_orbiter_1_5.stl
-      file_url: /STL/drives/drive_orbiter_1_5.stl
+      file: /STL/drives/drive_orbiter_1_5.stl
     drive_orbiter_2:
       name: drive_orbiter_2_0.stl
-      file_url: /STL/drives/drive_orbiter_2_0.stl
+      file: /STL/drives/drive_orbiter_2_0.stl
     drive_sherpa_mini:
       name: drive_sherpa_mini.stl
-      file_url: /STL/drives/drive_sherpa_mini.stl
+      file: /STL/drives/drive_sherpa_mini.stl
 
     hotend_dragon_sf:
       name: hotend_dragon_bmo.stl
-      file_url: /STL/hotend/hotend_dragon_bmo.stl
+      file: /STL/hotend/hotend_dragon_bmo.stl
     hotend_dragon_uhf:
       name: hotend_dragon_uhf.stl
-      file_url: /STL/hotend/hotend_dragon_uhf.stl
+      file: /STL/hotend/hotend_dragon_uhf.stl
     hotend_dragonfly_bmo:
       name: hotend_dragonfly_bmo.stl
-      file_url: /STL/hotend/hotend_dragonfly_bmo.stl
+      file: /STL/hotend/hotend_dragonfly_bmo.stl
     hotend_dragonfly_bms:
       name: hotend_dragonfly_bms.stl
-      file_url: /STL/hotend/hotend_dragonfly_bms.stl
+      file: /STL/hotend/hotend_dragonfly_bms.stl
     hotend_mosquito:
       name: hotend_mosquito.stl
-      file_url: /STL/hotend/hotend_mosquito.stl
+      file: /STL/hotend/hotend_mosquito.stl
     hotend_nova:
       name: hotend_nova.stl
-      file_url: /STL/hotend/hotend_nova.stl
+      file: /STL/hotend/hotend_nova.stl
     hotend_rapido:
       name: hotend_rapido.stl
-      file_url: /STL/hotend/hotend_rapido.stl
+      file: /STL/hotend/hotend_rapido.stl
     hotend_rapido_uhf:
       name: hotend_rapido_uhf.stl
-      file_url: /STL/hotend/hotend_rapido_uhf.stl
+      file: /STL/hotend/hotend_rapido_uhf.stl
     hotend_revo_voron:
       name: hotend_revo_voron.stl
-      file_url: /STL/hotend/hotend_revo_voron.stl
+      file: /STL/hotend/hotend_revo_voron.stl
     cable_guide:
-      name: Cable Guide
-      file_url: /STL/misc/cable_guide.stl
+      name: cable_guide.stl
+      file: /STL/misc/cable_guide.stl
     e5plus_x_axis_stop_block:
       name: e5plus_x_axis_stop_block.stl
-      file_url: /STL/misc/e5plus_x_axis_stop_block.stl
+      file: /STL/misc/e5plus_x_axis_stop_block.stl
     taller_x_axis_stop_block:
       name: taller_x_axis_stop_block.stl
-      file_url: /STL/misc/taller_x_axis_stop_block.stl
+      file: /STL/misc/taller_x_axis_stop_block.stl
     x_axis_max_x_stop_block:
       name: x_axis_max_x_stop_block.stl
-      file_url: /STL/misc/x_axis_max_x_stop_block.stl
+      file: /STL/misc/x_axis_max_x_stop_block.stl
     x_axis_stop_block:
       name: x_axis_stop_block.stl
-      file_url: /STL/misc/x_axis_stop_block.stl
+      file: /STL/misc/x_axis_stop_block.stl
     z_limit_switch_mount:
       name: z_limit_switch_mount.stl
-      file_url: /STL/misc/z_limit_switch_mount.stl
+      file: /STL/misc/z_limit_switch_mount.stl
     z_limit_switch_cover:
       name: z_limit_switch_cover.stl
-      file_url: /STL/misc/z_limit_switch_cover.stl
+      file: /STL/misc/z_limit_switch_cover.stl
     
     nema17_pcb36_mount:
       name: pcb36_mount.stl
-      file_url: /STL/pcb/mounts/pcb36_mount.stl
+      file: /STL/pcb/mounts/pcb36_mount.stl
     nema17_pcb_36_mount_cable_chain:
       name: pcb36_mount_cable_chain.stl
-      file_url: /STL/pcb/mounts/pcb36_mount_cable_chain.stl
+      file: /STL/pcb/mounts/pcb36_mount_cable_chain.stl
     nema17_pcb42_mount:
       name: pcb42_mount.stl
-      file_url: /STL/pcb/mounts/pcb42_mount.stl
+      file: /STL/pcb/mounts/pcb42_mount.stl
     nema17_pcb_42_mount_cable_chain:
       name: pcb42_mount_cable_chain.stl
-      file_url: /STL/pcb/mounts/pcb42_mount_cable_chain.stl
+      file: /STL/pcb/mounts/pcb42_mount_cable_chain.stl
     pcb_shroud_30mm_fan:
       name: pcb_shroud_30mm_fan.stl
-      file_url: /STL/pcb/shrouds/pcb_shroud_30mm_fan.stl
+      file: /STL/pcb/shrouds/pcb_shroud_30mm_fan.stl
 subassemblies:
   assy_hotend_fan:
     fan_4010: 1
@@ -947,6 +1010,7 @@ components:
       template: hotend_v1
       img: img/components/hotend_nova.webp
       attributes:
+        origin: u_eva
         hsi: true
         length: standard
         ptfe: 39.65
@@ -967,6 +1031,7 @@ components:
         hsi: true
         length: standard
         ptfe: 27.15
+        origin: u_eva
       parts:
         e3d_revo_voron: 1
         assy_hotend_fan: 1
@@ -980,7 +1045,9 @@ components:
       name: Dragon SF/HF
       template: hotend_v1
       img: img/components/hotend_dragon_bmo.webp
+      note: Often found as a clone called the Haldis Red Lizard K1.
       attributes:
+        origin: u_3dpandme
         hsi: true
         length: standard
         ptfe: 24.5
@@ -998,6 +1065,7 @@ components:
       template: hotend_v1
       img: img/components/hotend_dragon_uhf.webp
       attributes:
+        origin: u_etotheipi
         hsi: true
         length: standard
         ptfe: 15.0
@@ -1015,6 +1083,7 @@ components:
       template: hotend_v1
       img: img/components/hotend_dragonfly_bmo.webp
       attributes:
+        origin: u_eva
         hsi: true
         length: standard
         ptfe: 39.5
@@ -1031,10 +1100,14 @@ components:
       name: Dragonfly BMS
       template: hotend_v1
       img: img/components/hotend_dragonfly_bms.webp
+      note: |
+        - This mount is only compatible with the 6-fin heatsink.
+        - Lock washers for mounting the hotend are optional.
       attributes:
         hsi: True
         length: standard
         ptfe: 20.0
+        origin: u_themacboy
       parts:
         phaetus_dragonfly_bms: 1
         assy_hotend_fan: 1
@@ -1050,6 +1123,7 @@ components:
       name: Rapido
       template: hotend_v1
       img: img/components/hotend_rapido.webp
+      origin: u_eva
       attributes:
         hsi: True
         length: standard
@@ -1068,6 +1142,7 @@ components:
       template: hotend_v1
       img: img/components/hotend_rapido.webp
       attributes:
+        origin: u_eva
         hsi: True
         length: uhf
         ptfe: 27.23
@@ -1089,9 +1164,9 @@ components:
         - Mellow NF-Crazy hotends are not compatible with this mount.
       attributes:
         hsi: True
+        origin: u_eva
         length: standard
         ptfe: 22.6
-        origin: EVA
       parts:
         slice_mosquito: 1
         assy_hotend_fan: 1
@@ -1123,6 +1198,7 @@ components:
         bhcs_m3_6: 1
       variants:
         Stock:
+          author: u_jonspaceharper
           parts:
             drive_sherpa_mini: 1
     comp_bmg:
@@ -1131,7 +1207,7 @@ components:
       img: img/components/bmg.webp
       attributes:
         ptfe: 28.9
-        origin: EVA
+        origin: u_eva
       parts:
         bondtech_bmg: 1
         stepper_nema17_25mm: 1
@@ -1147,9 +1223,11 @@ components:
       name: Bondtech LGX
       template: drive_v1
       img: img/components/lgx.webp
+      note: |
+        Sold with NEMA17 stepper.
       attributes:
         ptfe: 20.8
-        origin: EVA
+        origin: u_eva
       parts:
         bondtech_lgx: 1
         stepper_nema17_25mm: 1
@@ -1167,7 +1245,7 @@ components:
       template: drive_v1
       attributes:
         ptfe: 14.2
-        origin: EVA
+        origin: u_eva
       parts:
         bondtech_lgx_lite: 1
         stepper_nema14_10t: 1
@@ -1184,9 +1262,10 @@ components:
       name: LDO Orbiter 1.5
       img: img/components/orbiter_1_5.webp
       template: drive_v1
+      note: Typically sold with a 10t stepper.
       attributes:
         ptfe: 17.95
-        origin: EVA
+        origin: u_eva
         hsi: true
       parts:
         stepper_nema14_10t: 1
@@ -1205,9 +1284,10 @@ components:
       name: LDO Orbiter 2
       img: img/components/orbiter_2_0.webp
       template: drive_v1
+      note: Typically sold with a 10t stepper.
       attributes:
         ptfe: 17.95
-        origin: EVA
+        origin: u_eva
         hsi: true
       parts:
         stepper_nema14_10t: 1
@@ -1231,6 +1311,7 @@ components:
       attributes:
         hsi: true
         version: v0.5
+        origin: u_eva
       parts:
         hsi_m3_5od_4l: 14
         belt_grabber: 2
@@ -1238,16 +1319,19 @@ components:
       variants:
         Basic:
           img: img/components/front_basic.webp
+          note: Version of the Front that does not mount an accelerometer.
           parts:
             front_basic: 1
         Portable Input Shaper:
           img: img/components/front_pis.webp
+          note: Mounts a FYSETC Portable Input Shaper.
           parts:
             hsi_m3_5od_4l: 2
             fysetc_pis: 1
             shcs_m3_6: 2
         ADXL345:
           img: img/components/front_adxl.webp
+          note: Mounts an ADXL345 PCB.
           parts:
             adxl345: 1
             shcs_m3_6: 2
@@ -1259,6 +1343,7 @@ components:
       name: Top
       template: top_v2
       attributes:
+        origin: u_eva
         hsi: true
         version: v0.7
       parts:
