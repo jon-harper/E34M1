@@ -17,11 +17,11 @@ def __icon_gen(icon: str, tooltip: str, url: str = None) -> str:
         return '<span title="{tooltip}" class="jh-icon-badge" markdown>{icon}</span>'.format(
             icon=icon, tooltip=tooltip)
 
-def badge(icon: str,
-          tooltip: str,
-          icon_url: str = None,
-          txt : str = None,
-          txt_url : str = None) -> str:
+def make_badge(icon: str,
+                tooltip: str,
+                icon_url: str = None,
+                txt : str = None,
+                txt_url : str = None) -> str:
     """
     Creates a badge element from an icon, text, urls, and a tooltip.
 

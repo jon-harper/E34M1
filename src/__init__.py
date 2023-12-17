@@ -52,4 +52,4 @@ def define_env(env):
         """
         return '[{}][{}]'.format(":material-git: Files", url) + "{ .md-button }"
 
-    env.macro(badge.badge)
+    env.macro(badge.make_badge)
