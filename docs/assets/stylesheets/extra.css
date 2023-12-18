@@ -347,3 +347,8 @@ span.jh-icon-badge {
 span.jh-icon-badge :is(:hover, :focus) {
     color: var(--md-primary-fg-color);
 }
+
+.jh-cover-img img {
+    border: 2px solid var(--md-primary-fg-color);
+    border-radius: 15px;
+}
