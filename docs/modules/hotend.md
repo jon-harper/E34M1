@@ -17,7 +17,7 @@ prefix: '../'
 {% set values = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
 {% for comp in values -%}
-{{ format.variant_entry(comp, prefix) }}
+{{ format.comp_entry(comp, prefix, img_width="200px") }}
 {% endfor -%}
 
 ## EVA 3 Ecosystem Hotends
@@ -51,4 +51,15 @@ These hotends are third party mounts that use either EVA-style inserts or hex nu
 <div markdown class="jh-grid-img">
 ![E3D V6](../img/parts/e3d_v6.webp){width="200px"}
 </div>
+<div markdown class="jh-grid-para">
+
+### Mellow NF-Crazy
+
+- **Author**: [Lascoose](https://www.printables.com/@Lascoose)
+- **Inserts/Hex Nuts**: M3x4.6x4 inserts
+
+[Link](https://www.printables.com/model/316658-eva-30-nf-crazy-hotend)
+</div>
+<div markdown class="jh-grid-img">
+![Mellow NF-Crazy](../img/parts/mellow_nf_crazy.webp){width="200px"}
 </div>

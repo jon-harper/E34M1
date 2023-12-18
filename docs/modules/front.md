@@ -14,5 +14,5 @@ There are three versions of the front module; two mount an accelerometer.
 {% set values = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
 {% for comp in values -%}
-{{ format.variant_entry(comp, prefix) }}
+{{ format.comp_entry(comp, prefix) }}
 {% endfor -%}
