@@ -1045,7 +1045,7 @@ components:
       attributes:
         origin: u_eva
         hsi: true
-        length: standard
+        length: Standard
         ptfe: 39.65
       parts:
         3dpassion_nova: 1
@@ -1062,7 +1062,7 @@ components:
       img: img/components/hotend_revo_voron.webp
       attributes:
         hsi: true
-        length: standard
+        length: Standard
         ptfe: 27.15
         origin: u_eva
       parts:
@@ -1082,7 +1082,7 @@ components:
       attributes:
         origin: u_3dpandme
         hsi: true
-        length: standard
+        length: Standard
         ptfe: 24.5
       parts:
         phaetus_dragon: 1
@@ -1100,7 +1100,7 @@ components:
       attributes:
         origin: u_etotheipi
         hsi: true
-        length: standard
+        length: Standard
         ptfe: 15.0
       parts:
         phaetus_dragon_uhf: 1
@@ -1118,7 +1118,7 @@ components:
       attributes:
         origin: u_eva
         hsi: true
-        length: standard
+        length: Standard
         ptfe: 39.5
       parts:
         phaetus_dragonfly_bmo: 1
@@ -1138,7 +1138,7 @@ components:
         - Lock washers for mounting the hotend are optional.
       attributes:
         hsi: True
-        length: standard
+        length: Standard
         ptfe: 20.0
         origin: u_themacboy
       parts:
@@ -1159,7 +1159,7 @@ components:
       origin: u_eva
       attributes:
         hsi: True
-        length: standard
+        length: Standard
         ptfe: 29.8
       parts:
         phaetus_rapido: 1
@@ -1177,7 +1177,7 @@ components:
       attributes:
         origin: u_eva
         hsi: True
-        length: uhf
+        length: UHF
         ptfe: 27.23
       parts:
         phaetus_rapido_uhf: 1
@@ -1198,7 +1198,7 @@ components:
       attributes:
         hsi: True
         origin: u_eva
-        length: standard
+        length: Standard
         ptfe: 22.6
       parts:
         slice_mosquito: 1
@@ -1572,6 +1572,7 @@ components:
       note: This is a lightweight version of the stock EVA dual horns.
       attributes:
         hsi: True
+        length: Standard
       parts:
         hsi_m3_5od_4l: 1
       variants:
@@ -1620,6 +1621,7 @@ components:
       img: img/components/bottom_trihorns.webp
       attributes:
         hsi: true
+        length: Standard
       parts:
         hsi_m3_5od_4l: 1
       variants:
@@ -1655,6 +1657,7 @@ components:
       img: img/components/bottom_horns_uhf.webp
       attributes:
         hsi: True
+        length: UHF
       parts:
         hsi_m3_5od_4l: 1
       variants:
@@ -1682,7 +1685,74 @@ components:
             dual_horns_uhf_klicky: 1
             magnets_6_3: 3
             wire_24awg: 15
+    comp_kraken:
+      name: Kraken Horns
+      template: bottom_v2
+      img: img/components/kraken_stock.webp
+      note: |
+        Kraken is designed to provide more even, distributed airflow than 
+        the stock EVA dual horns.
+      attributes:
+        length: Standard
+        hsi: true
+        version: 0.5
+      parts:
+        hsi_m3_5od_4l: 1
+      variants:
+        Stock:
+          parts:
+            kraken_stock: 1
+        Beacon:
+          note: The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
+          attributes:
+            y_offset: 37
+          parts:
+            beacon: 1
+            hsi_m3_5od_4l: 2
+            kraken_beacon: 1
+        Klicky:
+          attributes:
+            y_offset: 32
+            x_offset: '-1.5'
+          parts:
+            kraken_klicky: 1
+            magnets_6_3: 3
+            wire_24awg: 15
+    comp_kraken_uhf:
+      name: Kraken UHF Horns
+      template: bottom_v2
+      img: img/components/kraken_uhf.webp
+      note: |
+        Kraken is designed to provide more even, distributed airflow than 
+        the stock EVA dual horns.        
+      attributes:
+        length: UHF
+        hsi: true
+        version: 0.4
+      parts:
+        hsi_m3_5od_4l: 1
+      variants:
+        Stock:
+          parts:
+            kraken_uhf_stock: 1
+        Beacon:
+          note: The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
+          attributes:
+            y_offset: 37
+          parts:
+            beacon: 1
+            hsi_m3_5od_4l: 2
+            kraken_uhf_beacon: 1
+        Klicky:
+          attributes:
+            y_offset: 32
+            x_offset: '-1.5'
+          parts:
+            kraken_uhf_klicky: 1
+            magnets_6_3: 3
+            wire_24awg: 15
 
+            
 templates:
   v2:
     - front_v2
