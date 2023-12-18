@@ -276,10 +276,11 @@ parts:
       img: img/parts/fan_4010.webp
       sources:
         amazon_us:
-          url: "https://www.amazon.com/dp/B08R9L9YR2"
+          url: "https://www.amazon.com/GDSTIME-Bearing-40x40x10mm-Brushless-Cooling/dp/B0B1V52WGP"
+          note: 2ea, GDSTIME Brushless 24V
         kb3d:
           url: "https://kb-3d.com/store/fans/455-sunon-4010-fan-24v-maglev-1642214237163.html"
-          note: Sunon Maglev 24V
+          note: Sunon Maglev 24V. Does not support PWM.
         3do:
           url: "https://3do.eu/fans/191-gdstime-4010-24v-axial-fan-298dba-7500rpm.html"
           note: GDSTIME Brushless 24V 
@@ -300,11 +301,14 @@ parts:
           url: "https://www.amazon.com/GDSTIME-Brushless-Bearing-Cooling-Extruder/dp/B0B1V6JTB8/"
           note: GDSTIME Brushless 24V
         kb3d:
-          url: "https://kb-3d.com/store/fans/501-sunon-5015-blower-fan-24v-maglev-1646515411413.html"
-          note: Sunon Maglev 24V
+          url: "https://kb-3d.com/store/fans/390-delta-5015-ball-bearing-blower-fan-24v-1685900680843.html"
+          note: Delta Brushless 24V
         3do:
           url: "https://3do.eu/fans/193-gdstime-5015-24v-blower-fan-346dba-6000rpm.html"
           note: GDSTIME Brushless 24V
+        fabreeko:
+          url: "https://www.fabreeko.com/products/5015-blower-fan-by-honeybadger"
+          note: HoneyBadger Dual Ball Bearing 24V
     fan_rlf35_8:
       name: Papst RLF35-8
       img: img/parts/fan_rlf35_8.webp
@@ -604,6 +608,10 @@ parts:
           note: Black
         3do:
           url: "https://3do.eu/complete-hotend/1251-phaetus-rapido-uhf-plus-v2-magenta-pt1000-limited-edition-3.html"
+    mellow_nf_crazy:
+      name: Mellow NF-Crazy
+      img: img/parts/mellow_nf_crazy.webp
+      
   Extruders:
     bondtech_bmg:
       name: Bondtech BMG
@@ -696,7 +704,14 @@ parts:
           url: "https://www.filastruder.com/products/e3d-titan-extruder"
         e3d:
           url: "https://e3d-online.com/products/titan-extruder"
-
+    creality_sprite_se:
+      name: Creality Sprite SE
+      img: img/parts/creality_sprite_se.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Creality-Official-Extruder-Compatible-Printers/dp/B0C7QHQHG3"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805450237404.html"
   Accelerometers:
     adxl345:
       name: ADXL345
@@ -874,6 +889,24 @@ parts:
     dual_horns_uhf_beacon:
       name: beacon_bottom_uhf.stl
       file: /STL/bottom/beacon_bottom_uhf.stl
+    kraken_stock:
+      name: kraken_stock.stl
+      file: /STL/bottom/kraken_stock.stl
+    kraken_beacon:
+      name: kraken_beacon.stl
+      file: /STL/bottom/kraken_beacon.stl
+    kraken_klicky:
+      name: kraken_klicky.stl
+      file: /STL/bottom/kraken_klicky.stl
+    kraken_uhf_stock:
+      name: kraken_uhf_stock.stl
+      file: /STL/bottom/kraken_uhf_stock.stl
+    kraken_uhf_beacon:
+      name: kraken_uhf_beacon.stl
+      file: /STL/bottom/kraken_uhf_beacon.stl
+    kraken_uhf_klicky:
+      name: kraken_uhf_klicky.stl
+      file: /STL/bottom/kraken_uhf_klicky.stl
     abl_8mm_probe:
       name: abl_8mm_probe.stl
       file: /STL/abl/abl_8mm_probe.stl
@@ -1188,6 +1221,7 @@ components:
       template: drive_v1
       img: img/components/sherpa_mini.webp
       attributes:
+        origin: u_eva
         hsi: true
         ptfe: 17.0
       parts:
@@ -1198,7 +1232,6 @@ components:
         bhcs_m3_6: 1
       variants:
         Stock:
-          author: u_jonspaceharper
           parts:
             drive_sherpa_mini: 1
     comp_bmg:
@@ -1326,6 +1359,7 @@ components:
           img: img/components/front_pis.webp
           note: Mounts a FYSETC Portable Input Shaper.
           parts:
+            front_pis: 1
             hsi_m3_5od_4l: 2
             fysetc_pis: 1
             shcs_m3_6: 2
@@ -1333,6 +1367,7 @@ components:
           img: img/components/front_adxl.webp
           note: Mounts an ADXL345 PCB.
           parts:
+            front_adxl_345: 1
             adxl345: 1
             shcs_m3_6: 2
             hsi_m3_5od_4l: 2
@@ -1345,29 +1380,34 @@ components:
       attributes:
         origin: u_eva
         hsi: true
-        version: v0.7
+        version: v0.8
       parts:
         assy_top_common: 1
       variants:
         Left Homing:
+          img: img/components/top_left_endstop.webp
           parts:
             assy_limit_switch: 1
             top_left_endstop: 1
         Left Homing with Anchor:
+          img: img/components/top_left_endstop_anchor.webp
           parts:
             assy_limit_switch: 1
             assy_cable_anchor: 1
             top_left_endstop_anchor: 1
         Right-Homing Top:
+          img: img/components/top_right_endstop.webp
           parts:
             assy_limit_switch: 1
             top_right_endstop: 1
         Right-Homing with Anchor:
+          img: img/components/top_right_endstop_anchor.webp
           parts:
             assy_limit_switch: 1
             assy_cable_anchor: 1
             top_right_endstop_anchor: 1
         Sensorless Homing:
+          img: img/components/top_no_endstop.webp
           parts:
             top_no_endstop: 1
 
@@ -1377,13 +1417,20 @@ components:
     comp_single_5015:
       name: Single 5015 Rear Inlet
       template: rear_v2
+      img: img/components/rear_single_5015.webp
+      note: |
+        This is an excellent all-purpose cooling option. Use this
+        if you aren't sure which inlet to use.
       attributes:
         hsi: true
+        version: 0.2
       parts:
         assy_5015: 1
         hsi_m3_5od_4l: 1
       variants:
         Stock:
+          attributes:
+            version: 0.2
           parts:
             assy_rear_inlet_common: 1
             rear_single_5015: 1
@@ -1397,36 +1444,45 @@ components:
     comp_single_5015_eva:
       name: Single 5015 Rear Inlet, EVA-Style
       template: rear_v1
+      img: img/components/5015_inlet.webp
       attributes:
         hsi: True
-        origin: EVA
+        origin: u_eva
       parts:
         assy_5015: 1
         hsi_m3_5od_4l: 1
         assy_rear_inlet_common: 1
       variants:
         Stock:
+          attributes:
+            version: 0.1
           parts:
             rear_single_5015_eva: 1
     
     comp_dual_5015:
       name: Dual 5015 Rear Inlet
       template: rear_v1
+      img: img/components/dual_5015_inlet.webp
+      note: |
+        This rear inlet is modified from the stock 5015. It offers plenty of airflow at the cost of a larger toolhead in the Y and Z axes.
       attributes:
         hsi: True
-        origin: EVA
+        origin: u_eva
       parts:
         assy_5015: 2
         hsi_m3_5od_4l: 2
         assy_rear_inlet_common: 1
       variants:
         Stock:
+          attributes:
+            version: 0.1
           parts:
             rear_inlet_dual_5015: 1
 
     comp_dual_5015_owl_eyes:
       name: Dual 5015 Rear Inlet (Owl's Eyes)
       template: rear_v2
+      img: img/components/dual_5015_inlet_owl_eyes.webp
       attributes:
         hsi: true
       parts:
@@ -1435,12 +1491,15 @@ components:
         assy_rear_inlet_common: 1
       variants:
         Stock:
+          attributes:
+            version: 0.1
           parts:
             rear_inlet_dual_5015_owl_eyes: 1
     
     comp_papst_rlf35:
       name: Single Papst RLF35-8
       template: rear_v2
+      img: img/components/papst_rlf35.webp
       attributes:
         hsi: true
       parts:
@@ -1453,11 +1512,13 @@ components:
         fhcs_m3_45: 2
       variants:
         Stock:
+          author: u_cuiviemen
           parts:
             shcs_m3_6: 1
             lock_washer_m3: 1
             rear_inlet_rlf35_8: 1
         Beacon:
+          author: u_cuiviemen
           parts:
             fhcs_m3_6: 1
             rear_inlet_rlf35_8_beacon: 1
@@ -1465,13 +1526,163 @@ components:
     comp_intake_adapter:
       name: Rear Intake Adapter
       template: rear_v1
+      img: img/components/stock_inlet_adapter.webp
+      attributes:
+        origin: u_psychohead
       parts:
         shcs_m3_45: 4
         lock_washer_m3: 4
       variants:
         Stock:
+          attributes:
+            version: v0.1
           parts:
             rear_stock_intake_adapter: 1
+    comp_15mm_cpap:
+      name: 15mm CPAP
+      template: rear_v1
+      img: img/components/rear_15mm_cpap.webp
+      note: |
+        This inlet accepts a 15mm ID CPAP hose, secured by zip ties.
+
+        CPAP hoses typically come with a latching mechanism on each end; these must be removed.
+      parts:
+        cpap_hose_15mm: 1
+        zip_tie_100mm: 2
+      variants:
+        Stock:
+          attributes:
+            version: v3
+          parts:
+            rear_inlet_15mm_cpap: 1
+            assy_rear_inlet_common: 1
+        Beacon:
+          attributes:
+            version: v3
+          parts:
+            rear_inlet_15mm_cpap_beacon: 1
+            shcs_m3_45: 4
+            fhcs_m3_6: 1
+            lock_washer_m3: 4
+  Bottom Horns:
+    comp_dual_horns:
+      name: Dual Horns
+      template: bottom_v2
+      img: img/components/bottom_horns.webp
+      note: This is a lightweight version of the stock EVA dual horns.
+      attributes:
+        hsi: True
+      parts:
+        hsi_m3_5od_4l: 1
+      variants:
+        Stock:
+          attributes:
+            version: 0.3
+          parts:
+            dual_horns: 1
+        Beacon:
+          note: The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
+          attributes:
+            version: 0.2
+            origin: u_cuiviemen
+            y_offset: 34
+          parts:
+            hsi_m3_5od_4l: 2
+            dual_horns_beacon: 1
+            beacon: 1
+        Beacon (Alternate):
+          note: |
+            This part saves weight by not using inserts. The Beacon probe is
+            mounted with screws that thread directly into plastic.
+            
+            The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
+          attributes:
+            version: 0.1
+            origin: u_cuiviemen
+            y_offset: 34
+          parts:
+            dual_horns_beacon_no_hsi: 1
+            beacon: 1
+        Klicky:
+          attributes:
+            version: 0.2
+            x_offset: '-1.5'
+            y_offset: 37
+          parts:
+            dual_horns_klicky: 1
+            magnets_6_3: 3
+            wire_24awg: 15
+    comp_trihorns:
+      name: Trihorns
+      template: bottom_v2
+      note: |
+        These horns are exclusively meant as a workaround for the Mosquito's large heater block.
+      img: img/components/bottom_trihorns.webp
+      attributes:
+        hsi: true
+      parts:
+        hsi_m3_5od_4l: 1
+      variants:
+        Stock:
+          attributes:
+            version: v0.1
+          parts:
+            trihorns: 1
+        Beacon:
+          note: The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
+          attributes:
+            origin: u_cuiviemen
+            version: v0.1
+            y_offset: 34
+          parts:
+            hsi_m3_5od_4l: 2
+            beacon: 1
+            trihorns_beacon: 1
+        Klicky:
+          attributes:
+            version: v0.2
+            y_offset: 37
+            x_offset: '-1.5'
+          parts:
+            trihorns_klicky: 1
+            wire_24awg: 15
+            magnets_6_3: 3
+    comp_dual_horns_uhf:
+      name: UHF Dual Horns
+      template: bottom_v2
+      note: |
+        This is a modified version of the EVA UHF dual horns.
+      img: img/components/bottom_horns_uhf.webp
+      attributes:
+        hsi: True
+      parts:
+        hsi_m3_5od_4l: 1
+      variants:
+        Stock:
+          attributes:
+            version: v0.3
+          parts:
+            dual_horns_uhf: 1
+        Beacon:
+          note: The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
+          attributes:
+            origin: u_psychohead
+            version: v0.2
+            y_offset: 17
+          parts:
+            hsi_m3_5od_4l: 2
+            beacon: 1
+            dual_horns_uhf_beacon: 1
+        Klicky:
+          attributes:
+            version: v0.1
+            y_offset: 37
+            x_offset: '-1.5'
+          parts:
+            dual_horns_uhf_klicky: 1
+            magnets_6_3: 3
+            wire_24awg: 15
+
 templates:
   v2:
     - front_v2
