@@ -57,9 +57,12 @@ All STL files are exported in print orientation.
 
 ### How are Voron-style and EVA-style inserts different?
 
-Both insert styles are M3 and 4mm long, but Voron-style inserts are slightly thicker than EVA inserts. Mercury One relies on Voron-style inserts exclusively, so all E34M1 components use them, as well. Third-party and stock EVA components use EVA-style inserts instead.
+Voron-style inserts are slightly thicker than EVA inserts. Mercury One relies on Voron-style inserts exclusively,
+so all E34M1 components use them, as well. Third-party and stock EVA components use EVA-style inserts instead.
 
-Does it matter? Somewhat: the adjustments we made for the larger, Voron-style inserts make insertion easier and visually cleaner. Users report that it is generally still possible to use Voron-style inserts with parts made for EVA inserts.
+Does it matter? Yes: the adjustments we made for the larger, Voron-style inserts make insertion easier and parts
+fit together better. Users report that it is generally still possible to use Voron-style inserts with parts made
+for thinner inserts, but post-processing is needed.
 
 ## Tips
 
@@ -72,6 +75,14 @@ These badges are meant to speed up reading through many entries at once.
 
 Tap or hover over the icon for an explanation of what each badges means. Some badges use text to provide
 additional information, such as an contributor's name and profile link.
+
+### PTFE Values
+
+{{ badges.ptfe(22.5) }}
+
+Hotends and drives (extruders) have a PTFE length value, indicated with a badge
+like the one above. Add the two values to determine how much PTFE tubing you need between your hotend
+and extruder.
 
 ## Compatibility Charts
 

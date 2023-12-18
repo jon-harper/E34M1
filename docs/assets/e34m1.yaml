@@ -87,6 +87,9 @@ authors:
   u_jonspaceharper:
     name: jonspaceharper
     url: "https://www.github.com/jon-harper/"
+  u_svennixx:
+    name: Svennixx
+    url: "https://github.com/Svennixx"
 parts:
   DIN 125:
     washer_m3:
@@ -213,7 +216,11 @@ parts:
       sources:
         bolt_depot:
           url: "https://www.boltdepot.com/Product-Details.aspx?product=6389"
-    
+    shcs_m5_16:
+      name: M5 x 16mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6409"
   # Button head cap screws
   DIN 7380:
     # M3 BHCS
@@ -268,6 +275,15 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/Female-Standoff-Quadcopter-Computer-Circuit/dp/B0CJCHCRVJ/"
+    tnut_rollin_m3:
+      name: 20 Series M3 Roll-in T-Nut
+      img: img/parts/tnut_rollin_m3.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/100-Pack-Aluminum-Extrusions-Profile-Accessories/dp/B07VHQW44W"
+          note: 100pk
+        kb3d:
+          url: "https://kb-3d.com/store/extrusion-framing/251-t-nut-drop-inroll-in-20-series-6mm-slot-width-m3-threads-1657989324345.html"
   ###
   Fan:
   ###
@@ -1097,6 +1113,7 @@ components:
       name: Dragon UHF
       template: hotend_v1
       img: img/components/hotend_dragon_uhf.webp
+      note: Hotend wiring must be bent at a 90 degree angle to fit.
       attributes:
         origin: u_etotheipi
         hsi: true
@@ -1334,13 +1351,28 @@ components:
         Stock:
           parts:
             drive_orbiter_2: 1
-
+    comp_creality_sprite_se:
+      name: Creality Sprite SE
+      img: img/components/drive_creality_sprite_se.webp
+      template: drive_v1
+      attributes:
+        ptfe: 25.25
+      parts:
+        shcs_m3_6: 6
+        creality_sprite_se: 1
+      variants:
+        Stock:
+          author: u_svennixx
+          parts:
+            drive_creality_sprite_se: 1
   ###
   Front:
   ###
-    comp_front:
-      name: Front
+    comp_front_basic:
+      name: Basic Front
       template: front_v2
+      img: img/components/front_basic.webp
+      note: This version of the Front does not mount an accelerometer.
       attributes:
         hsi: true
         version: v0.5
@@ -1351,21 +1383,43 @@ components:
         shcs_m3_6: 4
       variants:
         Basic:
-          img: img/components/front_basic.webp
-          note: Version of the Front that does not mount an accelerometer.
           parts:
             front_basic: 1
-        Portable Input Shaper:
-          img: img/components/front_pis.webp
-          note: Mounts a FYSETC Portable Input Shaper.
+    comp_front_pis:
+      name: Portable Input Shaper Front
+      template: front_v2
+      img: img/components/front_pis.webp
+      note: Mounts a FYSETC Portable Input Shaper.
+      attributes:
+        hsi: true
+        version: v0.5
+        origin: u_eva
+      parts:
+        hsi_m3_5od_4l: 14
+        belt_grabber: 2
+        shcs_m3_6: 4
+      variants:
+        Stock:
           parts:
             front_pis: 1
             hsi_m3_5od_4l: 2
             fysetc_pis: 1
             shcs_m3_6: 2
+    comp_front_adxl:
+      name: ADXL345 Front
+      template: front_v2
+      img: img/components/front_adxl.webp
+      note: Mounts an ADXL345 PCB.
+      attributes:
+        hsi: true
+        version: v0.5
+        origin: u_eva
+      parts:
+        hsi_m3_5od_4l: 14
+        belt_grabber: 2
+        shcs_m3_6: 4
+      variants:
         ADXL345:
-          img: img/components/front_adxl.webp
-          note: Mounts an ADXL345 PCB.
           parts:
             front_adxl_345: 1
             adxl345: 1
@@ -1374,8 +1428,53 @@ components:
   ###
   Top:
   ###
-    comp_top:
-      name: Top
+    comp_top-left:
+      name: Left-Homing Top
+      template: top_v2
+      img: img/components/top_left_endstop_anchor.webp
+      note: |
+        Use one of these Tops if you intend to home to to the front-left corner.
+      attributes:
+        origin: u_eva
+        hsi: true
+        version: v0.8
+      parts:
+        assy_top_common: 1
+        assy_limit_switch: 1
+      variants:
+        No Anchor:
+          parts:
+            top_left_endstop: 1
+        With Anchor:
+          parts:
+            assy_cable_anchor: 1
+            top_left_endstop_anchor: 1
+    comp_top_right:
+      name: Right-Homing Top
+      template: top_v2
+      img: img/components/top_right_endstop_anchor.webp
+      note: |
+        Use one of these Tops if you intend to home to to the rear-right corner.
+      attributes:
+        origin: u_eva
+        hsi: true
+        version: v0.8
+      parts:
+        assy_top_common: 1
+        assy_limit_switch: 1
+      variants:
+        No Anchor:
+          parts:
+            top_right_endstop: 1
+        With Anchor:
+          parts:
+            assy_limit_switch: 1
+            assy_cable_anchor: 1
+            top_right_endstop_anchor: 1
+    comp_top_sensorless:
+      name: Sensorless Homing Top
+      img: img/components/top_no_endstop.webp
+      note: This Top does not mount an endstop.
       template: top_v2
       attributes:
         origin: u_eva
@@ -1384,30 +1483,7 @@ components:
       parts:
         assy_top_common: 1
       variants:
-        Left Homing:
-          img: img/components/top_left_endstop.webp
-          parts:
-            assy_limit_switch: 1
-            top_left_endstop: 1
-        Left Homing with Anchor:
-          img: img/components/top_left_endstop_anchor.webp
-          parts:
-            assy_limit_switch: 1
-            assy_cable_anchor: 1
-            top_left_endstop_anchor: 1
-        Right-Homing Top:
-          img: img/components/top_right_endstop.webp
-          parts:
-            assy_limit_switch: 1
-            top_right_endstop: 1
-        Right-Homing with Anchor:
-          img: img/components/top_right_endstop_anchor.webp
-          parts:
-            assy_limit_switch: 1
-            assy_cable_anchor: 1
-            top_right_endstop_anchor: 1
-        Sensorless Homing:
-          img: img/components/top_no_endstop.webp
+        Stock:
           parts:
             top_no_endstop: 1
 
@@ -1751,8 +1827,112 @@ components:
             kraken_uhf_klicky: 1
             magnets_6_3: 3
             wire_24awg: 15
+  ABL Side Mount:
+    comp_8mm_probe:
+      name: 8mm Probe
+      template: abl_v2
+      img: img/components/abl_8mm_probe.webp
+      note: |
+        Mounts an 8mm inductive probe, such the Prusa Research SuperPINDA.
+      attributes:
+        version: 0.4
+      parts:
+        hsi_m3_5od_4l: 1
+        shcs_m3_6: 3
+        8mm_probe: 1
+      variants:
+        Stock:
+          parts:
+            abl_8mm_probe: 1
+    comp_bltouch:
+      name: BLTouch
+      template: abl_v2
+      img: img/components/abl_bl_touch.webp
+      parts:
+        bltouch: 1
+        hsi_m3_5od_4l: 2
+        shcs_m3_6: 4
+      variants: 
+        Standard:
+          attributes:
+            x_offset: -35.75
+            y_offset: -8.75
+            length: Standard
+            version: v0.4
+          parts:
+            abl_bl_touch: 1
+        UHF:
+          attributes:
+            length: UHF
+            version: v0.4
+            x_offset: -35.75
+            y_offset: -8.75
+          parts:
+            abl_bl_touch_uhf: 1
+    comp_crtouch:
+      name: CR-Touch
+      template: abl_v2
+      img: img/components/abl_cr_touch.webp
+      parts:
+        cr_touch: 1
+        hsi_m3_5od_4l: 4
+        shcs_m3_6: 4
+      variants: 
+        Standard:
+          attributes:
+            x_offset: -38.75
+            y_offset: -11
+            length: Standard
+            version: 0.5
+          parts:
+            abl_cr_touch: 1
+        UHF:
+          attributes:
+            x_offset: -38.75
+            y_offset: -11
+            length: UHF
+            version: 0.5
+          parts:
+            abl_cr_touch_uhf: 1
+  X Stop Block:
+    comp_stop_block_adjustable:
+      name: Adjustable X Axis Stop Block
+      img: img/components/x_stop_block.webp
+      note: |
+        This is an adaptation of the M1 stop block for EVA 3. It acts as a bumper for the 
+        X endstop that can be moved to trigger at the edge of the bed.
+      parts:
+        shcs_m3_6: 2
+        tnut_rollin_m3: 2
+      variants:
+        Standard:
+          attributes:
+            version: 0.1
+          parts:
+            x_axis_stop_block: 1
+        Taller:
+          attributes:
+            version: 0.1
+          parts:
+            taller_x_axis_stop_block: 1
+    comp_max_x_stop_block:
+      name: Max X Stop Block
+      img: img/components/x_max_stop_block.webp
+      note: |
+        These blocks sit on top of the X Joints and trigger the limit switch at the
+        maximum possible X travel distance.
 
-            
+        The M5 x 16mm screw replaces the M5 x 12mm screw that normally attaches the X joint to the X extrusion.
+      parts:
+        shcs_m5_16: 1
+      variants:
+        Standard:
+          parts:
+            x_axis_max_x_stop_block: 1
+        Ender 5 Plus:
+          note: This block triggers the X axis on an Ender 5 Plus to give exactly 377mm of travel.
+          parts:
+            e5plus_x_axis_stop_block: 1
 templates:
   v2:
     - front_v2
@@ -1762,3 +1942,4 @@ templates:
     - bottom_v2
     - drive_v1
     - hotend_v1
+    - abl_v2

@@ -7,6 +7,17 @@ date: 2023-1-26
 
 ## December 2023
 
+### 12/16-18/23.
+
+- Working towards integrating automation.
+- Added numerous missing parts:
+    - Creality Sprite SE entry
+    - Galileo SA
+    - Mellow NF-Crazy
+- Added a lot of typos.
+- Updated a bunch of entries.
+- Top: Added v0.8, which centers to the Top piece on the MGN12H carriage.
+
 ### 12/13/23
 
 - Merged in Creality Sprite SE drive.
