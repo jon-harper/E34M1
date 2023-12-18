@@ -17,11 +17,11 @@
 {%- endmacro -%}
 
 {%- macro ptfe(value) -%}
-{{ make_badge(':fontawesome-solid-ruler-vertical:', 'PTFE tube length needed for this part', txt=value)}}
+{{ make_badge(':fontawesome-solid-ruler-vertical:', 'PTFE tube length needed for this part', txt=value) }}
 {%- endmacro -%}
 
 {%- macro origin(txt, txt_url) -%}
-{{ make_badge(':material-source-branch:', 'Based on work by', txt=txt, txt_url=txt_url)}}
+{{ make_badge(':material-source-branch:', 'Based on work by', txt=txt, txt_url=txt_url) }}
 {%- endmacro -%}
 
 {%- macro version(txt) -%}
@@ -36,13 +36,18 @@
 {%- endif -%}
 {%- if 'origin' in ckeys -%}
 {%- set o_auth = authorForId(comp.attributes['origin']) -%}
+{%- elif 'origin' in vkeys -%}
+{%- set o_auth = authorForId(variant.attributes['origin']) -%}
+{%- endif -%}
 {%- if o_auth -%}
 {{ origin(o_auth.name, o_auth.url) }}
 {%- endif -%}
-{%- endif -%}
 {%- if 'version' in ckeys -%}
 {{ version(comp.attributes['version']) }}
-{%- endif -%}{%- if 'ptfe' in ckeys -%}
+{%- elif 'version' in vkeys -%}
+{{ version(variant.attributes['version']) }}
+{%- endif -%}
+{%- if 'ptfe' in ckeys -%}
 {{ ptfe(comp.attributes['ptfe']) }}
 {%- elif 'ptfe' in vkeys -%}
 {{ ptfe(variant.attributes['ptfe']) }}

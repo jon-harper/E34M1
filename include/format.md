@@ -121,9 +121,9 @@
 {% set part = product.partFromId(part_id) -%}
 {% set link = part_link(part_id, part, prefix=prefix) -%}
 {% if part.part_type == 'Printed' -%}
-{{indent}}|:material-printer-3d-nozzle: {{part.part_type}}|{{link}}|{{qty}}|
+{{indent}}|:material-printer-3d-nozzle: {{part.part_type}}|{{link}}|{{qty}} {{part.units}}|
 {% else -%}
-{{indent}}|{{part.part_type}}|{{link}}|{{qty}}|
+{{indent}}|{{part.part_type}}|{{link}}|{{qty}} {{part.units}}|
 {% endif -%}
 {% endfor -%}
 {% endif %}

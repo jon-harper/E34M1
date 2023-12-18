@@ -32,55 +32,55 @@ def make_badge(icon: str,
     icon_html = __icon_gen(icon, tooltip, icon_url)
     if txt:
         txt_html = __text_gen(txt, txt_url)
-        return '<p class="jh-badge" markdown>{} {}</p>'.format(icon_html, txt_html)
+        return '<p class="jh-badge" markdown>{}{}</p>'.format(icon_html, txt_html)
     else:
         return '<p class="jh-badge" markdown>{}</p>'.format(icon_html)
     
 def template_badge(template: str, prefix='') -> str:
         if not template:
             return ''
-        return badge(':material-puzzle:', 'Part template', prefix + 'upgrade/templates', template)
+        return make_badge(':material-puzzle:', 'Part template', prefix + 'upgrade/templates', template)
 
 def author_badge(name: str, url: str, prefix='') -> str:
-    return badge(':octicons-person-fill-24:', 'Contributor', prefix + '/license/#contributing-to-omnibox', 
+    return make_badge(':octicons-person-fill-24:', 'Contributor', prefix + '/license/#contributing-to-omnibox', 
                  name, url)
 
 def hsi_badge() -> str:
-    return badge(':material-cog:', 'Uses heat set inserts', None)
+    return make_badge(':material-cog:', 'Uses heat set inserts', None)
 
 def qty_badge(txt, indent : str ='') -> str:
-    return badge(':material-chip:', 'Number of parts mounted per tray',
+    return make_badge(':material-chip:', 'Number of parts mounted per tray',
                 icon_url=None, txt=txt)
 
 def size_badge(txt : str) -> str:
-    return badge(':material-relative-scale:', 'Printed component size',
+    return make_badge(':material-relative-scale:', 'Printed component size',
                  icon_url=None, txt=txt.capitalize())
 
 def base_depth_badge(txt: str) -> str:
-    return badge(':material-format-vertical-align-bottom:', 'Required Base depth', 
+    return make_badge(':material-format-vertical-align-bottom:', 'Required Base depth', 
                  'https://TODO', txt)
 
 def switch_badge(txt: str, prefix : str = '') -> str:
-    return badge(':material-power:', 'Power switch options with this PSU',
+    return make_badge(':material-power:', 'Power switch options with this PSU',
                  prefix + 'TODO', txt)
 
 def no_iec_badge() -> str:
-    return badge(':material-power-plug-off-outline:', 'This component does not provide an IEC power socket.')
+    return make_badge(':material-power-plug-off-outline:', 'This component does not provide an IEC power socket.')
 
 def display_badge(txt : str) -> str:
-    return badge(':material-monitor:', 'Display type (CPU or MCU)',
+    return make_badge(':material-monitor:', 'Display type (CPU or MCU)',
                  'https://TODO', txt)
 
 def front_badge() -> str:
-    return badge(':material-format-horizontal-align-left:', 'This is the front half of a larger component', 
+    return make_badge(':material-format-horizontal-align-left:', 'This is the front half of a larger component', 
                  txt='Front')
 
 def rear_badge() -> str:
-    return badge(':material-format-horizontal-align-right:', 'This is the rear half of a larger component',
+    return make_badge(':material-format-horizontal-align-right:', 'This is the rear half of a larger component',
                  txt='Rear')
 
 def unified_badge() -> str:
-    return badge(':material-vector-combine:', 'Unified parts replace front and rear halves',
+    return make_badge(':material-vector-combine:', 'Unified parts replace front and rear halves',
                  txt='Unified')
 
 def half_badge(txt : str) -> str:
@@ -93,12 +93,12 @@ def half_badge(txt : str) -> str:
         return unified_badge()
 
 def vent_badge() -> str:
-    return badge(':material-air-filter:', 'Provides ventilation')
+    return make_badge(':material-air-filter:', 'Provides ventilation')
 
 def fan_badge() -> str:
-    return badge(':material-fan:', 'Mounts at least one fan')
+    return make_badge(':material-fan:', 'Mounts at least one fan')
 
 def extension_badge(txt : str, prefix : str='') -> str:
-    return badge(':material-connection:', 'Panel mounts provided', 
+    return make_badge(':material-connection:', 'Panel mounts provided', 
                  prefix + 'TODO', txt=txt)
 
