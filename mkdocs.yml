@@ -43,6 +43,7 @@ theme:
     - navigation.footer
     - navigation.expand
     - navigation.top
+    - navigation.sections
     # - toc.integrate
     # - toc.follow
     - content.tooltips
@@ -115,13 +116,14 @@ nav:
       - modules/other.md
   - Assembly:
     - assembly/index.md
-    - assembly/first.md
-    - assembly/core.md
-    - assembly/fan.md
-    - assembly/belts.md
-    - assembly/hotend.md
-    - assembly/drive.md
-    - assembly/abl.md
-    - assembly/final.md
+    - Guide:
+      - assembly/first.md
+      - assembly/core.md
+      - assembly/fan.md
+      - assembly/belts.md
+      - assembly/hotend.md
+      - assembly/drive.md
+      - assembly/abl.md
+      - assembly/final.md
   - changelog.md
   
