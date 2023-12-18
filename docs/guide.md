@@ -84,6 +84,13 @@ Hotends and drives (extruders) have a PTFE length value, indicated with a badge
 like the one above. Add the two values to determine how much PTFE tubing you need between your hotend
 and extruder.
 
+### ABL Offsets
+
+{{ badges.x_offset(8) }}{{ badges.y_offset(-15) }}
+
+These badges are references for setting your ABL-to-nozzle offset in firmware. No badge
+represents an offset of 0.
+
 ## Compatibility Charts
 
 {{ badges.length('Standard') }}
