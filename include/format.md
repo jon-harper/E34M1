@@ -11,19 +11,19 @@
 {% endif -%}
 {% endmacro -%}
 
-{% macro add_note(comp, indent='') -%}
+{% macro add_note(comp) -%}
 {% if comp.note -%}
 {{ comp.note }}
 {% else -%}
-{{indent}}*(None)*
+*(None)*
 {% endif -%}
 {% endmacro -%}
 
 {% macro comp_entry(comp, prefix='', img_width="240px") -%}
-### {{ comp.name }}
-
 <div markdown class="grid">
 <div markdown>
+### {{ comp.name }}
+
 {% if comp.attributes and comp.attributes['fit_test'] -%}
 
 {{issue_tag(comp.attributes['fit_test'])}}
@@ -33,6 +33,11 @@
 
 {{ add_note(comp) }}
 
+</div>
+<div markdown>
+{{ add_image(comp, width=img_width, prefix=prefix) }}
+</div>
+</div>
 :octicons-versions-24: **Details**
 
 {% if comp.variants | count > 1 -%}
@@ -40,32 +45,31 @@
 {%- for v in comp.variants -%}
 === "{{ v.name }}"
     {{ badges.render(comp, v, prefix=prefix) }}
+{{indent}}
 {% if v.note -%}
 {{ make_indented(add_note(v), indent) }}
-{% endif %}
-
+{%- endif %}
+{{indent}}
 {{ make_indented(bom_table(v, prefix=prefix), indent) }}
 {%- endfor -%}
-{%- else -%}
+{%- else -%} {# comp.variants | count > 1 #}
 {%- set v = comp.variants[0] -%}
 {{ badges.render(comp, v, prefix=prefix) }}
 
-{%- if v.note -%}
+{% if v.note -%}
 {{ add_note(v) }}
 
-{%- endif -%}
+{% endif -%}
 {{ bom_table(v, prefix=prefix) }}
 {% endif -%} {# comp.variants | count > 1 #}
-</div>
-<div markdown>
-{{ add_image(comp, width=img_width, prefix=prefix) }}
-</div>
-</div>
+
 ---------
 {% endmacro -%}
 
 {% macro variant_entry(comp, prefix='', img_width="240px") -%}
 {% for v in comp.variants -%}
+<div markdown class="grid">
+<div markdown>
 
 {% if comp.variants | count > 1 -%}
 ### {{ v.name }}
@@ -73,8 +77,6 @@
 ### {{ comp.name }}
 {% endif -%}
 
-<div markdown class="grid">
-<div markdown>
 {% if comp.attributes and comp.attributes['fit_test'] -%}
 
 {{issue_tag(comp.attributes['fit_test'])}}
@@ -83,12 +85,6 @@
 
 {% if comp.variants | count > 1 -%}
 {{ add_note(v) }}
-
-:octicons-versions-24: **Details**
-
-{{ badges.render(comp, v, prefix=prefix) }}
-
-{{ bom_table(v, prefix=prefix)}}
 </div>
 <div markdown>
 
@@ -96,19 +92,19 @@
 {% else -%}
 {{ add_note(comp) }}
 
-:octicons-versions-24: **Details**
-
-{{ badges.render(comp, v, prefix=prefix) }}
-
-{{ bom_table(v, prefix=prefix)}}
 </div>
 <div markdown>
 
 {{ add_image(comp, width=img_width, prefix=prefix) }}
 {% endif -%}
+</div>
+</div>
 
-</div>
-</div>
+:octicons-versions-24: **Details**
+
+{{ badges.render(comp, v, prefix=prefix) }}
+
+{{ bom_table(v, prefix=prefix)}}
 
 {% endfor -%}
 ---------
