@@ -38,13 +38,13 @@ theme:
   name: material
   features:
     - navigation.instant
-    - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs
+    # - navigation.tabs.sticky
     - navigation.footer
     - navigation.expand
     - navigation.top
-    - toc.integrate
-    - toc.follow
+    # - toc.integrate
+    # - toc.follow
     - content.tooltips
   icon:
     logo: material/printer-3d-nozzle
@@ -94,8 +94,10 @@ plugins:
       
 nav:
   - index.md
-  - guide.md
-  - tour.md
+  - Getting Started:
+    - guide.md
+    - tour.md
+    - sourcing.md
   - Module Reference:
     - modules/index.md
     - Core Modules:
@@ -122,6 +124,5 @@ nav:
     - assembly/abl.md
     - assembly/final.md
   - changelog.md
-  - sourcing.md
   - testing.md
   
