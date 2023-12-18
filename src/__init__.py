@@ -53,3 +53,10 @@ def define_env(env):
         return '[{}][{}]'.format(":material-git: Files", url) + "{ .md-button }"
 
     env.macro(badge.make_badge)
+
+    @env.macro
+    def make_indented(txt : str, indent='') -> str:
+        ret = ''
+        for line in txt.splitlines(keepends=True):
+            ret += indent + line
+        return ret

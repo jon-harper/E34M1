@@ -11,11 +11,11 @@
 {% endif -%}
 {% endmacro -%}
 
-{% macro add_note(comp) -%}
+{% macro add_note(comp, indent='') -%}
 {% if comp.note -%}
 {{ comp.note }}
 {% else -%}
-*(None)*
+{{indent}}*(None)*
 {% endif -%}
 {% endmacro -%}
 
@@ -36,17 +36,24 @@
 :octicons-versions-24: **Details**
 
 {% if comp.variants | count > 1 -%}
-{% set indent='    ' -%}
-{% for v in comp.variants -%}
+{%- set indent='    ' -%}
+{%- for v in comp.variants -%}
 === "{{ v.name }}"
     {{ badges.render(comp, v, prefix=prefix) }}
+{% if v.note -%}
+{{ make_indented(add_note(v), indent) }}
+{% endif %}
 
-{{ bom_table(v, indent=indent, prefix=prefix)}}
-{% endfor -%}
-{% else -%}
-{% set v = comp.variants[0] -%}
+{{ make_indented(bom_table(v, prefix=prefix), indent) }}
+{%- endfor -%}
+{%- else -%}
+{%- set v = comp.variants[0] -%}
 {{ badges.render(comp, v, prefix=prefix) }}
 
+{%- if v.note -%}
+{{ add_note(v) }}
+
+{%- endif -%}
 {{ bom_table(v, prefix=prefix) }}
 {% endif -%} {# comp.variants | count > 1 #}
 </div>
@@ -71,32 +78,38 @@
 {% if comp.attributes and comp.attributes['fit_test'] -%}
 
 {{issue_tag(comp.attributes['fit_test'])}}
-{% endif -%}
-
+{%- endif -%}
 :octicons-paperclip-24: **General Notes**
 
 {% if comp.variants | count > 1 -%}
 {{ add_note(v) }}
-{% else -%}
-{{ add_note(comp) }}
-{% endif -%}
 
 :octicons-versions-24: **Details**
 
 {{ badges.render(comp, v, prefix=prefix) }}
 
-{{ bom_table(v, indent='', prefix=prefix)}}
+{{ bom_table(v, prefix=prefix)}}
 </div>
 <div markdown>
 
-{% if comp.variants | count > 1 -%}
 {{ add_image(v, width=img_width, prefix=prefix) }}
 {% else -%}
+{{ add_note(comp) }}
+
+:octicons-versions-24: **Details**
+
+{{ badges.render(comp, v, prefix=prefix) }}
+
+{{ bom_table(v, prefix=prefix)}}
+</div>
+<div markdown>
+
 {{ add_image(comp, width=img_width, prefix=prefix) }}
 {% endif -%}
 
 </div>
 </div>
+
 {% endfor -%}
 ---------
 {% endmacro -%}
@@ -113,17 +126,17 @@
 {% endif -%}
 {% endmacro -%}
 
-{% macro bom_table(variant, indent='', prefix='') -%}
-{{indent}}| Type | Part | Qty |
-{{indent}}|------|------|-----|
+{% macro bom_table(variant, prefix='') -%}
+| Type | Part | Qty |
+|------|------|-----|
 {% if variant.parts -%}
 {% for part_id, qty in variant.parts.items()-%}
 {% set part = product.partFromId(part_id) -%}
 {% set link = part_link(part_id, part, prefix=prefix) -%}
 {% if part.part_type == 'Printed' -%}
-{{indent}}|:material-printer-3d-nozzle: {{part.part_type}}|{{link}}|{{qty}} {{part.units}}|
+|:material-printer-3d-nozzle: {{part.part_type}}|{{link}}|{{qty}} {{part.units}}|
 {% else -%}
-{{indent}}|{{part.part_type}}|{{link}}|{{qty}} {{part.units}}|
+|{{part.part_type}}|{{link}}|{{qty}} {{part.units}}|
 {% endif -%}
 {% endfor -%}
 {% endif %}
