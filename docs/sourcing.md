@@ -1,12 +1,18 @@
 ---
-title: Sourcing
-summary: List of parts and known sources
+title: Sourcing Guide
+summary: List of parts and known sources.
 authors: Jon Harper
 date: 2023-11-30
 prefix: ''
 ---
 
-This page lists sources for (ideally all) parts used with E34M1.
+Need help sourcing parts?
+
+!!! note
+    - This page is not an endorsement for any product or reseller.
+    - Not all parts are verified.
+    - Amazon and AliExpress links use manufacturer stores, where possible.
+    - No affiliate links are included.
 
 {% import 'format.md' as fmt with context %}
 
