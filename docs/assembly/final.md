@@ -1,5 +1,5 @@
 ---
-title: 8. Final Notes
+title: 8. Wiring and Final Notes
 summary: Notes on wiring and finishing up.
 authors: Jon Harper
 date: 2023-4-8
@@ -8,7 +8,7 @@ date: 2023-4-8
 ## X Endstop Wiring
 
 <figure markdown>
-![Horizontal limit switch](../img/parts/switch_horizontal.webp)
+![Horizontal limit switch](../img/parts/switch_horizontal.webp){ width="300px"}
 <figcaption>
 Example of a mechanical limit switch from the BOM.
 </figcaption>
