@@ -136,7 +136,7 @@ Mounts a '46 toolhead PCB with anchor points for an open drag chain.
 
 ## PCB Shrouds
 
-These shrouds cover the PCB and wiring for a PCB mount.
+These shrouds cover the PCB and wiring for a PCB mount. The 30mm fan is strongly encouraged for enclosed builds.
 
 PCB shrouds come in three styles:
 

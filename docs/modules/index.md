@@ -13,6 +13,7 @@ This section of the documentation contains a page for each E34M1 module and the 
 - [Top](top.md)
 - [Rear Inlet](rear.md)
 - [Bottom Horns](bottom.md)
+- [ABL Side Mount](abl.md)
 
 **Universal Modules**
 
@@ -23,7 +24,6 @@ These modules are compatible with stock EVA 3.
 
 **Additional Modules**
 
-- [ABL Side Mount](abl.md)
 - [X Axis Stop Blocks](stop_block.md)
 - [Toolhead PCB Mounts and Shrouds](pcb_mounts.md)
 - [Optional & Build Specific](other.md)
