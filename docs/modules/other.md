@@ -5,32 +5,7 @@ authors: Jon Harper
 date: 2023-4-5
 ---
 
-These are miscellaneous parts that may be useful in some builds, particularly the X Axis Stop Block.
-
-### Front Intake Duct
-
-Hotend cooling fans may be attached using an intake duct that allows two (2) screws to remove the fan instead of four (4). The BOM below is for a 4010 fan with the duct.
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-
-| Parts     | Qty |
-|-----------|-----|
-| [:material-printer-3d-nozzle: `front_intake_duct.stl`][front_intake]  | 1 |
-| *:material-printer-3d-nozzle: EVA shroud* | *1* |
-| Axial Fan, 40mm x 10mm    | 1 |
-| Screw, M3-0.5 x 12mm      | 2 |
-| Screw, M3-0.5 x 16mm      | 2 |
-| Heat Set Insert, M3x5x4   | 2 |
-
-</div>
-<div markdown class="jh-grid-img">
-![intake_illustration](../img/components/intake_duct.webp){ width=256px }
-
-??? info "Heat Set Insert Locations"
-    ![front_intake_illustration](../img/inserts/front_intake.webp){width=200px}
-</div>
-</div>
+These are miscellaneous parts that may be useful in some builds.
 
 ### Z Endstop Mount
 
