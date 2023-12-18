@@ -5,6 +5,8 @@ authors: Jon Harper
 date: 2023-1-27
 ---
 
+{% import 'badges.md' as badges with context %}
+
 ## Mercury One Compatibility
 
 E34M1 is compatible with Mercury One.1 without limiting the build area; no print area is lost with stock beds by converting to EVA 3 from a different toolhead. In some configurations, minor adjustments to the Z axis are needed.
@@ -39,13 +41,19 @@ These terms and icons are used throughout the site.
 
 Visit the [Tour](tour.md) to get an overview of how the modules are arranged. The [Assembly Guide](assembly/index.md) includes videos to assist during your build process.
 
+### Is E34M1 supported by ZeroG or EVA?
+
+No, this is a third-party project started by [jonspaceharper](https://jon-harper.github.io).
+
 ### What do I print?
 
 See the Assembly guide's [Print Checklist](assembly/index.md#print-checklist) to ensure you have everything.
 
-### What does an *italic* BOM entry mean?
+### What print settings should I use?
 
-These are optional parts that may be included or left out, at your discretion.
+E34M1 follows the [ZeroG Print Settings](https://docs.zerog.one/standard/print/settings) guidelines.
+
+All STL files are exported in print orientation.
 
 ### How are Voron-style and EVA-style inserts different?
 
@@ -53,17 +61,29 @@ Both insert styles are M3 and 4mm long, but Voron-style inserts are slightly thi
 
 Does it matter? Somewhat: the adjustments we made for the larger, Voron-style inserts make insertion easier and visually cleaner. Users report that it is generally still possible to use Voron-style inserts with parts made for EVA inserts.
 
-### Is E34M1 supported by ZeroG or EVA?
+## Tips
 
-No, this is a third-party project started by [jonspaceharper](https://jon-harper.github.io).
+The [Modules](modules/index.md) section contains entries for every component and variant in E34M1. These
+are labeled with *badges*, like so:
+
+{{ badges.author('jonspaceharper', 'https://jon-harper.github.io') }}{{ badges.hsi() }}
+
+These badges are meant to speed up reading through many entries at once. 
+
+Tap or hover over the icon for an explanation of what each badges means. Some badges use text to provide
+additional information, such as an contributor's name and profile link.
 
 ## Compatibility Charts
 
-Some components are only compatible in certain combinations. This generally relates to whether a part is for a standard-length or UHF-length hotend.
+{{ badges.length('Standard') }}
+
+A few components are only compatible in specific combinations. This generally relates to whether a part is for a standard-length or UHF-length hotend.
+
+The Hotend Length badge identifies if a component or variant is affected by hotend length.
 
 ### ABL
 
-The chart below shows which ABL methods are supported by E34M1. The side ABL mount points are different than EVA 3 stock, and not all ABL methods use them.
+The chart below shows which ABL methods are supported by E34M1. Note that the side ABL mount is than EVA 3 stock and that not all ABL methods use them.
 
 |            | Standard Hotends   | UHF Hotends        | Mount Point |
 |------------|:------------------:|:------------------:|:-----------:|
@@ -77,21 +97,21 @@ The chart below shows which ABL methods are supported by E34M1. The side ABL mou
 
 ### Bottom Horns
 
-Most hotends are paired with the basic Dual Horns. Very long hotends, such as the Rapido UHF, require the UHF bottom horns. The Mosquito has its own bottom horns as a cooling workaround.
+Most hotends are paired with Standard-length horns. Very long hotends, such as the Rapido UHF, require the UHF bottom horns. The Mosquito has the Trihorns as a cooling workaround.
 
 More about Bottom Horns can be found on the [Bottom Horns Modules](modules/bottom.md) page.
 
 | Hotend                | Bottom Horns  |
 |-----------------------|:-------------:|
-| 3D Passion Nova       | Dual          |
-| E3D Revo Voron        | Dual          |
-| Phaetus Dragonfly BMO | Dual          |
-| Phaetus Dragonfly BMS | Dual          |
-| Phaetus Dragon BMO    | Dual          |
-| Phaetus Dragon UHF    | Dual          |
-| Phaetus Rapido        | Dual          |
-| Phaetus Rapido UHF    | UHF           |
-| Slice Engineering Mosquito | Trihorn  |
+| 3D Passion Nova       | Dual, Kraken  |
+| E3D Revo Voron        | Dual, Kraken  |
+| Phaetus Dragonfly BMO | Dual, Kraken  |
+| Phaetus Dragonfly BMS | Dual, Kraken  |
+| Phaetus Dragon BMO    | Dual, Kraken  |
+| Phaetus Dragon UHF    | Dual, Kraken  |
+| Phaetus Rapido        | Dual, Kraken  |
+| Phaetus Rapido UHF    | UHF, Kraken UHF |
+| Slice Engineering Mosquito | Trihorn |
 
 ### Cable Management
 
