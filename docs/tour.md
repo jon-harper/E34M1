@@ -113,9 +113,9 @@ The drive module attaches the extruder and extruder stepper to the toolhead.
 </div>
 <div markdown class="card">
 
-### Shroud
+### Shrouds
 
-All stock shrouds are compatible with E34M1.
+All stock EVA 3 shrouds are compatible with E34M1.
 
 <figure markdown>
 ![shroud](img/tour/shroud.webp){width="300px"}
@@ -125,30 +125,10 @@ All stock shrouds are compatible with E34M1.
 </div>
 </div>
 
-## Other E34M1 Components
+## Other Components
 
 E34M1 provides several other components that may be useful:
 
-| Component                     | Purpose |
-|-------------------------------|---------|
-| [X Axis Stop Blocks](modules/stop_block.md) | Bumpers for the X axis endstop. |
-| [Z Limit Switch Mount](modules/other.md#z-endstop-mount) | Raises the Z endstop for Ender 5 Pro printers. |
-| [NEMA17 PCB Mounts](modules/pcb_mounts.md) | (Deprecated) NEMA17 steppers mounts for toolhead PCBs and shrouds to cover them. |
-
-## Additional Mods
-
-### Klicky Docks
-
-These are related mods not linked elsewhere that may be useful for your build.
-
-| Mod Name | Author | Purpose |
-|----------|--------|---------|
-| [Klicky Probe Dock for Mercury 1 Zero G](https://www.printables.com/model/386819-klicky-probe-dock-for-mercury-1-zero-g) | [Sir_Wash](https://www.printables.com/social/415185-sir_wash) | Adds a dock for Klicky; works with `klicky_bottom.stl`. |
-| [Ender 5/Mercury One Klicky Probe Dock](https://www.printables.com/model/595738-ender-5mercury-one-klicky-probe-dock) | [jonspaceharper](https://www.printables.com/@jonspaceharper) | Uses M3 instead of M5 screws and provides enough adjustment for regular and UHF hotends. |
-
-### Filament Sensors
-
-Multi-material printing often requires a filament sensor at the toolhead. There are two known third-party mods for this using different detection methods; note that these do not function as runout sensors (they are after the extruder).
-
-- [Inductive Sensor](https://www.printables.com/model/239026-eva-3-toolhead-sensor) by [Dutchwoody](https://www.printables.com/@Dutchwoody)
-- [Microswitch and Ball Bearing](https://www.printables.com/model/442650-eva-3-toolhead-sensor-mechanical-and-reliable) by [Guy](https://www.printables.com/@Guy_258839)
+- [X Axis Stop Blocks](modules/stop_block.md): Bumpers for the X axis endstop.
+- [NEMA17 PCB Mounts](modules/pcb_mounts.md): (Deprecated) NEMA17 steppers mounts for toolhead PCBs and shrouds to cover them.
+- [Optional/Build-Specific](modules/other.md): Filament sensors, Klicky Docks, and other links.
