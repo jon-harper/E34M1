@@ -62,6 +62,10 @@ suppliers:
     name: Beacon3D Store
     region: US
     ships: Worldwide
+  3dpassion:
+    name: 3D Passion
+    region: Unknown
+    ships: Unknown
 authors:
   u_cuiviemen:
     name: cuiviemen
@@ -249,7 +253,7 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/Countersunk-Socket-Screws-50-Piece-Stainless/dp/B01HBN0YFE"
           note: 50 pcs
-  Other Fasteners:
+  Other Fastener:
     hsi_m3_5od_4l:
       name: M3 x 5mm OD x 4mm L Insert
       img: img/parts/hsi_m3_5od_4l.webp
@@ -470,7 +474,7 @@ parts:
     #TODO heatshrink
 
   ###
-  Steppers:
+  Stepper:
   ###
     stepper_nema17_25mm:
       name: NEMA17 stepper, 25mm
@@ -512,11 +516,15 @@ parts:
           url: "https://3do.eu/motors/1011-moons-nema14-36mm-8t-high-temperature.html"
           note: Moons', high temperature
   ###
-  Hotends:
+  Hotend:
   ###
     3dpassion_nova:
       name: 3D Passion Nova
       img: img/parts/passion.webp
+      note: It appears this hotend is only available from 3DPassion.
+      sources:
+        3dpassion:
+          url: "https://store.3dpassion.com/products/nova-hotend"
     e3d_revo_voron:
       name: E3D REVO Voron
       img: img/parts/revo_voron.webp
@@ -628,7 +636,7 @@ parts:
       name: Mellow NF-Crazy
       img: img/parts/mellow_nf_crazy.webp
       
-  Extruders:
+  Extruder:
     bondtech_bmg:
       name: Bondtech BMG
       img: img/parts/bmg.webp
@@ -728,7 +736,7 @@ parts:
           url: "https://www.amazon.com/Creality-Official-Extruder-Compatible-Printers/dp/B0C7QHQHG3"
         aliexpress:
           url: "https://www.aliexpress.us/item/3256805450237404.html"
-  Accelerometers:
+  Accelerometer:
     adxl345:
       name: ADXL345
       img: img/parts/adxl345.webp
@@ -786,7 +794,7 @@ parts:
           url: "https://beacon3d.com/product/beacon/"
           note: "*Only* the low-profile kit is compatible."
     
-  Switches:
+  Switch:
     switch_horizontal:
       name: Horizontal Limit Switch
       img: img/parts/switch_horizontal.webp
@@ -1113,7 +1121,10 @@ components:
       name: Dragon UHF
       template: hotend_v1
       img: img/components/hotend_dragon_uhf.webp
-      note: Hotend wiring must be bent at a 90 degree angle to fit.
+      note: |
+        Hotend wiring must be bent at a 90 degree angle to fit.
+        
+        Note that this uses Standard-length ducts, not UHF.
       attributes:
         origin: u_etotheipi
         hsi: true
@@ -1173,8 +1184,8 @@ components:
       name: Rapido
       template: hotend_v1
       img: img/components/hotend_rapido.webp
-      origin: u_eva
       attributes:
+        origin: u_eva
         hsi: True
         length: Standard
         ptfe: 29.8
@@ -1383,6 +1394,11 @@ components:
         shcs_m3_6: 4
       variants:
         Basic:
+          attributes:
+            hsi_img:
+              - img/inserts/front1.webp
+              - img/inserts/front2.webp
+              - img/inserts/front3.webp
           parts:
             front_basic: 1
     comp_front_pis:
@@ -1400,6 +1416,12 @@ components:
         shcs_m3_6: 4
       variants:
         Stock:
+          attributes:
+            hsi_img:
+              - img/inserts/front1.webp
+              - img/inserts/front2.webp
+              - img/inserts/front3.webp
+              - img/inserts/front_pis.webp
           parts:
             front_pis: 1
             hsi_m3_5od_4l: 2
@@ -1409,7 +1431,7 @@ components:
       name: ADXL345 Front
       template: front_v2
       img: img/components/front_adxl.webp
-      note: Mounts an ADXL345 PCB.
+      note: Mounts an ADXL345 accelerometer (the same as stock EVA 3).
       attributes:
         hsi: true
         version: v0.5
@@ -1420,6 +1442,12 @@ components:
         shcs_m3_6: 4
       variants:
         ADXL345:
+          attributes:
+            hsi_img:
+              - img/inserts/front1.webp
+              - img/inserts/front2.webp
+              - img/inserts/front3.webp
+              - img/inserts/front_pis.webp
           parts:
             front_adxl_345: 1
             adxl345: 1
@@ -1433,7 +1461,7 @@ components:
       template: top_v2
       img: img/components/top_left_endstop_anchor.webp
       note: |
-        Use one of these Tops if you intend to home to to the front-left corner.
+        Use one of these Tops if you intend to home to the front-left corner.
       attributes:
         origin: u_eva
         hsi: true
@@ -1443,9 +1471,15 @@ components:
         assy_limit_switch: 1
       variants:
         No Anchor:
+          attributes:
+            hsi_img:
+              - img/inserts/top_left_endstop.webp
           parts:
             top_left_endstop: 1
         With Anchor:
+          attributes:
+            hsi_img:
+              - img/inserts/top_left_endstop_anchor.webp
           parts:
             assy_cable_anchor: 1
             top_left_endstop_anchor: 1
@@ -1454,7 +1488,7 @@ components:
       template: top_v2
       img: img/components/top_right_endstop_anchor.webp
       note: |
-        Use one of these Tops if you intend to home to to the rear-right corner.
+        Use one of these Tops if you intend to home to the rear-right corner.
       attributes:
         origin: u_eva
         hsi: true
@@ -1464,9 +1498,15 @@ components:
         assy_limit_switch: 1
       variants:
         No Anchor:
+          attributes:
+            hsi_img:
+              - img/inserts/top_right_endstop.webp
           parts:
             top_right_endstop: 1
         With Anchor:
+          attributes:
+            hsi_img:
+              - img/inserts/top_right_endstop_anchor.webp
           parts:
             assy_limit_switch: 1
             assy_cable_anchor: 1
@@ -1484,6 +1524,9 @@ components:
         assy_top_common: 1
       variants:
         Stock:
+          attributes:
+            hsi_img:
+              - img/inserts/top_no_endstop.webp
           parts:
             top_no_endstop: 1
 
@@ -1507,10 +1550,20 @@ components:
         Stock:
           attributes:
             version: 0.2
+            hsi_img:
+              - img/inserts/rear_single_5015.webp
           parts:
             assy_rear_inlet_common: 1
             rear_single_5015: 1
         Beacon:
+          note: |
+            !!! warning
+                The inlet uses a flat head cap screw to secure the duct to the bottom horns. 
+                `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+          attributes:
+            version: 0.2
+            hsi_img:
+              - img/inserts/rear_single_5015.webp
           parts:
             shcs_m3_45: 4
             lock_washer_m3: 4
@@ -1521,6 +1574,7 @@ components:
       name: Single 5015 Rear Inlet, EVA-Style
       template: rear_v1
       img: img/components/5015_inlet.webp
+      note: This is a low-profile adaptation of the stock EVA single 5015 inlet.
       attributes:
         hsi: True
         origin: u_eva
@@ -1532,9 +1586,10 @@ components:
         Stock:
           attributes:
             version: 0.1
+            hsi_img:
+              - img/inserts/single_5015_eva.webp
           parts:
             rear_single_5015_eva: 1
-    
     comp_dual_5015:
       name: Dual 5015 Rear Inlet
       template: rear_v1
@@ -1552,13 +1607,17 @@ components:
         Stock:
           attributes:
             version: 0.1
+            hsi_img:
+              - img/inserts/dual_5015_intake.webp
           parts:
             rear_inlet_dual_5015: 1
-
     comp_dual_5015_owl_eyes:
       name: Dual 5015 Rear Inlet (Owl's Eyes)
       template: rear_v2
       img: img/components/dual_5015_inlet_owl_eyes.webp
+      note: |
+        This is a (vertically) lower-profile option than the regular dual inlet.
+        Depending on your configuration, it may also offer additional Y-axis space.
       attributes:
         hsi: true
       parts:
@@ -1569,6 +1628,8 @@ components:
         Stock:
           attributes:
             version: 0.1
+            hsi_img:
+              - img/inserts/dual_5015_inlet_owl_eyes.webp
           parts:
             rear_inlet_dual_5015_owl_eyes: 1
     
@@ -1576,6 +1637,11 @@ components:
       name: Single Papst RLF35-8
       template: rear_v2
       img: img/components/papst_rlf35.webp
+      note: |
+        This is an intake for a high-flow Papst RLF35-8 radial blower.
+        
+        !!! note
+            This inlet requires several **flat head** cap screws.
       attributes:
         hsi: true
       parts:
@@ -1589,20 +1655,34 @@ components:
       variants:
         Stock:
           author: u_cuiviemen
+          attributes:
+            version: 0.1
+            hsi_img:
+              - img/inserts/papst_rlf35_8.webp
           parts:
             shcs_m3_6: 1
             lock_washer_m3: 1
             rear_inlet_rlf35_8: 1
         Beacon:
           author: u_cuiviemen
+          note: |
+            !!! warning
+                The inlet uses a flat head cap screw to secure the duct to the bottom horns. 
+                `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+          attributes:
+            version: 0.1
+            hsi_img:
+              - img/inserts/papst_rlf35_8.webp
           parts:
             fhcs_m3_6: 1
             rear_inlet_rlf35_8_beacon: 1
-    
     comp_intake_adapter:
       name: Rear Intake Adapter
       template: rear_v1
       img: img/components/stock_inlet_adapter.webp
+      note: |
+        The rear intake adapter allows stock EVA rear inlets to be used, or any mods based
+        on them.
       attributes:
         origin: u_psychohead
       parts:
@@ -1633,6 +1713,10 @@ components:
             rear_inlet_15mm_cpap: 1
             assy_rear_inlet_common: 1
         Beacon:
+          note: |
+            !!! warning
+                The inlet uses a flat head cap screw to secure the duct to the bottom horns. 
+                `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
           attributes:
             version: v3
           parts:
@@ -1655,6 +1739,8 @@ components:
         Stock:
           attributes:
             version: 0.3
+            hsi_img:
+              - img/inserts/bottom.webp
           parts:
             dual_horns: 1
         Beacon:
@@ -1663,6 +1749,8 @@ components:
             version: 0.2
             origin: u_cuiviemen
             y_offset: 34
+            hsi_img:
+              - img/inserts/bottom_beacon.webp
           parts:
             hsi_m3_5od_4l: 2
             dual_horns_beacon: 1
@@ -1677,6 +1765,8 @@ components:
             version: 0.1
             origin: u_cuiviemen
             y_offset: 34
+            hsi_img:
+              - img/inserts/bottom.webp
           parts:
             dual_horns_beacon_no_hsi: 1
             beacon: 1
@@ -1685,6 +1775,8 @@ components:
             version: 0.2
             x_offset: '-1.5'
             y_offset: 37
+            hsi_img:
+              - img/inserts/bottom.webp
           parts:
             dual_horns_klicky: 1
             magnets_6_3: 3
@@ -1703,6 +1795,8 @@ components:
       variants:
         Stock:
           attributes:
+            hsi_img:
+              - img/inserts/trihorn.webp
             version: v0.1
           parts:
             trihorns: 1
@@ -1712,12 +1806,16 @@ components:
             origin: u_cuiviemen
             version: v0.1
             y_offset: 34
+            hsi_img:
+              - img/inserts/trihorn_beacon.webp
           parts:
             hsi_m3_5od_4l: 2
             beacon: 1
             trihorns_beacon: 1
         Klicky:
           attributes:
+            hsi_img:
+              - img/inserts/trihorn.webp
             version: v0.2
             y_offset: 37
             x_offset: '-1.5'
@@ -1740,6 +1838,8 @@ components:
         Stock:
           attributes:
             version: v0.3
+            hsi_img: 
+              - img/inserts/bottom_uhf.webp
           parts:
             dual_horns_uhf: 1
         Beacon:
@@ -1748,6 +1848,8 @@ components:
             origin: u_psychohead
             version: v0.2
             y_offset: 17
+            hsi_img: 
+              - img/inserts/bottom_beacon_uhf.webp
           parts:
             hsi_m3_5od_4l: 2
             beacon: 1
@@ -1757,6 +1859,8 @@ components:
             version: v0.1
             y_offset: 37
             x_offset: '-1.5'
+            hsi_img: 
+              - img/inserts/bottom_uhf.webp
           parts:
             dual_horns_uhf_klicky: 1
             magnets_6_3: 3
@@ -1776,12 +1880,17 @@ components:
         hsi_m3_5od_4l: 1
       variants:
         Stock:
+          attributes:
+            hsi_img: 
+              - img/inserts/kraken.webp
           parts:
             kraken_stock: 1
         Beacon:
           note: The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
           attributes:
             y_offset: 37
+            hsi_img: 
+              - img/inserts/kraken_beacon.webp
           parts:
             beacon: 1
             hsi_m3_5od_4l: 2
@@ -1790,6 +1899,8 @@ components:
           attributes:
             y_offset: 32
             x_offset: '-1.5'
+            hsi_img: 
+              - img/inserts/kraken.webp
           parts:
             kraken_klicky: 1
             magnets_6_3: 3
@@ -1809,12 +1920,17 @@ components:
         hsi_m3_5od_4l: 1
       variants:
         Stock:
+          attributes:
+            hsi_img:
+              - img/inserts/kraken_uhf.webp
           parts:
             kraken_uhf_stock: 1
         Beacon:
           note: The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
           attributes:
             y_offset: 37
+            hsi_img:
+              - img/inserts/kraken_uhf_beacon.webp
           parts:
             beacon: 1
             hsi_m3_5od_4l: 2
@@ -1823,6 +1939,8 @@ components:
           attributes:
             y_offset: 32
             x_offset: '-1.5'
+            hsi_img:
+              - img/inserts/kraken_uhf.webp
           parts:
             kraken_uhf_klicky: 1
             magnets_6_3: 3
@@ -1836,18 +1954,24 @@ components:
         Mounts an 8mm inductive probe, such the Prusa Research SuperPINDA.
       attributes:
         version: 0.4
+        hsi: true
       parts:
         hsi_m3_5od_4l: 1
         shcs_m3_6: 3
         8mm_probe: 1
       variants:
         Stock:
+          attributes:
+            hsi_img:
+              - img/inserts/abl_8mm_probe.webp
           parts:
             abl_8mm_probe: 1
     comp_bltouch:
       name: BLTouch
       template: abl_v2
       img: img/components/abl_bl_touch.webp
+      attributes:
+        hsi: true
       parts:
         bltouch: 1
         hsi_m3_5od_4l: 2
@@ -1859,6 +1983,8 @@ components:
             y_offset: -8.75
             length: Standard
             version: v0.4
+            hsi_img:
+              - img/inserts/abl_bl_touch.webp
           parts:
             abl_bl_touch: 1
         UHF:
@@ -1867,12 +1993,16 @@ components:
             version: v0.4
             x_offset: -35.75
             y_offset: -8.75
+            hsi_img:
+              - img/inserts/abl_bl_touch_uhf.webp
           parts:
             abl_bl_touch_uhf: 1
     comp_crtouch:
       name: CR-Touch
       template: abl_v2
       img: img/components/abl_cr_touch.webp
+      attributes:
+        hsi: true
       parts:
         cr_touch: 1
         hsi_m3_5od_4l: 4
@@ -1884,6 +2014,8 @@ components:
             y_offset: -11
             length: Standard
             version: 0.5
+            hsi_img:
+              - img/inserts/abl_cr_touch.webp
           parts:
             abl_cr_touch: 1
         UHF:
@@ -1892,6 +2024,8 @@ components:
             y_offset: -11
             length: UHF
             version: 0.5
+            hsi_img:
+              - img/inserts/abl_cr_touch_uhf.webp
           parts:
             abl_cr_touch_uhf: 1
   X Stop Block:
