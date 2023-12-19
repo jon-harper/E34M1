@@ -4,14 +4,23 @@
 <a name="{{part_id}}"></a> {{ name }}
 {% endmacro -%}
 
-{% macro add_image(obj, width="240px", prefix = '') -%}
+{% macro add_image(obj, img_width="240px", prefix = '') -%}
 {% if obj.img_url -%}
-    {% set url = prefix + obj.img_url -%}
-[![{{obj.name}}]({{url}}){ width="{{width}}" }]({{url}})
+{% set url = prefix + obj.img_url -%}
+[![{{obj.name}}]({{prefix + url}}){ width="{{img_width}}" }]({{prefix + url}})
 {% endif -%}
 {% endmacro -%}
 
-{% macro add_note(comp) -%}
+{% macro add_figure(obj, img_width="240px", prefix = '') -%}
+{% if obj.img_url -%}
+{% set url = prefix + obj.img_url -%}
+<figure markdown>
+[![{{obj.name}}]({{prefix + url}}){ width="{{img_width}}" }]({{prefix + url}})
+</figure>
+{% endif -%}
+{% endmacro -%}
+
+{%- macro add_note(comp) -%}
 {% if comp.note -%}
 {{ comp.note }}
 {% else -%}
@@ -19,7 +28,18 @@
 {% endif -%}
 {% endmacro -%}
 
-{% macro comp_entry(comp, prefix='', img_width="240px") -%}
+{%- macro add_hsi_info(item, img_width="200px", prefix='')-%}
+{%- if 'hsi_img' in item.attributes.keys() %}
+??? hsi "Heat Set Insert Locations"
+    <div markdown class="grid">
+{% for url in item.attributes['hsi_img'] %}
+    [![Heat set insert details]({{prefix + url}}){ width="{{img_width}}"}]({{prefix + url}})
+{% endfor %}
+    </div>
+{% endif -%}
+{%- endmacro -%}
+
+{% macro comp_entry(comp, img_width="240px", prefix='') -%}
 <div markdown class="grid">
 <div markdown>
 ### {{ comp.name }}
@@ -35,7 +55,7 @@
 
 </div>
 <div markdown>
-{{ add_image(comp, width=img_width, prefix=prefix) }}
+{{ add_figure(comp, img_width, prefix) }}
 </div>
 </div>
 :octicons-versions-24: **Details**
@@ -51,62 +71,19 @@
 {%- endif %}
 {{indent}}
 {{ make_indented(bom_table(v, prefix=prefix), indent) }}
+{{ make_indented(add_hsi_info(v, "200px", prefix), indent)}}
 {%- endfor -%}
 {%- else -%} {# comp.variants | count > 1 #}
 {%- set v = comp.variants[0] -%}
 {{ badges.render(comp, v, prefix=prefix) }}
 
 {% if v.note -%}
-{{ add_note(v) }}
-
-{% endif -%}
+{{add_note(v)}}
+{%- endif %}
 {{ bom_table(v, prefix=prefix) }}
+{{ add_hsi_info(v, "200px", prefix) }}
 {% endif -%} {# comp.variants | count > 1 #}
 
----------
-{% endmacro -%}
-
-{% macro variant_entry(comp, prefix='', img_width="240px") -%}
-{% for v in comp.variants -%}
-<div markdown class="grid">
-<div markdown>
-
-{% if comp.variants | count > 1 -%}
-### {{ v.name }}
-{% else -%}
-### {{ comp.name }}
-{% endif -%}
-
-{% if comp.attributes and comp.attributes['fit_test'] -%}
-
-{{issue_tag(comp.attributes['fit_test'])}}
-{%- endif -%}
-:octicons-paperclip-24: **General Notes**
-
-{% if comp.variants | count > 1 -%}
-{{ add_note(v) }}
-</div>
-<div markdown>
-
-{{ add_image(v, width=img_width, prefix=prefix) }}
-{% else -%}
-{{ add_note(comp) }}
-
-</div>
-<div markdown>
-
-{{ add_image(comp, width=img_width, prefix=prefix) }}
-{% endif -%}
-</div>
-</div>
-
-:octicons-versions-24: **Details**
-
-{{ badges.render(comp, v, prefix=prefix) }}
-
-{{ bom_table(v, prefix=prefix)}}
-
-{% endfor -%}
 ---------
 {% endmacro -%}
 
