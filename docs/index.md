@@ -1,5 +1,5 @@
 ---
-title: E34M1 Documentation
+title: The E34M1 Toolhead
 summary: E34M1 landing page
 authors: Jon Harper
 date: 2023-1-26
@@ -17,22 +17,22 @@ prefix: ''
 
 <div markdown class="grid">
 <div markdown class="card">
-### [:material-book-open: Intro Guide to E34M1](guide.md)
+### [:material-book-open: Introduction to E34M1](guide.md)
 
-An overview of E34M1 and how it works with EVA 3 and Mercury One. 
+An overview of E34M1 and how it works with EVA 3 and Mercury One.
 </div>
 <div markdown class="card">
 ### [:material-directions: Visual Tour](tour.md)
 
-See the modules that make up E34M1 and how they fit together.
+Explore the modules of an E34M1 toolhead and how they fit together.
 </div>
 <div markdown class="card">
-### [:material-text-box-search-outline: Sourcing Guide](sourcing.md)
+### [:octicons-list-ordered-24: Sourcing Guide](sourcing.md)
 
 Links to aid in sourcing your parts.
 </div>
 <div markdown class="card">
-### [:octicons-list-ordered-24: Module Reference](modules/index.md)
+### [:material-text-box-search-outline: Module Reference](modules/index.md)
 
 A list of components for each module, bills of materials, and component-specific instructions.
 </div>

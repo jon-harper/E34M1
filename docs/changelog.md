@@ -7,6 +7,11 @@ date: 2023-1-26
 
 ## December 2023
 
+### 12/19
+
+- Added HSI admonitions.
+- Finished integrating automated pages.
+
 ### 12/16-18/23.
 
 - Working towards integrating automation.

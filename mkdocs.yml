@@ -1,4 +1,4 @@
-site_name: E34M1
+site_name: E34M1 Documentation
 site_description: Documentation for the EVA3 for Mercury One mod.
 site_author: Jon Harper
 site_url: https://jon-harper.github.io/E34M1
@@ -38,14 +38,9 @@ theme:
   name: material
   features:
     - navigation.instant
-    # - navigation.tabs
-    # - navigation.tabs.sticky
     - navigation.footer
-    - navigation.expand
     - navigation.top
     - navigation.sections
-    # - toc.integrate
-    # - toc.follow
     - content.tooltips
   icon:
     logo: material/printer-3d-nozzle
@@ -98,7 +93,6 @@ nav:
   - Getting Started:
     - guide.md
     - tour.md
-    - sourcing.md
   - Module Reference:
     - modules/index.md
     - Core Modules:
@@ -106,11 +100,11 @@ nav:
       - modules/top.md
       - modules/bottom.md
       - modules/rear.md
+      - modules/abl.md
     - Universal Modules:
       - modules/hotend.md
       - modules/drive.md
     - Other Modules:
-      - modules/abl.md
       - modules/stop_block.md
       - modules/pcb_mounts.md
       - modules/other.md
@@ -125,5 +119,7 @@ nav:
       - assembly/drive.md
       - assembly/abl.md
       - assembly/final.md
-  - changelog.md
+  - Resources:
+    - sourcing.md
+    - changelog.md
   
