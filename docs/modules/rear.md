@@ -14,5 +14,5 @@ The rear module acts as a part cooling fan inlet. Use the single 5015 inlet if y
 are unsure which is best.
 
 {% for comp in values -%}
-{{ format.comp_entry(comp, prefix, img_width="200px") }}
+{{ format.comp_entry(comp, prefix=prefix, img_width="200px") }}
 {% endfor -%}

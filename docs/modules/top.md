@@ -16,7 +16,7 @@ The Top module attaches to the MGN12H carriage and mounts the X axis endstop. Th
     Don't forget to grab the [X Axis Stop Block](stop_block.md)!
 
 {% for comp in values -%}
-{{ format.comp_entry(comp, prefix) }}
+{{ format.comp_entry(comp, prefix=prefix, img_width="200px") }}
 
 {% endfor -%}
 

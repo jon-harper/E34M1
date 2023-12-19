@@ -10,10 +10,12 @@ prefix: '../'
 {% set comp_type='Bottom Horns' -%}
 {% set values = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
-Several versions of the bottom horns are available for E34M1. See the Intro Guide's [compatibility](../guide.md#bottom-horns) section for a table
-of hotends and ducts. Your duct should match the length of your hotend. If you are using Beacon or Klicky, choose
-the appropriate version for that ABL method.
+Your duct should match the length of your hotend. If you are using Beacon or Klicky, choose
+the appropriate variant for that ABL method.
+
+See the Intro Guide's [compatibility](../guide.md#bottom-horns) section for more information and
+a table of hotends and ducts.
 
 {% for comp in values -%}
-{{ format.comp_entry(comp, prefix, img_width="200px") }}
+{{ format.comp_entry(comp, prefix=prefix, img_width="200px") }}
 {% endfor -%}

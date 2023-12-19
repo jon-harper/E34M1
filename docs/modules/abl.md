@@ -13,6 +13,6 @@ prefix: '../'
 The side mount is used by many ABL methods and attaches to the Front. If you use Klicky or Beacon, see the [Bottom Horns](bottom.md) module for mounting options.
 
 {% for comp in values -%}
-{{ format.comp_entry(comp, prefix, img_width="125px") }}
+{{ format.comp_entry(comp, prefix=prefix, img_width="100px") }}
 
 {% endfor -%}

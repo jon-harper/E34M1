@@ -13,6 +13,6 @@ prefix: '../'
 Stop blocks are bumpers for the X endstop (or toolhead if using sensorless homing). Several options are available based on your needs.
 
 {% for comp in values -%}
-{{ format.comp_entry(comp, prefix) }}
+{{ format.comp_entry(comp, prefix=prefix, img_width="200px") }}
 
 {% endfor -%}
