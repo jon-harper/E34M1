@@ -368,3 +368,7 @@ span.jh-icon-badge :is(:hover, :focus) {
   -webkit-mask-image: var(--md-admonition-icon--hsi);
           mask-image: var(--md-admonition-icon--hsi);
 }
+
+.tabbed-labels::before {
+    background: var(--md-primary-fg-color) !important
+}
