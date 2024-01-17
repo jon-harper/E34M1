@@ -64,7 +64,7 @@ E34M1 is free, but a Fusion 360 subscription and filament are not. Every tip hel
 </div>
 <div markdown>
 <figure markdown class="jh-cover-img">
-[![banner](img/gallery/r2_6.webp){width="350px"}](img/r2_6.png)
+[![banner](img/gallery/r2_6.webp){width="350px"}](img/r2_6.webp)
 </figure>
 </div>
 </div>
