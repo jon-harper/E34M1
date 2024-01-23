@@ -879,7 +879,7 @@ parts:
       file: /STL/rear/dual_5015_inlet.stl
     rear_inlet_dual_5015_owl_eyes:
       name: rear_dual_5015_owl_eyes.stl
-      file: /STL/rear/rear_dual_5015_owl_eyes.st    
+      file: /STL/rear/rear_dual_5015_owl_eyes.stl
     rear_stock_intake_adapter:
       name: stock_intake_adapter.stl
       file: /STL/rear/stock_intake_adapter.stl
