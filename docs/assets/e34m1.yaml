@@ -880,6 +880,9 @@ parts:
     rear_inlet_dual_5015_owl_eyes:
       name: rear_dual_5015_owl_eyes.stl
       file: /STL/rear/rear_dual_5015_owl_eyes.stl
+    rear_inlet_dual_5015_owl_eyes_beacon:
+      name: rear_dual_5015_owl_eyes_beacon.stl
+      file: /STL/rear/rear_dual_5015_owl_eyes_beacon.stl
     rear_stock_intake_adapter:
       name: stock_intake_adapter.stl
       file: /STL/rear/stock_intake_adapter.stl
@@ -1623,15 +1626,30 @@ components:
       parts:
         assy_5015: 2
         hsi_m3_5od_4l: 2
-        assy_rear_inlet_common: 1
       variants:
         Stock:
           attributes:
-            version: 0.1
+            version: 0.3
             hsi_img:
               - img/inserts/dual_5015_inlet_owl_eyes.webp
           parts:
             rear_inlet_dual_5015_owl_eyes: 1
+            assy_rear_inlet_common: 1
+        Beacon:
+          note: |
+            !!! warning
+                The inlet uses a flat head cap screw to secure the duct to the bottom horns. 
+                `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+          attributes:
+            version: 0.3
+            hsi_img:
+              - img/inserts/dual_5015_inlet_owl_eyes.webp
+          parts:
+            shcs_m3_45: 4
+            lock_washer_m3: 4
+            fhcs_m3_6: 1
+            screw_cap: 1
+            rear_inlet_dual_5015_owl_eyes_beacon: 1
     
     comp_papst_rlf35:
       name: Single Papst RLF35-8
