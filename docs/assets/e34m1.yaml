@@ -937,6 +937,9 @@ parts:
     abl_8mm_probe:
       name: abl_8mm_probe.stl
       file: /STL/abl/abl_8mm_probe.stl
+    abl_8mm_probe_uhf:
+      name: abl_8mm_probe_uhf.stl
+      file: /STL/abl/abl_8mm_probe_uhf.stl
     abl_bl_touch:
       name: abl_bl_touch.stl
       file: /STL/abl/abl_bl_touch.stl
@@ -1971,19 +1974,28 @@ components:
       note: |
         Mounts an 8mm inductive probe, such the Prusa Research SuperPINDA.
       attributes:
-        version: 0.4
         hsi: true
       parts:
         hsi_m3_5od_4l: 1
         shcs_m3_6: 3
         8mm_probe: 1
       variants:
-        Stock:
+        Standard:
           attributes:
+            version: 0.4
+            length: Standard
             hsi_img:
               - img/inserts/abl_8mm_probe.webp
           parts:
             abl_8mm_probe: 1
+        UHF:
+          attributes:
+            version: 0.1
+            length: UHF
+            hsi_img:
+              - img/inserts/abl_8mm_probe.webp
+          parts:
+            abl_8mm_probe_uhf: 1
     comp_bltouch:
       name: BLTouch
       template: abl_v2
