@@ -339,7 +339,8 @@
 }
 
 .jh-text-badge {
-    padding-right: 2px;
+    padding-right: 0.3em;
+    padding-left: 0.3em;
 }
 
 span.jh-icon-badge {
@@ -370,20 +371,23 @@ span.jh-icon-badge :is(:hover, :focus) {
           mask-image: var(--md-admonition-icon--hsi);
 }
 
-.md-typeset .tabbed-labels > label:hover {
-     border: 1px solid var(--md-default-fg-color--lightest); 
-}
-
 .tabbed-labels {
-    /* border-top: 1px solid var(--md-default-fg-color--lightest);
-    border-bottom: 1px solid var(--md-default-fg-color--lightest); */
     box-shadow: none !important;
 }
  
 .tabbed-labels::before {
-    /* background: var(--md-primary-fg-color) !important */
     background: none !important
 } 
+
+.md-typeset .tabbed-labels>label {
+    border: 1px solid transparent;
+    transition: background-color .25s, color .25s, border .25s;
+    border-radius: 5px;
+}
+
+.md-typeset .tabbed-labels > label:hover {
+    border: 1px solid var(--md-default-fg-color--lightest); 
+}
 
 @media screen {
     .md-typeset .tabbed-set>input:first-child:checked~.tabbed-labels>:first-child,
@@ -407,16 +411,7 @@ span.jh-icon-badge :is(:hover, :focus) {
     .md-typeset .tabbed-set>input:nth-child(8):checked~.tabbed-labels>:nth-child(8),
     .md-typeset .tabbed-set>input:nth-child(9):checked~.tabbed-labels>:nth-child(9) {
       color: var(--md-default-fg-color);
-      /* background-color: var(--md-code-hl-color--light); */
       border: 1px solid var(--md-primary-fg-color--light);
-      /* border-bottom: 2px solid var(--md-primary-fg-color--light); */
       background-color: var(--md-default-fg-color--lightest);
     }
-}
-
-.md-typeset .tabbed-labels>label {
-    border: 1px solid transparent;
-    transition: background-color .25s, color .25s, border .25s;
-    /* transition-timing-function: cubic-bezier(.4, 0, .2,1); */
-    border-radius: 5px;
 }
