@@ -40,8 +40,6 @@
 {%- endmacro -%}
 
 {% macro comp_entry(comp, img_width="240px", prefix='') -%}
-<div markdown class="grid">
-<div markdown>
 ### {{ comp.name }}
 
 {% if comp.attributes and comp.attributes['fit_test'] -%}
@@ -49,37 +47,51 @@
 {{issue_tag(comp.attributes['fit_test'])}}
 {% endif -%}
 
-:octicons-paperclip-24: **General Notes**
-
-{{ add_note(comp) }}
-
-</div>
-<div markdown>
-{{ add_figure(comp, img_width, prefix) }}
-</div>
-</div>
-:octicons-versions-24: **Details**
-
-{% if comp.variants | count > 1 -%}
+{% if comp.variants | count > 1 %}
 {%- set indent='    ' -%}
-{%- for v in comp.variants -%}
+{% for v in comp.variants -%}
 === "{{ v.name }}"
-    {{ badges.render(comp, v, prefix=prefix) }}
+{{indent}}<div markdown class="grid"><div markdown>
+{{indent}}{{ badges.render(comp, v, prefix=prefix) }}
 {{indent}}
+{{indent}}:octicons-paperclip-24: **General Notes**
+{{indent}}
+{{ make_indented(add_note(comp), indent) }}
 {% if v.note -%}
+{{indent}}:material-text-box-multiple-outline: **Variant Notes**
+{{indent}}
 {{ make_indented(add_note(v), indent) }}
 {%- endif %}
+{{indent}}</div><div markdown>
+{{make_indented (add_figure(comp, img_width, prefix), indent) }}
+{{indent}}</div></div>
+{{indent}}:octicons-pencil-24: **Materials**
 {{indent}}
 {{ make_indented(bom_table(v, prefix=prefix), indent) }}
 {{ make_indented(add_hsi_info(v, "200px", prefix), indent)}}
 {%- endfor -%}
 {%- else -%} {# comp.variants | count > 1 #}
 {%- set v = comp.variants[0] -%}
+<div markdown class="grid"><div markdown>
 {{ badges.render(comp, v, prefix=prefix) }}
 
+:octicons-paperclip-24: **General Notes**
+
+{{ add_note(comp) }}
+
 {% if v.note -%}
+:material-text-box-multiple-outline: **Variant Notes**
+
 {{add_note(v)}}
 {%- endif %}
+</div>
+<div markdown>
+{{ add_figure(comp, img_width, prefix) }}
+</div>
+</div>
+
+:octicons-pencil-24: **Materials**
+
 {{ bom_table(v, prefix=prefix) }}
 {{ add_hsi_info(v, "200px", prefix) }}
 {% endif -%} {# comp.variants | count > 1 #}
