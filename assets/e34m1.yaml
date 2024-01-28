@@ -1636,6 +1636,10 @@ components:
             rear_inlet_dual_5015_owl_eyes: 1
             assy_rear_inlet_common: 1
         Beacon:
+          note: |
+            !!! warning
+                The inlet uses a flat head cap screw to secure the duct to the bottom horns. 
+                `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
           attributes:
             version: 0.3
             hsi_img:
@@ -1966,6 +1970,8 @@ components:
       img: img/components/abl_8mm_probe.webp
       note: |
         Mounts an 8mm inductive probe, such the Prusa Research SuperPINDA.
+
+        This mount works with both Standard and UHF hotends.
       attributes:
         version: 0.4
         hsi: true
