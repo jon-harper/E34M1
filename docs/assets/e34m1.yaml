@@ -1896,12 +1896,12 @@ components:
       attributes:
         length: Standard
         hsi: true
-        version: 0.5
       parts:
         hsi_m3_5od_4l: 1
       variants:
         Stock:
           attributes:
+            version: 0.6
             hsi_img: 
               - img/inserts/kraken.webp
           parts:
@@ -1909,6 +1909,7 @@ components:
         Beacon:
           note: The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
           attributes:
+            version: 0.5
             y_offset: 37
             hsi_img: 
               - img/inserts/kraken_beacon.webp
@@ -1918,6 +1919,7 @@ components:
             kraken_beacon: 1
         Klicky:
           attributes:
+            version: 0.6
             y_offset: 32
             x_offset: '-1.5'
             hsi_img: 
