@@ -1514,7 +1514,6 @@ components:
             hsi_img:
               - img/inserts/top_right_endstop_anchor.webp
           parts:
-            assy_limit_switch: 1
             assy_cable_anchor: 1
             top_right_endstop_anchor: 1
     comp_top_sensorless:
