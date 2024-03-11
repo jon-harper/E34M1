@@ -80,6 +80,10 @@ class Component(NamedTuple):
 
 ComponentData = dict[str, Component]
 
+class ComponentId (NamedTuple):
+    name: str
+    variant: int
+
 TemplateList = list[str]
 
 class GlobalData(NamedTuple):

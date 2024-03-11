@@ -35,8 +35,6 @@ class Product:
         self.assembly_types = []
 
         for comp_id, comp in components.items():
-            # Only add a component if it lacks a template or if the
-            # template is in the list.
             if not comp.template or comp.template in templates:
                 self.components[comp_id] = comp
                 if comp.comp_type not in self.assembly_types:
@@ -67,8 +65,7 @@ class Product:
                 if comp.attributes and attribute_filter in comp.attributes.keys():
                     if not attribute_value or attribute_value == comp.attributes[attribute_filter]:
                         ret[comp_id] = comp
-                else:
-                    ret[comp_id] = comp
+                ret[comp_id] = comp
             elif comp.attributes and attribute_filter in comp.attributes.keys():
                 if not attribute_value or attribute_value == comp.attributes[attribute_filter]:
                     ret[comp_id] = comp
@@ -105,3 +102,23 @@ class Product:
     
     def sortKeyEntries(self, values : list[tuple]) -> list[tuple]:
         return sorted(values, key=lambda v: v[1].name)
+    
+    def componentFromId(self, comp_id) -> bom.Component:
+        return self.components.get(comp_id)
+    
+    def joinMaterials(self, comp_ids : list[bom.ComponentId]) -> bom.MaterialsData:
+        """
+        Takes a list of ComponentIds and returns a MaterialsData instance
+        with the resulting, combined BOM.
+        """
+        ret = bom.MaterialsData()
+        for comp_id in comp_ids:
+            comp = self.componentFromId(comp_id.name)
+            if not comp:
+                continue
+            for part_id, qty in comp.variants[comp_id.variant].parts.items():
+                if part_id in ret:
+                    ret[part_id] += qty
+                else:
+                    ret[part_id] = qty
+        return ret

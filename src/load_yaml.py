@@ -141,6 +141,8 @@ class BOMParser():
                         ret[sub_id] += mult * sub_qty
                     else:
                         ret[sub_id] = mult * sub_qty
+            elif part_id in ret:
+                ret[part_id] += qty
             else:
                 ret[part_id] = qty
         return ret
