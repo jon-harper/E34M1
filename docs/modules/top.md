@@ -22,7 +22,17 @@ The Top module attaches to the MGN12H carriage and mounts the X axis endstop. Th
 
 ### Integrated Microswitch
 
-There are two known mods for using a simple microswitch (e.g. Omron D2F-L):
+There are two known Top mods that use a simple microswitch (e.g. Omron D2F-L).
 
-- [Top MGN12H with Inbuilt Limit](https://www.printables.com/model/555302-zero-g-mercury-e34m1-top-mgn12h-with-inbuilt-limit) by [syph3rd](https://www.printables.com/@syph3rd_963296)
-- [Top MGN12H with Integrated Limit Switch (remix)](https://www.printables.com/model/658976-zero-g-mercury-e34m1-top-mgn12h-with-integrated-li) by [Christopher Heinlein](https://www.printables.com/@ChristopherHe_488911)
+<div markdown class="grid">
+<div markdown class="card">
+[![top_syph3rd](../img/components/top_syph3rd.webp)]((https://www.printables.com/@syph3rd_963296))
+
+[Top MGN12H with Inbuilt Limit](https://www.printables.com/model/555302-zero-g-mercury-e34m1-top-mgn12h-with-inbuilt-limit) by [syph3rd](https://www.printables.com/@syph3rd_963296)
+</div>
+<div markdown class="card">
+[![top_heinlein](../img/components/top_heinlein.webp)]((https://www.printables.com/model/658976-zero-g-mercury-e34m1-top-mgn12h-with-integrated-li) by [Christopher Heinlein](https://www.printables.com/@ChristopherHe_488911))
+
+[Top MGN12H with Integrated Limit Switch (remix)](https://www.printables.com/model/658976-zero-g-mercury-e34m1-top-mgn12h-with-integrated-li) by [Christopher Heinlein](https://www.printables.com/@ChristopherHe_488911)
+</div>
+</div>
