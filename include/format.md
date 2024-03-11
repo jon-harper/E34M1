@@ -7,7 +7,7 @@
 {% macro add_image(obj, img_width="240px", prefix = '') -%}
 {% if obj.img_url -%}
 {% set url = prefix + obj.img_url -%}
-[![{{obj.name}}]({{prefix + url}}){ width="{{img_width}}" }]({{prefix + url}})
+[![{{obj.name}}]({{url}}){ width="{{img_width}}" }]({{url}})
 {% endif -%}
 {% endmacro -%}
 
@@ -15,7 +15,7 @@
 {% if obj.img_url -%}
 {% set url = prefix + obj.img_url -%}
 <figure markdown>
-[![{{obj.name}}]({{prefix + url}}){ width="{{img_width}}" }]({{prefix + url}})
+[![{{obj.name}}]({{url}}){ width="{{img_width}}" }]({{url}})
 </figure>
 {% endif -%}
 {% endmacro -%}
