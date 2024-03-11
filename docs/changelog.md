@@ -5,6 +5,47 @@ authors: Jon Harper
 date: 2023-1-26
 ---
 
+##  March 2024
+
+### 3/11
+
+- Top: Prettified integrated microswitch entries.
+- Docs: Fixed some cosmetic issues.
+- Docs: Merged in the latest backend version from OmniBox.
+
+## February 2024
+
+### 2/26
+
+- Top v0.8: updated STEP files.
+
+### 2/8
+
+- Kraken v0.6: Updated STEP files.
+
+### 2/7 
+
+- Kraken v0.6: Tweaked mounting holes.
+
+## January 2024
+
+### 1/28
+
+- Added new 8mm probe mounts for regular and UHF.
+
+### 1/27
+
+- Thickened insert walls for the Owl Eyes rear intake.
+- Added Beacon support to Owl Eyes.
+
+### 1/16
+
+- Updated STEP master file.
+
+### 1/5
+
+- Added Kraken STEP files.
+
 ## December 2023
 
 ### 12/19
