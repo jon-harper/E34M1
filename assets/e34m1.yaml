@@ -1366,6 +1366,8 @@ components:
         hsi_m3_5od_4l: 2
       variants:
         Stock:
+          attributes:
+            version: v3
           parts:
             drive_orbiter_2: 1
     comp_creality_sprite_se:
@@ -1382,9 +1384,7 @@ components:
           author: u_svennixx
           parts:
             drive_creality_sprite_se: 1
-  ###
   Front:
-  ###
     comp_front_basic:
       name: Basic Front
       template: front_v2
@@ -1459,9 +1459,7 @@ components:
             adxl345: 1
             shcs_m3_6: 2
             hsi_m3_5od_4l: 2
-  ###
   Top:
-  ###
     comp_top-left:
       name: Left-Homing Top
       template: top_v2
@@ -1535,9 +1533,7 @@ components:
           parts:
             top_no_endstop: 1
 
-  ###
   Rear Inlet:
-  ###
     comp_single_5015:
       name: Single 5015 Rear Inlet
       template: rear_v2
