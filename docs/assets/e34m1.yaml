@@ -1691,6 +1691,7 @@ components:
               - img/inserts/papst_rlf35_8.webp
           parts:
             fhcs_m3_6: 1
+            screw_cap: 1
             rear_inlet_rlf35_8_beacon: 1
     comp_intake_adapter:
       name: Rear Intake Adapter
@@ -1737,6 +1738,7 @@ components:
             version: v3
           parts:
             rear_inlet_15mm_cpap_beacon: 1
+            screw_cap: 1
             shcs_m3_45: 4
             fhcs_m3_6: 1
             lock_washer_m3: 4
