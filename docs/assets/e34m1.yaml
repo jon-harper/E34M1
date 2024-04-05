@@ -1478,60 +1478,56 @@ components:
             shcs_m3_6: 2
             hsi_m3_5od_4l: 2
   Top:
-    comp_top_left:
-      name: Left-Homing Top
+    comp_top_endstop:
+      name: Endstop PCB
       template: top_v2
-      img: img/components/top_left_endstop_anchor.webp
       note: |
-        Use one of these Tops if you intend to home to the front-left corner.
+        Use the Top with Endstop and Anchor instead if you do not have a toolhead PCB.
       attributes:
         origin: u_eva
-        hsi: true
+        hsi: True
         version: v0.8
       parts:
         assy_top_common: 1
         assy_limit_switch: 1
       variants:
-        No Anchor:
-          attributes:
-            hsi_img:
-              - img/inserts/top_left_endstop.webp
-          parts:
-            top_left_endstop: 1
-        With Anchor:
-          attributes:
-            hsi_img:
-              - img/inserts/top_left_endstop_anchor.webp
-          parts:
-            assy_cable_anchor: 1
-            top_left_endstop_anchor: 1
-    comp_top_right:
-      name: Right-Homing Top
-      template: top_v2
-      img: img/components/top_right_endstop_anchor.webp
-      note: |
-        Use one of these Tops if you intend to home to the rear-right corner.
-      attributes:
-        origin: u_eva
-        hsi: true
-        version: v0.8
-      parts:
-        assy_top_common: 1
-        assy_limit_switch: 1
-      variants:
-        No Anchor:
+        Right-Homing:
           attributes:
             hsi_img:
               - img/inserts/top_right_endstop.webp
           parts:
             top_right_endstop: 1
-        With Anchor:
+        Left-Homing:
+          attributes:
+            hsi_img:
+              - img/inserts/top_left_endstop.webp
+          parts:
+            top_left_endstop: 1
+    comp_top_endstop_anchor:
+      name: Endstop PCB and Wire Anchor
+      template: top_v2
+      img: img/components/top_right_endstop_anchor.webp
+      attributes:
+        origin: u_eva
+        hsi: true
+        version: v0.8
+      parts:
+        assy_top_common: 1
+        assy_limit_switch: 1
+        assy_cable_anchor: 1
+      variants:
+        Right-Homing:
           attributes:
             hsi_img:
               - img/inserts/top_right_endstop_anchor.webp
           parts:
-            assy_cable_anchor: 1
-            top_right_endstop_anchor: 1
+            top_right_endstop_anchor: 1        
+        Left-Homing:
+          attributes:
+            hsi_img:
+              - img/inserts/top_left_endstop_anchor.webp
+          parts:
+            top_left_endstop_anchor: 1
     comp_top_sensorless:
       name: Sensorless Homing Top
       img: img/components/top_no_endstop.webp
@@ -1562,17 +1558,20 @@ components:
       parts:
         assy_top_common: 1
         assy_microswitch : 1
+        assy_cable_anchor: 1
       variants:
-        Left-Homing:
-          attributes:
-            hsi_img: img/inserts/top_microswitch.webp
-          parts:
-            top_left_microswitch: 1
         Right-Homing:
           attributes:
-            hsi_img: img/inserts/top_microswitch.webp
+            hsi_img: 
+              - img/inserts/top_microswitch.webp
           parts:
             top_right_microswitch: 1
+        Left-Homing:
+          attributes:
+            hsi_img: 
+              - img/inserts/top_microswitch.webp
+          parts:
+            top_left_microswitch: 1
   Rear Inlet:
     comp_single_5015:
       name: Single 5015 Rear Inlet
