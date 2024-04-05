@@ -1565,12 +1565,14 @@ components:
       variants:
         Left-Homing:
           attributes:
-            hsi_img: img/inserts/top_microswitch.webp
+            hsi_img: 
+              - img/inserts/top_microswitch.webp
           parts:
             top_left_microswitch: 1
         Right-Homing:
           attributes:
-            hsi_img: img/inserts/top_microswitch.webp
+            hsi_img: 
+              - img/inserts/top_microswitch.webp
           parts:
             top_right_microswitch: 1
   Rear Inlet:
