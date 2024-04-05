@@ -94,23 +94,33 @@ authors:
   u_svennixx:
     name: Svennixx
     url: "https://github.com/Svennixx"
+  u_pwnyourace:
+    name: pwnyourace
+    url: ""
 parts:
-  DIN 125:
+  DIN 7981: # Self-tapping
+    din7981_m2_8mm:
+      name: Self-tapping M2 x 8mm Screw
+      sources:
+        amazon_us:
+          url: https://www.amazon.com/uxcell-Stainless-Phillips-Tapping-Screws/dp/B01M0P01I5
+          note: 50pk
+
+  DIN 125: # Washers
     washer_m3:
       name: M3 Washer
       sources:
         bolt_depot: 
           url: "https://www.boltdepot.com/Product-Details.aspx?product=4513"
 
-  DIN 127:
+  DIN 127: # Lock Washers
     lock_washer_m3:
       name: M3 Split Lock Washer
       sources:
         bolt_depot:
           url: "https://www.boltdepot.com/Product-Details.aspx?product=4810"
 
-  ### Socket head cap screws
-  DIN 912:
+  DIN 912: # SHCS
     # M2.5 SHCS
     shcs_m2.5_6:
       name: M2.5 x 6mm SHCS
@@ -470,7 +480,6 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B087TJNJZS"
           note: 6 colors, 9m/ea
-
     #TODO heatshrink
 
   ###
@@ -849,6 +858,12 @@ parts:
     top_right_endstop_anchor:
       name: top_right_endstop_anchor.stl
       file: /STL/top/top_right_endstop_anchor.stl
+    top_right_microswitch:
+      name: top_right_microswitch.stl
+      file: STL/top/top_right_microswitch.stl
+    top_left_microswitch:
+      name: top_left_microswitch.stl
+      file: STL/top/top_left_microswitch.stl
     
     rear_single_5015:
       name: rear_inlet_single_5015.stl
@@ -1066,6 +1081,9 @@ subassemblies:
     shcs_m3_20: 1
     fan_blower_5015: 1
     washer_m3: 1
+  assy_microswitch:
+    microswitch_lever: 1
+    din7981_m2_8mm: 2
 components:
   Hotend:
     comp_3dpassion_nova:
@@ -1460,7 +1478,7 @@ components:
             shcs_m3_6: 2
             hsi_m3_5od_4l: 2
   Top:
-    comp_top-left:
+    comp_top_left:
       name: Left-Homing Top
       template: top_v2
       img: img/components/top_left_endstop_anchor.webp
@@ -1532,7 +1550,29 @@ components:
               - img/inserts/top_no_endstop.webp
           parts:
             top_no_endstop: 1
-
+    comp_top_microswitch:
+      name: Microswitch Top
+      note: This top is only available with a wire anchor.
+      template: top_v2
+      img: img/components/top_microswitch.webp
+      attributes:
+        origin: u_pwnyourace
+        hsi: True
+        version: 0.8
+      parts:
+        assy_top_common: 1
+        assy_microswitch : 1
+      variants:
+        Left-Homing:
+          attributes:
+            hsi_img: img/inserts/top_microswitch.webp
+          parts:
+            top_left_microswitch: 1
+        Right-Homing:
+          attributes:
+            hsi_img: img/inserts/top_microswitch.webp
+          parts:
+            top_right_microswitch: 1
   Rear Inlet:
     comp_single_5015:
       name: Single 5015 Rear Inlet
