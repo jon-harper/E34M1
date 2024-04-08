@@ -860,10 +860,10 @@ parts:
       file: /STL/top/top_right_endstop_anchor.stl
     top_right_microswitch:
       name: top_right_microswitch.stl
-      file: STL/top/top_right_microswitch.stl
+      file: /STL/top/top_right_microswitch.stl
     top_left_microswitch:
       name: top_left_microswitch.stl
-      file: STL/top/top_left_microswitch.stl
+      file: /STL/top/top_left_microswitch.stl
     
     rear_single_5015:
       name: rear_inlet_single_5015.stl
