@@ -13,6 +13,12 @@ date: 2023-4-8
 
 Now we can secure the belts. Note that if the belts are removed later, the hotend mount must be removed to re-install the belts.
 
+!!! note "Note: Belt Lengths"
+    Best practice is to have the same amount of belt under tension for top and bottom belts. To do this:
+
+    1. The belts should be cut to the same length.
+    2. The ends of the upper and lower belt should be even on both sides of the toolhead.
+
 ## Parts
 
 | Part | Qty |
@@ -24,16 +30,17 @@ Now we can secure the belts. Note that if the belts are removed later, the hoten
 
 ## Steps
 
-1. Take the end of a length of belt and locate the upper right belt catch on the Front module.
-2. Face the belt ribs facing away from the X axis extrusion (towards the front of the printer). Slide 25-50cm (1-2") of the belt end through the *rear* hole for the belt.
-3. Take the end of belt loop and fold it forward, then slip it out through the *forward* hole for the belt.
-4. Draw some extra slack on the belt to keep it from slipping out easily.
-5. Using the second belt, repeat steps 1-4 with the lower belt catch.
-6. Loop the end of both belts back on themselves so that the teeth interlock. 
-7. Press a belt grabber over the belts with the toothed side facing the belt.
-8. Secure the belt grabber with two (2) M3 x 6mm screws and lock washers.
-9. Thread the two belts through the CoreXY system of your Mercury One build.
-10. Check that each belt is seated on each idler and engages properly with the stepper's pulley.
-11. Repeat steps 1-6 with the left belts.
-12. Draw firmly and equally on both belts, then push the remaining belt grabber down to keep them from slipping.
-13. Keep firm tension on the belt grabber and install the remaining two (2) 6mm screws with lock washers.
+1. Locate the upper right belt catch on the Front module.
+2. Take the end of a length of belt and face the ribs away from the X axis extrusion (towards the front of the printer). 
+3. Slide 25-50cm (1-2") of the belt end through the *rear* hole for the belt catch.
+4. Take the end of belt loop and fold it forward, then slip it out through the *forward* hole for the belt.
+5. Draw some extra slack on the belt to keep it from slipping out easily; 10mm or more is plenty.
+6. Using the second belt, repeat steps 1-4 with the lower belt catch. Leave *the same amount of excess belt*; the ends should be even.
+7. Loop the end of both belts back on themselves so that the teeth face one another.
+8. Press a belt grabber over the belts with the toothed side facing the belt.
+9. Secure the belt grabber with two (2) M3 x 6mm screws and (optionally) lock washers.
+10. Thread the two belts through the CoreXY system of your Mercury One build.
+11. Check that each belt is seated on each idler and engages properly with the stepper's pulley.
+12. Repeat steps 1-6 with with the left side of the toolhead.
+13. Draw firmly and equally on both belts, then push the remaining belt grabber down to keep them from slipping.
+14. Keep firm tension on the belt grabber and install the remaining two (2) 6mm screws with lock washers.
