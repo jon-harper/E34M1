@@ -84,7 +84,7 @@ Mounts a '36 toolhead PCB with anchor points for an open drag chain.
 
 **Description**
 
-Mounts a '46 toolhead PCB with anchor points a cable guide. Meant for umbilical users.
+Mounts a '42 toolhead PCB with anchor points a cable guide. Meant for umbilical users.
 
 **Bill of Materials**
 
@@ -113,7 +113,7 @@ Mounts a '46 toolhead PCB with anchor points a cable guide. Meant for umbilical 
 
 **Description**
 
-Mounts a '46 toolhead PCB with anchor points for an open drag chain.
+Mounts a '42 toolhead PCB with anchor points for an open drag chain.
 
 **Bill of Materials**
 
