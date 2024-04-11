@@ -1801,11 +1801,15 @@ components:
           parts:
             dual_horns: 1
         Beacon:
-          note: The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
+          note: |
+            - This file is compatible with Beacon Rev B and Rev H.
+            - The forward mount point is for Rev B, the rear for Rev H.
+            - The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
+
           attributes:
-            version: 0.2
+            version: 0.3
             origin: u_cuiviemen
-            y_offset: 34
+            y_offset: "RevB 34, RevH 40.15"
             hsi_img:
               - img/inserts/bottom_beacon.webp
           parts:
@@ -1814,10 +1818,10 @@ components:
             beacon: 1
         Beacon (Alternate):
           note: |
-            This part saves weight by not using inserts. The Beacon probe is
+            - This part saves weight by not using inserts. The Beacon probe is
             mounted with screws that thread directly into plastic.
-            
-            The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
+            - This part is not compatible with RevH.
+            - The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
           attributes:
             version: 0.1
             origin: u_cuiviemen
