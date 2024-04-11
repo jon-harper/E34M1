@@ -1941,16 +1941,18 @@ components:
       variants:
         Stock:
           attributes:
-            version: 0.6
+            version: 0.6b
             hsi_img: 
               - img/inserts/kraken.webp
           parts:
             kraken_stock: 1
         Beacon:
-          note: The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
+          note: |
+            - The forward mounting holes are for Beacon RevB, the rear pair are for RevH.
+            - The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
           attributes:
-            version: 0.5
-            y_offset: 37
+            version: 0.6b
+            y_offset: RevB 37, RevH 43.15
             hsi_img: 
               - img/inserts/kraken_beacon.webp
           parts:
@@ -1959,7 +1961,7 @@ components:
             kraken_beacon: 1
         Klicky:
           attributes:
-            version: 0.6
+            version: 0.6b
             y_offset: 32
             x_offset: '-1.5'
             hsi_img: 
