@@ -5,7 +5,21 @@ authors: Jon Harper
 date: 2023-1-26
 ---
 
+## April 2024
+
+### 04/11
+
+- Bottom: Beacon RevH support, Kraken tweaks
+
+### 4/5
+
+- Top: support for built-in microswitches
+
 ##  March 2024
+
+### 3/18
+
+- Drive: Orbiter 2 tweaks, updated to v3
 
 ### 3/11
 
