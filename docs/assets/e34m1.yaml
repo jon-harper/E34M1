@@ -252,6 +252,11 @@ parts:
   ### Flat head cap screws
   DIN 7991:
   ###
+    fhcs_m3_5:
+      name: M3 x 5mm FHCS
+      # sources:
+      #   bolt_depot:
+      #     url: "https://www.boltdepot.com/Metric_socket_flat_head_Stainless_steel_18-8_(A-2)_6mm_x_1.0mm.aspx"
     fhcs_m3_6:
       name: M3 x 6mm FHCS
       sources:
@@ -920,11 +925,8 @@ parts:
       name: klicky_bottom_uhf.stl
       file: /STL/bottom/klicky_bottom_uhf.stl
     dual_horns_beacon:
-      name: beacon_bottom.stl
-      file: /STL/bottom/beacon_bottom.stl
-    dual_horns_beacon_no_hsi:
-      name: beacon_bottom_no_hsi.stl
-      file: /STL/bottom/beacon_bottom_no_hsi.stl
+      name: stock_beacon_bottom.stl
+      file: /STL/bottom/stock_beacon_bottom.stl
     trihorns_beacon:
       name: beacon_bottom_trihorns.stl
       file: /STL/bottom/beacon_bottom_trihorns.stl
@@ -1597,9 +1599,9 @@ components:
             rear_single_5015: 1
         Beacon:
           note: |
-            !!! warning
-                The inlet uses a flat head cap screw to secure the duct to the bottom horns. 
-                `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+            - The inlet uses a flat head cap screw to secure the duct to the bottom horns. 
+            - `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+            - Do not use a flat head screw longer than 5mm with Beacon RevH.
           attributes:
             version: 0.2
             hsi_img:
@@ -1607,7 +1609,7 @@ components:
           parts:
             shcs_m3_45: 4
             lock_washer_m3: 4
-            fhcs_m3_6: 1
+            fhcs_m3_5: 1
             screw_cap: 1
             rear_single_5015_beacon: 1
     comp_single_5015_eva:
@@ -1674,9 +1676,9 @@ components:
             assy_rear_inlet_common: 1
         Beacon:
           note: |
-            !!! warning
-                The inlet uses a flat head cap screw to secure the duct to the bottom horns. 
-                `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+            - The inlet uses a flat head cap screw to secure the duct to the bottom horns. 
+            - `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+            - Do not use a flat head screw longer than 5mm with Beacon RevH.
           attributes:
             version: 0.3
             hsi_img:
@@ -1684,7 +1686,7 @@ components:
           parts:
             shcs_m3_45: 4
             lock_washer_m3: 4
-            fhcs_m3_6: 1
+            fhcs_m3_5: 1
             screw_cap: 1
             rear_inlet_dual_5015_owl_eyes_beacon: 1
     
@@ -1721,15 +1723,15 @@ components:
         Beacon:
           author: u_cuiviemen
           note: |
-            !!! warning
-                The inlet uses a flat head cap screw to secure the duct to the bottom horns. 
-                `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+            - The inlet uses a flat head cap screw to secure the duct to the bottom horns. 
+            - `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+            - Do not use a flat head screw longer than 5mm with Beacon RevH.
           attributes:
             version: 0.1
             hsi_img:
               - img/inserts/papst_rlf35_8.webp
           parts:
-            fhcs_m3_6: 1
+            fhcs_m3_5: 1
             screw_cap: 1
             rear_inlet_rlf35_8_beacon: 1
     comp_intake_adapter:
@@ -1770,16 +1772,16 @@ components:
             assy_rear_inlet_common: 1
         Beacon:
           note: |
-            !!! warning
-                The inlet uses a flat head cap screw to secure the duct to the bottom horns. 
-                `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+            - The inlet uses a flat head cap screw to secure the duct to the bottom horns. 
+            - `screw_cap.stl` is used to cover the screw so that it cannot loosen and contact the Beacon connector.
+            - Do not use a flat head screw longer than 5mm with Beacon RevH.
           attributes:
             version: v3
           parts:
             rear_inlet_15mm_cpap_beacon: 1
             screw_cap: 1
             shcs_m3_45: 4
-            fhcs_m3_6: 1
+            fhcs_m3_5: 1
             lock_washer_m3: 4
   Bottom Horns:
     comp_dual_horns:
@@ -1802,12 +1804,12 @@ components:
             dual_horns: 1
         Beacon:
           note: |
-            - This file is compatible with Beacon Rev B and Rev H.
             - The forward mount point is for Rev B, the rear for Rev H.
             - The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
-
+            - This variant does not use an insert to attach the rear inlet to the bottom horns.
+            - *RevH only*: Do not use a FHCS longer than 5mm to attach the rear inlet. It will cause interference.
           attributes:
-            version: 0.3
+            version: 0.4
             origin: u_cuiviemen
             y_offset: "RevB 34, RevH 40.15"
             hsi_img:
@@ -1815,21 +1817,6 @@ components:
           parts:
             hsi_m3_5od_4l: 2
             dual_horns_beacon: 1
-            beacon: 1
-        Beacon (Alternate):
-          note: |
-            - This part saves weight by not using inserts. The Beacon probe is
-            mounted with screws that thread directly into plastic.
-            - This part is not compatible with RevH.
-            - The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
-          attributes:
-            version: 0.1
-            origin: u_cuiviemen
-            y_offset: 34
-            hsi_img:
-              - img/inserts/bottom.webp
-          parts:
-            dual_horns_beacon_no_hsi: 1
             beacon: 1
         Klicky:
           attributes:
@@ -1862,7 +1849,10 @@ components:
           parts:
             trihorns: 1
         Beacon:
-          note: The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
+          note: |
+            - The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
+            - This variant does not use an insert to attach the rear inlet to the bottom horns.
+            - *RevH only*: Do not use a FHCS longer than 5mm to attach the rear inlet. It will cause interference.
           attributes:
             origin: u_cuiviemen
             version: v0.1
@@ -1936,8 +1926,6 @@ components:
       attributes:
         length: Standard
         hsi: true
-      parts:
-        hsi_m3_5od_4l: 1
       variants:
         Stock:
           attributes:
@@ -1946,10 +1934,13 @@ components:
               - img/inserts/kraken.webp
           parts:
             kraken_stock: 1
+            hsi_m3_5od_4l: 1
         Beacon:
           note: |
             - The forward mounting holes are for Beacon RevB, the rear pair are for RevH.
             - The Beacon kit should include the M3 screws needed to attach the Beacon PCB.
+            - This variant does not use an insert to attach the rear inlet to the bottom horns.
+            - *RevH only*: Do not use a FHCS longer than 5mm to attach the rear inlet. It will cause interference.
           attributes:
             version: 0.6b
             y_offset: RevB 37, RevH 43.15
@@ -1961,13 +1952,14 @@ components:
             kraken_beacon: 1
         Klicky:
           attributes:
-            version: 0.6b
+            version: 0.6c
             y_offset: 32
             x_offset: '-1.5'
             hsi_img: 
               - img/inserts/kraken.webp
           parts:
             kraken_klicky: 1
+            hsi_m3_5od_4l: 1
             magnets_6_3: 3
             wire_24awg: 15
     comp_kraken_uhf:
