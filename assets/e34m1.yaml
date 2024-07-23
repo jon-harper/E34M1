@@ -807,7 +807,12 @@ parts:
         beacon3d:
           url: "https://beacon3d.com/product/beacon/"
           note: "*Only* the low-profile kit is compatible."
-    
+    eddy:
+      name: Bigtreetech Eddy
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/BIGTREETECH-Eddy-V1-0-Leveling-Compatible/dp/B0D14M62W3"
+
   Switch:
     switch_horizontal:
       name: Horizontal Limit Switch
@@ -963,6 +968,9 @@ parts:
     abl_bl_touch_uhf:
       name: abl_bl_touch_uhf.stl
       file: /STL/abl/abl_bl_touch_uhf.stl
+    abl_eddy:
+      name: abl_eddy.stl
+      file: /STL/abl/abl_eddy.stl
     abl_cr_touch:
       name: abl_cr_touch.stl
       file: /STL/abl/abl_cr_touch.stl
@@ -2094,6 +2102,29 @@ components:
               - img/inserts/abl_cr_touch_uhf.webp
           parts:
             abl_cr_touch_uhf: 1
+    comp_eddy:
+      name: Bigtreetech Eddy
+      template: abl_v2
+      img: img/components/abl_eddy.webp
+      note: Standard length only.
+      attributes:
+        hsi: true
+      parts:
+        eddy: 1
+        hsi_m3_5od_4l: 2
+        shcs_m3_6: 2
+        shcs_m3_20: 2
+      variants:
+        Standard:
+          attributes:
+            x_offset: -34.25
+            y_offset: -14.66
+            length: Standard
+            version: 0.1
+            hsi_img:
+              - img/inserts/abl_eddy.webp
+          parts:
+            abl_eddy: 1
   X Stop Block:
     comp_stop_block_adjustable:
       name: Adjustable X Axis Stop Block
