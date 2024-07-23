@@ -97,6 +97,9 @@ authors:
   u_pwnyourace:
     name: pwnyourace
     url: ""
+  u_grilparto:
+    name: grilparto
+    url: "https://github.com/grilparto"
 parts:
   DIN 7981: # Self-tapping
     din7981_m2_8mm:
@@ -853,6 +856,9 @@ parts:
     cable_anchor:
       name: cable_anchor.stl
       file: /STL/top/cable_anchor.stl
+    cable_anchor_nema17:
+      name: cable_anchor_nema17.stl
+      name: /STL/top/cable_anchor_nema17.stl4
     top_left_endstop:
       name: top_left_endstop.stl
       file: /STL/top/top_left_endstop.stl
