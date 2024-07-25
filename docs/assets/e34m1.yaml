@@ -66,6 +66,10 @@ suppliers:
     name: 3D Passion
     region: Unknown
     ships: Unknown
+  th3d:
+    name: TH3D
+    region: US
+    ships: Unknown
 authors:
   u_cuiviemen:
     name: cuiviemen
@@ -100,6 +104,9 @@ authors:
   u_grilparto:
     name: grilparto
     url: "https://github.com/grilparto"
+  u_3dexperiments:
+    name: 3D Experiments
+    url: "https://www.printables.com/@3DExperiments"
 parts:
   DIN 7981: # Self-tapping
     din7981_m2_8mm:
@@ -787,6 +794,12 @@ parts:
         3do:
           url: "https://3do.eu/abl-probe/740-super-pinda-by-fysetc.html"
           note: FYSETC SuperPINDA clone
+    18mm_probe:
+      name: 18mm Inductive Probe
+      sources:
+        th3d:
+          url: "https://www.th3dstudio.com/product/ezabl-ng-auto-bed-leveling-kit-for-unified-2-klipper-marlin-firmware/"
+          note: EZ-ABL 18 NG
     bltouch:
       name: BLTouch
       img: img/parts/bltouch.webp 
@@ -968,6 +981,9 @@ parts:
     abl_8mm_probe_uhf:
       name: abl_8mm_probe_uhf.stl
       file: /STL/abl/abl_8mm_probe_uhf.stl
+    abl_18mm_probe:
+      name: E34M1-18mm-ABL-mount.stl 
+      file: https://www.printables.com/model/947533-18mm-abl-probe-mount-for-e34m1-tool-head-for-zerog/files
     abl_bl_touch:
       name: abl_bl_touch.stl
       file: /STL/abl/abl_bl_touch.stl
@@ -2017,8 +2033,28 @@ components:
             magnets_6_3: 3
             wire_24awg: 15
   ABL Side Mount:
+    comp_18mm_probe:
+      name: 18mm Inductive Probe (EZ-ABL)
+      template: abl_v2
+      note: |
+        Mounts an 18mm inductive probe, such as the TH3D EZ-ABL.
+
+        This part is compatible with both Standard and UHF hotends.
+      parts:
+        shcs_m3_6: 2
+        18mm_probe: 1
+      variants:
+        Standard:
+          author: u_3dexperiments
+          attributes:
+            version: 0.1
+            length: All
+            x_offset: -8
+            y_offset: -38
+          parts:
+            abl_18mm_probe: 1
     comp_8mm_probe:
-      name: 8mm Probe
+      name: 8mm Inductive Probe
       template: abl_v2
       img: img/components/abl_8mm_probe.webp
       note: |
