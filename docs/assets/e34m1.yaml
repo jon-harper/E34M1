@@ -537,7 +537,7 @@ parts:
           url: "https://www.fabreeko.com/products/moons-nema-14-36mm-motors-for-clockwork-2-orbiter-sherpa"
           note: LDO 36STH20-1004(G8T)
         3do:
-          url: "https://3do.eu/motors/1011-moons-nema14-36mm-8t-high-temperature.html"
+          url: "https://3do.dk/en/motors/1011-moons-nema14-36mm-8t-high-temperature.html"
           note: Moons', high temperature
   ###
   Hotend:
@@ -560,7 +560,7 @@ parts:
         e3d:
           url: "https://e3d-online.com/products/revo-voron"
         3do:
-          url: "https://3do.eu/complete-hotend/655-1021-e3d-rapidchange-revo-voron.html#/37-tension-24v/129-nozzle_pack-fully_loaded_1_x_025_040_060_080mm"
+          url: "https://3do.dk/en/complete-hotend/655-1021-e3d-rapidchange-revo-voron.html#/37-tension-24v/129-nozzle_pack-fully_loaded_1_x_025_040_060_080mm"
     e3d_revo_micro:
       name: E3D REVO Micro
       img: img/parts/revo_micro.webp
@@ -570,7 +570,7 @@ parts:
         e3d:
           url: "https://e3d-online.com/products/revo-micro?variant=39800212684859"
         3do:
-          url: "https://3do.eu/complete-hotend/663-1036-e3d-rapidchange-revo-micro.html#/37-tension-24v/128-nozzle_pack-single_nozzle_1_x_04"
+          url: "https://3do.dk/en/complete-hotend/663-1036-e3d-rapidchange-revo-micro.html#/37-tension-24v/128-nozzle_pack-single_nozzle_1_x_04"
     e3d_v6:
       name: E3D V6
       img: img/parts/e3d_v6.webp
@@ -599,7 +599,7 @@ parts:
           url: "https://www.aliexpress.us/item/3256803652913533.html"
           note: Red Lizard K1 clone
         3do:
-          url: "https://3do.eu/complete-hotend/39-133-phaetus-dragon.html#/19-colour-black/27-dragon_type-high_flow_hf"
+          url: "https://3do.dk/en/complete-hotend/39-133-phaetus-dragon.html#/19-colour-black/27-dragon_type-high_flow_hf"
     phaetus_dragon_uhf:
       name: Phaetus Dragon UHF
       img: img/parts/dragon_uhf.webp
@@ -617,14 +617,14 @@ parts:
         aliexpress:
           url: "https://www.aliexpress.us/item/3256801479855635.html"
         3do:
-          url: "https://3do.eu/complete-hotend/42-139-phaetus-dragonfly-bmo.html#/19-colour-black"
+          url: "https://3do.dk/en/complete-hotend/42-139-phaetus-dragonfly-bmo.html#/19-colour-black"
           note: Multiple colors.
     phaetus_dragonfly_bms:
       name: Phaetus Dragonfly BMS
       img: img/parts/dragonfly_bms.webp
       sources:
         3do:
-          url: "https://3do.eu/complete-hotend/41-138-phaetus-dragonfly-bms.html#/24-colour-blue"
+          url: "https://3do.dk/en/complete-hotend/41-138-phaetus-dragonfly-bms.html#/24-colour-blue"
           note: Multiple colors.
         amazon_us:
           url: "https://www.amazon.com/Phaetus-Dragonfly-Hotend-Heating-Compatible/dp/B0BS6CVRHR"
@@ -644,7 +644,7 @@ parts:
           url: "https://www.aliexpress.us/item/3256805715328881.html"
           note: Blue
         3do:
-          url: "https://3do.eu/complete-hotend/1280-1641-pheatus-rapido-plus-hotend-350-hf-pt1000-2.html#/24-colour-blue/27-dragon_type-high_flow_hf"
+          url: "https://3do.dk/en/complete-hotend/1280-1641-pheatus-rapido-plus-hotend-350-hf-pt1000-2.html#/24-colour-blue/27-dragon_type-high_flow_hf"
     phaetus_rapido_uhf:
       name: Phaetus Rapido UHF
       img: img/parts/rapido.webp
@@ -655,7 +655,7 @@ parts:
           url: "https://www.aliexpress.us/item/3256805715328881.html"
           note: Black
         3do:
-          url: "https://3do.eu/complete-hotend/1251-phaetus-rapido-uhf-plus-v2-magenta-pt1000-limited-edition-3.html"
+          url: "https://3do.dk/en/complete-hotend/1280-1642-pheatus-rapido-plus-hotend-350-hf-pt1000-2.html#/19-colour-black/101-type-ultra_high_flow_uhf"
     mellow_nf_crazy:
       name: Mellow NF-Crazy
       img: img/parts/mellow_nf_crazy.webp
@@ -681,7 +681,7 @@ parts:
         fabreeko:
           url: "https://www.fabreeko.com/products/vz-hextrudort-cnc-extruder-by-mellow"
         3do:
-          url: "https://3do.eu/complete-extruder/738-1143-vz-hextrudort-from-vzbot-by-mellow.html#/19-colour-black"
+          url: "https://3do.dk/en/complete-extruder/738-1143-vz-hextrudort-from-vzbot-by-mellow.html#/19-colour-black"
     bondtech_lgx:
       name: Bondtech LGX
       img: img/parts/lgx.webp
@@ -699,7 +699,7 @@ parts:
       note: Includes stepper.
       sources:
         3do:
-          url: "https://3do.eu/complete-extruder/1449-lgx-lite-v2-large-gears-extruder.html"
+          url: "https://3do.dk/en/complete-extruder/1449-lgx-lite-v2-large-gears-extruder.html"
         kb3d:
           url: "https://kb-3d.com/store/lgx-lgx-upgrade-kits/402-bondtech-lgx-lite-large-gears-extruder-complete-7350011413607.html"
         fabreeko:
@@ -715,7 +715,7 @@ parts:
       img: img/parts/orbiter_2_0.webp
       sources:
         3do:
-          url: "https://3do.eu/complete-extruder/413-ldo-orbiter-v2-dual-drive-direct-extruder.html"
+          url: "https://3do.dk/en/complete-extruder/413-ldo-orbiter-v2-dual-drive-direct-extruder.html"
         fabreeko:
           url: "https://www.fabreeko.com/products/ldo-orbiter-extruder-1-75mm"
         tinymachines:
@@ -792,7 +792,7 @@ parts:
           url: "https://www.fabreeko.com/products/super-pinda-by-fysetc"
           note: FYSETC SuperPINDA clone
         3do:
-          url: "https://3do.eu/abl-probe/740-super-pinda-by-fysetc.html"
+          url: "https://3do.dk/en/abl-probe/740-super-pinda-by-fysetc.html"
           note: FYSETC SuperPINDA clone
     18mm_probe:
       name: 18mm Inductive Probe
