@@ -5,7 +5,7 @@ site_url: https://jon-harper.github.io/E34M1
 repo_url: https://github.com/jon-harper/E34M1
 repo_name: "GitHub: jon-harper/E34M1"
 edit_uri: ""
-copyright: Copyright &copy; 2023 Jonathan Harper
+copyright: Copyright &copy; 2024 Jonathan Harper
 
 markdown_extensions:
   - admonition
@@ -81,6 +81,10 @@ extra_css:
   - assets/stylesheets/extra.css
 
 plugins:
+  - git-revision-date-localized:
+      type: custom
+      custom_format: "%Y-%m-%d %H:%M:%S %z (UTC)"
+      timezone: America/Detroit
   - search
   - macros:
       module_name: "src"
