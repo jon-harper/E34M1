@@ -29,7 +29,7 @@ Explore the modules of an E34M1 toolhead and how they fit together.
 <div markdown class="card">
 ### [:octicons-list-ordered-24: Sourcing Guide](sourcing.md)
 
-Links to aid in sourcing your parts.
+Links to aid in locating and pricing parts.
 </div>
 <div markdown class="card">
 ### [:material-text-box-search-outline: Module Reference](modules/index.md)

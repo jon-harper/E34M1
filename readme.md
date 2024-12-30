@@ -6,7 +6,6 @@ This repository stores the core files for E34M1 and a number of mods. Note that 
 
 - [Tour](https://jon-harper.github.io/E34M1/tour/)
 - [Modules & BOM](https://jon-harper.github.io/E34M1/modules/)
-- [Compatibility & Support](https://jon-harper.github.io/E34M1/compat/)
 - [Assembly Guide](https://jon-harper.github.io/E34M1/assembly/)
 
 
