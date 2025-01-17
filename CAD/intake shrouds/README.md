@@ -1,1 +1,0 @@
-All of the EVA3 shrouds available online are only good for LED mounting. They don't do much in the way of improving air intake flow, and they tend to break off due to the weak mounting surface and mechanism. Updated shrouds will be posted here for the Mosquito, Takoto, and Dragon UHF. 
