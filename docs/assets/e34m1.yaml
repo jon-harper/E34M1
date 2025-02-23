@@ -950,10 +950,10 @@ parts:
       file: /STL/bottom/klicky_bottom_uhf.stl
     dual_horns_beacon:
       name: stock_beacon_bottom.stl
-      file: /STL/bottom/stock_beacon_bottom.stl
+      file: /STL/bottom/stock_bottom_beacon.stl
     trihorns_beacon:
-      name: beacon_bottom_trihorns.stl
-      file: /STL/bottom/beacon_bottom_trihorns.stl
+      name: stock_bottom_trihorn_beacon.stl
+      file: /STL/bottom/stock_bottom_trihorn_beacon.stl
     dual_horns_uhf_beacon:
       name: beacon_bottom_uhf.stl
       file: /STL/bottom/beacon_bottom_uhf.stl
