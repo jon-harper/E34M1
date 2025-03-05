@@ -97,7 +97,7 @@ nav:
   - Getting Started:
     - guide.md
     - tour.md
-  - Module Reference:
+  - Modules:
     - modules/index.md
     - Core Modules:
       - modules/front.md
