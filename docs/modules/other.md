@@ -20,10 +20,11 @@ These are related mods not linked elsewhere that may be useful for your build.
 
 ### Filament Sensors
 
-Multi-material printing often requires a filament sensor at the toolhead. There are two known third-party mods for this using different detection methods; note that these do not function as runout sensors (they are after the extruder).
+Multi-material printing often requires a filament sensor at the toolhead. There are several third-party mods for this; note that these do not function as runout sensors (they are after the extruder).
 
 - [Inductive Sensor](https://www.printables.com/model/239026-eva-3-toolhead-sensor) by [Dutchwoody](https://www.printables.com/@Dutchwoody)
 - [Microswitch and Ball Bearing](https://www.printables.com/model/442650-eva-3-toolhead-sensor-mechanical-and-reliable) by [Guy](https://www.printables.com/@Guy_258839)
+- [Microswitch and Ball Bearing](https://www.printables.com/model/1170113-eva-30-d2hw-filament-sensor-module/comments) by [cuiviemen](https://www.printables.com/@cuiviemen_127292)
 
 ### Z Endstop Mount
 
