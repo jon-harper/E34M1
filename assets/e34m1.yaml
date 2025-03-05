@@ -107,6 +107,9 @@ authors:
   u_3dexperiments:
     name: 3D Experiments
     url: "https://www.printables.com/@3DExperiments"
+  u_53aries:
+    name: 53Aries
+    url: "https://github.com/53Aries"
 parts:
   DIN 7981: # Self-tapping
     din7981_m2_8mm:
@@ -659,6 +662,13 @@ parts:
     mellow_nf_crazy:
       name: Mellow NF-Crazy
       img: img/parts/mellow_nf_crazy.webp
+    trianglelab_td6s:
+      name: TriangleLab TD6S
+      sources:
+        aliexpress:
+          url: "https://www.aliexpress.com/i/3256804518027049.html"
+        amazon_us:
+          url: "https://www.amazon.com/Trianglelab-Compatible-Extruder-Suitable-Filament/dp/B0DDTBG9WM"
       
   Extruder:
     bondtech_bmg:
@@ -1048,6 +1058,10 @@ parts:
     hotend_revo_voron:
       name: hotend_revo_voron.stl
       file: /STL/hotend/hotend_revo_voron.stl
+    hotend_trianglelab_td6s:
+      name: hotend_trianglelab_td6s.stl
+      file: /STL/hotend/hotend_trianglelab_td6s.stl
+
     cable_guide:
       name: cable_guide.stl
       file: /STL/misc/cable_guide.stl
@@ -1293,10 +1307,24 @@ components:
         Stock:
           parts:
             hotend_mosquito: 1
-    # comp_revo_micro:
-    #   name: Revo Micro
-    #   attributes:
-    #     hex: True
+    comp_td6s:
+      name: TriangleLab TD6S
+      template: hotend_v1
+      img: img/components/hotend_trianglelab_td6s.webp
+      attributes:
+        hsi: True
+        origin: u_53aries
+        length: Standard
+        ptfe: 24.9
+      parts:
+        trianglelab_td6s: 1
+        assy_hotend_fan: 1
+        assy_hotend_common: 1
+        shcs_m2.5_8: 4
+      variants:
+        Stock:
+          parts:
+            hotend_trianglelab_td6s: 1
   Drive:
     comp_sherpa_mini:
       name: Annex Sherpa Mini
