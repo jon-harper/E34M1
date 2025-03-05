@@ -9,7 +9,7 @@ date: 2023-1-27
 
 ## Mercury One Compatibility
 
-E34M1 is compatible with Mercury One.1 without limiting the build area; no print area is lost with stock beds by converting to EVA 3 from a different toolhead. In some configurations, minor adjustments to the Z axis are needed.
+E34M1 is compatible with Mercury One.1; in most configurations, no print area is lost by converting to EVA 3 from a different toolhead. In some configurations, adjustments are necessary to the Z axis (see the [Mercury One.1 Build Manual](https://docs.zerog.one/manual/build/mercury_eva/build_instruction) for details).
 
 An Ender 5 Pro rebuilt as a Mercury One.1 with 330mm rails:
 
@@ -34,35 +34,6 @@ These terms and icons are used throughout the site.
 - SHCS: socket head scap screw (DIN 912)
 - Voron-style inserts: M3 x 5mm OD x 4mm L heat set inserts
 - EVA-style inserts: M3 x 4.6mm OD x 4mm L heat set inserts
-
-## Frequently Asked Questions
-
-### How does this fit together?
-
-Visit the [Tour](tour.md) to get an overview of how the modules are arranged. The [Assembly Guide](assembly/index.md) includes videos to assist during your build process.
-
-### Is E34M1 supported by ZeroG or EVA?
-
-No, this is a third-party project started by [jonspaceharper](https://jon-harper.github.io).
-
-### What do I print?
-
-See the Assembly guide's [Print Checklist](assembly/index.md#print-checklist) to ensure you have everything.
-
-### What print settings should I use?
-
-E34M1 follows the [ZeroG Print Settings](https://docs.zerog.one/standard/print/settings) guidelines.
-
-All STL files are exported in print orientation.
-
-### How are Voron-style and EVA-style inserts different?
-
-Voron-style inserts are slightly thicker than EVA inserts. Mercury One relies on Voron-style inserts exclusively,
-so all E34M1 components use them, as well. Third-party and stock EVA components use EVA-style inserts instead.
-
-Does it matter? Yes: the adjustments we made for the larger, Voron-style inserts make insertion easier and parts
-fit together better. Users report that it is generally still possible to use Voron-style inserts with parts made
-for thinner inserts, but post-processing is needed.
 
 ## Tips
 
@@ -115,22 +86,39 @@ The chart below shows which ABL methods are supported by E34M1. Note that the si
 
 ### Bottom Horns
 
-Most hotends are paired with Standard-length horns. Very long hotends, such as the Rapido UHF, require the UHF bottom horns. The Mosquito has the Trihorns as a cooling workaround.
+Most hotends are paired with Standard-length horns; longer hotends require the UHF bottom horns. The Mosquito has the Trihorns as a cooling workaround. Which see the [Hotend Modules](modules/hotend.md) for which bottom horns work with your hotend.
 
 More about Bottom Horns can be found on the [Bottom Horns Modules](modules/bottom.md) page.
-
-| Hotend                | Bottom Horns  |
-|-----------------------|:-------------:|
-| 3D Passion Nova       | Dual, Kraken  |
-| E3D Revo Voron        | Dual, Kraken  |
-| Phaetus Dragonfly BMO | Dual, Kraken  |
-| Phaetus Dragonfly BMS | Dual, Kraken  |
-| Phaetus Dragon BMO    | Dual, Kraken  |
-| Phaetus Dragon UHF    | Dual, Kraken  |
-| Phaetus Rapido        | Dual, Kraken  |
-| Phaetus Rapido UHF    | UHF, Kraken UHF |
-| Slice Engineering Mosquito | Trihorn |
 
 ### Cable Management
 
 There are two methods of cable management. The default attachment is the [Top](modules/top.md) module for umbilical users. Third parties offer PCB mounts supporting both umbilical (cable guide) and drag chains.
+
+## Frequently Asked Questions
+
+### How does this fit together?
+
+Visit the [Tour](tour.md) to get an overview of how the modules are arranged. The [Assembly Guide](assembly/index.md) includes videos to assist during your build process.
+
+### Is E34M1 supported by ZeroG or EVA?
+
+No, this is a third-party project by [jonspaceharper](https://jon-harper.github.io) with community additions.
+
+### What do I print?
+
+See the Assembly guide's [Print Checklist](assembly/index.md#print-checklist) to ensure you have everything.
+
+### What print settings should I use?
+
+E34M1 follows the [ZeroG Print Settings](https://docs.zerog.one/standard/print/settings) guidelines.
+
+All STL files are exported in print orientation.
+
+### How are Voron-style and EVA-style inserts different?
+
+Voron-style inserts are slightly thicker than EVA inserts. Mercury One relies on Voron-style inserts exclusively,
+so all E34M1 components use them, as well. Third-party and stock EVA components use EVA-style inserts instead.
+
+Does it matter? Yes: the adjustments we made for the larger, Voron-style inserts make insertion easier and parts
+fit together better. Users report that it is generally still possible to use Voron-style inserts with parts made
+for thinner inserts, but post-processing is needed.
