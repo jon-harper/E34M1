@@ -56,7 +56,7 @@ E34M1, like [EVA 3][eva3], is licensed under the [Creative Commons BY-NC-SA 4.0 
 
 ### Credits
 
-E34M1 is a partial fork of [EVA 3](eva3) by [Paweł Kucmus](https://github.com/pkucmus). A community of makers continues to grow E34M1, but special thanks go to [cuiviemen](https://www.printables.com/@cuiviemen_127292) and [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275) for their ideas, mod designs, testing, and continued support. Likewise, the testing and feedback from members of the [ZeroG Discord](https://discord.io/zerog) is invaluable.
+E34M1 is a partial fork of [EVA 3][eva3] by [Paweł Kucmus](https://github.com/pkucmus). A community of makers continues to grow E34M1, but special thanks go to [cuiviemen](https://www.printables.com/@cuiviemen_127292) and [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275) for their ideas, mod designs, testing, and continued support. Likewise, the testing and feedback from members of the [ZeroG Discord](https://discord.io/zerog) is invaluable.
 
 ### [:simple-kofi: Tip Jar](https://ko-fi.com/jonspaceharper)
 
