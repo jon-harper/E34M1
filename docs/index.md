@@ -19,12 +19,12 @@ prefix: ''
 <div markdown class="card">
 ### [:material-book-open: Introduction to E34M1](guide.md)
 
-An overview of E34M1 and how it works with EVA 3 and Mercury One.
+Overview of the toolhead and this documentation.
 </div>
 <div markdown class="card">
 ### [:material-directions: Visual Tour](tour.md)
 
-Explore the modules of an E34M1 toolhead and how they fit together.
+Explore the toolhead and how it fits together.
 </div>
 <div markdown class="card">
 ### [:octicons-list-ordered-24: Sourcing Guide](sourcing.md)
@@ -34,12 +34,12 @@ Links to aid in locating and pricing parts.
 <div markdown class="card">
 ### [:material-text-box-search-outline: Module Reference](modules/index.md)
 
-A list of components for each module, bills of materials, and component-specific instructions.
+Components, bills of materials, and notes.
 </div>
 <div markdown class="card">
 ### [:material-hammer-screwdriver: Assembly Guide](assembly/index.md)
 
-Video assembly overviews and step-by-step instructions.
+Video and step-by-step instructions.
 </div>
 <div markdown class="card">
 ### [:octicons-log-24: Changelog](changelog.md)
@@ -56,11 +56,11 @@ E34M1, like [EVA 3][eva3], is licensed under the [Creative Commons BY-NC-SA 4.0 
 
 ### Credits
 
-E34M1 is a partial fork of [EVA 3][eva3] by [Paweł Kucmus](https://github.com/pkucmus). A community of makers continues to grow E34M1, but special thanks go to [cuiviemen](https://www.printables.com/@cuiviemen_127292) and [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275) for their ideas, mod designs, testing, and continued support. Likewise, the testing and feedback from members of the [ZeroG Discord](https://discord.io/zerog) is invaluable.
+E34M1 is a fork of [EVA 3][eva3] by [Paweł Kucmus](https://github.com/pkucmus). A community of makers supports E34M1, but special thanks go to [cuiviemen](https://www.printables.com/@cuiviemen_127292) and [Psych0h3ad](https://www.printables.com/@Psych0h3ad_168275) for their ideas, mod designs, testing, and feedback during development. Likewise, the testing and feedback from members of the [ZeroG Discord](https://discord.io/zerog) is invaluable.
 
-### [:simple-kofi: Tip Jar](https://ko-fi.com/jonspaceharper)
+### [:simple-kofi: Donations/Tip Jar](https://ko-fi.com/jonspaceharper)
 
-E34M1 is free, but a Fusion 360 subscription and filament are not. Every tip helps. :material-heart:{.jh-red} *- Jon*
+E34M1 is free, but my Fusion 360 subscription and filament are not. Every donation helps! :material-heart:{.jh-red} *- Jon*
 </div>
 <div markdown>
 <figure markdown class="jh-cover-img">

@@ -7,7 +7,7 @@ date: 2023-1-26
 
 ## Overview
 
-E34M1 replaces most of stock EVA 3 but is still compatible with stock hotends, extruders, and shrouds. This tour introduces E34M1 and the larger EVA 3 ecosystem.
+Hotends, extruders, and most shrouds are compatible between EVA 3 and E34M1, but the core components of the toolhead are different. This tour introduces E34M1 and the larger EVA 3 ecosystem.
 
 <div markdown class="grid">
 <div markdown class="card">
@@ -27,7 +27,7 @@ E34M1 replaces most of stock EVA 3 but is still compatible with stock hotends, e
 
 ## Core Modules
 
-Each E34M1 module comes in multiple varations. These parts are all specific to E34M1.
+Core modules are specific to E34M1. Each module comes in several variations.
 
 <div markdown class="grid">
 <div markdown class="card">
@@ -45,7 +45,7 @@ The Front mounts the hotend, belts, and the front of the Drive module.
 
 ### [Top](modules/top.md)
 
-The top mounts the MGN12H carriage, the X axis endstop, and the back of the Drive module. It has an optional attachment point for an umbilical cable guide.
+The top mounts the MGN12H carriage, the X endstop, and the back of the Drive module. Some Top modules have a cable guide attachment point.
 
 <figure markdown>
 [![top](img/tour/top.webp){width="300px"}](modules/top.md)
@@ -56,7 +56,7 @@ The top mounts the MGN12H carriage, the X axis endstop, and the back of the Driv
 
 ### [Bottom Horns](modules/bottom.md)
 
-The bottom horns are primarily for part cooling and form the lower joint between the Front and Rear Inlet. Some ABL methods (e.g., Beacon, Klicky) mount here.
+The bottom horns form the lower joint between the Front and Rear Inlet and direct part cooling air. Some ABL methods (e.g., Beacon, Klicky) mount here.
 
 <figure markdown>
 [![bottom](img/tour/bottom.webp){width="300px"}](modules/bottom.md)
@@ -66,7 +66,7 @@ The bottom horns are primarily for part cooling and form the lower joint between
 
 ### [Rear Inlet](modules/rear.md)
 
-Stock EVA 3 has a rear piece here that acts as a belt tensioner. It's unneeded for Mercury One printers, so we moved the cooling inlet forward to save space.
+E34M1's rear body is much smaller than EVA3, and serves as a cooling fan inlet/mount.
 
 <figure markdown>
 [![inlet](img/tour/inlet.webp){width="300px"}](modules/rear.md)
@@ -76,7 +76,7 @@ Stock EVA 3 has a rear piece here that acts as a belt tensioner. It's unneeded f
 
 ### [ABL Side Mounts](modules/abl.md)
 
-The side ABL mount is significantly different from stock EVA. Most ABL methods mount here (e.g., BLTouch and CR Touch).
+Some ABL methods mount here (e.g., BLTouch and CR Touch); this configuration is not compatible with EVA 3.
 
 <figure markdown>
 [![abl mount](img/tour/abl.webp){width="300px"}](modules/abl.md)
@@ -86,14 +86,14 @@ The side ABL mount is significantly different from stock EVA. Most ABL methods m
 
 ## EVA-Compatible Modules
 
-Compared to stock EVA 3, these modules have not changed in how they join with other parts. This keeps third party mods compatible while allowing us to make small improvements and fixes.
+These modules are drop-in compatible with EVA 3.
 
 <div markdown class="grid">
 <div markdown class="card">
 
-### [EVA 3 Hotends](modules/hotend.md)
+### [Hotends](modules/hotend.md)
 
-The hotend module mounts the hotend, cooling fan, and an optional shroud.
+The Hotend module mounts the hotend, cooling fan, and an optional shroud.
 
 <figure markdown>
 [![hotend](img/tour/hotend.webp){width="300px"}](modules/hotend.md)
@@ -102,9 +102,9 @@ The hotend module mounts the hotend, cooling fan, and an optional shroud.
 </div>
 <div markdown class="card">
 
-### [EVA 3 Drives/Extruders](modules/drive.md)
+### [Drives/Extruders](modules/drive.md)
 
-The drive module attaches the extruder and extruder stepper to the toolhead.
+The drive module attaches the extruder to the toolhead.
 
 <figure markdown>
 [![drive](img/tour/drive.webp){width="300px"}](modules/drive.md)
