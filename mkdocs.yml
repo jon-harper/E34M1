@@ -94,9 +94,9 @@ plugins:
       
 nav:
   - index.md
-  - Getting Started:
-    - guide.md
-    - tour.md
+  - guide.md
+  - tour.md
+  
   - Modules:
     - modules/index.md
     - Core Modules:

@@ -6,13 +6,12 @@ date: 2023-4-5
 prefix: '../'
 ---
 
-The Front module serves several purposes:
+The Front module acts as a keystone or centerpiece:
 
-- The Top, Rear, and Bottom Horns are screwed into the Front, much like building on a foundation.
-- The belts secure at each side of the Front.
-- The Hotend and Drive modules both attach to it.
-- The ABL Side Mount, if needed, goes on the left side.
-- Lastly, it can mount an accelerometer.
+- The Top, Rear, and Bottom Horns anchor to the Front, along with the hotend and some ABL methods;
+- Both belts attach to the sides of the Front;
+- Half of the drive module mounts above the hotend; and
+- Some configurations also mount an accelerometer.
 
 {% import 'format.md' as format with context %}
 {% set comp_type='Front' -%}
