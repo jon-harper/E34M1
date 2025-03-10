@@ -1,21 +1,13 @@
 ---
-title: Intro Guide
-summary: Summary of changes and compatibility.
+title: Getting Started
+summary: Introduction to E34M1 and this documentation
 authors: Jon Harper
 date: 2023-1-27
 ---
 
 {% import 'badges.md' as badges with context %}
 
-## Mercury One Compatibility
-
-E34M1 is compatible with Mercury One.1; in most configurations, no print area is lost by converting to EVA 3 from a different toolhead. In some configurations, adjustments are necessary to the Z axis (see the [Mercury One.1 Build Manual](https://docs.zerog.one/manual/build/mercury_eva/build_instruction) for details).
-
-An Ender 5 Pro rebuilt as a Mercury One.1 with 330mm rails:
-
-- Has a theoretical build area of 275mm x 275mm;
-- Can expect at least 265mm of X axis travel;
-- Can expect at least 250mm of Y axis travel (available Y axis depends on the rear intake).
+This page covers general topics about E34M1 and this documentation site.
 
 !!! note
     E34M1 is *not* compatible with Mercury One Classic.
@@ -23,19 +15,23 @@ An Ender 5 Pro rebuilt as a Mercury One.1 with 330mm rails:
 !!! tip
     Making a mod? Want to see how it looks in CAD? See the [`/CAD`][folder_cad] folder for a `STEP` files.
 
-## Icons and Terminology
+## Reading the Documentation
 
-These terms and icons are used throughout the site.
+We use icons to condense and abbreviate these docs; these conventions are explained below.
 
-- The :material-printer-3d-nozzle: icon is used to emphasize that a part is 3D printed.
-- The :material-cart: shopping cart icon is for example links. *There are no affiliate links on this site.*
-- Drive: EVA 3 refers to the extruder, stepper, and mount as the *Drive* module.
-- FHCS: flat head cap screw (DIN 7991)
-- SHCS: socket head scap screw (DIN 912)
-- Voron-style inserts: M3 x 5mm OD x 4mm L heat set inserts
-- EVA-style inserts: M3 x 4.6mm OD x 4mm L heat set inserts
+### Icons and Terminology
 
-## Tips
+| Icon/Term | Explanation |
+|---|---|
+| :material-printer-3d-nozzle: | Emphasizes that a part is 3D printed. |
+| :material-cart: | Used for example links. *There are no affiliate links on this site.* |
+| Drive module | Refers to the extruder, stepper, and mount for both. |
+| FHCS | Flat head cap screw (DIN 7991) |
+| SHCS | Socket head scap screw (DIN 912) |
+| Voron inserts | M3 x 5mm OD x 4mm L heat set inserts, used by Mercury One.1 and E34M1. |
+| EVA-style inserts | M3 x 4.6mm OD x 4mm L heat set inserts, mostly used by EVA and RatRig. |
+
+### Tips
 
 The [Modules](modules/index.md) section contains entries for every component and variant in E34M1. These
 are labeled with *badges*, like so:
@@ -62,7 +58,18 @@ and extruder.
 These badges are references for setting your ABL-to-nozzle offset in firmware. No badge
 represents an offset of 0.
 
-## Compatibility Charts
+## Compatibility 
+
+### Mercury One.1
+
+E34M1 is compatible with Mercury One.1; in most configurations, no print area is lost by converting to EVA 3 from a different toolhead. In some configurations, adjustments are necessary to the Z axis (see the [Mercury One.1 Build Manual](https://docs.zerog.one/manual/build/mercury_eva/build_instruction) for details).
+
+The chart below demonstrates build area for different Mercury One.1 builds.
+
+| Base Printer/Rails | X Axis   | Y Axis |
+|---|---|---|
+| Ender 5 Pro, 330mm rails | >= 265mm | >= 250mm |
+| Ender 5 Plus | > 370mm | > 377mm |
 
 {{ badges.length('Standard') }}
 
