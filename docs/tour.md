@@ -34,7 +34,7 @@ Core modules are specific to E34M1. Each module comes in several variations.
 
 ### [Front](modules/front.md)
 
-The Front mounts the hotend, belts, and the front of the Drive module.
+The Front mounts the hotend, belts, the front of the Drive module, and optionally, an ABL method and/or accelerometer.
 
 <figure markdown>
 [![front](img/tour/front.webp){width="300px"}](modules/front.md)
@@ -56,7 +56,7 @@ The top mounts the MGN12H carriage, the X endstop, and the back of the Drive mod
 
 ### [Bottom Horns](modules/bottom.md)
 
-The bottom horns form the lower joint between the Front and Rear Inlet and direct part cooling air. Some ABL methods (e.g., Beacon, Klicky) mount here.
+The bottom horns form the lower joint between the Front and Rear Inlet; the horns direct part cooling air to the hotend nozzle. Some ABL methods (e.g., Beacon, Klicky) mount on the Bottom Horns.
 
 <figure markdown>
 [![bottom](img/tour/bottom.webp){width="300px"}](modules/bottom.md)
@@ -76,7 +76,7 @@ E34M1's rear body is much smaller than EVA3, and serves as a cooling fan inlet/m
 
 ### [ABL Side Mounts](modules/abl.md)
 
-Some ABL methods mount here (e.g., BLTouch and CR Touch); this configuration is not compatible with EVA 3.
+Some ABL methods mount here (e.g., BLTouch and CR Touch); this configuration is not compatible with EVA 3 ABL mounts.
 
 <figure markdown>
 [![abl mount](img/tour/abl.webp){width="300px"}](modules/abl.md)

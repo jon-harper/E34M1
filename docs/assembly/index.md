@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Assembly Overview
 summary: Introduction to assembling E34M1.
 authors: Jon Harper
 date: 2023-4-8
