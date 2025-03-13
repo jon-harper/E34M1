@@ -66,8 +66,12 @@ These hotends are third-party mounts. They may use either hex nuts or heat set i
 
 ### TriangleLab TZ V6
 
+- **Author**: [Ultrazauberer](https://www.printables.com/@Ultrazauberer_772128)
+- **Inserts/Hex Nuts**: M3x5x4 inserts
+- **[Files](https://www.printables.com/model/1227780-eva-30-e34m1-v6-tz20-hotend-mount)**
+
 - **Author**: [Raniel Endrino](https://www.printables.com/@RanielEndrino_310348)
 - **Inserts/Hex Nuts**: M3x5x4 inserts
-- **[Files](https://www.printables.com/model/666511-e34m1-tz2-hotend-mount-for-zerog-mercury-one1/files)**
+- **[Files](https://www.printables.com/model/666511-e34m1-tz2-hotend-mount-for-zerog-mercury-one1)**
 
 </div>
