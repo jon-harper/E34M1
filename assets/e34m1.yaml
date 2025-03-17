@@ -1342,6 +1342,7 @@ components:
         shcs_m3_12: 4
         lock_washer_m3: 6
         bhcs_m3_6: 1
+        hsi_m3_5od_4l: 3
       variants:
         Stock:
           parts:
