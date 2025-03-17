@@ -76,6 +76,22 @@ These are mounts from the larger EVA ecosystem that link to external sites.
 </div>
 </div>
 
+### ProtoXtruder 2.0
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+- **Author**: [Ultrazauberer](https://www.printables.com/@Ultrazauberer_772128)
+- **Inserts/Hex Nuts**: M3x5x4 inserts
+
+<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
+[Link](https://www.printables.com/model/1142327-eva-30-e34m1-protoxtruder-20-mount){ .md-button }
+</div>
+</div>
+<div markdown class="jh-grid-img">
+![ProtoXtruder 2.0 Render](../img/parts/protoxtruder2.webp){width="200px"}
+</div>
+</div>
 
 ### VzBoT3D Vz-HextrudORT Low
 
