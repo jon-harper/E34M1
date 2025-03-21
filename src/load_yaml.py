@@ -1,4 +1,6 @@
 """
+load_yaml.py
+
 Loads a YAML bill of materials, parses it, and injects
 the result into the provided environment variable.
 """
@@ -7,7 +9,7 @@ import bom
 
 def load_yaml(env_variables, filepath : str) -> bom.GlobalData:
     """
-    Imports YAML data, parses it, and returns a global object with that data.
+    Imports YAML data, parses it, and injects the result into a provided (global) object.
     """
 
     import yaml
@@ -32,12 +34,12 @@ class BOMParser():
         """
         Parses through raw YAML and builds BOM data structures from it.
 
-        All other methods are intended as internal.
+        All other methods are internal.
         """
 
         config = yaml_data['config']
         self.base_url = config['baseUrl']
-        
+
         self.suppliers = bom.SupplierData()
         if 'suppliers' in yaml_data:
             for key, entry in yaml_data['suppliers'].items():
@@ -48,6 +50,7 @@ class BOMParser():
             for key, entry in yaml_data['authors'].items():
                 self.authors[key] = self.parseAuthor(entry)
 
+        # fail if no parts are provided
         assert('parts' in yaml_data)
         self.parts = bom.PartData()
         self.part_types : list[str] = []
@@ -58,8 +61,10 @@ class BOMParser():
                 part = self.parsePart(part_entry, part_type)
                 self.parts[part_id] = part
 
+        # parts parsed, build subassemblies
         self.subassemblies = yaml_data.get('subassemblies', None)
 
+        # build components from subassemblies and parts
         self.components = self.parseComponents(yaml_data['components'])
 
         self.templates = yaml_data['templates']
@@ -88,7 +93,7 @@ class BOMParser():
         else:
             author = None
         fi : str = entry.get('file', None)
-        if fi and not fi.startswith('https://'):
+        if fi and not fi.startswith('https://'): #rough, but everything is https (for now)
             fi = self.base_url + fi
         return bom.Part(name=entry['name'],
                        units=entry.get('units', 'Ea'),

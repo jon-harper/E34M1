@@ -1,4 +1,6 @@
 """
+__init__.py
+
 Initializes the Python environment. Methods tagged as macros can be called from within
 Markdown.
 """
@@ -52,17 +54,24 @@ def define_env(env):
         """
         return '[{}][{}]'.format(":material-git: Files", url) + "{ .md-button }"
 
-
+    #injects make_badge into the JINJA environment.
     env.macro(badge.make_badge)
 
     @env.macro
     def make_indented(txt : str, indent='') -> str:
+        """
+        Splits a block of text by lines and indents by the provided value.
+        """
         ret = ''
-        for line in txt.splitlines(keepends=True):
-            ret += indent + line
+        if indent != '':
+            for line in txt.splitlines(keepends=True):
+                ret += indent + line
         return ret
 
     def render_badges(comp : bom.Component, variant : bom.Variant, prefix='') -> str:
+        """
+        Generates badge HTML for a given component and variant.
+        """
         ret : str = badge.template_badge(comp.template)
         ckeys = comp.attributes.keys()
         vkeys = variant.attributes.keys()

@@ -1,14 +1,14 @@
 """
 product.py
 
-Handles filtering, sorting, and versioning for BOM data.
+Filtering, sorting, and versioning for BOM data.
 """
 
 import bom
 
 class Product:
     """
-    Contains a set of loaded part and component data. The data is filtered for compatibility on construction.
+    Manages a set of loaded part and component data. Incompatible parts are filtered out.
     """
     local_url_prefix: str
     components : bom.ComponentData
@@ -79,7 +79,7 @@ class Product:
     
     def filterParts(self, part_type: str) -> bom.PartData:
         """
-        Filters the loaded parts by type and returns the results as bom.PartData
+        Filters the loaded parts by type and returns the results as bom.PartData.
         """
         if part_type not in self.part_types:
             return {}
@@ -90,20 +90,29 @@ class Product:
         return ret
     
     def has_hsi(self, v : bom.Variant) -> bool:
+        """
+        Returns True if a part has the HSI flag set.
+        """
         if 'hsi' in v.attributes.keys():
             return True
         return False
 
     def sortEntries(self, values : any) -> any:
         """
-        Sorts an iterable of objects on their 'name' field. Used for bom.PartData and bom.ComponentData.
+        Sorts an iterable object by its 'name' field. Used for bom.PartData and bom.ComponentData.
         """
         return sorted(values, key=lambda v : v.name)
     
     def sortKeyEntries(self, values : list[tuple]) -> list[tuple]:
+        """
+        Sorts a key, value pair (tuple) by the value's name field.
+        """
         return sorted(values, key=lambda v: v[1].name)
     
     def componentFromId(self, comp_id) -> bom.Component:
+        """
+        Find the matching component for a given ID.
+        """
         return self.components.get(comp_id)
     
     def joinMaterials(self, comp_ids : list[bom.ComponentId]) -> bom.MaterialsData:

@@ -1,3 +1,9 @@
+"""
+bom.py
+
+Data types for BOM data.
+"""
+
 from dataclasses import dataclass
 from typing import Optional, NamedTuple
 
@@ -81,9 +87,13 @@ class Component(NamedTuple):
 ComponentData = dict[str, Component]
 
 class ComponentId (NamedTuple):
+    """
+    Named pair for component IDs.
+    """
     name: str
     variant: int
 
+# template version list
 TemplateList = list[str]
 
 class GlobalData(NamedTuple):

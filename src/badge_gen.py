@@ -1,7 +1,14 @@
-# badge_gen.py
+"""
+badge_gen.py
+
+Provides 'make_badge' to generate text and icon badges.
+"""
 
 # Utility methods
 def __text_gen(txt : str, txt_url : str = None) -> str:
+    """
+    Generate a badge's text block.
+    """
     if txt_url:
         return '<a href="{txt_url}" class="jh-text-badge" markdown>{txt}</a>'.format(
             txt_url=txt_url, txt=txt)
@@ -10,6 +17,9 @@ def __text_gen(txt : str, txt_url : str = None) -> str:
     
 
 def __icon_gen(icon: str, tooltip: str, url: str = None) -> str:
+    """
+    Generate a badge's icon block.
+    """
     if url:
         return '<a href="{url}" title="{tooltip}" class="jh-icon-badge" markdown>{icon}</a>'.format(
             icon=icon, url=url, tooltip=tooltip)
