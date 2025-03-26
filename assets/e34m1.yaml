@@ -110,6 +110,9 @@ authors:
   u_53aries:
     name: 53Aries
     url: "https://github.com/53Aries"
+  u_rennwaffen:
+    name: Rennwaffen
+    url: "https://rennwaffen.com/"
 parts:
   DIN 7981: # Self-tapping
     din7981_m2_8mm:
@@ -1046,6 +1049,9 @@ parts:
     hotend_mosquito:
       name: hotend_mosquito.stl
       file: /STL/hotend/hotend_mosquito.stl
+    hotend_mosquito_osr:
+      name: hotend_mosquito_osr.stl
+      file: /STL/hotend/hotend_mosquito_osr.stl
     hotend_nova:
       name: hotend_nova.stl
       file: /STL/hotend/hotend_nova.stl
@@ -1291,12 +1297,12 @@ components:
       template: hotend_v1
       img: img/components/hotend_mosquito.webp
       note: |
-        - The only compatible bottom horns with this hotend are the trihorns.
+        - The Trihorn is the only bottom duct compatible with Mosquito.
         - Mellow NF-Crazy hotends are not compatible with this mount.
       attributes:
         hsi: True
         origin: u_eva
-        length: Standard
+        length: Standard/Trihorn
         ptfe: 22.6
       parts:
         slice_mosquito: 1
@@ -1304,6 +1310,11 @@ components:
         assy_hotend_common: 1
         shcs_m2.5_8: 2
       variants:
+        OSR:
+          note: This mount is optimized for heatbreak cooling.
+          author: u_rennwaffen
+          parts:
+            hotend_mosquito_osr: 1
         Stock:
           parts:
             hotend_mosquito: 1
