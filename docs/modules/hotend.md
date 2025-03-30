@@ -67,14 +67,14 @@ These hotends are third-party mounts. They may use either hex nuts or heat set i
 
 <div markdown class="jh-grid-para">
 
-### TriangleLabs Dragon Ace
+### Trianglelab Dragon Ace
 
 - **Author**: [SuperHKA](https://www.printables.com/@SuperHKA_2872552)
 - **Inserts/Hex Nuts**: M3x5x4 inserts
 
 [Files](https://www.printables.com/model/1181970-dragon-ace-mount-for-e34m1){ .md-button }
 
-### TriangleLabs TZ V6
+### Trianglelab TZ V6
 
 - **Author**: [Ultrazauberer](https://www.printables.com/@Ultrazauberer_772128)
 - **Inserts/Hex Nuts**: M3x5x4 inserts
