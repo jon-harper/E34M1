@@ -773,6 +773,11 @@ parts:
           url: "https://www.amazon.com/Creality-Official-Extruder-Compatible-Printers/dp/B0C7QHQHG3"
         aliexpress:
           url: "https://www.aliexpress.us/item/3256805450237404.html"
+    peopoly_lancer:
+      name: Peopoly Lancer
+      sources:
+        fabreeko:
+          url: "https://www.fabreeko.com/products/lancer-extruder-runout-sensor-by-peopoly"
   Accelerometer:
     adxl345:
       name: ADXL345
@@ -1033,6 +1038,9 @@ parts:
     drive_sherpa_mini:
       name: drive_sherpa_mini.stl
       file: /STL/drives/drive_sherpa_mini.stl
+    drive_peopoly_lancer:
+      name: drive_lancer_osr.stl
+      file: /STL/drives/drive_lancer_osr.stl
 
     hotend_dragon_sf:
       name: hotend_dragon_bmo.stl
@@ -1340,7 +1348,7 @@ components:
     comp_sherpa_mini:
       name: Annex Sherpa Mini
       note: |
-        - The k-type Sherpa Mini front is a button head cap screw when using any Front other than the Basic.
+        - The M3x6 button head screw is optional.
       template: drive_v1
       img: img/components/sherpa_mini.webp
       attributes:
@@ -1349,6 +1357,7 @@ components:
         ptfe: 17.0
       parts:
         annex_sherpa_mini: 1
+        stepper_nema14_10t: 1
         shcs_m3_8: 4
         shcs_m3_12: 4
         lock_washer_m3: 6
@@ -1474,6 +1483,22 @@ components:
           author: u_svennixx
           parts:
             drive_creality_sprite_se: 1
+    comp_peopoly_lancer:
+      name: Peopoly Lancer
+      template: drive_v1
+      attributes:
+        ptfe: 17.95mm
+      parts:
+        peopoly_lancer: 1
+        shcs_m3_8: 4
+        shcs_m3_10: 5
+        lock_washer_m3: 9
+        hsi_m3_5od_4l: 2
+      variants:
+        Stock:
+          author: u_rennwaffen
+          parts:
+            drive_peopoly_lancer: 1
   Front:
     comp_front_basic:
       name: Basic Front
