@@ -720,11 +720,11 @@ parts:
         tinymachines:
           url: "https://www.tinymachines3d.com/products/bondtech-lgx-lite-extruder-no-motor"
     orbiter1_5:
-      name: Orbiter 1.5
+      name: LDO Orbiter 1.5
       img: img/parts/orbiter_1_5.webp
       note: This product is discontinued.
     orbiter2:
-      name: Orbiter 2
+      name: LDO Orbiter 2
       img: img/parts/orbiter_2_0.webp
       sources:
         3do:
@@ -1175,7 +1175,7 @@ components:
           parts:
             hotend_revo_voron: 1
     comp_dragon_sf:
-      name: Dragon SF/HF
+      name: Phaetus Dragon SF/HF
       template: hotend_v1
       img: img/components/hotend_dragon_bmo.webp
       note: Often found as a clone called the Haldis Red Lizard K1.
@@ -1194,7 +1194,7 @@ components:
           parts:
             hotend_dragon_sf: 1
     comp_dragon_uhf:    
-      name: Dragon UHF
+      name: Phaetus Dragon UHF
       template: hotend_v1
       img: img/components/hotend_dragon_uhf.webp
       note: |
@@ -1216,7 +1216,7 @@ components:
           parts:
             hotend_dragon_uhf: 1
     comp_dragonfly_bmo:
-      name: Dragonfly BMO
+      name: Phaetus Dragonfly BMO
       template: hotend_v1
       img: img/components/hotend_dragonfly_bmo.webp
       attributes:
@@ -1234,7 +1234,7 @@ components:
           parts:
             hotend_dragonfly_bmo: 1
     comp_dragonfly_bms:
-      name: Dragonfly BMS
+      name: Phaetus Dragonfly BMS
       template: hotend_v1
       img: img/components/hotend_dragonfly_bms.webp
       note: |
@@ -1257,7 +1257,7 @@ components:
           parts:
             hotend_dragonfly_bms: 1
     comp_rapido:
-      name: Rapido
+      name: Phaetus Rapido
       template: hotend_v1
       img: img/components/hotend_rapido.webp
       attributes:
@@ -1275,7 +1275,7 @@ components:
           parts:
             hotend_rapido: 1
     comp_rapido_uhf:
-      name: Rapido UHF
+      name: Phaetus Rapido UHF
       template: hotend_v1
       img: img/components/hotend_rapido.webp
       attributes:
@@ -1293,7 +1293,7 @@ components:
           parts:
             hotend_rapido_uhf: 1
     comp_mosquito:
-      name: Mosquito
+      name: Slice Mosquito
       template: hotend_v1
       img: img/components/hotend_mosquito.webp
       note: |
@@ -1319,7 +1319,7 @@ components:
           parts:
             hotend_mosquito: 1
     comp_td6s:
-      name: TriangleLab TD6S
+      name: Trianglelab TD6S
       template: hotend_v1
       img: img/components/hotend_trianglelab_td6s.webp
       attributes:
